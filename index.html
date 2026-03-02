@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EmuVault — Emulator Aggregator</title>
+  <title>EmuDigest — Emulator Aggregator</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />
   <style>
@@ -99,43 +99,47 @@
     .logo span { color: var(--accent-2); }
     .nav-links {
       display: flex;
-      gap: 0.25rem;
+      gap: 0.4rem;
       flex-wrap: wrap;
     }
     .nav-links button {
-      background: transparent;
-      border: 1px solid var(--border);
-      color: var(--text-dim);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #4a4a5a;
+      color: #f0f0f5; /* Bright white text for legibility */
       font-family: var(--font-mono);
-      font-size: 0.7rem;
-      padding: 0.35rem 0.7rem;
+      font-size: 0.75rem;
+      padding: 0.4rem 0.8rem;
       cursor: pointer;
       transition: all 0.2s;
       text-transform: uppercase;
       letter-spacing: 1px;
+      border-radius: 4px;
     }
     .nav-links button:hover,
     .nav-links button.active {
       border-color: var(--accent);
-      color: var(--accent);
-      background: rgba(0, 255, 136, 0.05);
-      box-shadow: 0 0 8px var(--glow);
+      color: #000000; /* Dark text on neon background */
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--glow);
+      font-weight: 800;
     }
     .search-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      color: var(--text);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #4a4a5a;
+      color: #ffffff;
       font-family: var(--font-mono);
-      font-size: 0.8rem;
-      padding: 0.4rem 0.8rem;
-      width: 200px;
+      font-size: 0.85rem;
+      padding: 0.5rem 0.8rem;
+      width: 220px;
       outline: none;
       transition: border-color 0.2s;
+      border-radius: 4px;
     }
-    .search-box::placeholder { color: var(--text-dim); }
+    .search-box::placeholder { color: #a0a0b0; /* Brighter placeholder text */ }
     .search-box:focus {
       border-color: var(--accent);
       box-shadow: 0 0 8px var(--glow);
+      background: var(--bg-card);
     }
 
     /* ───── LAYOUT ───── */
@@ -346,19 +350,29 @@
     }
 
     .feed-item {
+      display: block; /* Allows whole item to be clickable */
       padding: 0.75rem 1rem;
       border-bottom: 1px solid rgba(34, 34, 51, 0.5);
       font-size: 0.72rem;
-      transition: background 0.15s;
+      transition: background 0.15s, transform 0.15s;
+      color: var(--text); /* Overrides link colors */
+      text-decoration: none;
     }
-    .feed-item:hover { background: var(--bg-hover); }
+    .feed-item:hover { 
+      background: var(--bg-hover); 
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .feed-item:hover .feed-msg strong {
+      text-shadow: 0 0 8px var(--glow);
+    }
     .feed-date {
       color: var(--text-dim);
       font-size: 0.6rem;
       margin-bottom: 0.2rem;
     }
     .feed-msg { color: var(--text); line-height: 1.4; }
-    .feed-msg strong { color: var(--accent); }
+    .feed-msg strong { color: var(--accent); transition: all 0.2s; }
 
     .last-updated {
       font-size: 0.6rem;
@@ -439,7 +453,7 @@
   <!-- HEADER -->
   <header class="header">
     <div class="header-inner">
-      <div class="logo">Emu<span>Vault</span></div>
+      <div class="logo">Emu<span>Digest</span></div>
       <input type="text" class="search-box" id="searchInput" placeholder="Search emulators..." />
       <nav class="nav-links" id="navLinks">
         <button class="active" data-filter="all">All</button>
@@ -487,13 +501,13 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    EmuVault — Open-source emulator aggregator. Data auto-updated via GitHub Actions.<br />
-    Built for the preservation community. <a href="https://github.com" target="_blank">View on GitHub</a>
+    EmuDigest — Open-source emulator aggregator. Data auto-updated via GitHub Actions.<br />
+    Built for the preservation community. <a href="https://github.com/keenestza/emudigest" target="_blank">View on GitHub</a>
   </footer>
 
   <script>
     /* ═══════════════════════════════════════════════
-       EmuVault — Client-Side Logic
+       EmuDigest — Client-Side Logic
        ═══════════════════════════════════════════════ */
 
     const DATA_URL = 'emulators.json';
@@ -528,7 +542,7 @@
     // ── Navigation ──────────────────────────────────
     function buildNav() {
       const nav = document.getElementById('navLinks');
-      const categories = [...new Set(DB.emulators.map(e => e.category))].sort();
+      const categories =[...new Set(DB.emulators.map(e => e.category))].sort();
 
       // "All" button already exists
       categories.forEach(cat => {
@@ -648,15 +662,17 @@
       }
 
       feedEl.innerHTML = DB.feed.map(entry => {
-        // Find the emulator name from the entry
+        // Find the emulator name and link from the entry
         const emu = DB.emulators.find(e => e.id === entry.emulator_id);
         const name = emu ? emu.name : entry.emulator_id;
+        const link = emu ? emu.download_url : '#';
 
+        // Wrapped the whole feed entry in an anchor tag to make it a clickable button
         return `
-          <div class="feed-item">
+          <a href="${link}" target="_blank" rel="noopener" class="feed-item">
             <div class="feed-date">${formatDate(entry.date)}</div>
             <div class="feed-msg"><strong>${name}</strong> ${entry.version} — ${entry.message}</div>
-          </div>
+          </a>
         `;
       }).join('');
     }
