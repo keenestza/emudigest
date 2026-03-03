@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-03T01:05:09Z",
+  "last_updated": "2026-03-03T12:30:32Z",
   "feed": [
+    {
+      "emulator_id": "rpcs3",
+      "version": "0.0.40",
+      "date": "2026-03-03T12:30:26Z",
+      "message": "Version 0.0.40 released!"
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-03",
@@ -672,8 +678,8 @@
       "name": "RPCS3",
       "category": "PlayStation 3",
       "description": "The world's first open-source PlayStation 3 emulator.",
-      "latest_version": "0.0.39",
-      "release_date": "2025-12-31",
+      "latest_version": "0.0.40",
+      "release_date": "2026-03-03",
       "website": "https://rpcs3.net/",
       "github": "RPCS3/rpcs3",
       "download_url": "https://rpcs3.net/download",
