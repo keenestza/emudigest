@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-03-05T01:03:54Z",
-  "feed":[
+  "last_updated": "2026-03-05T13:10:28Z",
+  "feed": [
+    {
+      "emulator_id": "cemu-standalone",
+      "version": "2.6",
+      "date": "2026-03-05T13:10:28Z",
+      "message": "New version detected on official website."
+    },
+    {
+      "emulator_id": "demul",
+      "version": "0.7",
+      "date": "2026-03-05T13:10:28Z",
+      "message": "New version detected on official website."
+    },
     {
       "emulator_id": "sameboy",
       "version": "1.0.3",
@@ -284,7 +296,7 @@
       "message": "Version 2.1.1 released!"
     }
   ],
-  "emulators":[
+  "emulators": [
     {
       "id": "mesen",
       "name": "Mesen",
@@ -295,8 +307,8 @@
       "website": "https://www.mesen.ca/",
       "github": "SourMesen/Mesen2",
       "download_url": "https://github.com/SourMesen/Mesen2/releases",
-      "icon": "🔴",
-      "platforms":[
+      "icon": "\ud83d\udd34",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -312,7 +324,7 @@
       "website": "https://fceux.com/",
       "github": "TASEmulators/fceux",
       "download_url": "https://github.com/TASEmulators/fceux/releases",
-      "icon": "🔴",
+      "icon": "\ud83d\udd34",
       "platforms": [
         "Windows",
         "Linux",
@@ -329,8 +341,8 @@
       "website": "http://0ldsk00l.ca/nestopia/",
       "github": "0ldsk00l/nestopia",
       "download_url": "https://github.com/0ldsk00l/nestopia/releases",
-      "icon": "🔴",
-      "platforms":[
+      "icon": "\ud83d\udd34",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -346,8 +358,8 @@
       "website": "https://github.com/punesemu/puNES",
       "github": "punesemu/puNES",
       "download_url": "https://github.com/punesemu/puNES/releases",
-      "icon": "🔴",
-      "platforms":[
+      "icon": "\ud83d\udd34",
+      "platforms": [
         "Windows",
         "Linux"
       ]
@@ -362,8 +374,8 @@
       "website": "https://www.snes9x.com/",
       "github": "snes9xgit/snes9x",
       "download_url": "https://github.com/snes9xgit/snes9x/releases",
-      "icon": "🍄",
-      "platforms":[
+      "icon": "\ud83c\udf44",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -379,8 +391,8 @@
       "website": "https://bsnes.org/",
       "github": "bsnes-emu/bsnes",
       "download_url": "https://github.com/bsnes-emu/bsnes/releases",
-      "icon": "🍄",
-      "platforms":[
+      "icon": "\ud83c\udf44",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -396,7 +408,7 @@
       "website": "https://www.pj64-emu.com/",
       "github": "project64/project64",
       "download_url": "https://github.com/project64/project64/releases",
-      "icon": "🔺",
+      "icon": "\ud83d\udd3a",
       "platforms": [
         "Windows"
       ]
@@ -411,7 +423,7 @@
       "website": "https://simple64.github.io/",
       "github": "simple64/simple64",
       "download_url": "https://github.com/simple64/simple64/releases",
-      "icon": "🔺",
+      "icon": "\ud83d\udd3a",
       "platforms": [
         "Windows",
         "Linux"
@@ -427,7 +439,7 @@
       "website": "https://github.com/Rosalie241/RMG",
       "github": "Rosalie241/RMG",
       "download_url": "https://github.com/Rosalie241/RMG/releases",
-      "icon": "🔺",
+      "icon": "\ud83d\udd3a",
       "platforms": [
         "Windows",
         "Linux"
@@ -443,8 +455,8 @@
       "website": "https://dolphin-emu.org/",
       "github": "dolphin-emu/dolphin",
       "download_url": "https://dolphin-emu.org/download/",
-      "icon": "🐬",
-      "platforms":[
+      "icon": "\ud83d\udc2c",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -461,8 +473,8 @@
       "website": "https://cemu.info/",
       "github": "cemu-project/Cemu",
       "download_url": "https://github.com/cemu-project/Cemu/releases",
-      "icon": "📺",
-      "platforms":[
+      "icon": "\ud83d\udcfa",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -478,7 +490,7 @@
       "website": "https://github.com/ryujinx-mirror/ryujinx",
       "github": "ryujinx-mirror/ryujinx",
       "download_url": "https://github.com/ryujinx-mirror/ryujinx/releases",
-      "icon": "🔴",
+      "icon": "\ud83d\udd34",
       "platforms": [
         "Windows",
         "Linux",
@@ -495,8 +507,8 @@
       "website": "https://sameboy.github.io/",
       "github": "LIJI32/SameBoy",
       "download_url": "https://github.com/LIJI32/SameBoy/releases",
-      "icon": "📱",
-      "platforms":[
+      "icon": "\ud83d\udcf1",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -512,7 +524,7 @@
       "website": "https://mgba.io/",
       "github": "mgba-emu/mgba",
       "download_url": "https://mgba.io/downloads.html",
-      "icon": "🕹️",
+      "icon": "\ud83d\udd79\ufe0f",
       "platforms": [
         "Windows",
         "Linux",
@@ -529,8 +541,8 @@
       "website": "https://visualboyadvance-m.org/",
       "github": "visualboyadvance-m/visualboyadvance-m",
       "download_url": "https://github.com/visualboyadvance-m/visualboyadvance-m/releases",
-      "icon": "🕹️",
-      "platforms":[
+      "icon": "\ud83d\udd79\ufe0f",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -546,8 +558,8 @@
       "website": "https://github.com/NanoBoyAdvance/NanoBoyAdvance",
       "github": "NanoBoyAdvance/NanoBoyAdvance",
       "download_url": "https://github.com/NanoBoyAdvance/NanoBoyAdvance/releases",
-      "icon": "🕹️",
-      "platforms":[
+      "icon": "\ud83d\udd79\ufe0f",
+      "platforms": [
         "Windows",
         "Linux"
       ]
@@ -562,8 +574,8 @@
       "website": "https://melonds.kuribo64.net/",
       "github": "melonDS-emu/melonDS",
       "download_url": "https://github.com/melonDS-emu/melonDS/releases",
-      "icon": "📱",
-      "platforms":[
+      "icon": "\ud83d\udcf1",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -579,7 +591,7 @@
       "website": "http://desmume.org/",
       "github": "TASEmulators/desmume",
       "download_url": "https://github.com/TASEmulators/desmume/releases",
-      "icon": "📱",
+      "icon": "\ud83d\udcf1",
       "platforms": [
         "Windows",
         "Linux",
@@ -596,8 +608,8 @@
       "website": "https://github.com/PabloMK7/citra",
       "github": "PabloMK7/citra",
       "download_url": "https://github.com/PabloMK7/citra/releases",
-      "icon": "📱",
-      "platforms":[
+      "icon": "\ud83d\udcf1",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -614,8 +626,8 @@
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
       "download_url": "https://github.com/Lime3DS/Lime3DS/releases",
-      "icon": "🍋",
-      "platforms":[
+      "icon": "\ud83c\udf4b",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -632,8 +644,8 @@
       "website": "https://panda3ds.com/",
       "github": "Panda3DS/Panda3DS",
       "download_url": "https://github.com/Panda3DS/Panda3DS/releases",
-      "icon": "🐼",
-      "platforms":[
+      "icon": "\ud83d\udc3c",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -649,8 +661,8 @@
       "website": "https://www.duckstation.org/",
       "github": "stenzek/duckstation",
       "download_url": "https://github.com/stenzek/duckstation/releases",
-      "icon": "🦆",
-      "platforms":[
+      "icon": "\ud83e\udd86",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -667,8 +679,8 @@
       "website": "https://pcsx2.net/",
       "github": "PCSX2/pcsx2",
       "download_url": "https://pcsx2.net/downloads",
-      "icon": "🔵",
-      "platforms":[
+      "icon": "\ud83d\udd35",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -684,8 +696,8 @@
       "website": "https://purei.org/",
       "github": "jpd002/Play-",
       "download_url": "https://github.com/jpd002/Play-/releases",
-      "icon": "🔵",
-      "platforms":[
+      "icon": "\ud83d\udd35",
+      "platforms": [
         "Windows",
         "macOS",
         "Android"
@@ -701,8 +713,8 @@
       "website": "https://rpcs3.net/",
       "github": "RPCS3/rpcs3",
       "download_url": "https://rpcs3.net/download",
-      "icon": "🎯",
-      "platforms":[
+      "icon": "\ud83c\udfaf",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -718,7 +730,7 @@
       "website": "https://shadps4.net/",
       "github": "shadps4-emu/shadPS4",
       "download_url": "https://github.com/shadps4-emu/shadPS4/releases",
-      "icon": "🎮",
+      "icon": "\ud83c\udfae",
       "platforms": [
         "Windows",
         "Linux"
@@ -734,7 +746,7 @@
       "website": "https://obliteration.io/",
       "github": "obliteration-emu/obliteration",
       "download_url": "https://github.com/obliteration-emu/obliteration/releases",
-      "icon": "🎮",
+      "icon": "\ud83c\udfae",
       "platforms": [
         "Windows",
         "Linux"
@@ -750,8 +762,8 @@
       "website": "https://www.ppsspp.org/",
       "github": "hrydgard/ppsspp",
       "download_url": "https://www.ppsspp.org/downloads.html",
-      "icon": "💿",
-      "platforms":[
+      "icon": "\ud83d\udcbf",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -769,8 +781,8 @@
       "website": "https://vita3k.org/",
       "github": "Vita3K/Vita3K",
       "download_url": "https://github.com/Vita3K/Vita3K/releases",
-      "icon": "📱",
-      "platforms":[
+      "icon": "\ud83d\udcf1",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -787,8 +799,8 @@
       "website": "https://xemu.app/",
       "github": "xemu-project/xemu",
       "download_url": "https://github.com/xemu-project/xemu/releases",
-      "icon": "✖️",
-      "platforms":[
+      "icon": "\u2716\ufe0f",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -804,7 +816,7 @@
       "website": "https://cxbx-reloaded.co.uk/",
       "github": "Cxbx-Reloaded/Cxbx-Reloaded",
       "download_url": "https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases",
-      "icon": "✖️",
+      "icon": "\u2716\ufe0f",
       "platforms": [
         "Windows"
       ]
@@ -819,7 +831,7 @@
       "website": "https://xenia.jp/",
       "github": "xenia-project/xenia",
       "download_url": "https://github.com/xenia-project/xenia/releases",
-      "icon": "🟢",
+      "icon": "\ud83d\udfe2",
       "platforms": [
         "Windows"
       ]
@@ -834,8 +846,8 @@
       "website": "https://github.com/ekeeke/Genesis-Plus-GX",
       "github": "ekeeke/Genesis-Plus-GX",
       "download_url": "https://github.com/ekeeke/Genesis-Plus-GX/releases",
-      "icon": "🦔",
-      "platforms":[
+      "icon": "\ud83e\udd94",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -852,8 +864,8 @@
       "website": "https://github.com/irixxxx/picodrive",
       "github": "irixxxx/picodrive",
       "download_url": "https://github.com/irixxxx/picodrive/releases",
-      "icon": "🦔",
-      "platforms":[
+      "icon": "\ud83e\udd94",
+      "platforms": [
         "Windows",
         "Linux",
         "Android"
@@ -869,7 +881,7 @@
       "website": "https://github.com/FCare/Kronos",
       "github": "FCare/Kronos",
       "download_url": "https://github.com/FCare/Kronos/releases",
-      "icon": "🪐",
+      "icon": "\ud83e\ude90",
       "platforms": [
         "Windows",
         "Linux"
@@ -885,8 +897,8 @@
       "website": "https://flyinghead.github.io/flycast-builds/",
       "github": "flyinghead/flycast",
       "download_url": "https://github.com/flyinghead/flycast/releases",
-      "icon": "🌀",
-      "platforms":[
+      "icon": "\ud83c\udf00",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -903,8 +915,8 @@
       "website": "https://www.mamedev.org/",
       "github": "mamedev/mame",
       "download_url": "https://www.mamedev.org/release.html",
-      "icon": "🪙",
-      "platforms":[
+      "icon": "\ud83e\ude99",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -920,7 +932,7 @@
       "website": "https://neo-source.com/",
       "github": "finalburnneo/FBNeo",
       "download_url": "https://github.com/finalburnneo/FBNeo/releases",
-      "icon": "🕹️",
+      "icon": "\ud83d\udd79\ufe0f",
       "platforms": [
         "Windows",
         "Linux"
@@ -930,14 +942,14 @@
       "id": "retroarch",
       "name": "RetroArch",
       "category": "Multi-System",
-      "description": "Frontend for libretro API — runs nearly every retro system in one app.",
+      "description": "Frontend for libretro API \u2014 runs nearly every retro system in one app.",
       "latest_version": "1.22.2",
       "release_date": "2025-11-20",
       "website": "https://www.retroarch.com/",
       "github": "libretro/RetroArch",
       "download_url": "https://www.retroarch.com/?page=platforms",
-      "icon": "👾",
-      "platforms":[
+      "icon": "\ud83d\udc7e",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -955,8 +967,8 @@
       "website": "https://tasvideos.org/BizHawk",
       "github": "TASEmulators/BizHawk",
       "download_url": "https://github.com/TASEmulators/BizHawk/releases",
-      "icon": "🦅",
-      "platforms":[
+      "icon": "\ud83e\udd85",
+      "platforms": [
         "Windows",
         "Linux"
       ]
@@ -971,8 +983,8 @@
       "website": "https://ares-emu.net/",
       "github": "ares-emulator/ares",
       "download_url": "https://github.com/ares-emulator/ares/releases",
-      "icon": "⚔️",
-      "platforms":[
+      "icon": "\u2694\ufe0f",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -988,8 +1000,8 @@
       "website": "https://openemu.org/",
       "github": "OpenEmu/OpenEmu",
       "download_url": "https://github.com/OpenEmu/OpenEmu/releases",
-      "icon": "🍎",
-      "platforms":[
+      "icon": "\ud83c\udf4e",
+      "platforms": [
         "macOS"
       ]
     },
@@ -1003,8 +1015,8 @@
       "website": "https://github.com/Swordfish90/Lemuroid",
       "github": "Swordfish90/Lemuroid",
       "download_url": "https://github.com/Swordfish90/Lemuroid/releases",
-      "icon": "📱",
-      "platforms":[
+      "icon": "\ud83d\udcf1",
+      "platforms": [
         "Android"
       ]
     },
@@ -1018,8 +1030,8 @@
       "website": "https://dosbox-staging.github.io/",
       "github": "dosbox-staging/dosbox-staging",
       "download_url": "https://github.com/dosbox-staging/dosbox-staging/releases",
-      "icon": "💾",
-      "platforms":[
+      "icon": "\ud83d\udcbe",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -1035,8 +1047,8 @@
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
-      "icon": "💾",
-      "platforms":[
+      "icon": "\ud83d\udcbe",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -1052,8 +1064,8 @@
       "website": "https://86box.net/",
       "github": "86Box/86Box",
       "download_url": "https://github.com/86Box/86Box/releases",
-      "icon": "🖥️",
-      "platforms":[
+      "icon": "\ud83d\udda5\ufe0f",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -1069,8 +1081,8 @@
       "website": "https://www.scummvm.org/",
       "github": "scummvm/scummvm",
       "download_url": "https://www.scummvm.org/downloads/",
-      "icon": "🖱️",
-      "platforms":[
+      "icon": "\ud83d\uddb1\ufe0f",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS",
@@ -1087,8 +1099,8 @@
       "website": "https://stella-emu.github.io/",
       "github": "stella-emu/stella",
       "download_url": "https://github.com/stella-emu/stella/releases",
-      "icon": "🕹️",
-      "platforms":[
+      "icon": "\ud83d\udd79\ufe0f",
+      "platforms": [
         "Windows",
         "Linux",
         "macOS"
@@ -1104,8 +1116,8 @@
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
-      "icon": "⚡",
-      "platforms":[
+      "icon": "\u26a1",
+      "platforms": [
         "Web",
         "Windows",
         "Linux",
@@ -1123,8 +1135,11 @@
       "scrape_url": "https://git.eden-emu.dev/Calchan/eden/releases",
       "scrape_regex": "v([0-9]+\\.[0-9]+\\.[0-9]+)",
       "download_url": "https://git.eden-emu.dev/Calchan/eden/releases",
-      "icon": "🔴",
-      "platforms": ["Windows", "Linux"]
+      "icon": "\ud83d\udd34",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ]
     },
     {
       "id": "citron",
@@ -1137,8 +1152,12 @@
       "scrape_url": "https://citronemulator.com",
       "scrape_regex": "Version ([0-9]+\\.[0-9]+\\.[0-9]+)",
       "download_url": "https://citronemulator.com/download",
-      "icon": "🍋",
-      "platforms": ["Windows", "Linux", "Android"]
+      "icon": "\ud83c\udf4b",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "Android"
+      ]
     },
     {
       "id": "suyu",
@@ -1151,8 +1170,13 @@
       "scrape_url": "https://suyu-emu.github.io/website/",
       "scrape_regex": "v([0-9]+\\.[0-9]+\\.[0-9]+)",
       "download_url": "https://suyu-emu.github.io/website/",
-      "icon": "🔵",
-      "platforms": ["Windows", "Linux", "macOS", "Android"]
+      "icon": "\ud83d\udd35",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ]
     },
     {
       "id": "torzu",
@@ -1165,8 +1189,11 @@
       "scrape_url": "https://torzu.dev",
       "scrape_regex": "v([0-9]+\\.[0-9]+\\.[0-9]+)",
       "download_url": "https://torzu.dev/download",
-      "icon": "🧅",
-      "platforms": ["Windows", "Linux"]
+      "icon": "\ud83e\uddc5",
+      "platforms": [
+        "Windows",
+        "Linux"
+      ]
     },
     {
       "id": "redream",
@@ -1179,36 +1206,47 @@
       "scrape_url": "https://redream.io",
       "scrape_regex": "version\\s+([0-9]+\\.[0-9]+\\.[0-9]+)",
       "download_url": "https://redream.io/download",
-      "icon": "🌀",
-      "platforms": ["Windows", "Linux", "macOS", "Android"]
+      "icon": "\ud83c\udf00",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ]
     },
     {
       "id": "demul",
       "name": "DEmul",
       "category": "Dreamcast",
       "description": "Accurate Dreamcast and Naomi arcade emulator distributed through independent emulator sites.",
-      "latest_version": "0.0.0",
-      "release_date": "2024-01-01",
+      "latest_version": "0.7",
+      "release_date": "2026-03-05",
       "website": "http://demul.emulation64.com/",
       "scrape_url": "http://demul.emulation64.com/downloads/",
       "scrape_regex": "DEmul v([0-9a-zA-Z\\.]+)",
       "download_url": "http://demul.emulation64.com/downloads/",
-      "icon": "🌀",
-      "platforms": ["Windows"]
+      "icon": "\ud83c\udf00",
+      "platforms": [
+        "Windows"
+      ]
     },
     {
       "id": "cemu-standalone",
       "name": "Cemu (Standalone)",
       "category": "Wii U",
       "description": "Popular Wii U emulator known for running Breath of the Wild on PC; historically distributed from its own website.",
-      "latest_version": "0.0.0",
-      "release_date": "2024-01-01",
+      "latest_version": "2.6",
+      "release_date": "2026-03-05",
       "website": "https://cemu.info",
       "scrape_url": "https://cemu.info",
       "scrape_regex": "Cemu ([0-9]+\\.[0-9a-zA-Z\\-]+)",
       "download_url": "https://cemu.info/#download",
-      "icon": "📺",
-      "platforms": ["Windows", "Linux", "macOS"]
+      "icon": "\ud83d\udcfa",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
     }
   ]
 }
