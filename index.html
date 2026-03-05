@@ -117,23 +117,16 @@
     }
     .logo span { color: var(--accent-2); }
     
-    /* Sleek Horizontal Scrolling for Mobile Navigation */
+    /* ───── DESKTOP NAVIGATION (Wrapped Tag Cloud) ───── */
     .nav-links {
       display: flex;
-      gap: 0.4rem;
+      flex-wrap: wrap; /* Allows buttons to elegantly wrap onto new lines on PC */
+      gap: 0.5rem;
       width: 100%;
-      overflow-x: auto;
       padding-bottom: 0.5rem;
-      scrollbar-width: thin;
-      scrollbar-color: var(--border) transparent;
-      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
     }
-    .nav-links::-webkit-scrollbar { height: 6px; }
-    .nav-links::-webkit-scrollbar-track { background: transparent; }
-    .nav-links::-webkit-scrollbar-thumb { background: #4a4a5a; border-radius: 6px; }
 
     .nav-links button {
-      flex-shrink: 0; /* Prevents the buttons from getting squished */
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid #4a4a5a;
       color: #ffffff; 
@@ -360,7 +353,7 @@
     /* ───── SIDEBAR / FEED ───── */
     .sidebar {
       position: sticky;
-      top: 140px; /* Accounts for header size */
+      top: 170px; /* Accounts for header size with wrapped buttons */
     }
     .feed-panel {
       background: var(--bg-card);
@@ -490,6 +483,20 @@
         order: 2; /* Puts the Live Feed below the emulators on mobile */
       }
       .feed-panel { max-height: 400px; }
+      
+      /* Switch to Horizontal Scrolling strictly for Mobile/Tablets */
+      .nav-links {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Hides scrollbar in Firefox */
+      }
+      .nav-links::-webkit-scrollbar {
+        display: none; /* Hides scrollbar in Chrome/Safari */
+      }
+      .nav-links button {
+        flex-shrink: 0; /* Keeps buttons from squishing when swiping */
+      }
     }
     
     @media (max-width: 600px) {
