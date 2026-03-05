@@ -11,503 +11,140 @@
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root {
-      /* Brightened Backgrounds for better contrast */
       --bg:        #0f0f15; 
       --bg-card:   #1a1a24;
       --bg-hover:  #252535;
       --border:    #3a3a4c;
-      
-      /* Much brighter text */
       --text:      #ffffff;       
       --text-dim:  #b0b8c8;       
-      
-      /* Accents */
       --accent:    #00ff88;
       --accent-2:  #ff3366;
       --accent-3:  #33aaff;
       --accent-4:  #ffcc00;
       --glow:      rgba(0, 255, 136, 0.15);
-      
       --font-mono: 'JetBrains Mono', monospace;
       --font-pixel:'Silkscreen', cursive;
     }
 
     html { scroll-behavior: smooth; }
-
-    body {
-      font-family: var(--font-mono);
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
+    body { font-family: var(--font-mono); background: var(--bg); color: var(--text); min-height: 100vh; line-height: 1.6; overflow-x: hidden; }
 
     /* ───── SCANLINE OVERLAY ───── */
-    body::after {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background: repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 2px,
-        rgba(0, 0, 0, 0.04) 2px,
-        rgba(0, 0, 0, 0.04) 4px
-      );
-      pointer-events: none;
-      z-index: 9999;
-    }
-
-    /* ───── BACKGROUND GRID ───── */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image:
-        linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
-      background-size: 40px 40px;
-      pointer-events: none;
-      z-index: 0;
-    }
-
+    body::after { content: ''; position: fixed; inset: 0; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 0, 0, 0.04) 2px, rgba(0, 0, 0, 0.04) 4px); pointer-events: none; z-index: 9999; }
+    body::before { content: ''; position: fixed; inset: 0; background-image: linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px); background-size: 40px 40px; pointer-events: none; z-index: 0; }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
     /* ───── HEADER ───── */
-    .header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(15, 15, 21, 0.95);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 1rem 2rem;
-    }
-    .header-inner {
-      max-width: 1280px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-    
-    .header-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      gap: 1rem;
-    }
+    .header { position: sticky; top: 0; z-index: 100; background: rgba(15, 15, 21, 0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 1rem 2rem; }
+    .header-inner { max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem; }
+    .header-top { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 1rem; }
 
-    .logo {
-      font-family: var(--font-pixel);
-      font-size: 1.5rem;
-      color: var(--accent);
-      text-shadow: 0 0 20px var(--glow), 0 0 40px var(--glow);
-      letter-spacing: 2px;
-      white-space: nowrap;
-      text-decoration: none;
-      transition: transform 0.2s ease;
-    }
-    .logo:hover {
-      text-decoration: none;
-      transform: scale(1.02);
-    }
+    .logo { font-family: var(--font-pixel); font-size: 1.5rem; color: var(--accent); text-shadow: 0 0 20px var(--glow), 0 0 40px var(--glow); letter-spacing: 2px; white-space: nowrap; text-decoration: none; transition: transform 0.2s ease; }
+    .logo:hover { text-decoration: none; transform: scale(1.02); }
     .logo span { color: var(--accent-2); }
     
-    /* ───── DESKTOP NAVIGATION (Wrapped Tag Cloud) ───── */
-    .nav-links {
-      display: flex;
-      flex-wrap: wrap; /* Allows buttons to elegantly wrap onto new lines on PC */
-      gap: 0.5rem;
-      width: 100%;
-      padding-bottom: 0.5rem;
-    }
-
-    .nav-links button {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid #4a4a5a;
-      color: #ffffff; 
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      padding: 0.4rem 0.8rem;
-      cursor: pointer;
-      transition: all 0.2s;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      border-radius: 4px;
-    }
-    .nav-links button:hover,
-    .nav-links button.active {
-      border-color: var(--accent);
-      color: #000000; 
-      background: var(--accent);
-      box-shadow: 0 0 10px var(--glow);
-      font-weight: 800;
-    }
+    .nav-links, .platform-links { display: flex; flex-wrap: wrap; gap: 0.5rem; width: 100%; }
+    .nav-links { padding-bottom: 0.25rem; }
+    .platform-links { padding-bottom: 0.5rem; }
     
-    .search-box {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid #4a4a5a;
-      color: #ffffff;
-      font-family: var(--font-mono);
-      font-size: 0.85rem;
-      padding: 0.5rem 0.8rem;
-      width: 280px;
-      outline: none;
-      transition: border-color 0.2s;
-      border-radius: 4px;
-    }
+    .nav-links button, .platform-links button { background: rgba(255, 255, 255, 0.05); border: 1px solid #4a4a5a; color: #ffffff; font-family: var(--font-mono); font-size: 0.75rem; padding: 0.4rem 0.8rem; cursor: pointer; transition: all 0.2s; text-transform: uppercase; letter-spacing: 1px; border-radius: 4px; }
+    .platform-links button { font-size: 0.65rem; padding: 0.2rem 0.6rem; border-color: transparent; color: var(--text-dim); }
+    
+    .nav-links button:hover, .nav-links button.active { border-color: var(--accent); color: #000000; background: var(--accent); box-shadow: 0 0 10px var(--glow); font-weight: 800; }
+    .platform-links button:hover, .platform-links button.active { color: var(--accent-3); border-color: var(--accent-3); background: rgba(51, 170, 255, 0.1); }
+    
+    .search-box { background: rgba(255, 255, 255, 0.05); border: 1px solid #4a4a5a; color: #ffffff; font-family: var(--font-mono); font-size: 0.85rem; padding: 0.5rem 0.8rem; width: 280px; outline: none; transition: border-color 0.2s; border-radius: 4px; }
     .search-box::placeholder { color: #b0b8c8; }
-    .search-box:focus {
-      border-color: var(--accent);
-      box-shadow: 0 0 8px var(--glow);
-      background: var(--bg-card);
-    }
+    .search-box:focus { border-color: var(--accent); box-shadow: 0 0 8px var(--glow); background: var(--bg-card); }
 
     /* ───── LAYOUT ───── */
-    .container {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 2rem;
-      position: relative;
-      z-index: 1;
-    }
-
-    .main-grid {
-      display: grid;
-      grid-template-columns: 1fr 320px;
-      gap: 2rem;
-      align-items: start;
-    }
-
-    /* ───── STATS BAR ───── */
-    .stats-bar {
-      display: flex;
-      gap: 2rem;
-      margin-bottom: 2rem;
-      padding: 1rem 1.5rem;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      flex-wrap: wrap;
-      border-radius: 6px;
-    }
-    .stat {
-      display: flex;
-      flex-direction: column;
-    }
-    .stat-value {
-      font-family: var(--font-pixel);
-      font-size: 1.4rem;
-      color: var(--accent);
-      text-shadow: 0 0 10px var(--glow);
-    }
-    .stat-label {
-      font-size: 0.7rem;
-      color: var(--text-dim);
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 600;
-    }
+    .container { max-width: 1280px; margin: 0 auto; padding: 2rem; position: relative; z-index: 1; }
+    .main-grid { display: grid; grid-template-columns: 1fr 320px; gap: 2rem; align-items: start; }
 
     /* ───── EMULATOR CARDS ───── */
-    .section-title {
-      font-family: var(--font-pixel);
-      font-size: 0.9rem;
-      color: var(--accent-3);
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .section-title::before {
-      content: '> ';
-      color: var(--accent);
-    }
+    .section-title { font-family: var(--font-pixel); font-size: 0.9rem; color: var(--accent-3); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+    .section-title::before { content: '> '; color: var(--accent); }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
 
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1rem;
-    }
-
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      padding: 1.25rem;
-      transition: all 0.25s ease;
-      position: relative;
-      overflow: hidden;
-      animation: fadeSlideIn 0.4s ease both;
-    }
-    .card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 4px;
-      height: 100%;
-      background: var(--accent);
-      opacity: 0;
-      transition: opacity 0.25s;
-    }
-    .card:hover {
-      border-color: var(--accent);
-      background: var(--bg-hover);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.4), 0 0 15px var(--glow);
-      transform: translateY(-3px);
-    }
+    .card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; padding: 1.25rem; transition: all 0.25s ease; position: relative; overflow: hidden; animation: fadeSlideIn 0.4s ease both; display: flex; flex-direction: column;}
+    .card::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent); opacity: 0; transition: opacity 0.25s; }
+    .card:hover { border-color: var(--accent); background: var(--bg-hover); box-shadow: 0 4px 20px rgba(0,0,0,0.4), 0 0 15px var(--glow); transform: translateY(-3px); }
     .card:hover::before { opacity: 1; }
 
-    .card-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 0.75rem;
-    }
-    .card-icon {
-      font-size: 1.5rem;
-      margin-right: 0.5rem;
-    }
-    .card-name {
-      font-family: var(--font-pixel);
-      font-size: 0.95rem;
-      color: var(--text);
-      flex: 1;
-      text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-    }
-    .card-category {
-      font-size: 0.65rem;
-      color: #ffffff;
-      background: var(--accent-3);
-      padding: 0.2rem 0.6rem;
-      border-radius: 3px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      white-space: nowrap;
-      font-weight: 800;
-      text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-    }
-    .card-desc {
-      font-size: 0.8rem;
-      color: var(--text-dim);
-      margin-bottom: 0.75rem;
-      line-height: 1.5;
-    }
-    .card-meta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 0.75rem;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      background: rgba(0,0,0,0.2);
-      padding: 0.5rem;
-      border-radius: 4px;
-    }
-    .card-version {
-      color: var(--accent);
-      font-weight: 800;
-    }
+    .card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; }
+    .card-icon { font-size: 1.5rem; margin-right: 0.5rem; }
+    .card-name { font-family: var(--font-pixel); font-size: 0.95rem; color: var(--text); flex: 1; text-shadow: 1px 1px 2px rgba(0,0,0,0.8); }
+    .card-category { font-size: 0.65rem; color: #ffffff; background: var(--accent-3); padding: 0.2rem 0.6rem; border-radius: 3px; text-transform: uppercase; letter-spacing: 1px; font-weight: 800; }
+    .card-desc { font-size: 0.8rem; color: var(--text-dim); margin-bottom: 0.75rem; line-height: 1.5; flex-grow: 1;}
+    .card-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; background: rgba(0,0,0,0.2); padding: 0.5rem; border-radius: 4px; }
+    .card-version { color: var(--accent); font-weight: 800; }
     .card-date { color: var(--text-dim); font-weight: 600; }
-    .card-platforms {
-      font-size: 0.65rem;
-      color: var(--text-dim);
-      margin-top: 0.5rem;
-      font-weight: 600;
-    }
-    .card-links {
-      display: flex;
-      gap: 0.5rem;
-      margin-top: 1rem;
-    }
-    .card-link {
-      font-size: 0.7rem;
-      padding: 0.35rem 0.6rem;
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      color: var(--text);
-      transition: all 0.2s;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      font-weight: 600;
-      text-align: center;
-      flex: 1;
-    }
-    .card-link:hover {
-      border-color: var(--accent);
-      color: var(--accent);
-      text-decoration: none;
-      background: rgba(0, 255, 136, 0.05);
-    }
-    .card-link.primary {
-      border-color: var(--accent);
-      color: var(--accent);
-      background: rgba(0, 255, 136, 0.08);
-    }
+    
+    .card-platforms { display: flex; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap;}
+    .platform-icon { width: 14px; height: 14px; fill: var(--text-dim); transition: fill 0.2s; }
+    .card:hover .platform-icon { fill: var(--accent-3); }
+
+    .card-links { display: flex; gap: 0.5rem; margin-top: 1rem; }
+    .card-link { font-size: 0.7rem; padding: 0.35rem 0.6rem; border: 1px solid var(--border); border-radius: 4px; color: var(--text); transition: all 0.2s; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; text-align: center; flex: 1; }
+    .card-link:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; background: rgba(0, 255, 136, 0.05); }
+    .card-link.primary { border-color: var(--accent); color: var(--accent); background: rgba(0, 255, 136, 0.08); }
 
     /* ───── SIDEBAR / FEED ───── */
-    .sidebar {
-      position: sticky;
-      top: 170px; /* Accounts for header size with wrapped buttons */
-    }
-    .feed-panel {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      max-height: 70vh;
-      overflow-y: auto;
-    }
+    .sidebar { position: sticky; top: 190px; }
+    .feed-panel { background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px; max-height: 70vh; overflow-y: auto; }
     .feed-panel::-webkit-scrollbar { width: 6px; }
     .feed-panel::-webkit-scrollbar-track { background: var(--bg); border-radius: 0 6px 6px 0; }
     .feed-panel::-webkit-scrollbar-thumb { background: #4a4a5a; border-radius: 6px; }
+    .feed-header { font-family: var(--font-pixel); font-size: 0.8rem; color: var(--accent-4); padding: 1rem 1rem 0.75rem; text-transform: uppercase; letter-spacing: 2px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--bg-card); z-index: 2; display: flex; justify-content: space-between;}
+    .feed-header::before { content: '● '; color: var(--accent-2); animation: blink 1.5s infinite; }
+    .rss-link { color: var(--accent-4); font-family: var(--font-mono); font-size: 0.6rem; display: flex; align-items: center; gap: 4px; border: 1px solid var(--accent-4); padding: 2px 6px; border-radius: 4px;}
+    .rss-link:hover { background: rgba(255, 204, 0, 0.1); text-decoration: none; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
 
-    .feed-header {
-      font-family: var(--font-pixel);
-      font-size: 0.8rem;
-      color: var(--accent-4);
-      padding: 1rem 1rem 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      background: var(--bg-card);
-      z-index: 2;
-    }
-    .feed-header::before {
-      content: '● ';
-      color: var(--accent-2);
-      animation: blink 1.5s infinite;
-    }
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.2; }
-    }
-
-    .feed-item {
-      display: block; 
-      padding: 0.85rem 1rem;
-      border-bottom: 1px solid var(--border);
-      font-size: 0.75rem;
-      transition: background 0.15s;
-      color: var(--text);
-      text-decoration: none;
-    }
-    .feed-item:hover { 
-      background: var(--bg-hover); 
-      text-decoration: none;
-      cursor: pointer;
-      border-left: 3px solid var(--accent);
-      padding-left: calc(1rem - 3px);
-    }
-    .feed-item:hover .feed-msg strong {
-      text-shadow: 0 0 8px var(--glow);
-    }
-    .feed-date {
-      color: var(--text-dim);
-      font-size: 0.65rem;
-      margin-bottom: 0.3rem;
-      font-weight: 600;
-    }
+    .feed-item { display: block; padding: 0.85rem 1rem; border-bottom: 1px solid var(--border); font-size: 0.75rem; transition: background 0.15s; color: var(--text); text-decoration: none; }
+    .feed-item:hover { background: var(--bg-hover); text-decoration: none; cursor: pointer; border-left: 3px solid var(--accent); padding-left: calc(1rem - 3px); }
+    .feed-item:hover .feed-msg strong { text-shadow: 0 0 8px var(--glow); }
+    .feed-date { color: var(--text-dim); font-size: 0.65rem; margin-bottom: 0.3rem; font-weight: 600; }
     .feed-msg { color: var(--text); line-height: 1.5; }
     .feed-msg strong { color: var(--accent); transition: all 0.2s; font-size: 0.85rem;}
+    .changelog-snippet { color: var(--text-dim); font-size: 0.65rem; font-style: italic; margin-top: 4px; display: block; border-left: 2px solid var(--border); padding-left: 6px;}
 
-    .last-updated {
-      font-size: 0.65rem;
-      color: var(--text-dim);
-      text-align: center;
-      padding: 1rem;
-      background: rgba(0,0,0,0.2);
-      font-weight: 600;
-    }
-
-    /* ───── CATEGORY SECTIONS ───── */
+    .last-updated { font-size: 0.65rem; color: var(--text-dim); text-align: center; padding: 1rem; background: rgba(0,0,0,0.2); font-weight: 600; }
     .category-section { margin-bottom: 2.5rem; }
-    .no-results {
-      grid-column: 1 / -1;
-      text-align: center;
-      padding: 3rem;
-      color: var(--text-dim);
-      font-size: 0.9rem;
-      font-weight: 600;
-    }
+    .no-results { grid-column: 1 / -1; text-align: center; padding: 3rem; color: var(--text-dim); font-size: 0.9rem; font-weight: 600; }
 
-    /* ───── ANIMATIONS ───── */
-    @keyframes fadeSlideIn {
-      from { opacity: 0; transform: translateY(12px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
+    /* ───── ANIMATIONS & LOADING ───── */
+    @keyframes fadeSlideIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+    .loading { text-align: center; padding: 4rem; font-family: var(--font-pixel); color: var(--accent); font-size: 1rem; }
+    .loading::after { content: '...'; animation: dots 1.5s steps(3) infinite; }
+    @keyframes dots { 0% { content: '.'; } 33% { content: '..'; } 66% { content: '...'; } }
 
-    /* ───── LOADING ───── */
-    .loading {
-      text-align: center;
-      padding: 4rem;
-      font-family: var(--font-pixel);
-      color: var(--accent);
-      font-size: 1rem;
-    }
-    .loading::after {
-      content: '...';
-      animation: dots 1.5s steps(3) infinite;
-    }
-    @keyframes dots {
-      0%   { content: '.'; }
-      33%  { content: '..'; }
-      66%  { content: '...'; }
-    }
+    /* ───── BACK TO TOP BUTTON ───── */
+    #backToTop { position: fixed; bottom: 30px; right: 30px; background: var(--accent); color: #000; width: 45px; height: 45px; border-radius: 50%; display: none; align-items: center; justify-content: center; font-size: 1.2rem; cursor: pointer; border: none; box-shadow: 0 0 15px var(--glow); z-index: 1000; transition: transform 0.2s; }
+    #backToTop:hover { transform: translateY(-3px) scale(1.05); }
 
     /* ───── FOOTER ───── */
-    .footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.75rem;
-      color: var(--text-dim);
-      border-top: 1px solid var(--border);
-      margin-top: 3rem;
-      background: var(--bg-card);
-    }
+    .footer { text-align: center; padding: 2rem; font-size: 0.75rem; color: var(--text-dim); border-top: 1px solid var(--border); margin-top: 3rem; background: var(--bg-card); display: flex; flex-direction: column; gap: 10px; align-items: center;}
     .footer a { color: var(--accent); font-weight: 600; }
+    .suggest-btn { border: 1px solid var(--accent-3); color: var(--accent-3) !important; padding: 6px 12px; border-radius: 4px; text-transform: uppercase; font-size: 0.65rem; transition: background 0.2s; }
+    .suggest-btn:hover { background: rgba(51, 170, 255, 0.1); text-decoration: none !important; }
 
     /* ───── RESPONSIVE (MOBILE FIXES) ───── */
     @media (max-width: 900px) {
-      .main-grid {
-        grid-template-columns: 1fr;
-      }
-      .sidebar {
-        position: static;
-        order: 2; /* Puts the Live Feed below the emulators on mobile */
-      }
+      .main-grid { grid-template-columns: 1fr; }
+      .sidebar { position: static; order: 2; }
       .feed-panel { max-height: 400px; }
-      
-      /* Switch to Horizontal Scrolling strictly for Mobile/Tablets */
-      .nav-links {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none; /* Hides scrollbar in Firefox */
-      }
-      .nav-links::-webkit-scrollbar {
-        display: none; /* Hides scrollbar in Chrome/Safari */
-      }
-      .nav-links button {
-        flex-shrink: 0; /* Keeps buttons from squishing when swiping */
-      }
+      .nav-links, .platform-links { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+      .nav-links::-webkit-scrollbar, .platform-links::-webkit-scrollbar { display: none; }
+      .nav-links button, .platform-links button { flex-shrink: 0; }
+      #backToTop { bottom: 20px; right: 20px; }
     }
-    
     @media (max-width: 600px) {
       .header { padding: 1rem; }
-      .header-top {
-        flex-direction: column; /* Logo on top left, search below */
-        align-items: flex-start; /* Aligns Logo to the Top Left */
-      }
+      .header-top { flex-direction: column; align-items: flex-start; }
       .container { padding: 1rem; }
       .card-grid { grid-template-columns: 1fr; }
-      .stats-bar { gap: 1rem; }
       .search-box { width: 100%; }
     }
   </style>
@@ -521,31 +158,24 @@
         <a href="index.html" class="logo">Emu<span>Digest</span></a>
         <input type="text" class="search-box" id="searchInput" placeholder="Search emulators..." />
       </div>
+      <!-- Category Filter -->
       <nav class="nav-links" id="navLinks">
         <button class="active" data-filter="all">All</button>
       </nav>
+      <!-- OS Platform Filter -->
+      <div class="platform-links" id="platformLinks">
+        <button class="active" data-platform="all">All OS</button>
+        <button data-platform="Windows">Windows</button>
+        <button data-platform="Linux">Linux</button>
+        <button data-platform="macOS">macOS</button>
+        <button data-platform="Android">Android</button>
+        <button data-platform="iOS">iOS</button>
+      </div>
     </div>
   </header>
 
   <!-- MAIN -->
   <div class="container">
-
-    <!-- STATS -->
-    <div class="stats-bar" id="statsBar">
-      <div class="stat">
-        <span class="stat-value" id="statTotal">—</span>
-        <span class="stat-label">Emulators Tracked</span>
-      </div>
-      <div class="stat">
-        <span class="stat-value" id="statCategories">—</span>
-        <span class="stat-label">Categories</span>
-      </div>
-      <div class="stat">
-        <span class="stat-value" id="statRecent">—</span>
-        <span class="stat-label">Updated (30 days)</span>
-      </div>
-    </div>
-
     <div class="main-grid">
 
       <!-- LEFT: Emulator list -->
@@ -556,7 +186,13 @@
       <!-- RIGHT / BOTTOM: Feed sidebar -->
       <aside class="sidebar">
         <div class="feed-panel">
-          <div class="feed-header">Live Feed</div>
+          <div class="feed-header">
+            Live Feed
+            <a href="rss.xml" class="rss-link" target="_blank">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18,15.64A2.18,2.18,0,0,1,8.36,17.82,2.18,2.18,0,0,1,6.18,20,2.18,2.18,0,0,1,4,17.82,2.18,2.18,0,0,1,6.18,15.64ZM4,4V7.27A12.72,12.72,0,0,1,16.73,20H20A16,16,0,0,0,4,4ZM4,9.82v3.27A6.9,6.9,0,0,1,10.91,20h3.27A10.18,10.18,0,0,0,4,9.82Z"/></svg>
+              RSS
+            </a>
+          </div>
           <div id="feedList"></div>
           <div class="last-updated" id="lastUpdated"></div>
         </div>
@@ -565,52 +201,53 @@
     </div>
   </div>
 
+  <button id="backToTop" title="Go to top">↑</button>
+
   <!-- FOOTER -->
   <footer class="footer">
-    EmuDigest — Open-source emulator aggregator. Data auto-updated via GitHub Actions.<br />
-    Built for the preservation community. <a href="https://github.com/keenestza/emudigest" target="_blank">View on GitHub</a>
+    <div>EmuDigest — Open-source emulator aggregator. Data auto-updated via GitHub Actions.</div>
+    <div>Built for the preservation community. <a href="https://github.com/keenestza/emudigest" target="_blank">View Source</a></div>
+    <a href="https://github.com/keenestza/emudigest/issues/new" target="_blank" class="suggest-btn">+ Suggest an Emulator</a>
   </footer>
 
   <script>
-    /* ═══════════════════════════════════════════════
-       EmuDigest — Client-Side Logic
-       ═══════════════════════════════════════════════ */
-
     const DATA_URL = 'emulators.json';
-
     let DB = null;
     let currentFilter = 'all';
+    let currentPlatform = 'all';
     let searchQuery = '';
 
-    // ── Fetch Data ──────────────────────────────────
+    // Simple, clean SVG paths for the OS Icons
+    const svgIcons = {
+      "Windows": '<path d="M0,3.4L10.6,2v10.4H0V3.4z M11.8,1.8l12.2-1.7V12h-12.2V1.8z M0,13.3h10.6v10.3l-10.6-1.5V13.3z M11.8,13.3H24v10.7 l-12.2-1.7V13.3z"/>',
+      "macOS": '<path d="M15.4,10c-0.1-2.4,2-3.6,2.1-3.6c-1.1-1.6-2.9-1.9-3.5-1.9c-1.5-0.1-2.9,0.9-3.7,0.9c-0.8,0-1.9-0.9-3.2-0.9 c-1.6,0-3.2,0.9-4,2.4C1.3,10,2.7,14.6,4.2,16.8c0.7,1,1.6,2.2,2.7,2.2c1.1,0,1.5-0.7,2.8-0.7c1.3,0,1.7,0.7,2.8,0.7 c1.2,0,1.9-1.1,2.6-2.1c0.9-1.3,1.3-2.5,1.3-2.6C16.3,14.3,15.5,12.3,15.4,10z M11.3,3.2c0.6-0.7,1-1.8,0.9-2.8 c-0.9,0-2,0.6-2.6,1.3c-0.5,0.6-1,1.7-0.9,2.7C9.7,4.5,10.7,3.9,11.3,3.2z"/>',
+      "Linux": '<path d="M12,23.5c-3.1,0-5.4-1.2-6.5-2c-1.2-0.8-2-2.1-1.7-4c0.1-0.9,0.5-2.2,1.3-3.6c1.1-1.9,1.7-2.6,2-3.7c0.2-0.9-0.1-2.3-0.1-2.3 s-0.3-2,0.5-4.2c0.8-2.2,2.6-3.3,4.6-3.3s3.7,1.1,4.6,3.3c0.8,2.2,0.5,4.2,0.5,4.2s-0.3,1.4-0.1,2.3c0.3,1.1,0.9,1.8,2,3.7 c0.8,1.4,1.2,2.7,1.3,3.6c0.3,1.9-0.5,3.1-1.7,4C17.4,22.3,15.1,23.5,12,23.5z M10.5,15c-0.8,0-1.5,0.7-1.5,1.5c0,0.8,0.7,1.5,1.5,1.5 s1.5-0.7,1.5-1.5C12,15.7,11.3,15,10.5,15z M14.5,15c-0.8,0-1.5,0.7-1.5,1.5c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5 C16,15.7,15.3,15,14.5,15z"/>',
+      "Android": '<path d="M2.5,13.8v4.8c0,0.8,0.6,1.4,1.4,1.4h1.4v2.8c0,0.8,0.6,1.4,1.4,1.4h1.4c0.8,0,1.4-0.6,1.4-1.4v-2.8h4.1v2.8 c0,0.8,0.6,1.4,1.4,1.4h1.4c0.8,0,1.4-0.6,1.4-1.4v-2.8h1.4c0.8,0,1.4-0.6,1.4-1.4v-4.8H2.5z M17,8.2c0-2.3-1.6-4.3-3.7-4.9 l0.8-1.4c0.1-0.2,0.1-0.5-0.1-0.7c-0.2-0.2-0.5-0.2-0.7,0L12.4,2.5C11.6,2.2,10.8,2.1,10,2.1s-1.6,0.1-2.4,0.4L6.7,1.2 C6.5,1,6.2,1,6,1.1C5.8,1.3,5.8,1.6,5.9,1.8l0.8,1.4C4.6,3.9,3,5.9,3,8.2H17z M6.8,6.2C6.4,6.2,6.1,5.9,6.1,5.5S6.4,4.8,6.8,4.8 S7.5,5.1,7.5,5.5S7.2,6.2,6.8,6.2z M13.2,6.2c-0.4,0-0.7-0.3-0.7-0.7S12.8,4.8,13.2,4.8s0.7,0.3,0.7,0.7S13.6,6.2,13.2,6.2z"/>',
+      "iOS": '<path d="M16.5,15.5H7.5C6.1,15.5,5,14.4,5,13V3c0-1.4,1.1-2.5,2.5-2.5h9C17.9,0.5,19,1.6,19,3v10C19,14.4,17.9,15.5,16.5,15.5z M12,14c0.6,0,1-0.4,1-1c0-0.6-0.4-1-1-1c-0.6,0-1,0.4-1,1C11,13.6,11.4,14,12,14z M6.5,2h11v9.5h-11V2z"/>'
+    };
+
     async function loadData() {
       try {
         const resp = await fetch(DATA_URL + '?t=' + Date.now());
         DB = await resp.json();
         init();
       } catch (err) {
-        document.getElementById('loadingState').textContent =
-          'Failed to load data. Make sure emulators.json is in the same directory.';
-        console.error(err);
+        document.getElementById('loadingState').textContent = 'Failed to load data. Make sure emulators.json is in the same directory.';
       }
     }
 
-    // ── Initialize ──────────────────────────────────
     function init() {
       buildNav();
       updateStats();
       renderFeed();
       renderEmulators();
-      document.getElementById('lastUpdated').textContent =
-        'Last checked: ' + formatDate(DB.last_updated);
+      document.getElementById('lastUpdated').textContent = 'Last checked: ' + formatDate(DB.last_updated);
+      setupPlatformFilters();
     }
 
-    // ── Navigation ──────────────────────────────────
     function buildNav() {
       const nav = document.getElementById('navLinks');
       const categories =[...new Set(DB.emulators.map(e => e.category))].sort();
-
-      // "All" button already exists
       categories.forEach(cat => {
         const btn = document.createElement('button');
         btn.textContent = cat;
@@ -618,49 +255,36 @@
         btn.addEventListener('click', () => setFilter(cat));
         nav.appendChild(btn);
       });
-
-      // Attach listener to existing All button
       nav.querySelector('[data-filter="all"]').addEventListener('click', () => setFilter('all'));
     }
 
     function setFilter(filter) {
       currentFilter = filter;
-      document.querySelectorAll('.nav-links button').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.filter === filter);
-      });
+      document.querySelectorAll('#navLinks button').forEach(btn => btn.classList.toggle('active', btn.dataset.filter === filter));
       renderEmulators();
     }
 
-    // ── Stats ───────────────────────────────────────
-    function updateStats() {
-      const categories = new Set(DB.emulators.map(e => e.category));
-      const thirtyDaysAgo = new Date();
-      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-      const recent = DB.emulators.filter(e => new Date(e.release_date) >= thirtyDaysAgo).length;
-
-      document.getElementById('statTotal').textContent = DB.emulators.length;
-      document.getElementById('statCategories').textContent = categories.size;
-      document.getElementById('statRecent').textContent = recent;
+    function setupPlatformFilters() {
+      document.querySelectorAll('#platformLinks button').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          currentPlatform = e.target.dataset.platform;
+          document.querySelectorAll('#platformLinks button').forEach(b => b.classList.remove('active'));
+          e.target.classList.add('active');
+          renderEmulators();
+        });
+      });
     }
 
-    // ── Render Emulators ────────────────────────────
     function renderEmulators() {
       const container = document.getElementById('emulatorList');
       let emulators = [...DB.emulators];
 
-      // Filter by category
-      if (currentFilter !== 'all') {
-        emulators = emulators.filter(e => e.category === currentFilter);
-      }
-
-      // Filter by search
+      // Filters
+      if (currentFilter !== 'all') emulators = emulators.filter(e => e.category === currentFilter);
+      if (currentPlatform !== 'all') emulators = emulators.filter(e => e.platforms && e.platforms.includes(currentPlatform));
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
-        emulators = emulators.filter(e =>
-          e.name.toLowerCase().includes(q) ||
-          e.category.toLowerCase().includes(q) ||
-          e.description.toLowerCase().includes(q)
-        );
+        emulators = emulators.filter(e => e.name.toLowerCase().includes(q) || e.category.toLowerCase().includes(q));
       }
 
       if (emulators.length === 0) {
@@ -668,7 +292,6 @@
         return;
       }
 
-      // Group by category
       const grouped = {};
       emulators.forEach(e => {
         if (!grouped[e.category]) grouped[e.category] = [];
@@ -676,27 +299,23 @@
       });
 
       let html = '';
-      const sortedCategories = Object.keys(grouped).sort();
-
-      sortedCategories.forEach(cat => {
-        html += `<div class="category-section">`;
-        html += `<div class="section-title">${cat}</div>`;
-        html += `<div class="card-grid">`;
-
-        grouped[cat]
-          .sort((a, b) => new Date(b.release_date) - new Date(a.release_date))
-          .forEach((emu, i) => {
-            html += renderCard(emu, i);
-          });
-
+      Object.keys(grouped).sort().forEach(cat => {
+        html += `<div class="category-section"><div class="section-title">${cat}</div><div class="card-grid">`;
+        grouped[cat].sort((a, b) => new Date(b.release_date) - new Date(a.release_date)).forEach((emu, i) => html += renderCard(emu, i));
         html += `</div></div>`;
       });
-
       container.innerHTML = html;
     }
 
     function renderCard(emu, index) {
-      const platforms = emu.platforms ? emu.platforms.join(' · ') : '';
+      let platformsHTML = '';
+      if (emu.platforms) {
+        emu.platforms.forEach(p => {
+          if (svgIcons[p]) platformsHTML += `<svg class="platform-icon" title="${p}" viewBox="0 0 24 24">${svgIcons[p]}</svg>`;
+          else platformsHTML += `<span style="font-size:0.6rem; color:var(--text-dim);">${p}</span>`;
+        });
+      }
+
       return `
         <div class="card" style="animation-delay: ${index * 0.05}s">
           <div class="card-header">
@@ -709,55 +328,48 @@
             <span class="card-version">v${emu.latest_version}</span>
             <span class="card-date">${formatDate(emu.release_date)}</span>
           </div>
-          ${platforms ? `<div class="card-platforms">${platforms}</div>` : ''}
+          <div class="card-platforms">${platformsHTML}</div>
           <div class="card-links">
             <a class="card-link primary" href="${emu.download_url}" target="_blank" rel="noopener">Download</a>
-            <a class="card-link" href="${emu.website}" target="_blank" rel="noopener">Website</a>
-            ${emu.github ? `<a class="card-link" href="https://github.com/${emu.github}" target="_blank" rel="noopener">GitHub</a>` : ''}
+            <a class="card-link" href="${emu.website}" target="_blank" rel="noopener">Site</a>
           </div>
         </div>
       `;
     }
 
-    // ── Render Feed ─────────────────────────────────
     function renderFeed() {
       const feedEl = document.getElementById('feedList');
       if (!DB.feed || DB.feed.length === 0) {
         feedEl.innerHTML = '<div class="feed-item" style="cursor:default; border-left:none;"><div class="feed-msg">No updates yet.</div></div>';
         return;
       }
-
       feedEl.innerHTML = DB.feed.map(entry => {
-        // Find the emulator name and link from the entry
         const emu = DB.emulators.find(e => e.id === entry.emulator_id);
         const name = emu ? emu.name : entry.emulator_id;
         const link = emu ? emu.download_url : '#';
-
+        // Check if changelog exists and isn't a generic message
+        let changelogHTML = '';
+        if (entry.message && entry.message !== "Release update!" && !entry.message.includes("released!")) {
+            changelogHTML = `<span class="changelog-snippet">${entry.message}</span>`;
+        }
         return `
           <a href="${link}" target="_blank" rel="noopener" class="feed-item">
             <div class="feed-date">${formatDate(entry.date)}</div>
-            <div class="feed-msg"><strong>${name}</strong> ${entry.version} — ${entry.message}</div>
+            <div class="feed-msg"><strong>${name}</strong> v${entry.version} ${changelogHTML}</div>
           </a>
         `;
       }).join('');
     }
 
-    // ── Search ──────────────────────────────────────
-    document.getElementById('searchInput').addEventListener('input', (e) => {
-      searchQuery = e.target.value.trim();
-      renderEmulators();
-    });
+    document.getElementById('searchInput').addEventListener('input', (e) => { searchQuery = e.target.value.trim(); renderEmulators(); });
+    function formatDate(dateStr) { if (!dateStr) return '—'; const d = new Date(dateStr); return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }); }
 
-    // ── Helpers ─────────────────────────────────────
-    function formatDate(dateStr) {
-      if (!dateStr) return '—';
-      const d = new Date(dateStr);
-      return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
-    }
+    // Back to Top Logic
+    const bttBtn = document.getElementById("backToTop");
+    window.onscroll = function() { if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) { bttBtn.style.display = "flex"; } else { bttBtn.style.display = "none"; } };
+    bttBtn.addEventListener("click", () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 
-    // ── Boot ────────────────────────────────────────
     loadData();
   </script>
-
 </body>
 </html>
