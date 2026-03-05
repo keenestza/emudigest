@@ -1,3 +1,25 @@
+That makes perfect sense! My apologies, I took "Top Right" a bit too literally in the last step.
+
+I have moved the EmuDigest logo back to its rightful home in the Top Left corner. It is still a fully clickable "Home" button, and on mobile, it will stay neatly anchored to the top left right above the search bar. All the other mobile-friendly improvements (the scrolling category menu and the repositioned Live Feed) remain intact!
+
+Here is your updated index.html file.
+
+How to update:
+
+Open index.html on your GitHub repository.
+
+Click the Pencil icon ✏️ to edit.
+
+Delete all the code, and paste the code below.
+
+Click Commit changes.
+
+code
+Html
+play_circle
+download
+content_copy
+expand_less
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +40,8 @@
       --border:    #3a3a4c;
       
       /* Much brighter text */
-      --text:      #ffffff;       /* Pure white for main text */
-      --text-dim:  #b0b8c8;       /* Bright light-grey/blue for descriptions and dates */
+      --text:      #ffffff;       
+      --text-dim:  #b0b8c8;       
       
       /* Accents */
       --accent:    #00ff88;
@@ -44,7 +66,6 @@
     }
 
     /* ───── SCANLINE OVERLAY ───── */
-    /* Reduced opacity so it doesn't make text hard to read */
     body::after {
       content: '';
       position: fixed;
@@ -90,11 +111,18 @@
       max-width: 1280px;
       margin: 0 auto;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1.5rem;
-      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 1rem;
     }
+    
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      gap: 1rem;
+    }
+
     .logo {
       font-family: var(--font-pixel);
       font-size: 1.5rem;
@@ -102,14 +130,32 @@
       text-shadow: 0 0 20px var(--glow), 0 0 40px var(--glow);
       letter-spacing: 2px;
       white-space: nowrap;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+    .logo:hover {
+      text-decoration: none;
+      transform: scale(1.02);
     }
     .logo span { color: var(--accent-2); }
+    
+    /* Sleek Horizontal Scrolling for Mobile Navigation */
     .nav-links {
       display: flex;
       gap: 0.4rem;
-      flex-wrap: wrap;
+      width: 100%;
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
     }
+    .nav-links::-webkit-scrollbar { height: 6px; }
+    .nav-links::-webkit-scrollbar-track { background: transparent; }
+    .nav-links::-webkit-scrollbar-thumb { background: #4a4a5a; border-radius: 6px; }
+
     .nav-links button {
+      flex-shrink: 0; /* Prevents the buttons from getting squished */
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid #4a4a5a;
       color: #ffffff; 
@@ -130,6 +176,7 @@
       box-shadow: 0 0 10px var(--glow);
       font-weight: 800;
     }
+    
     .search-box {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid #4a4a5a;
@@ -137,7 +184,7 @@
       font-family: var(--font-mono);
       font-size: 0.85rem;
       padding: 0.5rem 0.8rem;
-      width: 220px;
+      width: 280px;
       outline: none;
       transition: border-color 0.2s;
       border-radius: 4px;
@@ -335,7 +382,7 @@
     /* ───── SIDEBAR / FEED ───── */
     .sidebar {
       position: sticky;
-      top: 80px;
+      top: 140px; /* Accounts for header size */
     }
     .feed-panel {
       background: var(--bg-card);
@@ -455,20 +502,24 @@
     }
     .footer a { color: var(--accent); font-weight: 600; }
 
-    /* ───── RESPONSIVE ───── */
+    /* ───── RESPONSIVE (MOBILE FIXES) ───── */
     @media (max-width: 900px) {
       .main-grid {
         grid-template-columns: 1fr;
       }
       .sidebar {
         position: static;
-        order: -1;
+        order: 2; /* Puts the Live Feed below the emulators on mobile */
       }
-      .feed-panel { max-height: 300px; }
-      .header-inner { justify-content: center; text-align: center; }
-      .nav-links { justify-content: center; }
+      .feed-panel { max-height: 400px; }
     }
+    
     @media (max-width: 600px) {
+      .header { padding: 1rem; }
+      .header-top {
+        flex-direction: column; /* Logo on top left, search below */
+        align-items: flex-start; /* Aligns Logo to the Top Left */
+      }
       .container { padding: 1rem; }
       .card-grid { grid-template-columns: 1fr; }
       .stats-bar { gap: 1rem; }
@@ -481,8 +532,10 @@
   <!-- HEADER -->
   <header class="header">
     <div class="header-inner">
-      <div class="logo">Emu<span>Digest</span></div>
-      <input type="text" class="search-box" id="searchInput" placeholder="Search emulators..." />
+      <div class="header-top">
+        <a href="index.html" class="logo">Emu<span>Digest</span></a>
+        <input type="text" class="search-box" id="searchInput" placeholder="Search emulators..." />
+      </div>
       <nav class="nav-links" id="navLinks">
         <button class="active" data-filter="all">All</button>
       </nav>
@@ -515,7 +568,7 @@
         <div class="loading" id="loadingState">Loading emulators</div>
       </main>
 
-      <!-- RIGHT: Feed sidebar -->
+      <!-- RIGHT / BOTTOM: Feed sidebar -->
       <aside class="sidebar">
         <div class="feed-panel">
           <div class="feed-header">Live Feed</div>
