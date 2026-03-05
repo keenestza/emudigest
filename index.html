@@ -62,6 +62,12 @@
     .container { max-width: 1280px; margin: 0 auto; padding: 2rem; position: relative; z-index: 1; }
     .main-grid { display: grid; grid-template-columns: 1fr 320px; gap: 2rem; align-items: start; }
 
+    /* ───── STATS BAR ───── */
+    .stats-bar { display: flex; gap: 2rem; margin-bottom: 2rem; padding: 1rem 1.5rem; background: var(--bg-card); border: 1px solid var(--border); flex-wrap: wrap; border-radius: 6px; }
+    .stat { display: flex; flex-direction: column; }
+    .stat-value { font-family: var(--font-pixel); font-size: 1.4rem; color: var(--accent); text-shadow: 0 0 10px var(--glow); }
+    .stat-label { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+
     /* ───── EMULATOR CARDS ───── */
     .section-title { font-family: var(--font-pixel); font-size: 0.9rem; color: var(--accent-3); text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
     .section-title::before { content: '> '; color: var(--accent); }
@@ -170,14 +176,31 @@
         <button data-platform="macOS">macOS</button>
         <button data-platform="Android">Android</button>
         <button data-platform="iOS">iOS</button>
+        <button data-platform="Web">Web</button>
       </div>
     </div>
   </header>
 
   <!-- MAIN -->
   <div class="container">
-    <div class="main-grid">
 
+    <!-- STATS (Do not remove this block!) -->
+    <div class="stats-bar" id="statsBar">
+      <div class="stat">
+        <span class="stat-value" id="statTotal">—</span>
+        <span class="stat-label">Emulators Tracked</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="statCategories">—</span>
+        <span class="stat-label">Categories</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="statRecent">—</span>
+        <span class="stat-label">Updated (30 days)</span>
+      </div>
+    </div>
+
+    <div class="main-grid">
       <!-- LEFT: Emulator list -->
       <main id="emulatorList">
         <div class="loading" id="loadingState">Loading emulators</div>
@@ -197,7 +220,6 @@
           <div class="last-updated" id="lastUpdated"></div>
         </div>
       </aside>
-
     </div>
   </div>
 
@@ -229,24 +251,33 @@
     async function loadData() {
       try {
         const resp = await fetch(DATA_URL + '?t=' + Date.now());
+        if (!resp.ok) throw new Error("Network response was not ok");
         DB = await resp.json();
         init();
       } catch (err) {
-        document.getElementById('loadingState').textContent = 'Failed to load data. Make sure emulators.json is in the same directory.';
+        const loadDiv = document.getElementById('loadingState');
+        if (loadDiv) loadDiv.textContent = 'Failed to load data. Make sure emulators.json is in the same directory.';
+        console.error("Load Data Error:", err);
       }
     }
 
+    // Wrapped in try/catch error boundaries so a missing piece of HTML won't crash the whole site!
     function init() {
-      buildNav();
-      updateStats();
-      renderFeed();
-      renderEmulators();
-      document.getElementById('lastUpdated').textContent = 'Last checked: ' + formatDate(DB.last_updated);
-      setupPlatformFilters();
+      try { buildNav(); } catch (e) { console.error("Nav Error", e); }
+      try { setupPlatformFilters(); } catch (e) { console.error("Platform Filters Error", e); }
+      try { renderEmulators(); } catch (e) { console.error("Render Emulators Error", e); }
+      try { renderFeed(); } catch (e) { console.error("Render Feed Error", e); }
+      try { updateStats(); } catch (e) { console.error("Update Stats Error", e); }
+      
+      try { 
+        const lu = document.getElementById('lastUpdated');
+        if (lu) lu.textContent = 'Last checked: ' + formatDate(DB.last_updated); 
+      } catch (e) {}
     }
 
     function buildNav() {
       const nav = document.getElementById('navLinks');
+      if (!nav) return;
       const categories =[...new Set(DB.emulators.map(e => e.category))].sort();
       categories.forEach(cat => {
         const btn = document.createElement('button');
@@ -255,7 +286,8 @@
         btn.addEventListener('click', () => setFilter(cat));
         nav.appendChild(btn);
       });
-      nav.querySelector('[data-filter="all"]').addEventListener('click', () => setFilter('all'));
+      const allBtn = nav.querySelector('[data-filter="all"]');
+      if (allBtn) allBtn.addEventListener('click', () => setFilter('all'));
     }
 
     function setFilter(filter) {
@@ -275,9 +307,28 @@
       });
     }
 
+    function updateStats() {
+      const statTotal = document.getElementById('statTotal');
+      const statCategories = document.getElementById('statCategories');
+      const statRecent = document.getElementById('statRecent');
+      
+      if (!statTotal || !statCategories || !statRecent) return;
+
+      const categories = new Set(DB.emulators.map(e => e.category));
+      const thirtyDaysAgo = new Date();
+      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+      const recent = DB.emulators.filter(e => new Date(e.release_date) >= thirtyDaysAgo).length;
+
+      statTotal.textContent = DB.emulators.length;
+      statCategories.textContent = categories.size;
+      statRecent.textContent = recent;
+    }
+
     function renderEmulators() {
       const container = document.getElementById('emulatorList');
-      let emulators = [...DB.emulators];
+      if (!container) return;
+      
+      let emulators =[...DB.emulators];
 
       // Filters
       if (currentFilter !== 'all') emulators = emulators.filter(e => e.category === currentFilter);
@@ -339,6 +390,8 @@
 
     function renderFeed() {
       const feedEl = document.getElementById('feedList');
+      if (!feedEl) return;
+      
       if (!DB.feed || DB.feed.length === 0) {
         feedEl.innerHTML = '<div class="feed-item" style="cursor:default; border-left:none;"><div class="feed-msg">No updates yet.</div></div>';
         return;
@@ -347,9 +400,10 @@
         const emu = DB.emulators.find(e => e.id === entry.emulator_id);
         const name = emu ? emu.name : entry.emulator_id;
         const link = emu ? emu.download_url : '#';
+        
         // Check if changelog exists and isn't a generic message
         let changelogHTML = '';
-        if (entry.message && entry.message !== "Release update!" && !entry.message.includes("released!")) {
+        if (entry.message && typeof entry.message === 'string' && entry.message !== "Release update!" && !entry.message.includes("released!")) {
             changelogHTML = `<span class="changelog-snippet">${entry.message}</span>`;
         }
         return `
