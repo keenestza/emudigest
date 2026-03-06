@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-05T13:24:02Z",
+  "last_updated": "2026-03-06T01:08:06Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-03-06",
+      "date": "2026-03-06T01:08:01Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "cemu-standalone",
       "version": "2.6",
@@ -1105,8 +1111,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-03-04",
-      "release_date": "2026-03-04",
+      "latest_version": "nightly-2026-03-06",
+      "release_date": "2026-03-06",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
