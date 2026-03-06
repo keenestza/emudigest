@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-06T01:08:06Z",
+  "last_updated": "2026-03-06T18:28:38Z",
   "feed": [
+    {
+      "emulator_id": "play",
+      "version": "0.74",
+      "date": "2026-03-06T18:28:26Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-06",
@@ -691,8 +697,8 @@
       "name": "Play!",
       "category": "PlayStation 2",
       "description": "A cross-platform PS2 emulator aiming to make emulation accessible.",
-      "latest_version": "0.73",
-      "release_date": "2026-03-02",
+      "latest_version": "0.74",
+      "release_date": "2026-03-06",
       "website": "https://purei.org/",
       "github": "jpd002/Play-",
       "download_url": "https://github.com/jpd002/Play-/releases",

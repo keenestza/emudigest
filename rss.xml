@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>play updated to v0.74</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-03-06T18:28:26Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-03-06</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -176,12 +182,6 @@
     <title>shadps4 updated to v.0.14.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version .0.14.0 released!</description>
-    <pubDate>2026-03-02T12:58:38Z</pubDate>
-  </item>
-  <item>
-    <title>rpcs3 updated to v0.0.39</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version 0.0.39 released!</description>
     <pubDate>2026-03-02T12:58:38Z</pubDate>
   </item>
 </channel>
