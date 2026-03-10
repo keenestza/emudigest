@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ppsspp updated to v1.20.2</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [...</description>
+    <pubDate>2026-03-10T18:33:25Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-03-10</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version 0.8.134 released!</description>
     <pubDate>2026-03-02T12:58:40Z</pubDate>
-  </item>
-  <item>
-    <title>vita3k updated to vcontinuous</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version continuous released!</description>
-    <pubDate>2026-03-02T12:58:39Z</pubDate>
   </item>
 </channel>
 </rss>
