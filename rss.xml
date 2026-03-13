@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-03-13</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-03-13T01:02:23Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-03-12</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -176,12 +182,6 @@
     <title>kronos updated to v2.7.0_official_release</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version 2.7.0_official_release released!</description>
-    <pubDate>2026-03-02T12:58:42Z</pubDate>
-  </item>
-  <item>
-    <title>picodrive updated to v2.05</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version 2.05 released!</description>
     <pubDate>2026-03-02T12:58:42Z</pubDate>
   </item>
 </channel>
