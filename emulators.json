@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-15T01:11:57Z",
+  "last_updated": "2026-03-15T18:22:04Z",
   "feed": [
+    {
+      "emulator_id": "ppsspp",
+      "version": "1.20.3",
+      "date": "2026-03-15T18:21:54Z",
+      "message": "PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-15",
@@ -294,12 +300,6 @@
       "version": "0.8.9",
       "date": "2026-03-02T12:58:32Z",
       "message": "Version 0.8.9 released!"
-    },
-    {
-      "emulator_id": "simple64",
-      "version": "2024.12.1",
-      "date": "2026-03-02T12:58:31Z",
-      "message": "Version 2024.12.1 released!"
     }
   ],
   "emulators": [
@@ -763,8 +763,8 @@
       "name": "PPSSPP",
       "category": "PSP",
       "description": "Fast and portable PSP emulator running on almost every platform.",
-      "latest_version": "1.20.2",
-      "release_date": "2026-03-10",
+      "latest_version": "1.20.3",
+      "release_date": "2026-03-15",
       "website": "https://www.ppsspp.org/",
       "github": "hrydgard/ppsspp",
       "download_url": "https://www.ppsspp.org/downloads.html",
