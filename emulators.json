@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-17T01:04:34Z",
+  "last_updated": "2026-03-17T12:40:55Z",
   "feed": [
+    {
+      "emulator_id": "shadps4",
+      "version": ".0.15.0",
+      "date": "2026-03-17T12:40:46Z",
+      "message": "Greetings, fellow users, testers, devs."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-17",
@@ -294,12 +300,6 @@
       "version": "2.6",
       "date": "2026-03-02T12:58:33Z",
       "message": "Version 2.6 released!"
-    },
-    {
-      "emulator_id": "dolphin",
-      "version": "nJoy",
-      "date": "2026-03-02T12:58:32Z",
-      "message": "Version nJoy released!"
     }
   ],
   "emulators": [
@@ -731,8 +731,8 @@
       "name": "shadPS4",
       "category": "PlayStation 4",
       "description": "An early-stage PlayStation 4 emulator making rapid progress.",
-      "latest_version": ".0.14.0",
-      "release_date": "2026-02-07",
+      "latest_version": ".0.15.0",
+      "release_date": "2026-03-17",
       "website": "https://shadps4.net/",
       "github": "shadps4-emu/shadPS4",
       "download_url": "https://github.com/shadps4-emu/shadPS4/releases",
