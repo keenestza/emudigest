@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-03-17</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-03-17T01:04:30Z</pubDate>
+  </item>
+  <item>
     <title>ppsspp updated to v1.20.3</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [...</description>
@@ -176,12 +182,6 @@
     <title>fbneo updated to vlatest</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version latest released!</description>
-    <pubDate>2026-03-02T12:58:43Z</pubDate>
-  </item>
-  <item>
-    <title>mame updated to vmame0286</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version mame0286 released!</description>
     <pubDate>2026-03-02T12:58:43Z</pubDate>
   </item>
 </channel>
