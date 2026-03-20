@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-03-20</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-03-20T01:03:47Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-03-19</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -176,12 +182,6 @@
     <title>openemu updated to v2.4.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version 2.4.1 released!</description>
-    <pubDate>2026-03-02T12:58:44Z</pubDate>
-  </item>
-  <item>
-    <title>ares updated to v147</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version 147 released!</description>
     <pubDate>2026-03-02T12:58:44Z</pubDate>
   </item>
 </channel>
