@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-03-23</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-03-23T01:08:51Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-03-22</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version dosbox-x-v2026.01.02 released!</description>
     <pubDate>2026-03-02T12:58:45Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-staging updated to v0.82.2</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version 0.82.2 released!</description>
-    <pubDate>2026-03-02T12:58:44Z</pubDate>
   </item>
 </channel>
 </rss>

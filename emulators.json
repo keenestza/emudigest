@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-22T01:07:28Z",
+  "last_updated": "2026-03-23T01:08:56Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-03-23",
+      "date": "2026-03-23T01:08:51Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-22",
@@ -294,12 +300,6 @@
       "version": "latest",
       "date": "2026-03-02T12:58:37Z",
       "message": "Version latest released!"
-    },
-    {
-      "emulator_id": "lime3ds",
-      "version": "2124.3",
-      "date": "2026-03-02T12:58:36Z",
-      "message": "Version 2124.3 released!"
     }
   ],
   "emulators": [
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-03-22",
-      "release_date": "2026-03-22",
+      "latest_version": "nightly-2026-03-23",
+      "release_date": "2026-03-23",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
