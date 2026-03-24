@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-03-24</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-03-24T01:01:05Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-03-23</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -176,12 +182,6 @@
     <title>86box updated to v5.3</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version 5.3 released!</description>
-    <pubDate>2026-03-02T12:58:45Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-x updated to vdosbox-x-v2026.01.02</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version dosbox-x-v2026.01.02 released!</description>
     <pubDate>2026-03-02T12:58:45Z</pubDate>
   </item>
 </channel>
