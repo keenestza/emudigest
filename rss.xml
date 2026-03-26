@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lime3ds updated to v2125.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>> Currently, the MSYS2 binary for Azahar 2125.0 is not available. This is due to a compiler issue wh...</description>
+    <pubDate>2026-03-26T18:48:23Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-03-26</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Version 7.0 released!</description>
     <pubDate>2026-03-02T12:58:46Z</pubDate>
-  </item>
-  <item>
-    <title>scummvm updated to v2026.1.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Version 2026.1.0 released!</description>
-    <pubDate>2026-03-02T12:58:45Z</pubDate>
   </item>
 </channel>
 </rss>

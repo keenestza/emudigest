@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-26T01:11:58Z",
+  "last_updated": "2026-03-26T18:48:33Z",
   "feed": [
+    {
+      "emulator_id": "lime3ds",
+      "version": "2125.0",
+      "date": "2026-03-26T18:48:23Z",
+      "message": "> Currently, the MSYS2 binary for Azahar 2125.0 is not available. This is due to a compiler issue wh..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-26",
@@ -294,12 +300,6 @@
       "version": "0.0.39",
       "date": "2026-03-02T12:58:38Z",
       "message": "Version 0.0.39 released!"
-    },
-    {
-      "emulator_id": "play",
-      "version": "0.73",
-      "date": "2026-03-02T12:58:38Z",
-      "message": "Version 0.73 released!"
     }
   ],
   "emulators": [
@@ -627,8 +627,8 @@
       "name": "Lime3DS",
       "category": "Nintendo 3DS",
       "description": "A high-performance Nintendo 3DS emulator fork.",
-      "latest_version": "2124.3",
-      "release_date": "2026-01-29",
+      "latest_version": "2125.0",
+      "release_date": "2026-03-26",
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
       "download_url": "https://github.com/Lime3DS/Lime3DS/releases",
