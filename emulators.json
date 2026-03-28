@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-03-26T18:48:33Z",
+  "last_updated": "2026-03-28T01:05:40Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-03-28",
+      "date": "2026-03-28T01:05:23Z",
+      "message": "New tag release created."
+    },
+    {
+      "emulator_id": "lime3ds",
+      "version": "2125.0.1",
+      "date": "2026-03-28T01:05:18Z",
+      "message": "> Pre-existing users of the Android vanilla variant should uninstall their current Azahar app before..."
+    },
     {
       "emulator_id": "lime3ds",
       "version": "2125.0",
@@ -288,18 +300,6 @@
       "version": "1.19.3",
       "date": "2026-03-02T12:58:39Z",
       "message": "Version 1.19.3 released!"
-    },
-    {
-      "emulator_id": "shadps4",
-      "version": ".0.14.0",
-      "date": "2026-03-02T12:58:38Z",
-      "message": "Version .0.14.0 released!"
-    },
-    {
-      "emulator_id": "rpcs3",
-      "version": "0.0.39",
-      "date": "2026-03-02T12:58:38Z",
-      "message": "Version 0.0.39 released!"
     }
   ],
   "emulators": [
@@ -627,7 +627,7 @@
       "name": "Lime3DS",
       "category": "Nintendo 3DS",
       "description": "A high-performance Nintendo 3DS emulator fork.",
-      "latest_version": "2125.0",
+      "latest_version": "2125.0.1",
       "release_date": "2026-03-26",
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-03-26",
-      "release_date": "2026-03-26",
+      "latest_version": "nightly-2026-03-28",
+      "release_date": "2026-03-28",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
