@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-03-28T01:05:40Z",
+  "last_updated": "2026-03-29T01:14:33Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-03-29",
+      "date": "2026-03-29T01:14:29Z",
+      "message": "New tag release created."
+    },
+    {
+      "emulator_id": "scummvm",
+      "version": "2026.2.0",
+      "date": "2026-03-29T01:14:29Z",
+      "message": "Three months have passed since the last release, and here we are again, with our new release approac..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-28",
@@ -288,18 +300,6 @@
       "version": "0.8.134",
       "date": "2026-03-02T12:58:40Z",
       "message": "Version 0.8.134 released!"
-    },
-    {
-      "emulator_id": "vita3k",
-      "version": "continuous",
-      "date": "2026-03-02T12:58:39Z",
-      "message": "Version continuous released!"
-    },
-    {
-      "emulator_id": "ppsspp",
-      "version": "1.19.3",
-      "date": "2026-03-02T12:58:39Z",
-      "message": "Version 1.19.3 released!"
     }
   ],
   "emulators": [
@@ -1082,8 +1082,8 @@
       "name": "ScummVM",
       "category": "PC / Engines",
       "description": "A program which allows you to run certain classic graphical point-and-click adventure games.",
-      "latest_version": "2026.1.0",
-      "release_date": "2026-01-31",
+      "latest_version": "2026.2.0",
+      "release_date": "2026-03-28",
       "website": "https://www.scummvm.org/",
       "github": "scummvm/scummvm",
       "download_url": "https://www.scummvm.org/downloads/",
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-03-28",
-      "release_date": "2026-03-28",
+      "latest_version": "nightly-2026-03-29",
+      "release_date": "2026-03-29",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
