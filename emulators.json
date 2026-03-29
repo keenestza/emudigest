@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-03-29T01:14:33Z",
+  "last_updated": "2026-03-29T12:29:23Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-x",
+      "version": "dosbox-x-v2026.03.29",
+      "date": "2026-03-29T12:29:18Z",
+      "message": "- Add dosbox.conf option to control the duration of the beep when"
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-29",
@@ -294,12 +300,6 @@
       "version": "0.1",
       "date": "2026-03-02T12:58:40Z",
       "message": "Version 0.1 released!"
-    },
-    {
-      "emulator_id": "xemu",
-      "version": "0.8.134",
-      "date": "2026-03-02T12:58:40Z",
-      "message": "Version 0.8.134 released!"
     }
   ],
   "emulators": [
@@ -1048,8 +1048,8 @@
       "name": "DOSBox-X",
       "category": "PC / DOS",
       "description": "DOSBox fork aimed at accurate emulation of the PC hardware and Windows 9x.",
-      "latest_version": "dosbox-x-v2026.01.02",
-      "release_date": "2026-01-03",
+      "latest_version": "dosbox-x-v2026.03.29",
+      "release_date": "2026-03-29",
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
