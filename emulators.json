@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-03-30T01:16:58Z",
+  "last_updated": "2026-03-31T01:12:44Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-03-31",
+      "date": "2026-03-31T01:12:41Z",
+      "message": "New tag release created."
+    },
+    {
+      "emulator_id": "mame",
+      "version": "mame0287",
+      "date": "2026-03-31T01:12:37Z",
+      "message": "New update available!"
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-03-30",
@@ -288,18 +300,6 @@
       "version": "2.6",
       "date": "2026-03-02T12:58:42Z",
       "message": "Version 2.6 released!"
-    },
-    {
-      "emulator_id": "kronos",
-      "version": "2.7.0_official_release",
-      "date": "2026-03-02T12:58:42Z",
-      "message": "Version 2.7.0_official_release released!"
-    },
-    {
-      "emulator_id": "picodrive",
-      "version": "2.05",
-      "date": "2026-03-02T12:58:42Z",
-      "message": "Version 2.05 released!"
     }
   ],
   "emulators": [
@@ -916,8 +916,8 @@
       "name": "MAME",
       "category": "Arcade",
       "description": "Multi-purpose emulation framework preserving decades of arcade history.",
-      "latest_version": "mame0286",
-      "release_date": "2026-02-25",
+      "latest_version": "mame0287",
+      "release_date": "2026-03-30",
       "website": "https://www.mamedev.org/",
       "github": "mamedev/mame",
       "download_url": "https://www.mamedev.org/release.html",
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-03-30",
-      "release_date": "2026-03-30",
+      "latest_version": "nightly-2026-03-31",
+      "release_date": "2026-03-31",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
