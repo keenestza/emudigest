@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-04-06T01:15:53Z",
+  "last_updated": "2026-04-08T01:14:45Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-04-08",
+      "date": "2026-04-08T01:14:41Z",
+      "message": "New tag release created."
+    },
+    {
+      "emulator_id": "play",
+      "version": "0.75",
+      "date": "2026-04-08T01:14:36Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-06",
@@ -288,18 +300,6 @@
       "version": "1.16.2",
       "date": "2026-03-02T12:58:44Z",
       "message": "Version 1.16.2 released!"
-    },
-    {
-      "emulator_id": "openemu",
-      "version": "2.4.1",
-      "date": "2026-03-02T12:58:44Z",
-      "message": "Version 2.4.1 released!"
-    },
-    {
-      "emulator_id": "ares",
-      "version": "147",
-      "date": "2026-03-02T12:58:44Z",
-      "message": "Version 147 released!"
     }
   ],
   "emulators": [
@@ -697,8 +697,8 @@
       "name": "Play!",
       "category": "PlayStation 2",
       "description": "A cross-platform PS2 emulator aiming to make emulation accessible.",
-      "latest_version": "0.74",
-      "release_date": "2026-03-06",
+      "latest_version": "0.75",
+      "release_date": "2026-04-08",
       "website": "https://purei.org/",
       "github": "jpd002/Play-",
       "download_url": "https://github.com/jpd002/Play-/releases",
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-04-06",
-      "release_date": "2026-04-06",
+      "latest_version": "nightly-2026-04-08",
+      "release_date": "2026-04-08",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",

@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-04-08</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-04-08T01:14:41Z</pubDate>
+  </item>
+  <item>
+    <title>play updated to v0.75</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-04-08T01:14:36Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-04-06</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-03-12T00:56:59Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-03-11</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-03-11T00:59:50Z</pubDate>
-  </item>
-  <item>
-    <title>ppsspp updated to v1.20.2</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [...</description>
-    <pubDate>2026-03-10T18:33:25Z</pubDate>
   </item>
 </channel>
 </rss>
