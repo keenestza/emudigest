@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-04-11T01:10:51Z",
+  "last_updated": "2026-04-12T01:19:12Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-04-12",
+      "date": "2026-04-12T01:18:54Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-11",
@@ -294,12 +300,6 @@
       "version": "5.3",
       "date": "2026-03-02T12:58:45Z",
       "message": "Version 5.3 released!"
-    },
-    {
-      "emulator_id": "dosbox-x",
-      "version": "dosbox-x-v2026.01.02",
-      "date": "2026-03-02T12:58:45Z",
-      "message": "Version dosbox-x-v2026.01.02 released!"
     }
   ],
   "emulators": [
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-04-11",
-      "release_date": "2026-04-11",
+      "latest_version": "nightly-2026-04-12",
+      "release_date": "2026-04-12",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
