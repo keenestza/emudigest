@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-04-15</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-04-15T01:19:35Z</pubDate>
+  </item>
+  <item>
+    <title>lime3ds updated to v2125.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This is a minor release for the 2125 series which introduces bug fixes and some low-risk improvement...</description>
+    <pubDate>2026-04-15T01:19:31Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-04-14</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-03-18T01:08:16Z</pubDate>
-  </item>
-  <item>
-    <title>shadps4 updated to v.0.15.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Greetings, fellow users, testers, devs.</description>
-    <pubDate>2026-03-17T12:40:46Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-03-17</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-03-17T01:04:30Z</pubDate>
   </item>
 </channel>
 </rss>

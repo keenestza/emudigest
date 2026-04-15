@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-04-14T01:20:04Z",
+  "last_updated": "2026-04-15T01:19:39Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-04-15",
+      "date": "2026-04-15T01:19:35Z",
+      "message": "New tag release created."
+    },
+    {
+      "emulator_id": "lime3ds",
+      "version": "2125.1",
+      "date": "2026-04-15T01:19:31Z",
+      "message": "This is a minor release for the 2125 series which introduces bug fixes and some low-risk improvement..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-14",
@@ -288,18 +300,6 @@
       "version": "nightly-2026-03-02",
       "date": "2026-03-02T12:58:46Z",
       "message": "Version nightly-2026-03-02 released!"
-    },
-    {
-      "emulator_id": "stella",
-      "version": "7.0",
-      "date": "2026-03-02T12:58:46Z",
-      "message": "Version 7.0 released!"
-    },
-    {
-      "emulator_id": "scummvm",
-      "version": "2026.1.0",
-      "date": "2026-03-02T12:58:45Z",
-      "message": "Version 2026.1.0 released!"
     }
   ],
   "emulators": [
@@ -627,8 +627,8 @@
       "name": "Lime3DS",
       "category": "Nintendo 3DS",
       "description": "A high-performance Nintendo 3DS emulator fork.",
-      "latest_version": "2125.0.1",
-      "release_date": "2026-03-26",
+      "latest_version": "2125.1",
+      "release_date": "2026-04-14",
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
       "download_url": "https://github.com/Lime3DS/Lime3DS/releases",
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-04-14",
-      "release_date": "2026-04-14",
+      "latest_version": "nightly-2026-04-15",
+      "release_date": "2026-04-15",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
