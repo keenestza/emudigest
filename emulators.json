@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-04-21T01:19:15Z",
+  "last_updated": "2026-04-21T12:56:00Z",
   "feed": [
+    {
+      "emulator_id": "lemuroid",
+      "version": "1.17.0",
+      "date": "2026-04-21T12:55:52Z",
+      "message": "Added microphone support for Nintendo DS"
+    },
+    {
+      "emulator_id": "lime3ds",
+      "version": "2125.1.1",
+      "date": "2026-04-21T12:55:48Z",
+      "message": "This is an unscheduled bugfix update which addresses previously undetected regressions in the 2125.0..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-21",
@@ -288,18 +300,6 @@
       "version": "2.6",
       "date": "2026-03-05T13:24:02Z",
       "message": "New version detected on official website."
-    },
-    {
-      "emulator_id": "demul",
-      "version": "0.7",
-      "date": "2026-03-05T13:24:01Z",
-      "message": "New version detected on official website."
-    },
-    {
-      "emulator_id": "sameboy",
-      "version": "1.0.3",
-      "date": "2026-03-05T01:03:40Z",
-      "message": "Version 1.0.3 released!"
     }
   ],
   "emulators": [
@@ -627,8 +627,8 @@
       "name": "Lime3DS",
       "category": "Nintendo 3DS",
       "description": "A high-performance Nintendo 3DS emulator fork.",
-      "latest_version": "2125.1",
-      "release_date": "2026-04-14",
+      "latest_version": "2125.1.1",
+      "release_date": "2026-04-21",
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
       "download_url": "https://github.com/Lime3DS/Lime3DS/releases",
@@ -1016,8 +1016,8 @@
       "name": "Lemuroid",
       "category": "Multi-System",
       "description": "An open-source multi-system emulator entirely built for Android.",
-      "latest_version": "1.16.2",
-      "release_date": "2024-10-22",
+      "latest_version": "1.17.0",
+      "release_date": "2026-04-21",
       "website": "https://github.com/Swordfish90/Lemuroid",
       "github": "Swordfish90/Lemuroid",
       "download_url": "https://github.com/Swordfish90/Lemuroid/releases",
