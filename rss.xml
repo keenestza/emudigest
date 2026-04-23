@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-04-23</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-04-23T01:22:53Z</pubDate>
+  </item>
+  <item>
     <title>lemuroid updated to v1.17.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Added microphone support for Nintendo DS</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>> Currently, the MSYS2 binary for Azahar 2125.0 is not available. This is due to a compiler issue wh...</description>
     <pubDate>2026-03-26T18:48:23Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-03-26</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-03-26T01:11:54Z</pubDate>
   </item>
 </channel>
 </rss>
