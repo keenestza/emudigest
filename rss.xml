@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-04-25</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-04-25T01:15:29Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-04-24</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-03-28T01:05:23Z</pubDate>
-  </item>
-  <item>
-    <title>lime3ds updated to v2125.0.1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>> Pre-existing users of the Android vanilla variant should uninstall their current Azahar app before...</description>
-    <pubDate>2026-03-28T01:05:18Z</pubDate>
   </item>
 </channel>
 </rss>
