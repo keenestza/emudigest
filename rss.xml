@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-04-27</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-04-27T01:25:33Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-04-26</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -176,12 +182,6 @@
     <title>ruffle updated to vnightly-2026-03-29</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
-    <pubDate>2026-03-29T01:14:29Z</pubDate>
-  </item>
-  <item>
-    <title>scummvm updated to v2026.2.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Three months have passed since the last release, and here we are again, with our new release approac...</description>
     <pubDate>2026-03-29T01:14:29Z</pubDate>
   </item>
 </channel>
