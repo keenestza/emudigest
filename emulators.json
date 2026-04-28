@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-04-27T01:25:36Z",
+  "last_updated": "2026-04-28T01:45:06Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-04-28",
+      "date": "2026-04-28T01:45:02Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-27",
@@ -294,12 +300,6 @@
       "version": "nightly-2026-03-11",
       "date": "2026-03-11T00:59:50Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ppsspp",
-      "version": "1.20.2",
-      "date": "2026-03-10T18:33:25Z",
-      "message": "PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [..."
     }
   ],
   "emulators": [
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-04-27",
-      "release_date": "2026-04-27",
+      "latest_version": "nightly-2026-04-28",
+      "release_date": "2026-04-28",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
