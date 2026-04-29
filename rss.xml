@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-04-29</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-04-29T01:47:57Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to vnightly-2026-04-28</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-03-30T01:16:55Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-x updated to vdosbox-x-v2026.03.29</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- Add dosbox.conf option to control the duration of the beep when</description>
-    <pubDate>2026-03-29T12:29:18Z</pubDate>
   </item>
 </channel>
 </rss>
