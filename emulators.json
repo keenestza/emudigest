@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-01T01:49:46Z",
+  "last_updated": "2026-05-01T18:53:52Z",
   "feed": [
+    {
+      "emulator_id": "bizhawk",
+      "version": "2.11.1",
+      "date": "2026-05-01T18:53:46Z",
+      "message": "New experimental core: PPSSPP for PlayStation Portable"
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-01",
@@ -294,12 +300,6 @@
       "version": "1.20.3",
       "date": "2026-03-15T18:21:54Z",
       "message": "PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-03-15",
-      "date": "2026-03-15T01:11:53Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -968,8 +968,8 @@
       "name": "BizHawk",
       "category": "Multi-System",
       "description": "Multi-system emulator focused on Tool-Assisted Speedruns (TAS).",
-      "latest_version": "2.11",
-      "release_date": "2025-09-20",
+      "latest_version": "2.11.1",
+      "release_date": "2026-05-01",
       "website": "https://tasvideos.org/BizHawk",
       "github": "TASEmulators/BizHawk",
       "download_url": "https://github.com/TASEmulators/BizHawk/releases",
