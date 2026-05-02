@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-05-02</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-05-02T01:27:06Z</pubDate>
+  </item>
+  <item>
     <title>bizhawk updated to v2.11.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New experimental core: PPSSPP for PlayStation Portable</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-04-03T01:12:44Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-04-01</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-04-01T01:19:29Z</pubDate>
   </item>
 </channel>
 </rss>
