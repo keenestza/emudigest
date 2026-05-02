@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-02T01:27:11Z",
+  "last_updated": "2026-05-02T18:40:01Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-x",
+      "version": "dosbox-x-v2026.05.02-osfree",
+      "date": "2026-05-02T18:39:55Z",
+      "message": "- DOSBox-X will now check both the current directory and the .config"
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-02",
@@ -294,12 +300,6 @@
       "version": ".0.15.0",
       "date": "2026-03-17T12:40:46Z",
       "message": "Greetings, fellow users, testers, devs."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-03-17",
-      "date": "2026-03-17T01:04:30Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -1048,8 +1048,8 @@
       "name": "DOSBox-X",
       "category": "PC / DOS",
       "description": "DOSBox fork aimed at accurate emulation of the PC hardware and Windows 9x.",
-      "latest_version": "dosbox-x-v2026.03.29",
-      "release_date": "2026-03-29",
+      "latest_version": "dosbox-x-v2026.05.02-osfree",
+      "release_date": "2026-05-02",
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
