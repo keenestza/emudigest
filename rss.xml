@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to vnightly-2026-05-03</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-05-03T01:43:03Z</pubDate>
+  </item>
+  <item>
     <title>dosbox-x updated to vdosbox-x-v2026.05.02-osfree</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- DOSBox-X will now check both the current directory and the .config</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-04-05T01:15:52Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-04-04</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-04-04T01:06:39Z</pubDate>
   </item>
 </channel>
 </rss>
