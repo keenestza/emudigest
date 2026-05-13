@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-12T01:49:20Z",
+  "last_updated": "2026-05-13T01:53:58Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-05-13",
+      "date": "2026-05-13T01:53:53Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-12",
@@ -294,12 +300,6 @@
       "version": "2125.0",
       "date": "2026-03-26T18:48:23Z",
       "message": "> Currently, the MSYS2 binary for Azahar 2125.0 is not available. This is due to a compiler issue wh..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-03-26",
-      "date": "2026-03-26T01:11:54Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-05-12",
-      "release_date": "2026-05-12",
+      "latest_version": "nightly-2026-05-13",
+      "release_date": "2026-05-13",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
