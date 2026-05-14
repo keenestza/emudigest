@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-13T01:53:58Z",
+  "last_updated": "2026-05-14T01:56:21Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "nightly-2026-05-14",
+      "date": "2026-05-14T01:56:18Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-13",
@@ -294,12 +300,6 @@
       "version": "2125.0.1",
       "date": "2026-03-28T01:05:18Z",
       "message": "> Pre-existing users of the Android vanilla variant should uninstall their current Azahar app before..."
-    },
-    {
-      "emulator_id": "lime3ds",
-      "version": "2125.0",
-      "date": "2026-03-26T18:48:23Z",
-      "message": "> Currently, the MSYS2 binary for Azahar 2125.0 is not available. This is due to a compiler issue wh..."
     }
   ],
   "emulators": [
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "nightly-2026-05-13",
-      "release_date": "2026-05-13",
+      "latest_version": "nightly-2026-05-14",
+      "release_date": "2026-05-14",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
