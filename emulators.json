@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-14T01:56:21Z",
+  "last_updated": "2026-05-14T19:25:18Z",
   "feed": [
+    {
+      "emulator_id": "lime3ds",
+      "version": "2125.1.2",
+      "date": "2026-05-14T19:25:07Z",
+      "message": "This is an unscheduled release to put into action new security policies we have enabled for Azahar a..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-14",
@@ -294,12 +300,6 @@
       "version": "nightly-2026-03-28",
       "date": "2026-03-28T01:05:23Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "lime3ds",
-      "version": "2125.0.1",
-      "date": "2026-03-28T01:05:18Z",
-      "message": "> Pre-existing users of the Android vanilla variant should uninstall their current Azahar app before..."
     }
   ],
   "emulators": [
@@ -627,8 +627,8 @@
       "name": "Lime3DS",
       "category": "Nintendo 3DS",
       "description": "A high-performance Nintendo 3DS emulator fork.",
-      "latest_version": "2125.1.1",
-      "release_date": "2026-04-21",
+      "latest_version": "2125.1.2",
+      "release_date": "2026-05-14",
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
       "download_url": "https://github.com/Lime3DS/Lime3DS/releases",
