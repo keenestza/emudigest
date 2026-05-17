@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lime3ds updated to v2125.1.2</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This is an unscheduled release to put into action new security policies we have enabled for Azahar a...</description>
+    <pubDate>2026-05-17T01:51:52Z</pubDate>
+  </item>
+  <item>
     <title>lime3ds updated to v2126.0-alpha1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description><h3>⚠️Important Alpha Information⚠️</h3></description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Added microphone support for Nintendo DS</description>
     <pubDate>2026-04-21T12:55:52Z</pubDate>
-  </item>
-  <item>
-    <title>lime3ds updated to v2125.1.1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>This is an unscheduled bugfix update which addresses previously undetected regressions in the 2125.0...</description>
-    <pubDate>2026-04-21T12:55:48Z</pubDate>
   </item>
 </channel>
 </rss>
