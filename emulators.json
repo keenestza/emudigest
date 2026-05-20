@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-17T01:52:01Z",
+  "last_updated": "2026-05-20T02:00:19Z",
   "feed": [
+    {
+      "emulator_id": "xemu",
+      "version": "0.8.135",
+      "date": "2026-05-20T02:00:09Z",
+      "message": "2870 - meson: Bump SPIRV-Reflect to vulkan-sdk-1.4.350.0 (@xemu-robot)"
+    },
     {
       "emulator_id": "lime3ds",
       "version": "2125.1.2",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-01",
       "date": "2026-04-01T01:19:29Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-03-31",
-      "date": "2026-03-31T01:12:41Z",
       "message": "New tag release created."
     }
   ],
@@ -800,8 +800,8 @@
       "name": "xemu",
       "category": "Xbox",
       "description": "An open-source original Xbox emulator.",
-      "latest_version": "0.8.134",
-      "release_date": "2026-02-26",
+      "latest_version": "0.8.135",
+      "release_date": "2026-05-20",
       "website": "https://xemu.app/",
       "github": "xemu-project/xemu",
       "download_url": "https://github.com/xemu-project/xemu/releases",

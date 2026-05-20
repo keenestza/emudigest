@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>xemu updated to v0.8.135</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>2870 - meson: Bump SPIRV-Reflect to vulkan-sdk-1.4.350.0 (@xemu-robot)</description>
+    <pubDate>2026-05-20T02:00:09Z</pubDate>
+  </item>
+  <item>
     <title>lime3ds updated to v2125.1.2</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This is an unscheduled release to put into action new security policies we have enabled for Azahar a...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-04-23T01:22:53Z</pubDate>
-  </item>
-  <item>
-    <title>lemuroid updated to v1.17.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Added microphone support for Nintendo DS</description>
-    <pubDate>2026-04-21T12:55:52Z</pubDate>
   </item>
 </channel>
 </rss>
