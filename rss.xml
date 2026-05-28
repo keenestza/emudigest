@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>mame updated to vmame0288</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New update available!</description>
+    <pubDate>2026-05-28T20:01:33Z</pubDate>
+  </item>
+  <item>
     <title>pcsx2 updated to v2.6.3</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- GS/DX12: Fix recreating swapchain failing on vsync mode changes</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-04-26T01:24:32Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-04-25</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-04-25T01:15:29Z</pubDate>
   </item>
 </channel>
 </rss>

@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-23T18:51:24Z",
+  "last_updated": "2026-05-28T20:01:40Z",
   "feed": [
+    {
+      "emulator_id": "mame",
+      "version": "mame0288",
+      "date": "2026-05-28T20:01:33Z",
+      "message": "New update available!"
+    },
     {
       "emulator_id": "pcsx2",
       "version": "2.6.3",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-05",
       "date": "2026-04-05T01:15:52Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-04",
-      "date": "2026-04-04T01:06:39Z",
       "message": "New tag release created."
     }
   ],
@@ -916,8 +916,8 @@
       "name": "MAME",
       "category": "Arcade",
       "description": "Multi-purpose emulation framework preserving decades of arcade history.",
-      "latest_version": "mame0287",
-      "release_date": "2026-03-30",
+      "latest_version": "mame0288",
+      "release_date": "2026-05-28",
       "website": "https://www.mamedev.org/",
       "github": "mamedev/mame",
       "download_url": "https://www.mamedev.org/release.html",
