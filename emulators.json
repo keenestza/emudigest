@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-28T20:01:40Z",
+  "last_updated": "2026-05-30T18:56:20Z",
   "feed": [
+    {
+      "emulator_id": "ares",
+      "version": "148",
+      "date": "2026-05-30T18:55:53Z",
+      "message": "ares v148 has now been released."
+    },
     {
       "emulator_id": "mame",
       "version": "mame0288",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-06",
       "date": "2026-04-06T01:15:50Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-05",
-      "date": "2026-04-05T01:15:52Z",
       "message": "New tag release created."
     }
   ],
@@ -984,8 +984,8 @@
       "name": "Ares",
       "category": "Multi-System",
       "description": "A cross-platform, multi-system emulator focusing on accuracy and preservation.",
-      "latest_version": "147",
-      "release_date": "2025-12-23",
+      "latest_version": "148",
+      "release_date": "2026-05-30",
       "website": "https://ares-emu.net/",
       "github": "ares-emulator/ares",
       "download_url": "https://github.com/ares-emulator/ares/releases",
