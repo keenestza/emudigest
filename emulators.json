@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-05-30T18:56:20Z",
+  "last_updated": "2026-05-31T08:32:05Z",
   "feed": [
+    {
+      "emulator_id": "86box",
+      "version": "6.0",
+      "date": "2026-05-31T08:31:56Z",
+      "message": "![image](http://86box.net/assets/images/v6.0/hero.png)"
+    },
     {
       "emulator_id": "ares",
       "version": "148",
@@ -293,12 +299,6 @@
       "emulator_id": "play",
       "version": "0.75",
       "date": "2026-04-08T01:14:36Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-06",
-      "date": "2026-04-06T01:15:50Z",
       "message": "New tag release created."
     }
   ],
@@ -1065,8 +1065,8 @@
       "name": "86Box",
       "category": "PC / Windows",
       "description": "Emulator of x86-based machines capable of running old Windows and DOS.",
-      "latest_version": "5.3",
-      "release_date": "2025-12-22",
+      "latest_version": "6.0",
+      "release_date": "2026-05-31",
       "website": "https://86box.net/",
       "github": "86Box/86Box",
       "download_url": "https://github.com/86Box/86Box/releases",
