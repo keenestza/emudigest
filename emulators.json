@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-05-31T08:32:05Z",
+  "last_updated": "2026-06-01T17:13:08Z",
   "feed": [
+    {
+      "emulator_id": "shadps4",
+      "version": ".0.16.0",
+      "date": "2026-06-01T17:12:57Z",
+      "message": "shadPS4 v0.16.0 Released"
+    },
+    {
+      "emulator_id": "play",
+      "version": "0.76",
+      "date": "2026-06-01T17:12:56Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "86box",
       "version": "6.0",
@@ -287,18 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-09",
       "date": "2026-04-09T01:04:30Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-08",
-      "date": "2026-04-08T01:14:41Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "play",
-      "version": "0.75",
-      "date": "2026-04-08T01:14:36Z",
       "message": "New tag release created."
     }
   ],
@@ -697,8 +697,8 @@
       "name": "Play!",
       "category": "PlayStation 2",
       "description": "A cross-platform PS2 emulator aiming to make emulation accessible.",
-      "latest_version": "0.75",
-      "release_date": "2026-04-08",
+      "latest_version": "0.76",
+      "release_date": "2026-06-01",
       "website": "https://purei.org/",
       "github": "jpd002/Play-",
       "download_url": "https://github.com/jpd002/Play-/releases",
@@ -731,8 +731,8 @@
       "name": "shadPS4",
       "category": "PlayStation 4",
       "description": "An early-stage PlayStation 4 emulator making rapid progress.",
-      "latest_version": ".0.15.0",
-      "release_date": "2026-03-17",
+      "latest_version": ".0.16.0",
+      "release_date": "2026-06-01",
       "website": "https://shadps4.net/",
       "github": "shadps4-emu/shadPS4",
       "download_url": "https://github.com/shadps4-emu/shadPS4/releases",

@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>shadps4 updated to v.0.16.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>shadPS4 v0.16.0 Released</description>
+    <pubDate>2026-06-01T17:12:57Z</pubDate>
+  </item>
+  <item>
+    <title>play updated to v0.76</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-06-01T17:12:56Z</pubDate>
+  </item>
+  <item>
     <title>86box updated to v6.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>![image](http://86box.net/assets/images/v6.0/hero.png)</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-04-30T01:46:58Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-04-29</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-04-29T01:47:57Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-04-28</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-04-28T01:45:02Z</pubDate>
   </item>
 </channel>
 </rss>
