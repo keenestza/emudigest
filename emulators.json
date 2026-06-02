@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-06-01T17:13:08Z",
+  "last_updated": "2026-06-02T20:32:36Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-x",
+      "version": "dosbox-x-v2026.06.02-osfree",
+      "date": "2026-06-02T20:32:32Z",
+      "message": "- DOS file search bugfix: Prevent undefined statblock usage on failed"
+    },
     {
       "emulator_id": "shadps4",
       "version": ".0.16.0",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-11",
       "date": "2026-04-11T01:10:33Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-09",
-      "date": "2026-04-09T01:04:30Z",
       "message": "New tag release created."
     }
   ],
@@ -1048,8 +1048,8 @@
       "name": "DOSBox-X",
       "category": "PC / DOS",
       "description": "DOSBox fork aimed at accurate emulation of the PC hardware and Windows 9x.",
-      "latest_version": "dosbox-x-v2026.05.02-osfree",
-      "release_date": "2026-05-02",
+      "latest_version": "dosbox-x-v2026.06.02-osfree",
+      "release_date": "2026-06-02",
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
