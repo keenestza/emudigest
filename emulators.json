@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-06-02T20:32:36Z",
+  "last_updated": "2026-06-04T02:29:55Z",
   "feed": [
+    {
+      "emulator_id": "rpcs3",
+      "version": "0.0.41",
+      "date": "2026-06-04T02:29:47Z",
+      "message": "Please note that our version increases are landmarks and not stable builds"
+    },
     {
       "emulator_id": "dosbox-x",
       "version": "dosbox-x-v2026.06.02-osfree",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-12",
       "date": "2026-04-12T01:18:54Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-11",
-      "date": "2026-04-11T01:10:33Z",
       "message": "New tag release created."
     }
   ],
@@ -714,8 +714,8 @@
       "name": "RPCS3",
       "category": "PlayStation 3",
       "description": "The world's first open-source PlayStation 3 emulator.",
-      "latest_version": "0.0.40",
-      "release_date": "2026-03-03",
+      "latest_version": "0.0.41",
+      "release_date": "2026-06-04",
       "website": "https://rpcs3.net/",
       "github": "RPCS3/rpcs3",
       "download_url": "https://rpcs3.net/download",
