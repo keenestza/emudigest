@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>xemu updated to v0.8.136</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>2892 - ci: Update Windows build toolchain image SHA (@mborgerson)</description>
+    <pubDate>2026-06-08T10:12:06Z</pubDate>
+  </item>
+  <item>
     <title>rpcs3 updated to v0.0.41</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Please note that our version increases are landmarks and not stable builds</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-05-02T01:27:06Z</pubDate>
-  </item>
-  <item>
-    <title>bizhawk updated to v2.11.1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New experimental core: PPSSPP for PlayStation Portable</description>
-    <pubDate>2026-05-01T18:53:46Z</pubDate>
   </item>
 </channel>
 </rss>

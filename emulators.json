@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-06-04T02:29:55Z",
+  "last_updated": "2026-06-08T10:12:15Z",
   "feed": [
+    {
+      "emulator_id": "xemu",
+      "version": "0.8.136",
+      "date": "2026-06-08T10:12:06Z",
+      "message": "2892 - ci: Update Windows build toolchain image SHA (@mborgerson)"
+    },
     {
       "emulator_id": "rpcs3",
       "version": "0.0.41",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-14",
       "date": "2026-04-14T01:19:57Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-12",
-      "date": "2026-04-12T01:18:54Z",
       "message": "New tag release created."
     }
   ],
@@ -800,8 +800,8 @@
       "name": "xemu",
       "category": "Xbox",
       "description": "An open-source original Xbox emulator.",
-      "latest_version": "0.8.135",
-      "release_date": "2026-05-20",
+      "latest_version": "0.8.136",
+      "release_date": "2026-06-08",
       "website": "https://xemu.app/",
       "github": "xemu-project/xemu",
       "download_url": "https://github.com/xemu-project/xemu/releases",
