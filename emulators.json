@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-06-08T10:12:15Z",
+  "last_updated": "2026-06-14T08:58:36Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "0.3.0",
+      "date": "2026-06-14T08:58:33Z",
+      "message": "avm2: Fixes to Error's prototype by @Lord-McSweeney in https://github.com/ruffle-rs/ruffle/pull/2371..."
+    },
     {
       "emulator_id": "xemu",
       "version": "0.8.136",
@@ -294,12 +300,6 @@
       "version": "2125.1",
       "date": "2026-04-15T01:19:31Z",
       "message": "This is a minor release for the 2125 series which introduces bug fixes and some low-risk improvement..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-14",
-      "date": "2026-04-14T01:19:57Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "0.2.0",
-      "release_date": "2026-05-16",
+      "latest_version": "0.3.0",
+      "release_date": "2026-06-14",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
