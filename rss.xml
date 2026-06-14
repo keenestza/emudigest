@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>rmg updated to v0.9.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Fix build issues with zlib v1.3.1</description>
+    <pubDate>2026-06-14T19:04:41Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to v0.3.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>avm2: Fixes to Error's prototype by @Lord-McSweeney in https://github.com/ruffle-rs/ruffle/pull/2371...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-05-03T01:43:03Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-x updated to vdosbox-x-v2026.05.02-osfree</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- DOSBox-X will now check both the current directory and the .config</description>
-    <pubDate>2026-05-02T18:39:55Z</pubDate>
   </item>
 </channel>
 </rss>

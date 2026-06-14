@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-06-14T08:58:36Z",
+  "last_updated": "2026-06-14T19:05:02Z",
   "feed": [
+    {
+      "emulator_id": "rmg",
+      "version": "0.9.0",
+      "date": "2026-06-14T19:04:41Z",
+      "message": "Fix build issues with zlib v1.3.1"
+    },
     {
       "emulator_id": "ruffle",
       "version": "0.3.0",
@@ -294,12 +300,6 @@
       "version": "nightly-2026-04-15",
       "date": "2026-04-15T01:19:35Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "lime3ds",
-      "version": "2125.1",
-      "date": "2026-04-15T01:19:31Z",
-      "message": "This is a minor release for the 2125 series which introduces bug fixes and some low-risk improvement..."
     }
   ],
   "emulators": [
@@ -440,8 +440,8 @@
       "name": "Rosalie's Mupen GUI",
       "category": "Nintendo 64",
       "description": "A modern and accurate N64 emulator based on mupen64plus.",
-      "latest_version": "0.8.9",
-      "release_date": "2026-01-23",
+      "latest_version": "0.9.0",
+      "release_date": "2026-06-14",
       "website": "https://github.com/Rosalie241/RMG",
       "github": "Rosalie241/RMG",
       "download_url": "https://github.com/Rosalie241/RMG/releases",
