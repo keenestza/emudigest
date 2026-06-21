@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-06-14T19:05:02Z",
+  "last_updated": "2026-06-21T02:28:26Z",
   "feed": [
+    {
+      "emulator_id": "scummvm",
+      "version": "2026.3.0",
+      "date": "2026-06-21T02:28:22Z",
+      "message": "ScummVM 2026.3.0 \"Carousels & Killer Whales\" comes to fruition. So far, we are able to keep the rele..."
+    },
     {
       "emulator_id": "rmg",
       "version": "0.9.0",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-17",
       "date": "2026-04-17T01:19:39Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-15",
-      "date": "2026-04-15T01:19:35Z",
       "message": "New tag release created."
     }
   ],
@@ -1082,8 +1082,8 @@
       "name": "ScummVM",
       "category": "PC / Engines",
       "description": "A program which allows you to run certain classic graphical point-and-click adventure games.",
-      "latest_version": "2026.2.0",
-      "release_date": "2026-03-28",
+      "latest_version": "2026.3.0",
+      "release_date": "2026-06-20",
       "website": "https://www.scummvm.org/",
       "github": "scummvm/scummvm",
       "download_url": "https://www.scummvm.org/downloads/",

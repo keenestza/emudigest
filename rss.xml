@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>scummvm updated to v2026.3.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>ScummVM 2026.3.0 "Carousels & Killer Whales" comes to fruition. So far, we are able to keep the rele...</description>
+    <pubDate>2026-06-21T02:28:22Z</pubDate>
+  </item>
+  <item>
     <title>rmg updated to v0.9.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Fix build issues with zlib v1.3.1</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-05-04T01:29:31Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-05-03</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-03T01:43:03Z</pubDate>
   </item>
 </channel>
 </rss>
