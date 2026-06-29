@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-06-21T02:28:26Z",
+  "last_updated": "2026-06-29T19:29:37Z",
   "feed": [
+    {
+      "emulator_id": "lime3ds",
+      "version": "2125.1.3",
+      "date": "2026-06-29T19:29:27Z",
+      "message": "This is an unscheduled release which almost exclusively addresses issues in the macOS version of Aza..."
+    },
     {
       "emulator_id": "scummvm",
       "version": "2026.3.0",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-18",
       "date": "2026-04-18T01:13:09Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-17",
-      "date": "2026-04-17T01:19:39Z",
       "message": "New tag release created."
     }
   ],
@@ -627,8 +627,8 @@
       "name": "Lime3DS",
       "category": "Nintendo 3DS",
       "description": "A high-performance Nintendo 3DS emulator fork.",
-      "latest_version": "2125.1.2",
-      "release_date": "2026-05-14",
+      "latest_version": "2125.1.3",
+      "release_date": "2026-06-29",
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
       "download_url": "https://github.com/Lime3DS/Lime3DS/releases",

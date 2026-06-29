@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lime3ds updated to v2125.1.3</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This is an unscheduled release which almost exclusively addresses issues in the macOS version of Aza...</description>
+    <pubDate>2026-06-29T19:29:27Z</pubDate>
+  </item>
+  <item>
     <title>scummvm updated to v2026.3.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>ScummVM 2026.3.0 "Carousels & Killer Whales" comes to fruition. So far, we are able to keep the rele...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-05-05T01:29:34Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-05-04</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-04T01:29:31Z</pubDate>
   </item>
 </channel>
 </rss>
