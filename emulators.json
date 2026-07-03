@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-07-02T19:05:24Z",
+  "last_updated": "2026-07-03T08:44:29Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-x",
+      "version": "dosbox-x-v2026.07.02",
+      "date": "2026-07-03T08:44:25Z",
+      "message": "- Prepare for release. This time release OSFREE first so that the normal"
+    },
     {
       "emulator_id": "play",
       "version": "0.77",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-20",
       "date": "2026-04-20T01:21:59Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-19",
-      "date": "2026-04-19T01:22:10Z",
       "message": "New tag release created."
     }
   ],
@@ -1048,8 +1048,8 @@
       "name": "DOSBox-X",
       "category": "PC / DOS",
       "description": "DOSBox fork aimed at accurate emulation of the PC hardware and Windows 9x.",
-      "latest_version": "dosbox-x-v2026.06.02-osfree",
-      "release_date": "2026-06-02",
+      "latest_version": "dosbox-x-v2026.07.02",
+      "release_date": "2026-07-03",
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
