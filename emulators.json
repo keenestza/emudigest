@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-07-03T08:44:29Z",
+  "last_updated": "2026-07-19T01:21:54Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "0.4.0",
+      "date": "2026-07-19T01:21:51Z",
+      "message": "avm1: Make Object::set accept impl Into<Value> by @SuchAFuriousDeath in https://github.com/ruffle-rs..."
+    },
     {
       "emulator_id": "dosbox-x",
       "version": "dosbox-x-v2026.07.02",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-21",
       "date": "2026-04-21T01:19:11Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-20",
-      "date": "2026-04-20T01:21:59Z",
       "message": "New tag release created."
     }
   ],
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "0.3.0",
-      "release_date": "2026-06-14",
+      "latest_version": "0.4.0",
+      "release_date": "2026-07-18",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
