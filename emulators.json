@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-07-19T01:21:54Z",
+  "last_updated": "2026-07-19T18:45:20Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "0.4.1",
+      "date": "2026-07-19T18:45:16Z",
+      "message": "ci: Fix version4 to respect extension manifest limit by @kjarosh in https://github.com/ruffle-rs/ruf..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "0.4.0",
@@ -294,12 +300,6 @@
       "version": "2125.1.1",
       "date": "2026-04-21T12:55:48Z",
       "message": "This is an unscheduled bugfix update which addresses previously undetected regressions in the 2125.0..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-21",
-      "date": "2026-04-21T01:19:11Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -1117,8 +1117,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "0.4.0",
-      "release_date": "2026-07-18",
+      "latest_version": "0.4.1",
+      "release_date": "2026-07-19",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
