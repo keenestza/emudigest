@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>mame updated to vmame0289</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New update available!</description>
+    <pubDate>2026-07-31T01:27:37Z</pubDate>
+  </item>
+  <item>
+    <title>shadps4 updated to v.0.17.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Welcome to another big release of shadPS4. This release is the first to introduce shadnet support, w...</description>
+    <pubDate>2026-07-31T01:27:32Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to v0.4.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>ci: Fix version4 to respect extension manifest limit by @kjarosh in https://github.com/ruffle-rs/ruf...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-05-13T01:53:53Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-05-12</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-12T01:49:15Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-05-11</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-11T01:53:38Z</pubDate>
   </item>
 </channel>
 </rss>

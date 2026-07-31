@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-07-19T18:45:20Z",
+  "last_updated": "2026-07-31T01:27:45Z",
   "feed": [
+    {
+      "emulator_id": "mame",
+      "version": "mame0289",
+      "date": "2026-07-31T01:27:37Z",
+      "message": "New update available!"
+    },
+    {
+      "emulator_id": "shadps4",
+      "version": ".0.17.0",
+      "date": "2026-07-31T01:27:32Z",
+      "message": "Welcome to another big release of shadPS4. This release is the first to introduce shadnet support, w..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "0.4.1",
@@ -288,18 +300,6 @@
       "version": "nightly-2026-04-23",
       "date": "2026-04-23T01:22:53Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "lemuroid",
-      "version": "1.17.0",
-      "date": "2026-04-21T12:55:52Z",
-      "message": "Added microphone support for Nintendo DS"
-    },
-    {
-      "emulator_id": "lime3ds",
-      "version": "2125.1.1",
-      "date": "2026-04-21T12:55:48Z",
-      "message": "This is an unscheduled bugfix update which addresses previously undetected regressions in the 2125.0..."
     }
   ],
   "emulators": [
@@ -731,8 +731,8 @@
       "name": "shadPS4",
       "category": "PlayStation 4",
       "description": "An early-stage PlayStation 4 emulator making rapid progress.",
-      "latest_version": ".0.16.0",
-      "release_date": "2026-06-01",
+      "latest_version": ".0.17.0",
+      "release_date": "2026-07-30",
       "website": "https://shadps4.net/",
       "github": "shadps4-emu/shadPS4",
       "download_url": "https://github.com/shadps4-emu/shadPS4/releases",
@@ -916,8 +916,8 @@
       "name": "MAME",
       "category": "Arcade",
       "description": "Multi-purpose emulation framework preserving decades of arcade history.",
-      "latest_version": "mame0288",
-      "release_date": "2026-05-28",
+      "latest_version": "mame0289",
+      "release_date": "2026-07-30",
       "website": "https://www.mamedev.org/",
       "github": "mamedev/mame",
       "download_url": "https://www.mamedev.org/release.html",
