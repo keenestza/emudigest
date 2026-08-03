@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-07-31T19:03:13Z",
+  "last_updated": "2026-08-03T08:56:38Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-x",
+      "version": "dosbox-x-v2026.08.02",
+      "date": "2026-08-03T08:56:34Z",
+      "message": "- Debugger: normalize 16-bit segmented offsets for address display/lookup and"
+    },
     {
       "emulator_id": "rpcs3",
       "version": "0.0.42",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-25",
       "date": "2026-04-25T01:15:29Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-24",
-      "date": "2026-04-24T01:22:31Z",
       "message": "New tag release created."
     }
   ],
@@ -1048,8 +1048,8 @@
       "name": "DOSBox-X",
       "category": "PC / DOS",
       "description": "DOSBox fork aimed at accurate emulation of the PC hardware and Windows 9x.",
-      "latest_version": "dosbox-x-v2026.07.02",
-      "release_date": "2026-07-03",
+      "latest_version": "dosbox-x-v2026.08.02",
+      "release_date": "2026-08-03",
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
