@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lime3ds updated to v2126.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Known Issue Notice</description>
+    <pubDate>2026-08-10T18:38:59Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to v0.5.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>chore: Bump actions/setup-node from 6 to 7 by @dependabot[bot] in https://github.com/ruffle-rs/ruffl...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-05-16T01:48:16Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-05-15</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-15T01:54:35Z</pubDate>
   </item>
 </channel>
 </rss>
