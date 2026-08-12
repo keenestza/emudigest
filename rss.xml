@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>duckstation updated to v0.1-11609</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New tag release created.</description>
+    <pubDate>2026-08-12T07:03:04Z</pubDate>
+  </item>
+  <item>
     <title>lime3ds updated to v2126.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Known Issue Notice</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [...</description>
     <pubDate>2026-05-16T12:53:39Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to vnightly-2026-05-16</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-16T01:48:16Z</pubDate>
   </item>
 </channel>
 </rss>

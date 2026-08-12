@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-08-10T18:39:09Z",
+  "last_updated": "2026-08-12T07:03:16Z",
   "feed": [
+    {
+      "emulator_id": "duckstation",
+      "version": "0.1-11609",
+      "date": "2026-08-12T07:03:04Z",
+      "message": "New tag release created."
+    },
     {
       "emulator_id": "lime3ds",
       "version": "2126.0",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-28",
       "date": "2026-04-28T01:45:02Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-27",
-      "date": "2026-04-27T01:25:33Z",
       "message": "New tag release created."
     }
   ],
@@ -662,8 +662,8 @@
       "name": "DuckStation",
       "category": "PlayStation 1",
       "description": "Fast PS1 emulator with focus on playability, speed, and accuracy.",
-      "latest_version": "latest",
-      "release_date": "2026-02-18",
+      "latest_version": "0.1-11609",
+      "release_date": "2026-08-12",
       "website": "https://www.duckstation.org/",
       "github": "stenzek/duckstation",
       "download_url": "https://github.com/stenzek/duckstation/releases",
