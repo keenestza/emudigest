@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>duckstation updated to vlatest</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- 381ac7d1e MediaCapture: Fix incorrect samples on buffer wrap-around</description>
+    <pubDate>2026-08-12T12:38:50Z</pubDate>
+  </item>
+  <item>
     <title>duckstation updated to v0.1-11609</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-05-16T12:53:47Z</pubDate>
-  </item>
-  <item>
-    <title>ppsspp updated to v1.20.4</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [...</description>
-    <pubDate>2026-05-16T12:53:39Z</pubDate>
   </item>
 </channel>
 </rss>

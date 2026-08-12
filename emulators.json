@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-08-12T07:03:16Z",
+  "last_updated": "2026-08-12T12:38:59Z",
   "feed": [
+    {
+      "emulator_id": "duckstation",
+      "version": "latest",
+      "date": "2026-08-12T12:38:50Z",
+      "message": "- 381ac7d1e MediaCapture: Fix incorrect samples on buffer wrap-around"
+    },
     {
       "emulator_id": "duckstation",
       "version": "0.1-11609",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-04-29",
       "date": "2026-04-29T01:47:57Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-28",
-      "date": "2026-04-28T01:45:02Z",
       "message": "New tag release created."
     }
   ],
@@ -662,7 +662,7 @@
       "name": "DuckStation",
       "category": "PlayStation 1",
       "description": "Fast PS1 emulator with focus on playability, speed, and accuracy.",
-      "latest_version": "0.1-11609",
+      "latest_version": "latest",
       "release_date": "2026-08-12",
       "website": "https://www.duckstation.org/",
       "github": "stenzek/duckstation",
