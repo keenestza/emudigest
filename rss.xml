@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>shadps4 updated to v.0.18.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>shadPS4 v0.18.0 "UltraPersona"</description>
+    <pubDate>2026-08-18T12:19:10Z</pubDate>
+  </item>
+  <item>
     <title>duckstation updated to vlatest</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 381ac7d1e MediaCapture: Fix incorrect samples on buffer wrap-around</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description><h3>⚠️Important Alpha Information⚠️</h3></description>
     <pubDate>2026-05-16T18:44:55Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to v0.2.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-16T12:53:47Z</pubDate>
   </item>
 </channel>
 </rss>
