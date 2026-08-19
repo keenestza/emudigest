@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>flycast updated to v2.7</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Frame rate detection and pacing</description>
+    <pubDate>2026-08-19T12:18:54Z</pubDate>
+  </item>
+  <item>
     <title>shadps4 updated to v.0.18.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shadPS4 v0.18.0 "UltraPersona"</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This is an unscheduled release to put into action new security policies we have enabled for Azahar a...</description>
     <pubDate>2026-05-17T01:51:52Z</pubDate>
-  </item>
-  <item>
-    <title>lime3ds updated to v2126.0-alpha1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description><h3>⚠️Important Alpha Information⚠️</h3></description>
-    <pubDate>2026-05-16T18:44:55Z</pubDate>
   </item>
 </channel>
 </rss>

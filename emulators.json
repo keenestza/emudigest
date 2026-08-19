@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-08-18T12:19:21Z",
+  "last_updated": "2026-08-19T12:19:15Z",
   "feed": [
+    {
+      "emulator_id": "flycast",
+      "version": "2.7",
+      "date": "2026-08-19T12:18:54Z",
+      "message": "Frame rate detection and pacing"
+    },
     {
       "emulator_id": "shadps4",
       "version": ".0.18.0",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-01",
       "date": "2026-05-01T01:49:42Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-04-30",
-      "date": "2026-04-30T01:46:58Z",
       "message": "New tag release created."
     }
   ],
@@ -898,8 +898,8 @@
       "name": "Flycast",
       "category": "Dreamcast",
       "description": "A multi-platform Sega Dreamcast, Naomi, and Atomiswave emulator.",
-      "latest_version": "2.6",
-      "release_date": "2026-01-10",
+      "latest_version": "2.7",
+      "release_date": "2026-08-19",
       "website": "https://flyinghead.github.io/flycast-builds/",
       "github": "flyinghead/flycast",
       "download_url": "https://github.com/flyinghead/flycast/releases",
