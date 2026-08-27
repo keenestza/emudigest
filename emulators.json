@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-08-19T12:19:15Z",
+  "last_updated": "2026-08-27T16:57:58Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-staging",
+      "version": "0.83.0",
+      "date": "2026-08-27T16:57:54Z",
+      "message": "0.83.0 release notes: https://www.dosbox-staging.org/releases/release-notes/0.83.0/"
+    },
     {
       "emulator_id": "flycast",
       "version": "2.7",
@@ -294,12 +300,6 @@
       "version": "2.11.1",
       "date": "2026-05-01T18:53:46Z",
       "message": "New experimental core: PPSSPP for PlayStation Portable"
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-01",
-      "date": "2026-05-01T01:49:42Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -1031,8 +1031,8 @@
       "name": "DOSBox-Staging",
       "category": "PC / DOS",
       "description": "A modern continuation of DOSBox focused on ease of use and modern features.",
-      "latest_version": "0.82.2",
-      "release_date": "2025-06-17",
+      "latest_version": "0.83.0",
+      "release_date": "2026-08-27",
       "website": "https://dosbox-staging.github.io/",
       "github": "dosbox-staging/dosbox-staging",
       "download_url": "https://github.com/dosbox-staging/dosbox-staging/releases",
