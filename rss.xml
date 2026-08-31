@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>pcsx2 updated to v2.8.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>New update available!</description>
+    <pubDate>2026-08-31T01:57:17Z</pubDate>
+  </item>
+  <item>
     <title>pcsx2 updated to v2.8.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Our first immutable release, I hope I didn't screw up.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- GS/DX12: Fix recreating swapchain failing on vsync mode changes</description>
     <pubDate>2026-05-23T18:51:12Z</pubDate>
-  </item>
-  <item>
-    <title>pcsx2 updated to v2.7.359</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-05-23T12:54:33Z</pubDate>
   </item>
 </channel>
 </rss>

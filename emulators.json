@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-08-29T01:14:10Z",
+  "last_updated": "2026-08-31T01:57:25Z",
   "feed": [
+    {
+      "emulator_id": "pcsx2",
+      "version": "2.8.1",
+      "date": "2026-08-31T01:57:17Z",
+      "message": "New update available!"
+    },
     {
       "emulator_id": "pcsx2",
       "version": "2.8.0",
@@ -294,12 +300,6 @@
       "version": "dosbox-x-v2026.05.02-osfree",
       "date": "2026-05-02T18:39:55Z",
       "message": "- DOSBox-X will now check both the current directory and the .config"
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-02",
-      "date": "2026-05-02T01:27:06Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -680,8 +680,8 @@
       "name": "PCSX2",
       "category": "PlayStation 2",
       "description": "The most advanced PlayStation 2 emulator with high compatibility.",
-      "latest_version": "2.8.0",
-      "release_date": "2026-08-28",
+      "latest_version": "2.8.1",
+      "release_date": "2026-08-30",
       "website": "https://pcsx2.net/",
       "github": "PCSX2/pcsx2",
       "download_url": "https://pcsx2.net/downloads",
