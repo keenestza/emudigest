@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-08-31T01:57:25Z",
+  "last_updated": "2026-09-01T20:14:10Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-x",
+      "version": "dosbox-x-v2026.08.31",
+      "date": "2026-09-01T20:14:06Z",
+      "message": "- Added support for mounting TeleDisk (.td0) floppy image files. (cimarronm)"
+    },
     {
       "emulator_id": "pcsx2",
       "version": "2.8.1",
@@ -294,12 +300,6 @@
       "version": "nightly-2026-05-03",
       "date": "2026-05-03T01:43:03Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "dosbox-x",
-      "version": "dosbox-x-v2026.05.02-osfree",
-      "date": "2026-05-02T18:39:55Z",
-      "message": "- DOSBox-X will now check both the current directory and the .config"
     }
   ],
   "emulators": [
@@ -1048,8 +1048,8 @@
       "name": "DOSBox-X",
       "category": "PC / DOS",
       "description": "DOSBox fork aimed at accurate emulation of the PC hardware and Windows 9x.",
-      "latest_version": "dosbox-x-v2026.08.02",
-      "release_date": "2026-08-03",
+      "latest_version": "dosbox-x-v2026.08.31",
+      "release_date": "2026-09-01",
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
