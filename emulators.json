@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-09-01T20:14:10Z",
+  "last_updated": "2026-09-05T01:41:36Z",
   "feed": [
+    {
+      "emulator_id": "pcsx2",
+      "version": "2.8.2",
+      "date": "2026-09-05T01:41:22Z",
+      "message": "GS:VK: Use swizzle value compatible with MoltenVK on older GPUs."
+    },
     {
       "emulator_id": "dosbox-x",
       "version": "dosbox-x-v2026.08.31",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-04",
       "date": "2026-05-04T01:29:31Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-03",
-      "date": "2026-05-03T01:43:03Z",
       "message": "New tag release created."
     }
   ],
@@ -680,8 +680,8 @@
       "name": "PCSX2",
       "category": "PlayStation 2",
       "description": "The most advanced PlayStation 2 emulator with high compatibility.",
-      "latest_version": "2.8.1",
-      "release_date": "2026-08-30",
+      "latest_version": "2.8.2",
+      "release_date": "2026-09-04",
       "website": "https://pcsx2.net/",
       "github": "PCSX2/pcsx2",
       "download_url": "https://pcsx2.net/downloads",
