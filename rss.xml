@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to v0.6.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>chore: Bump ip-address from 10.2.0 to 10.4.0 in /web by @dependabot[bot] in https://github.com/ruffl...</description>
+    <pubDate>2026-09-06T19:40:52Z</pubDate>
+  </item>
+  <item>
     <title>pcsx2 updated to v2.8.2</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>GS:VK: Use swizzle value compatible with MoltenVK on older GPUs.</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>![image](http://86box.net/assets/images/v6.0/hero.png)</description>
     <pubDate>2026-05-31T08:31:56Z</pubDate>
-  </item>
-  <item>
-    <title>ares updated to v148</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>ares v148 has now been released.</description>
-    <pubDate>2026-05-30T18:55:53Z</pubDate>
   </item>
 </channel>
 </rss>
