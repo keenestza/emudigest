@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-09-06T19:40:56Z",
+  "last_updated": "2026-09-09T20:07:44Z",
   "feed": [
+    {
+      "emulator_id": "lime3ds",
+      "version": "2126.1",
+      "date": "2026-09-09T20:07:33Z",
+      "message": "This minor release contains many improvements and fixes which didn't make it into the base 2126.0 re..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "0.6.0",
@@ -293,12 +299,6 @@
       "emulator_id": "ruffle",
       "version": "nightly-2026-05-06",
       "date": "2026-05-06T01:28:17Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-05",
-      "date": "2026-05-05T01:29:34Z",
       "message": "New tag release created."
     }
   ],
@@ -627,8 +627,8 @@
       "name": "Lime3DS",
       "category": "Nintendo 3DS",
       "description": "A high-performance Nintendo 3DS emulator fork.",
-      "latest_version": "2126.0",
-      "release_date": "2026-08-10",
+      "latest_version": "2126.1",
+      "release_date": "2026-09-09",
       "website": "https://lime3ds.github.io/",
       "github": "Lime3DS/Lime3DS",
       "download_url": "https://github.com/Lime3DS/Lime3DS/releases",

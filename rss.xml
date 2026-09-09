@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lime3ds updated to v2126.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This minor release contains many improvements and fixes which didn't make it into the base 2126.0 re...</description>
+    <pubDate>2026-09-09T20:07:33Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to v0.6.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>chore: Bump ip-address from 10.2.0 to 10.4.0 in /web by @dependabot[bot] in https://github.com/ruffl...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-06-01T17:12:56Z</pubDate>
-  </item>
-  <item>
-    <title>86box updated to v6.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>![image](http://86box.net/assets/images/v6.0/hero.png)</description>
-    <pubDate>2026-05-31T08:31:56Z</pubDate>
   </item>
 </channel>
 </rss>
