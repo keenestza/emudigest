@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lime3ds updated to v2126.1.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This an unscheduled fix release which addresses a few notable issues discovered post-launch in the 2...</description>
+    <pubDate>2026-09-12T01:51:02Z</pubDate>
+  </item>
+  <item>
     <title>lime3ds updated to v2126.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This minor release contains many improvements and fixes which didn't make it into the base 2126.0 re...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shadPS4 v0.16.0 Released</description>
     <pubDate>2026-06-01T17:12:57Z</pubDate>
-  </item>
-  <item>
-    <title>play updated to v0.76</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-06-01T17:12:56Z</pubDate>
   </item>
 </channel>
 </rss>
