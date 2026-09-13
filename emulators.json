@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-09-12T01:51:15Z",
+  "last_updated": "2026-09-13T19:56:30Z",
   "feed": [
+    {
+      "emulator_id": "nestopia",
+      "version": "1.99.0",
+      "date": "2026-09-13T19:56:18Z",
+      "message": "Legacy win32 release with changes backported from version 2.0.0"
+    },
     {
       "emulator_id": "lime3ds",
       "version": "2126.1.1",
@@ -294,12 +300,6 @@
       "version": "nightly-2026-05-09",
       "date": "2026-05-09T01:45:38Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-07",
-      "date": "2026-05-07T01:46:37Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -342,8 +342,8 @@
       "name": "Nestopia UE",
       "category": "NES",
       "description": "Cycle-accurate NES emulator with clean UI and great compatibility.",
-      "latest_version": "1.53.2",
-      "release_date": "2025-08-09",
+      "latest_version": "1.99.0",
+      "release_date": "2026-09-13",
       "website": "http://0ldsk00l.ca/nestopia/",
       "github": "0ldsk00l/nestopia",
       "download_url": "https://github.com/0ldsk00l/nestopia/releases",
