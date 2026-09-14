@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>nestopia updated to v2.0.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Copy of the cross-platform builds available at https://github.com/jgemu/jgbuilds/releases/tag/nestop...</description>
+    <pubDate>2026-09-14T02:00:19Z</pubDate>
+  </item>
+  <item>
     <title>nestopia updated to v1.99.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Legacy win32 release with changes backported from version 2.0.0</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Please note that our version increases are landmarks and not stable builds</description>
     <pubDate>2026-06-04T02:29:47Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-x updated to vdosbox-x-v2026.06.02-osfree</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- DOS file search bugfix: Prevent undefined statblock usage on failed</description>
-    <pubDate>2026-06-02T20:32:32Z</pubDate>
   </item>
 </channel>
 </rss>
