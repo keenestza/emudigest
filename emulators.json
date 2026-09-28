@@ -1044,6 +1044,70 @@
       ]
     },
     {
+      "id": "vice",
+      "name": "VICE",
+      "category": "C64",
+      "description": "Versatile Commodore emulator supporting the C64 and other Commodore 8-bit computers.",
+      "latest_version": "r46274",
+      "release_date": "2026-09-27",
+      "website": "https://vice-emu.sourceforge.io/",
+      "github": "VICE-Team/svn-mirror",
+      "download_url": "https://github.com/VICE-Team/svn-mirror/releases",
+      "icon": "\ud83d\udcbe",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
+      "id": "virtualc64",
+      "name": "VirtualC64",
+      "category": "C64",
+      "description": "Commodore 64 emulator for macOS with debugging and media tools.",
+      "latest_version": "6.1",
+      "release_date": "2026-09-01",
+      "website": "https://dirkwhoffmann.github.io/virtualc64/",
+      "github": "dirkwhoffmann/virtualc64",
+      "download_url": "https://github.com/dirkwhoffmann/virtualc64/releases",
+      "icon": "\ud83d\udd79\ufe0f",
+      "platforms": [
+        "macOS"
+      ]
+    },
+    {
+      "id": "fs-uae",
+      "name": "FS-UAE",
+      "category": "Amiga",
+      "description": "Cross-platform Amiga emulator focused on games with support for productivity software.",
+      "latest_version": "3.2.35",
+      "release_date": "2025-09-07",
+      "website": "https://fs-uae.net/",
+      "github": "FrodeSolheim/fs-uae",
+      "download_url": "https://github.com/FrodeSolheim/fs-uae/releases",
+      "icon": "\ud83d\udcbe",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
+      "id": "vamiga",
+      "name": "vAmiga",
+      "category": "Amiga",
+      "description": "Amiga 500, 1000 and 2000 emulator for macOS.",
+      "latest_version": "4.5",
+      "release_date": "2026-08-07",
+      "website": "https://dirkwhoffmann.github.io/vAmiga/",
+      "github": "dirkwhoffmann/vAmiga",
+      "download_url": "https://github.com/dirkwhoffmann/vAmiga/releases",
+      "icon": "\ud83d\udd79\ufe0f",
+      "platforms": [
+        "macOS"
+      ]
+    },
+    {
       "id": "dosbox-staging",
       "name": "DOSBox-Staging",
       "category": "PC / DOS",
