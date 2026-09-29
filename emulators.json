@@ -1108,6 +1108,74 @@
       ]
     },
     {
+      "id": "openmsx",
+      "name": "openMSX",
+      "category": "MSX",
+      "description": "Accurate MSX computer emulator with support for many machine models and peripherals.",
+      "latest_version": "21.0",
+      "release_date": "2025-09-26",
+      "website": "https://openmsx.org/",
+      "github": "openMSX/openMSX",
+      "download_url": "https://github.com/openMSX/openMSX/releases",
+      "icon": "\ud83d\udcbe",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
+      "id": "zesarux",
+      "name": "ZEsarUX",
+      "category": "ZX Spectrum",
+      "description": "ZX Spectrum and other classic computer emulator with extensive debugging tools.",
+      "latest_version": "13.0",
+      "release_date": "2026-06-09",
+      "website": "https://github.com/chernandezba/zesarux",
+      "github": "chernandezba/zesarux",
+      "download_url": "https://github.com/chernandezba/zesarux/releases",
+      "icon": "\ud83d\udcbe",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
+      "id": "geargrafx",
+      "name": "Geargrafx",
+      "category": "PC Engine / TurboGrafx-16",
+      "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
+      "latest_version": "1.8.0",
+      "release_date": "2026-09-27",
+      "website": "https://github.com/drhelius/Geargrafx",
+      "github": "drhelius/Geargrafx",
+      "download_url": "https://github.com/drhelius/Geargrafx/releases",
+      "icon": "\ud83c\udfae",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
+      "id": "gearcoleco",
+      "name": "Gearcoleco",
+      "category": "ColecoVision",
+      "description": "ColecoVision emulator with debugger and cross-platform builds.",
+      "latest_version": "1.7.1",
+      "release_date": "2026-09-27",
+      "website": "https://github.com/drhelius/Gearcoleco",
+      "github": "drhelius/Gearcoleco",
+      "download_url": "https://github.com/drhelius/Gearcoleco/releases",
+      "icon": "\ud83c\udfae",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
       "id": "dosbox-staging",
       "name": "DOSBox-Staging",
       "category": "PC / DOS",
