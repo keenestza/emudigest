@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>zesarux updated to vZEsarUX-13.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>ZEsarUX 13 - The Way of the Exploding Fist edition. 09 June 2026</description>
+    <pubDate>2026-09-29T11:42:20Z</pubDate>
+  </item>
+  <item>
+    <title>openmsx updated to vRELEASE_21_0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>openMSX 21.0 has many improvements on the new GUI introduced in openMSX 20.0 (especially the debugge...</description>
+    <pubDate>2026-09-29T11:42:20Z</pubDate>
+  </item>
+  <item>
     <title>vice updated to v3.10.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New update available!</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>ScummVM 2026.3.0 "Carousels & Killer Whales" comes to fruition. So far, we are able to keep the rele...</description>
     <pubDate>2026-06-21T02:28:22Z</pubDate>
-  </item>
-  <item>
-    <title>rmg updated to v0.9.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Fix build issues with zlib v1.3.1</description>
-    <pubDate>2026-06-14T19:04:41Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to v0.3.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>avm2: Fixes to Error's prototype by @Lord-McSweeney in https://github.com/ruffle-rs/ruffle/pull/2371...</description>
-    <pubDate>2026-06-14T08:58:33Z</pubDate>
   </item>
 </channel>
 </rss>

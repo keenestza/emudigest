@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-09-28T22:41:55Z",
+  "last_updated": "2026-09-29T11:42:25Z",
   "feed": [
+    {
+      "emulator_id": "zesarux",
+      "version": "ZEsarUX-13.0",
+      "date": "2026-09-29T11:42:20Z",
+      "message": "ZEsarUX 13 - The Way of the Exploding Fist edition. 09 June 2026"
+    },
+    {
+      "emulator_id": "openmsx",
+      "version": "RELEASE_21_0",
+      "date": "2026-09-29T11:42:20Z",
+      "message": "openMSX 21.0 has many improvements on the new GUI introduced in openMSX 20.0 (especially the debugge..."
+    },
     {
       "emulator_id": "vice",
       "version": "3.10.0",
@@ -288,18 +300,6 @@
       "version": "2125.1.2",
       "date": "2026-05-14T19:25:07Z",
       "message": "This is an unscheduled release to put into action new security policies we have enabled for Azahar a..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-14",
-      "date": "2026-05-14T01:56:18Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-13",
-      "date": "2026-05-13T01:53:53Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -1112,7 +1112,7 @@
       "name": "openMSX",
       "category": "MSX",
       "description": "Accurate MSX computer emulator with support for many machine models and peripherals.",
-      "latest_version": "21.0",
+      "latest_version": "RELEASE_21_0",
       "release_date": "2025-09-26",
       "website": "https://openmsx.org/",
       "github": "openMSX/openMSX",
@@ -1129,7 +1129,7 @@
       "name": "ZEsarUX",
       "category": "ZX Spectrum",
       "description": "ZX Spectrum and other classic computer emulator with extensive debugging tools.",
-      "latest_version": "13.0",
+      "latest_version": "ZEsarUX-13.0",
       "release_date": "2026-06-09",
       "website": "https://github.com/chernandezba/zesarux",
       "github": "chernandezba/zesarux",
