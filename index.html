@@ -377,7 +377,7 @@
           <div class="card-desc">${emu.description}</div>
           <div class="card-meta">
             <span class="card-version">v${emu.latest_version}</span>
-            <span class="card-date">${formatDate(emu.release_date)}</span>
+            ${emu.release_date ? `<span class="card-date">${formatDate(emu.release_date)}</span>` : ''}
           </div>
           <div class="card-platforms">${platformsHTML}</div>
           <div class="card-links">
