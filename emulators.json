@@ -1159,6 +1159,24 @@
       ]
     },
     {
+      "id": "opera",
+      "name": "Opera",
+      "category": "3DO",
+      "description": "Open-source 3DO emulator core for RetroArch, continued from 4DO and FreeDO.",
+      "latest_version": "0.0.0",
+      "release_date": "2024-01-01",
+      "website": "https://github.com/libretro/opera-libretro",
+      "github": "libretro/opera-libretro",
+      "download_url": "https://www.retroarch.com/?page=platforms",
+      "icon": "\ud83d\udcbf",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ]
+    },
+    {
       "id": "gearcoleco",
       "name": "Gearcoleco",
       "category": "ColecoVision",
