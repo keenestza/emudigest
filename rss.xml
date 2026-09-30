@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>casso updated to v1.29.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- GH 156: Controllers are assigned to Player 1 and Player 2 automatically, in</description>
+    <pubDate>2026-09-30T11:28:36Z</pubDate>
+  </item>
+  <item>
     <title>zesarux updated to vZEsarUX-13.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>ZEsarUX 13 - The Way of the Exploding Fist edition. 09 June 2026</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This is an unscheduled release which almost exclusively addresses issues in the macOS version of Aza...</description>
     <pubDate>2026-06-29T19:29:27Z</pubDate>
-  </item>
-  <item>
-    <title>scummvm updated to v2026.3.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>ScummVM 2026.3.0 "Carousels & Killer Whales" comes to fruition. So far, we are able to keep the rele...</description>
-    <pubDate>2026-06-21T02:28:22Z</pubDate>
   </item>
 </channel>
 </rss>

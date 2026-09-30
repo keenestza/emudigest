@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-09-29T11:42:25Z",
+  "last_updated": "2026-09-30T11:28:41Z",
   "feed": [
+    {
+      "emulator_id": "casso",
+      "version": "1.29.0",
+      "date": "2026-09-30T11:28:36Z",
+      "message": "- GH 156: Controllers are assigned to Player 1 and Player 2 automatically, in"
+    },
     {
       "emulator_id": "zesarux",
       "version": "ZEsarUX-13.0",
@@ -294,12 +300,6 @@
       "version": "nightly-2026-05-15",
       "date": "2026-05-15T01:54:35Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "azahar",
-      "version": "2125.1.2",
-      "date": "2026-05-14T19:25:07Z",
-      "message": "This is an unscheduled release to put into action new security policies we have enabled for Azahar a..."
     }
   ],
   "emulators": [
@@ -1249,8 +1249,8 @@
       "name": "Casso",
       "category": "Apple II",
       "description": "Apple II family emulator with a built-in assembler and disk manager.",
-      "latest_version": "1.28.1",
-      "release_date": "2026-09-27",
+      "latest_version": "1.29.0",
+      "release_date": "2026-09-30",
       "website": "https://github.com/relmer/Casso",
       "github": "relmer/Casso",
       "download_url": "https://github.com/relmer/Casso/releases",
