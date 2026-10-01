@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-09-30T11:28:41Z",
+  "last_updated": "2026-10-01T02:46:39Z",
   "feed": [
+    {
+      "emulator_id": "gearcoleco",
+      "version": "1.7.2",
+      "date": "2026-10-01T02:46:34Z",
+      "message": "- \ud83d\udce6 Added Ubuntu 26.04 builds"
+    },
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.1",
+      "date": "2026-10-01T02:46:33Z",
+      "message": "- \ud83c\udfaf Improved PSG accuracy"
+    },
+    {
+      "emulator_id": "rpcs3",
+      "version": "0.0.43",
+      "date": "2026-10-01T02:46:25Z",
+      "message": "Please note that our version increases are landmarks and not stable builds"
+    },
     {
       "emulator_id": "casso",
       "version": "1.29.0",
@@ -281,24 +299,6 @@
       "emulator_id": "ruffle",
       "version": "0.2.0",
       "date": "2026-05-16T12:53:47Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ppsspp",
-      "version": "1.20.4",
-      "date": "2026-05-16T12:53:39Z",
-      "message": "PPSSPP is a cross-platform PSP emulator. Visit PPSSPP [official website](https://ppsspp.org) for a [..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-16",
-      "date": "2026-05-16T01:48:16Z",
-      "message": "New tag release created."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "nightly-2026-05-15",
-      "date": "2026-05-15T01:54:35Z",
       "message": "New tag release created."
     }
   ],
@@ -714,8 +714,8 @@
       "name": "RPCS3",
       "category": "PlayStation 3",
       "description": "The world's first open-source PlayStation 3 emulator.",
-      "latest_version": "0.0.42",
-      "release_date": "2026-07-31",
+      "latest_version": "0.0.43",
+      "release_date": "2026-09-30",
       "website": "https://rpcs3.net/",
       "github": "RPCS3/rpcs3",
       "download_url": "https://rpcs3.net/download",
@@ -1146,8 +1146,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.0",
-      "release_date": "2026-09-27",
+      "latest_version": "1.8.1",
+      "release_date": "2026-09-30",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
@@ -1181,8 +1181,8 @@
       "name": "Gearcoleco",
       "category": "ColecoVision",
       "description": "ColecoVision emulator with debugger and cross-platform builds.",
-      "latest_version": "1.7.1",
-      "release_date": "2026-09-27",
+      "latest_version": "1.7.2",
+      "release_date": "2026-09-30",
       "website": "https://github.com/drhelius/Gearcoleco",
       "github": "drhelius/Gearcoleco",
       "download_url": "https://github.com/drhelius/Gearcoleco/releases",
