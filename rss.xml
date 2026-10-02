@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>dosbox-x updated to vdosbox-x-v2026.10.01</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- Fixed DOS FCB operations trying to read/write from deviceCON when performed</description>
+    <pubDate>2026-10-02T02:50:05Z</pubDate>
+  </item>
+  <item>
     <title>gearcoleco updated to v1.7.2</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 📦 Added Ubuntu 26.04 builds</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>ci: Fix version4 to respect extension manifest limit by @kjarosh in https://github.com/ruffle-rs/ruf...</description>
     <pubDate>2026-07-19T18:45:16Z</pubDate>
-  </item>
-  <item>
-    <title>ruffle updated to v0.4.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>avm1: Make Object::set accept impl Into<Value> by @SuchAFuriousDeath in https://github.com/ruffle-rs...</description>
-    <pubDate>2026-07-19T01:21:51Z</pubDate>
   </item>
 </channel>
 </rss>

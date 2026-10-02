@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-01T02:46:39Z",
+  "last_updated": "2026-10-02T02:50:10Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-x",
+      "version": "dosbox-x-v2026.10.01",
+      "date": "2026-10-02T02:50:05Z",
+      "message": "- Fixed DOS FCB operations trying to read/write from deviceCON when performed"
+    },
     {
       "emulator_id": "gearcoleco",
       "version": "1.7.2",
@@ -294,12 +300,6 @@
       "version": "2126.0-alpha1",
       "date": "2026-05-16T18:44:55Z",
       "message": "<h3>\u26a0\ufe0fImportant Alpha Information\u26a0\ufe0f</h3>"
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "0.2.0",
-      "date": "2026-05-16T12:53:47Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -1215,8 +1215,8 @@
       "name": "DOSBox-X",
       "category": "PC / DOS",
       "description": "DOSBox fork aimed at accurate emulation of the PC hardware and Windows 9x.",
-      "latest_version": "dosbox-x-v2026.08.31",
-      "release_date": "2026-09-01",
+      "latest_version": "dosbox-x-v2026.10.01",
+      "release_date": "2026-10-02",
       "website": "https://dosbox-x.com/",
       "github": "joncampbell123/dosbox-x",
       "download_url": "https://github.com/joncampbell123/dosbox-x/releases",
