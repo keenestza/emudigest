@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-02T02:50:10Z",
+  "last_updated": "2026-10-02T16:55:51Z",
   "feed": [
+    {
+      "emulator_id": "shadps4",
+      "version": ".0.19.0",
+      "date": "2026-10-02T16:55:35Z",
+      "message": "Welcome back to another shadPS4 release . It is over one month since our previous release and guess ..."
+    },
     {
       "emulator_id": "dosbox-x",
       "version": "dosbox-x-v2026.10.01",
@@ -294,12 +300,6 @@
       "version": "2125.1.2",
       "date": "2026-05-17T01:51:52Z",
       "message": "This is an unscheduled release to put into action new security policies we have enabled for Azahar a..."
-    },
-    {
-      "emulator_id": "azahar",
-      "version": "2126.0-alpha1",
-      "date": "2026-05-16T18:44:55Z",
-      "message": "<h3>\u26a0\ufe0fImportant Alpha Information\u26a0\ufe0f</h3>"
     }
   ],
   "emulators": [
@@ -731,8 +731,8 @@
       "name": "shadPS4",
       "category": "PlayStation 4",
       "description": "An early-stage PlayStation 4 emulator making rapid progress.",
-      "latest_version": ".0.18.0",
-      "release_date": "2026-08-18",
+      "latest_version": ".0.19.0",
+      "release_date": "2026-10-02",
       "website": "https://shadps4.net/",
       "github": "shadps4-emu/shadPS4",
       "download_url": "https://github.com/shadps4-emu/shadPS4/releases",
