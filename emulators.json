@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-03T02:36:43Z",
+  "last_updated": "2026-10-03T15:19:23Z",
   "feed": [
+    {
+      "emulator_id": "casso",
+      "version": "1.30.0",
+      "date": "2026-10-03T15:19:19Z",
+      "message": "- GH 159: Support for WOZ 2.1 flux tracks, validated with Bandits, Minotaur,"
+    },
     {
       "emulator_id": "sharpemu",
       "version": "0.0.5-nexus",
@@ -294,12 +300,6 @@
       "version": "2.7.359",
       "date": "2026-05-23T12:54:33Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "xemu",
-      "version": "0.8.135",
-      "date": "2026-05-20T02:00:09Z",
-      "message": "2870 - meson: Bump SPIRV-Reflect to vulkan-sdk-1.4.350.0 (@xemu-robot)"
     }
   ],
   "emulators": [
@@ -1249,8 +1249,8 @@
       "name": "Casso",
       "category": "Apple II",
       "description": "Apple II family emulator with a built-in assembler and disk manager.",
-      "latest_version": "1.29.0",
-      "release_date": "2026-09-30",
+      "latest_version": "1.30.0",
+      "release_date": "2026-10-03",
       "website": "https://github.com/relmer/Casso",
       "github": "relmer/Casso",
       "download_url": "https://github.com/relmer/Casso/releases",

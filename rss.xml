@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>casso updated to v1.30.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- GH 159: Support for WOZ 2.1 flux tracks, validated with Bandits, Minotaur,</description>
+    <pubDate>2026-10-03T15:19:19Z</pubDate>
+  </item>
+  <item>
     <title>sharpemu updated to v0.0.5-nexus</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Automated SharpEmu v0.0.5-nexus build for commit [6fe8b87](https://github.com/sharpemu/sharpemu/comm...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Please note that our version increases are landmarks and not stable builds</description>
     <pubDate>2026-07-31T19:03:06Z</pubDate>
-  </item>
-  <item>
-    <title>mame updated to vmame0289</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New update available!</description>
-    <pubDate>2026-07-31T01:27:37Z</pubDate>
   </item>
 </channel>
 </rss>
