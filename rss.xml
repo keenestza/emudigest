@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-04-c885da0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>haptics: recognize 'Wireless Controller' audio endpoint on Linux by @arthuralvesdev in https://githu...</description>
+    <pubDate>2026-10-04T16:03:47Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-03-db17585</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>docs: show per-platform build status in the README badges by @YossiYad in https://github.com/KytyPS5...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>chore: Bump actions/setup-node from 6 to 7 by @dependabot[bot] in https://github.com/ruffle-rs/ruffl...</description>
     <pubDate>2026-08-04T01:17:10Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-x updated to vdosbox-x-v2026.08.02</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- Debugger: normalize 16-bit segmented offsets for address display/lookup and</description>
-    <pubDate>2026-08-03T08:56:34Z</pubDate>
   </item>
 </channel>
 </rss>

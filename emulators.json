@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-04T11:25:53Z",
+  "last_updated": "2026-10-04T16:03:55Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-04-c885da0",
+      "date": "2026-10-04T16:03:47Z",
+      "message": "haptics: recognize 'Wireless Controller' audio endpoint on Linux by @arthuralvesdev in https://githu..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-03-db17585",
@@ -294,12 +300,6 @@
       "version": "mame0288",
       "date": "2026-05-28T20:01:33Z",
       "message": "New update available!"
-    },
-    {
-      "emulator_id": "pcsx2",
-      "version": "2.6.3",
-      "date": "2026-05-23T18:51:12Z",
-      "message": "- GS/DX12: Fix recreating swapchain failing on vsync mode changes"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-03-db17585",
-      "release_date": "2026-10-03",
+      "latest_version": "KytyPS5-2026-10-04-c885da0",
+      "release_date": "2026-10-04",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
