@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-03T15:19:23Z",
+  "last_updated": "2026-10-04T11:25:53Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-03-db17585",
+      "date": "2026-10-04T11:25:41Z",
+      "message": "docs: show per-platform build status in the README badges by @YossiYad in https://github.com/KytyPS5..."
+    },
     {
       "emulator_id": "casso",
       "version": "1.30.0",
@@ -294,12 +300,6 @@
       "version": "2.6.3",
       "date": "2026-05-23T18:51:12Z",
       "message": "- GS/DX12: Fix recreating swapchain failing on vsync mode changes"
-    },
-    {
-      "emulator_id": "pcsx2",
-      "version": "2.7.359",
-      "date": "2026-05-23T12:54:33Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "2026-10-03-feeced8",
+      "latest_version": "KytyPS5-2026-10-03-db17585",
       "release_date": "2026-10-03",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",

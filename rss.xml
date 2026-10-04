@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-03-db17585</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>docs: show per-platform build status in the README badges by @YossiYad in https://github.com/KytyPS5...</description>
+    <pubDate>2026-10-04T11:25:41Z</pubDate>
+  </item>
+  <item>
     <title>casso updated to v1.30.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- GH 159: Support for WOZ 2.1 flux tracks, validated with Bandits, Minotaur,</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- Debugger: normalize 16-bit segmented offsets for address display/lookup and</description>
     <pubDate>2026-08-03T08:56:34Z</pubDate>
-  </item>
-  <item>
-    <title>rpcs3 updated to v0.0.42</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Please note that our version increases are landmarks and not stable builds</description>
-    <pubDate>2026-07-31T19:03:06Z</pubDate>
   </item>
 </channel>
 </rss>
