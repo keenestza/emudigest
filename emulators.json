@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-10-04T16:03:55Z",
+  "last_updated": "2026-10-04T20:33:56Z",
   "feed": [
+    {
+      "emulator_id": "gearcoleco",
+      "version": "1.7.3",
+      "date": "2026-10-04T20:33:52Z",
+      "message": "- \ud83c\udfa5 Added video recording"
+    },
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.2",
+      "date": "2026-10-04T20:33:52Z",
+      "message": "- \ud83c\udfa5 Added video recording"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-04-719e025",
+      "date": "2026-10-04T20:33:47Z",
+      "message": "launcher: Raise DualSense speaker volume range for SpeakerFX by @Pyxellator in https://github.com/Ky..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-04-c885da0",
@@ -282,24 +300,6 @@
       "version": "0.76",
       "date": "2026-06-01T17:12:56Z",
       "message": "New tag release created."
-    },
-    {
-      "emulator_id": "86box",
-      "version": "6.0",
-      "date": "2026-05-31T08:31:56Z",
-      "message": "![image](http://86box.net/assets/images/v6.0/hero.png)"
-    },
-    {
-      "emulator_id": "ares",
-      "version": "148",
-      "date": "2026-05-30T18:55:53Z",
-      "message": "ares v148 has now been released."
-    },
-    {
-      "emulator_id": "mame",
-      "version": "mame0288",
-      "date": "2026-05-28T20:01:33Z",
-      "message": "New update available!"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-04-c885da0",
+      "latest_version": "KytyPS5-2026-10-04-719e025",
       "release_date": "2026-10-04",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.1",
-      "release_date": "2026-09-30",
+      "latest_version": "1.8.2",
+      "release_date": "2026-10-04",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
@@ -1198,8 +1198,8 @@
       "name": "Gearcoleco",
       "category": "ColecoVision",
       "description": "ColecoVision emulator with debugger and cross-platform builds.",
-      "latest_version": "1.7.2",
-      "release_date": "2026-09-30",
+      "latest_version": "1.7.3",
+      "release_date": "2026-10-04",
       "website": "https://github.com/drhelius/Gearcoleco",
       "github": "drhelius/Gearcoleco",
       "download_url": "https://github.com/drhelius/Gearcoleco/releases",
