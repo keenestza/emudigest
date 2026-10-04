@@ -776,6 +776,23 @@
       ]
     },
     {
+      "id": "kytyps5",
+      "name": "KytyPS5",
+      "category": "PlayStation 5",
+      "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
+      "latest_version": "2026-10-03-feeced8",
+      "release_date": "2026-10-03",
+      "website": "https://kytyps5.github.io/",
+      "github": "KytyPS5/KytyPS5",
+      "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
+      "icon": "\ud83c\udfae",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ]
+    },
+    {
       "id": "ppsspp",
       "name": "PPSSPP",
       "category": "PSP",
