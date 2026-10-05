@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-05-cdb64bf</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-dc3cd2d...KytyPS5-2026...</description>
+    <pubDate>2026-10-05T23:24:47Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-05-72e4989</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-1d55272...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>0.83.0 release notes: https://www.dosbox-staging.org/releases/release-notes/0.83.0/</description>
     <pubDate>2026-08-27T16:57:54Z</pubDate>
-  </item>
-  <item>
-    <title>flycast updated to v2.7</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Frame rate detection and pacing</description>
-    <pubDate>2026-08-19T12:18:54Z</pubDate>
   </item>
 </channel>
 </rss>
