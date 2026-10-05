@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-05-72e4989</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-1d55272...KytyPS5-2026...</description>
+    <pubDate>2026-10-05T12:50:50Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-05-af3011c</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-04-bbb98bd...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Frame rate detection and pacing</description>
     <pubDate>2026-08-19T12:18:54Z</pubDate>
-  </item>
-  <item>
-    <title>shadps4 updated to v.0.18.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>shadPS4 v0.18.0 "UltraPersona"</description>
-    <pubDate>2026-08-18T12:19:10Z</pubDate>
   </item>
 </channel>
 </rss>

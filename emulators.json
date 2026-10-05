@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-05T02:41:33Z",
+  "last_updated": "2026-10-05T12:51:10Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-05-72e4989",
+      "date": "2026-10-05T12:50:50Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-1d55272...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-05-af3011c",
@@ -294,12 +300,6 @@
       "version": "dosbox-x-v2026.06.02-osfree",
       "date": "2026-06-02T20:32:32Z",
       "message": "- DOS file search bugfix: Prevent undefined statblock usage on failed"
-    },
-    {
-      "emulator_id": "shadps4",
-      "version": ".0.16.0",
-      "date": "2026-06-01T17:12:57Z",
-      "message": "shadPS4 v0.16.0 Released"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-05-af3011c",
+      "latest_version": "KytyPS5-2026-10-05-72e4989",
       "release_date": "2026-10-05",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
