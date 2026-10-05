@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-05-af3011c</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-04-bbb98bd...KytyPS5-2026...</description>
+    <pubDate>2026-10-05T02:41:18Z</pubDate>
+  </item>
+  <item>
     <title>gearcoleco updated to v1.7.3</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🎥 Added video recording</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shadPS4 v0.18.0 "UltraPersona"</description>
     <pubDate>2026-08-18T12:19:10Z</pubDate>
-  </item>
-  <item>
-    <title>duckstation updated to vlatest</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 381ac7d1e MediaCapture: Fix incorrect samples on buffer wrap-around</description>
-    <pubDate>2026-08-12T12:38:50Z</pubDate>
   </item>
 </channel>
 </rss>

@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-04T20:33:56Z",
+  "last_updated": "2026-10-05T02:41:33Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-05-af3011c",
+      "date": "2026-10-05T02:41:18Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-04-bbb98bd...KytyPS5-2026..."
+    },
     {
       "emulator_id": "gearcoleco",
       "version": "1.7.3",
@@ -294,12 +300,6 @@
       "version": ".0.16.0",
       "date": "2026-06-01T17:12:57Z",
       "message": "shadPS4 v0.16.0 Released"
-    },
-    {
-      "emulator_id": "play",
-      "version": "0.76",
-      "date": "2026-06-01T17:12:56Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-04-719e025",
-      "release_date": "2026-10-04",
+      "latest_version": "KytyPS5-2026-10-05-af3011c",
+      "release_date": "2026-10-05",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
