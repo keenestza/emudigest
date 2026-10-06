@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-05T23:25:03Z",
+  "last_updated": "2026-10-06T12:19:23Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-06-7d2422a",
+      "date": "2026-10-06T12:19:10Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-cdb64bf...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-05-cdb64bf",
@@ -294,12 +300,6 @@
       "version": "0.8.136",
       "date": "2026-06-08T10:12:06Z",
       "message": "2892 - ci: Update Windows build toolchain image SHA (@mborgerson)"
-    },
-    {
-      "emulator_id": "rpcs3",
-      "version": "0.0.41",
-      "date": "2026-06-04T02:29:47Z",
-      "message": "Please note that our version increases are landmarks and not stable builds"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-05-cdb64bf",
-      "release_date": "2026-10-05",
+      "latest_version": "KytyPS5-2026-10-06-7d2422a",
+      "release_date": "2026-10-06",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
