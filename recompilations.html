@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Recomps &amp; Decomps — EmuDigest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    :root { --bg:#0f0f15; --card:#1a1a24; --hover:#252535; --border:#3a3a4c; --text:#fff; --muted:#b0b8c8; --green:#00ff88; --blue:#33aaff; --yellow:#ffcc00; --pink:#ff3366; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; min-height:100vh; color:var(--text); background:var(--bg); font:14px/1.65 'JetBrains Mono',monospace; }
+    body::before { content:''; position:fixed; inset:0; pointer-events:none; background-image:linear-gradient(rgba(0,255,136,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,255,136,.03) 1px,transparent 1px); background-size:40px 40px; }
+    a { color:var(--green); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .site-header { position:sticky; top:0; z-index:10; background:rgba(15,15,21,.96); border-bottom:1px solid var(--border); backdrop-filter:blur(12px); }
+    .header-inner { max-width:1280px; margin:auto; padding:16px 28px; display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    .logo { font:700 24px 'Silkscreen',cursive; letter-spacing:2px; white-space:nowrap; }
+    .logo span { color:var(--pink); }
+    .header-nav { display:flex; gap:8px; flex-wrap:wrap; }
+    .header-nav a { border:1px solid var(--border); border-radius:4px; padding:7px 12px; color:var(--text); font-size:12px; text-transform:uppercase; letter-spacing:1px; }
+    .header-nav a[aria-current="page"] { color:#000; background:var(--green); border-color:var(--green); font-weight:800; }
+    .header-nav a:hover { border-color:var(--green); text-decoration:none; }
+    .container { max-width:1280px; margin:auto; padding:32px 28px 80px; position:relative; }
+    .hero { display:flex; justify-content:space-between; align-items:flex-end; gap:20px; flex-wrap:wrap; margin-bottom:24px; }
+    .eyebrow { color:var(--green); text-transform:uppercase; letter-spacing:2px; font-size:11px; font-weight:800; }
+    h1 { font:700 clamp(20px,3vw,36px)/1.3 'Silkscreen',cursive; margin:8px 0 12px; }
+    .hero p { color:var(--muted); max-width:760px; margin:0; }
+    .checked { color:var(--yellow); border:1px solid var(--border); padding:10px 14px; border-radius:4px; white-space:nowrap; font-size:11px; }
+    .stats { display:flex; gap:24px; flex-wrap:wrap; background:var(--card); border:1px solid var(--border); border-radius:6px; padding:14px 20px; margin-bottom:24px; }
+    .stat strong { display:block; color:var(--green); font:700 21px 'Silkscreen',cursive; }
+    .stat span { color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:1px; }
+    .toolbar { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-bottom:22px; }
+    .tabs { display:flex; gap:8px; flex-wrap:wrap; }
+    button { cursor:pointer; font:600 11px 'JetBrains Mono',monospace; text-transform:uppercase; letter-spacing:1px; border-radius:4px; }
+    .tab { background:var(--card); color:var(--text); border:1px solid var(--border); padding:9px 14px; }
+    .tab[aria-selected="true"] { background:var(--green); color:#000; border-color:var(--green); }
+    .search { font:12px 'JetBrains Mono',monospace; min-width:260px; width:min(340px,100%); color:var(--text); background:var(--card); border:1px solid var(--border); padding:10px 12px; border-radius:4px; outline:none; }
+    .search:focus { border-color:var(--green); }
+    .day { margin:26px 0 12px; color:var(--blue); font:700 13px 'Silkscreen',cursive; border-bottom:1px solid var(--border); padding-bottom:9px; }
+    .day::before { content:'> '; color:var(--green); }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; }
+    .entry { background:var(--card); border:1px solid var(--border); border-left:4px solid var(--green); border-radius:6px; padding:16px; display:flex; flex-direction:column; min-height:185px; }
+    .entry:hover { background:var(--hover); border-color:var(--green); }
+    .entry.development { border-left-color:var(--blue); }
+    .entry-top { display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap; margin-bottom:10px; }
+    .badge { color:var(--green); font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:1px; }
+    .development .badge { color:var(--blue); }
+    .version { font-size:11px; color:var(--yellow); overflow-wrap:anywhere; }
+    .entry h3 { font:700 14px/1.5 'Silkscreen',cursive; margin:0 0 6px; }
+    .meta { color:var(--muted); font-size:11px; margin-bottom:10px; }
+    .summary { color:var(--muted); font-size:12px; margin:0 0 14px; flex:1; overflow-wrap:anywhere; }
+    .source { align-self:flex-start; border:1px solid var(--green); border-radius:4px; padding:5px 9px; text-transform:uppercase; font-size:10px; font-weight:800; }
+    .source:hover { text-decoration:none; background:rgba(0,255,136,.1); }
+    .empty { color:var(--muted); padding:30px; background:var(--card); border:1px solid var(--border); border-radius:6px; }
+    .footer { text-align:center; color:var(--muted); background:var(--card); border-top:1px solid var(--border); padding:26px; font-size:11px; }
+    [hidden] { display:none !important; }
+    @media (max-width:600px) { .header-inner,.container { padding-left:16px; padding-right:16px; } .logo { font-size:19px; } .search { width:100%; } .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">Emu<span>Digest</span></a>
+      <nav class="header-nav" aria-label="Site sections">
+        <a href="index.html">Emulators</a>
+        <a href="recompilations.html" aria-current="page">Game Recomps &amp; Decomps</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">Game preservation watch</div>
+        <h1>Recompilations &amp; Decompilations</h1>
+        <p>Daily GitHub release updates for game-specific PC ports and source reconstruction projects. Development activity is shown for projects without releases. Each entry links to the original GitHub source.</p>
+      </div>
+      <div id="checked" class="checked">Loading latest check…</div>
+    </div>
+    <div class="stats" aria-label="Tracker statistics">
+      <div class="stat"><strong id="projectCount">—</strong><span>Projects tracked</span></div>
+      <div class="stat"><strong id="updateCount">—</strong><span>Recent changes</span></div>
+      <div class="stat"><strong id="platformCount">—</strong><span>Original platforms</span></div>
+    </div>
+    <div class="toolbar">
+      <div class="tabs" role="tablist" aria-label="Game port views">
+        <button class="tab" id="updatesTab" role="tab" aria-selected="true" aria-controls="updatesPanel">Daily changes</button>
+        <button class="tab" id="projectsTab" role="tab" aria-selected="false" aria-controls="projectsPanel">Tracked projects</button>
+      </div>
+      <input id="search" class="search" type="search" placeholder="Search game, project or console…" aria-label="Search game ports" />
+    </div>
+    <section id="updatesPanel" role="tabpanel" aria-labelledby="updatesTab"><div class="empty">Loading updates…</div></section>
+    <section id="projectsPanel" role="tabpanel" aria-labelledby="projectsTab" hidden></section>
+  </main>
+  <footer class="footer">EmuDigest · Public GitHub project updates checked daily · <a href="https://github.com/keenestza/emudigest" target="_blank" rel="noopener noreferrer">View source</a></footer>
+  <script>
+    const projectsByRepo = new Map();
+    let projects = [];
+    let feed = [];
+    let state = {};
+    let activeView = 'updates';
+    const search = document.getElementById('search');
+
+    function node(tag, className, text) {
+      const element = document.createElement(tag);
+      if (className) element.className = className;
+      if (text !== undefined) element.textContent = text;
+      return element;
+    }
+    function dateLabel(value) {
+      const date = new Date(value);
+      return Number.isNaN(date.getTime()) ? 'Date unknown' : date.toLocaleDateString('en-ZA', { year:'numeric', month:'long', day:'numeric', timeZone:'UTC' });
+    }
+    function sourceLink(url, label) {
+      const link = node('a', 'source', label);
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      return link;
+    }
+    function matches(project) {
+      const q = search.value.trim().toLowerCase();
+      return !q || [project.name, project.game, project.console, project.kind].some(value => value.toLowerCase().includes(q));
+    }
+    function card(project, item) {
+      const isUpdate = Boolean(item);
+      const entry = node('article', 'entry' + (item?.type === 'Development update' ? ' development' : ''));
+      const top = node('div', 'entry-top');
+      top.append(node('span', 'badge', isUpdate ? item.type : project.kind));
+      if (isUpdate) top.append(node('span', 'version', item.version));
+      entry.append(top, node('h3', '', project.name), node('div', 'meta', project.game + ' · ' + project.console));
+      entry.append(node('p', 'summary', isUpdate ? item.summary : project.kind + ' · ' + (state[project.repo]?.latest_version ? 'Latest: ' + state[project.repo].latest_version : 'GitHub project')));
+      entry.append(sourceLink(isUpdate ? item.url : 'https://github.com/' + project.repo, isUpdate ? 'View change ↗' : 'View project ↗'));
+      return entry;
+    }
+    function renderUpdates() {
+      const panel = document.getElementById('updatesPanel');
+      panel.replaceChildren();
+      const visible = feed.filter(item => projectsByRepo.has(item.repo) && matches(projectsByRepo.get(item.repo)));
+      if (!visible.length) { panel.append(node('div', 'empty', 'No changes match this search. Check the tracked projects tab for the full list.')); return; }
+      const groups = new Map();
+      visible.forEach(item => {
+        const day = item.date?.slice(0, 10) || 'Unknown';
+        if (!groups.has(day)) groups.set(day, []);
+        groups.get(day).push(item);
+      });
+      groups.forEach((items, day) => {
+        panel.append(node('h2', 'day', dateLabel(day)));
+        const grid = node('div', 'grid');
+        items.forEach(item => grid.append(card(projectsByRepo.get(item.repo), item)));
+        panel.append(grid);
+      });
+    }
+    function renderProjects() {
+      const panel = document.getElementById('projectsPanel');
+      panel.replaceChildren();
+      const visible = projects.filter(matches);
+      if (!visible.length) { panel.append(node('div', 'empty', 'No projects match this search.')); return; }
+      const grid = node('div', 'grid');
+      visible.forEach(project => grid.append(card(project)));
+      panel.append(grid);
+    }
+    function show(view) {
+      activeView = view;
+      document.getElementById('updatesPanel').hidden = view !== 'updates';
+      document.getElementById('projectsPanel').hidden = view !== 'projects';
+      document.getElementById('updatesTab').setAttribute('aria-selected', String(view === 'updates'));
+      document.getElementById('projectsTab').setAttribute('aria-selected', String(view === 'projects'));
+      if (view === 'updates') renderUpdates(); else renderProjects();
+    }
+    document.getElementById('updatesTab').addEventListener('click', () => show('updates'));
+    document.getElementById('projectsTab').addEventListener('click', () => show('projects'));
+    search.addEventListener('input', () => show(activeView));
+    Promise.all([
+      fetch('recomp-projects.json').then(response => { if (!response.ok) throw new Error('Project list unavailable'); return response.json(); }),
+      fetch('recomp-updates.json').then(response => { if (!response.ok) throw new Error('Update feed unavailable'); return response.json(); })
+    ]).then(([catalog, data]) => {
+      projects = catalog.projects;
+      projects.forEach(project => projectsByRepo.set(project.repo, project));
+      feed = data.updates || [];
+      state = data.state || {};
+      document.getElementById('projectCount').textContent = projects.length;
+      document.getElementById('updateCount').textContent = feed.length;
+      document.getElementById('platformCount').textContent = new Set(projects.map(project => project.console)).size;
+      document.getElementById('checked').textContent = data.last_checked ? 'Last checked: ' + dateLabel(data.last_checked) + (data.checked_projects < data.total_projects ? ` · ${data.checked_projects}/${data.total_projects} projects` : '') : 'Awaiting first check';
+      show('updates');
+    }).catch(error => {
+      document.getElementById('checked').textContent = 'Updates unavailable';
+      document.getElementById('updatesPanel').replaceChildren(node('div', 'empty', 'Could not load the update feed. Please try again later.'));
+      console.error(error);
+    });
+  </script>
+</body>
+</html>

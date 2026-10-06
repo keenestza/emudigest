@@ -2,6 +2,10 @@
 
 A self-updating static site that tracks emulator releases from GitHub and presents them in a categorized, searchable interface.
 
+## Game recomps and decomps
+
+The [Game Recomps & Decomps page](recompilations.html) lists tracked console game recompilations, decompilations, and game-specific native ports. It shows dated GitHub releases, plus the latest source change for projects without releases. The daily workflow in `.github/workflows/track-game-ports.yml` checks the repositories in `recomp-projects.json` and writes `recomp-updates.json`. Add new projects to `recomp-projects.json`; the next run will establish their latest release as a baseline and show it if it was published in the preceding seven days.
+
 ## Architecture
 
 ```

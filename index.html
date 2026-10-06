@@ -52,6 +52,8 @@
     .platform-links button { font-size: 0.65rem; padding: 0.2rem 0.6rem; border-color: transparent; color: var(--text-dim); }
     
     .nav-links button:hover, .nav-links button.active { border-color: var(--accent); color: #000000; background: var(--accent); box-shadow: 0 0 10px var(--glow); font-weight: 800; }
+    .nav-links .section-link { display: inline-flex; align-items: center; background: rgba(51, 170, 255, 0.1); border: 1px solid var(--accent-3); color: var(--accent-3); font-family: var(--font-mono); font-size: 0.75rem; padding: 0.4rem 0.8rem; text-transform: uppercase; letter-spacing: 1px; border-radius: 4px; font-weight: 800; }
+    .nav-links .section-link:hover { background: var(--accent-3); color: #000; text-decoration: none; }
     .platform-links button:hover, .platform-links button.active { color: var(--accent-3); border-color: var(--accent-3); background: rgba(51, 170, 255, 0.1); }
     
     .search-box { background: rgba(255, 255, 255, 0.05); border: 1px solid #4a4a5a; color: #ffffff; font-family: var(--font-mono); font-size: 0.85rem; padding: 0.5rem 0.8rem; width: 280px; outline: none; transition: border-color 0.2s; border-radius: 4px; }
@@ -167,6 +169,7 @@
       <!-- Category Filter -->
       <nav class="nav-links" id="navLinks">
         <button class="active" data-filter="all">All</button>
+        <a class="section-link" href="recompilations.html">Game Recomps &amp; Decomps ↗</a>
       </nav>
       <!-- OS Platform Filter -->
       <div class="platform-links" id="platformLinks">

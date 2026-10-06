@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {"repo": "deadinside28/bloodborne_pc", "name": "bbport", "game": "Bloodborne", "console": "PlayStation 4", "kind": "Native port"},
+    {"repo": "gibletto/sfIII3-cps3-decomp", "name": "SFIII: 3rd Strike decomp", "game": "Street Fighter III: 3rd Strike", "console": "CPS-3 arcade", "kind": "Decompilation"},
+    {"repo": "GiZcesi/OpenTricky", "name": "OpenTricky", "game": "SSX Tricky", "console": "Xbox", "kind": "Recompilation"},
+    {"repo": "goliathret/EdgeOfTimeRecomp", "name": "Edge of Time Recompiled", "game": "Spider-Man: Edge of Time", "console": "Xbox 360", "kind": "Recompilation"},
+    {"repo": "OpenCommunityEdition/OpenCE", "name": "OpenCE", "game": "Halo: Combat Evolved", "console": "Xbox", "kind": "Decompilation port"},
+    {"repo": "florinp93/hells-gate-recomp", "name": "Hell's Gate Recomp", "game": "Dante's Inferno", "console": "Xbox 360", "kind": "Recompilation"},
+    {"repo": "novapowers0/DB-Final-Bout-Recomp", "name": "DB Final Bout Recompiled", "game": "Dragon Ball GT: Final Bout", "console": "PlayStation", "kind": "Recompilation"},
+    {"repo": "elliotttate/wave-race-64-recomp", "name": "Wave Race 64 Recompiled (enhanced fork)", "game": "Wave Race 64", "console": "Nintendo 64", "kind": "Recompilation"},
+    {"repo": "danielgomesvieira2000/wave-race-64-recomp", "name": "Wave Race 64 Recompiled (original)", "game": "Wave Race 64", "console": "Nintendo 64", "kind": "Recompilation"},
+    {"repo": "JackandBeans/Snap64Recomp", "name": "Snap64 Recomp", "game": "Pokémon Snap", "console": "Nintendo 64", "kind": "Recompilation"},
+    {"repo": "YuutaTsubasa/Free-Riders-Recompiled", "name": "Free Riders Recompiled", "game": "Sonic Free Riders", "console": "Xbox 360", "kind": "Recompilation"},
+    {"repo": "NoRain211/doaxvb-re", "name": "DOAXBV Recompiled", "game": "Dead or Alive Xtreme Beach Volleyball", "console": "Xbox", "kind": "Recompilation"}
+  ]
+}
