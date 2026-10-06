@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-06-60e53a3</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>kernel: fix the macOS build of host thread naming by @Nawid3333 in https://github.com/KytyPS5/KytyPS...</description>
+    <pubDate>2026-10-06T21:56:58Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-06-7d2422a</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-cdb64bf...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New update available!</description>
     <pubDate>2026-08-31T01:57:17Z</pubDate>
-  </item>
-  <item>
-    <title>pcsx2 updated to v2.8.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Our first immutable release, I hope I didn't screw up.</description>
-    <pubDate>2026-08-29T01:14:04Z</pubDate>
   </item>
 </channel>
 </rss>

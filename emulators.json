@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-06T12:19:23Z",
+  "last_updated": "2026-10-06T21:57:07Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-06-60e53a3",
+      "date": "2026-10-06T21:56:58Z",
+      "message": "kernel: fix the macOS build of host thread naming by @Nawid3333 in https://github.com/KytyPS5/KytyPS..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-06-7d2422a",
@@ -294,12 +300,6 @@
       "version": "0.3.0",
       "date": "2026-06-14T08:58:33Z",
       "message": "avm2: Fixes to Error's prototype by @Lord-McSweeney in https://github.com/ruffle-rs/ruffle/pull/2371..."
-    },
-    {
-      "emulator_id": "xemu",
-      "version": "0.8.136",
-      "date": "2026-06-08T10:12:06Z",
-      "message": "2892 - ci: Update Windows build toolchain image SHA (@mborgerson)"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-06-7d2422a",
+      "latest_version": "KytyPS5-2026-10-06-60e53a3",
       "release_date": "2026-10-06",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
