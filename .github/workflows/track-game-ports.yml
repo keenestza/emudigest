@@ -1,0 +1,39 @@
+name: Track Game Recomps and Decomps
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-projects:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check project releases and development activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/track_game_ports.py
+
+      - name: Publish updated feed
+        run: |
+          if git diff --quiet -- recomp-updates.json; then
+            echo "No feed changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add recomp-updates.json
+          git commit -m "Update game recompilation and decompilation feed"
+          git pull --rebase origin main
+          git push origin HEAD:main
