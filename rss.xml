@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to v0.7.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>core: Remove bitmap glyphs in favor of atlas glyphs by @kjarosh in https://github.com/ruffle-rs/ruff...</description>
+    <pubDate>2026-10-07T12:10:56Z</pubDate>
+  </item>
+  <item>
     <title>casso updated to v1.31.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- disk create appends the default file extension for --type if one is not</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>chore: Bump ip-address from 10.2.0 to 10.4.0 in /web by @dependabot[bot] in https://github.com/ruffl...</description>
     <pubDate>2026-09-06T19:40:52Z</pubDate>
-  </item>
-  <item>
-    <title>pcsx2 updated to v2.8.2</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>GS:VK: Use swizzle value compatible with MoltenVK on older GPUs.</description>
-    <pubDate>2026-09-05T01:41:22Z</pubDate>
   </item>
 </channel>
 </rss>
