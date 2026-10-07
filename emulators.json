@@ -1295,6 +1295,42 @@
       ]
     },
     {
+      "id": "virtualjaguar-libretro",
+      "name": "Virtual Jaguar libretro",
+      "category": "Atari Jaguar",
+      "description": "Atari Jaguar and Jaguar CD emulator core for RetroArch.",
+      "latest_version": "v3.7.0",
+      "release_date": "2026-10-06",
+      "website": "https://github.com/libretro/virtualjaguar-libretro",
+      "github": "libretro/virtualjaguar-libretro",
+      "download_url": "https://github.com/libretro/virtualjaguar-libretro/releases",
+      "icon": "\ud83d\udd79\ufe0f",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ]
+    },
+    {
+      "id": "freeintv",
+      "name": "FreeIntv",
+      "category": "Intellivision",
+      "description": "Mattel Intellivision emulator core for RetroArch with controller and on-screen keypad support.",
+      "latest_version": "2025.11.1",
+      "release_date": "",
+      "website": "https://github.com/libretro/FreeIntv",
+      "github": "libretro/FreeIntv",
+      "download_url": "https://www.retroarch.com/?page=platforms",
+      "icon": "\ud83d\udd79\ufe0f",
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Android"
+      ]
+    },
+    {
       "id": "stella",
       "name": "Stella",
       "category": "Atari",
