@@ -1,19 +1,19 @@
 {
-  "last_checked": "2026-10-07T14:19:20Z",
+  "last_checked": "2026-10-08T14:27:31Z",
   "checked_projects": 12,
   "total_projects": 12,
   "state": {
     "deadinside28/bloodborne_pc": {
-      "release_id": 404481875,
-      "latest_version": "0.3",
-      "latest_date": "2026-10-06T08:29:07Z",
-      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.3"
+      "release_id": 406138547,
+      "latest_version": "0.4",
+      "latest_date": "2026-10-07T20:30:41Z",
+      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.4"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "f018c3d1f68e3814aca793cad8fe05c20eb8e9ad",
-      "latest_version": "f018c3d",
-      "latest_date": "2026-10-07T11:51:54Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/f018c3d1f68e3814aca793cad8fe05c20eb8e9ad"
+      "commit_sha": "6b923b99f89b81727f84d221a59ec4915c233305",
+      "latest_version": "6b923b9",
+      "latest_date": "2026-10-08T14:11:25Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/6b923b99f89b81727f84d221a59ec4915c233305"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 402985451,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 405669546,
-      "latest_version": "build-145",
-      "latest_date": "2026-10-07T11:05:07Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-145"
+      "release_id": 406713551,
+      "latest_version": "build-157",
+      "latest_date": "2026-10-08T10:41:34Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-157"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 390161323,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.2"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 405611823,
-      "latest_version": "v0.6.2",
-      "latest_date": "2026-10-07T09:48:26Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.2"
+      "release_id": 406671146,
+      "latest_version": "v0.6.4",
+      "latest_date": "2026-10-08T09:48:03Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.4"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 400180713,
@@ -77,6 +77,51 @@
     }
   },
   "updates": [
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:f29055a2d48bd80ecd34ce668adab72d733e47b7",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-08T13:56:06Z",
+      "version": "f29055a",
+      "summary": "More matches: 9,338 routines instruction-exact, 8,900 byte-exact; replays 252 state, 250 slowdown of 254",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/f29055a2d48bd80ecd34ce668adab72d733e47b7"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:406713551",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-08T10:41:34Z",
+      "version": "build-157",
+      "summary": "5 builds since the last check. Highlights: Sound tags from files over a map's, and a 16 MB sound cache; Reverberate and muffle stereo sounds in the world; Stereo sounds in the world fade as mono ones do",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-157"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:406671146",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-08T09:48:03Z",
+      "version": "v0.6.4",
+      "summary": "No more getting stuck at start with Multi-core execution off (#78, Issue #1): with the launcher's Multi-core execution turned off, the game got stuck at start on every device, in v0.6.0 through v0.6.3. Some of the game's…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.4"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:406349693",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-08T02:37:09Z",
+      "version": "v0.6.3",
+      "summary": "Install folders with non-Latin letters (#74, Issue #71): on Windows, the game stopped right after its window opened when its folder path had letters outside the Latin alphabet (a Cyrillic, Chinese or Japanese user or fol…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.3"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:406138547",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-07T20:30:41Z",
+      "version": "0.4",
+      "summary": "FSR 4.1.1 from one DLL, with a button",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.4"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:6c65f7fd985463f44ec94691b06153634412445a",
       "repo": "gibletto/sfIII3-cps3-decomp",
