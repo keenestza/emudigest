@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-08T12:21:20Z",
+  "last_updated": "2026-10-08T22:34:08Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-08-2f4b8a3",
+      "date": "2026-10-08T22:33:55Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-58978d1...KytyPS5-2026..."
+    },
     {
       "emulator_id": "virtualjaguar-libretro",
       "version": "3.7.1",
@@ -294,12 +300,6 @@
       "version": "dosbox-x-v2026.08.02",
       "date": "2026-08-03T08:56:34Z",
       "message": "- Debugger: normalize 16-bit segmented offsets for address display/lookup and"
-    },
-    {
-      "emulator_id": "rpcs3",
-      "version": "0.0.42",
-      "date": "2026-07-31T19:03:06Z",
-      "message": "Please note that our version increases are landmarks and not stable builds"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-08-62643c3",
+      "latest_version": "KytyPS5-2026-10-08-2f4b8a3",
       "release_date": "2026-10-08",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",

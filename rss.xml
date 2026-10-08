@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-08-2f4b8a3</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-58978d1...KytyPS5-2026...</description>
+    <pubDate>2026-10-08T22:33:55Z</pubDate>
+  </item>
+  <item>
     <title>virtualjaguar-libretro updated to v3.7.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Virtual Jaguar libretro v3.7.1</description>
@@ -176,12 +182,6 @@
     <title>zesarux updated to vZEsarUX-13.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>ZEsarUX 13 - The Way of the Exploding Fist edition. 09 June 2026</description>
-    <pubDate>2026-09-29T11:42:20Z</pubDate>
-  </item>
-  <item>
-    <title>openmsx updated to vRELEASE_21_0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>openMSX 21.0 has many improvements on the new GUI introduced in openMSX 20.0 (especially the debugge...</description>
     <pubDate>2026-09-29T11:42:20Z</pubDate>
   </item>
 </channel>
