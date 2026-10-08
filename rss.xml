@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>casso updated to v1.32.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- Casso checks for a new release at startup, at most once a day, and shows a</description>
+    <pubDate>2026-10-08T03:16:00Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-08-5a88080</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>tests: cover the untested 16-bit integer ALU opcodes by @Nawid3333 in https://github.com/KytyPS5/Kyt...</description>
+    <pubDate>2026-10-08T03:15:54Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to v0.7.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This release fixes some configuration issues we had that prevented extensions from being published. ...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This an unscheduled fix release which addresses a commonly experienced issue in Azahar's libretro co...</description>
     <pubDate>2026-09-21T02:00:34Z</pubDate>
-  </item>
-  <item>
-    <title>nestopia updated to v2.0.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Copy of the cross-platform builds available at https://github.com/jgemu/jgbuilds/releases/tag/nestop...</description>
-    <pubDate>2026-09-14T02:00:19Z</pubDate>
-  </item>
-  <item>
-    <title>nestopia updated to v1.99.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Legacy win32 release with changes backported from version 2.0.0</description>
-    <pubDate>2026-09-13T19:56:18Z</pubDate>
   </item>
 </channel>
 </rss>

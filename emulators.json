@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-07T22:21:47Z",
+  "last_updated": "2026-10-08T03:16:07Z",
   "feed": [
+    {
+      "emulator_id": "casso",
+      "version": "1.32.0",
+      "date": "2026-10-08T03:16:00Z",
+      "message": "- Casso checks for a new release at startup, at most once a day, and shows a"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-08-5a88080",
+      "date": "2026-10-08T03:15:54Z",
+      "message": "tests: cover the untested 16-bit integer ALU opcodes by @Nawid3333 in https://github.com/KytyPS5/Kyt..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "0.7.1",
@@ -288,18 +300,6 @@
       "version": ".0.17.0",
       "date": "2026-07-31T01:27:32Z",
       "message": "Welcome to another big release of shadPS4. This release is the first to introduce shadnet support, w..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "0.4.1",
-      "date": "2026-07-19T18:45:16Z",
-      "message": "ci: Fix version4 to respect extension manifest limit by @kjarosh in https://github.com/ruffle-rs/ruf..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "0.4.0",
-      "date": "2026-07-19T01:21:51Z",
-      "message": "avm1: Make Object::set accept impl Into<Value> by @SuchAFuriousDeath in https://github.com/ruffle-rs..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-07-c86c8b4",
-      "release_date": "2026-10-07",
+      "latest_version": "KytyPS5-2026-10-08-5a88080",
+      "release_date": "2026-10-08",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1266,7 +1266,7 @@
       "name": "Casso",
       "category": "Apple II",
       "description": "Apple II family emulator with a built-in assembler and disk manager.",
-      "latest_version": "1.31.0",
+      "latest_version": "1.32.0",
       "release_date": "2026-10-07",
       "website": "https://github.com/relmer/Casso",
       "github": "relmer/Casso",
