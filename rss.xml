@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>virtualjaguar-libretro updated to v3.7.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Virtual Jaguar libretro v3.7.1</description>
+    <pubDate>2026-10-08T12:21:16Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-08-62643c3</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-5a88080...KytyPS5-2026...</description>
+    <pubDate>2026-10-08T12:21:09Z</pubDate>
+  </item>
+  <item>
     <title>casso updated to v1.32.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- Casso checks for a new release at startup, at most once a day, and shows a</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>openMSX 21.0 has many improvements on the new GUI introduced in openMSX 20.0 (especially the debugge...</description>
     <pubDate>2026-09-29T11:42:20Z</pubDate>
-  </item>
-  <item>
-    <title>vice updated to v3.10.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New update available!</description>
-    <pubDate>2026-09-28T22:41:33Z</pubDate>
-  </item>
-  <item>
-    <title>azahar updated to v2126.1.2</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>This an unscheduled fix release which addresses a commonly experienced issue in Azahar's libretro co...</description>
-    <pubDate>2026-09-21T02:00:34Z</pubDate>
   </item>
 </channel>
 </rss>
