@@ -5,6 +5,24 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-09-7b9997b</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-2f4b8a3...KytyPS5-2026...</description>
+    <pubDate>2026-10-09T03:21:52Z</pubDate>
+  </item>
+  <item>
+    <title>sharpemu updated to v0.0.5-nexus-release.2</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Automated SharpEmu v0.0.5-nexus-release.2 build for commit [47d4c07](https://github.com/sharpemu/sha...</description>
+    <pubDate>2026-10-09T03:21:52Z</pubDate>
+  </item>
+  <item>
+    <title>azahar updated to v2126.2</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This a minor release for the 2126 branch which primarily addresses a reported security advisory.</description>
+    <pubDate>2026-10-09T03:21:50Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-08-2f4b8a3</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-58978d1...KytyPS5-2026...</description>
@@ -165,24 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🎯 Improved PSG accuracy</description>
     <pubDate>2026-10-01T02:46:33Z</pubDate>
-  </item>
-  <item>
-    <title>rpcs3 updated to v0.0.43</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Please note that our version increases are landmarks and not stable builds</description>
-    <pubDate>2026-10-01T02:46:25Z</pubDate>
-  </item>
-  <item>
-    <title>casso updated to v1.29.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- GH 156: Controllers are assigned to Player 1 and Player 2 automatically, in</description>
-    <pubDate>2026-09-30T11:28:36Z</pubDate>
-  </item>
-  <item>
-    <title>zesarux updated to vZEsarUX-13.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>ZEsarUX 13 - The Way of the Exploding Fist edition. 09 June 2026</description>
-    <pubDate>2026-09-29T11:42:20Z</pubDate>
   </item>
 </channel>
 </rss>
