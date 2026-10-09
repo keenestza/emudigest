@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>sameboy updated to v1.0.4</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save...</description>
+    <pubDate>2026-10-09T12:11:21Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-09-7b9997b</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-2f4b8a3...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 📦 Added Ubuntu 26.04 builds</description>
     <pubDate>2026-10-01T02:46:34Z</pubDate>
-  </item>
-  <item>
-    <title>geargrafx updated to v1.8.1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 🎯 Improved PSG accuracy</description>
-    <pubDate>2026-10-01T02:46:33Z</pubDate>
   </item>
 </channel>
 </rss>

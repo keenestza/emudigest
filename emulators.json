@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-09T03:22:01Z",
+  "last_updated": "2026-10-09T12:11:43Z",
   "feed": [
+    {
+      "emulator_id": "sameboy",
+      "version": "1.0.4",
+      "date": "2026-10-09T12:11:21Z",
+      "message": "This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-09-7b9997b",
@@ -294,12 +300,6 @@
       "version": "latest",
       "date": "2026-08-12T12:38:50Z",
       "message": "- 381ac7d1e MediaCapture: Fix incorrect samples on buffer wrap-around"
-    },
-    {
-      "emulator_id": "duckstation",
-      "version": "0.1-11609",
-      "date": "2026-08-12T07:03:04Z",
-      "message": "New tag release created."
     }
   ],
   "emulators": [
@@ -526,8 +526,8 @@
       "name": "SameBoy",
       "category": "GB / GBC",
       "description": "Highly accurate Game Boy and Game Boy Color emulator.",
-      "latest_version": "1.0.3",
-      "release_date": "2026-03-04",
+      "latest_version": "1.0.4",
+      "release_date": "2026-10-09",
       "website": "https://sameboy.github.io/",
       "github": "LIJI32/SameBoy",
       "download_url": "https://github.com/LIJI32/SameBoy/releases",
