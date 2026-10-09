@@ -1,25 +1,25 @@
 {
-  "last_checked": "2026-10-08T14:27:31Z",
+  "last_checked": "2026-10-09T14:14:21Z",
   "checked_projects": 12,
   "total_projects": 12,
   "state": {
     "deadinside28/bloodborne_pc": {
-      "release_id": 406138547,
-      "latest_version": "0.4",
-      "latest_date": "2026-10-07T20:30:41Z",
-      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.4"
+      "release_id": 407848251,
+      "latest_version": "0.5-pre2",
+      "latest_date": "2026-10-09T11:30:28Z",
+      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre2"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "6b923b99f89b81727f84d221a59ec4915c233305",
-      "latest_version": "6b923b9",
-      "latest_date": "2026-10-08T14:11:25Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/6b923b99f89b81727f84d221a59ec4915c233305"
+      "commit_sha": "06e7d62eb8a3df0b0cb4f1bee5e44994ef8c5319",
+      "latest_version": "06e7d62",
+      "latest_date": "2026-10-09T09:36:00Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/06e7d62eb8a3df0b0cb4f1bee5e44994ef8c5319"
     },
     "GiZcesi/OpenTricky": {
-      "release_id": 402985451,
-      "latest_version": "v0.1.0-unstable",
-      "latest_date": "2026-10-04T11:25:10Z",
-      "latest_url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.0-unstable"
+      "release_id": 407148443,
+      "latest_version": "v0.1.1-unstable",
+      "latest_date": "2026-10-08T18:36:38Z",
+      "latest_url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.1-unstable"
     },
     "goliathret/EdgeOfTimeRecomp": {
       "release_id": 403200669,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 406713551,
-      "latest_version": "build-157",
-      "latest_date": "2026-10-08T10:41:34Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-157"
+      "release_id": 407844157,
+      "latest_version": "build-167",
+      "latest_date": "2026-10-09T11:23:04Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-167"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 390161323,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.2"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 406671146,
-      "latest_version": "v0.6.4",
-      "latest_date": "2026-10-08T09:48:03Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.4"
+      "release_id": 407880745,
+      "latest_version": "v0.6.10",
+      "latest_date": "2026-10-09T12:12:39Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.10"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 400180713,
@@ -77,6 +77,105 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407880745",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-09T12:12:39Z",
+      "version": "v0.6.10",
+      "summary": "Less GPU work under Vulkan (#92): shaders used to read their constants through buffer addresses, which a phone GPU's shader compiler cannot load once per draw, so every vertex fetched them again from memory. They now com…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.10"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:407848251",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-09T11:30:28Z",
+      "version": "0.5-pre2",
+      "summary": "0.5-pre2 — pre-release for testing",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre2"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:407844157",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-09T11:23:04Z",
+      "version": "build-167",
+      "summary": "5 builds since the last check. Highlights: Animation enhancements behind game.enhancedanimations, node count kept (#144); Overshield links' comments and lines as the files', part 0 checked (#116); OpenCE icon for Android, Windows and the desktop window",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-167"
+    },
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:8836192eae1583ea2638c5e64e5e2e7eb5df0178",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-09T07:30:00Z",
+      "version": "8836192",
+      "summary": "9,501 of 10,066 routines to the arcade's instructions, 9,182 to its exact bytes",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/8836192eae1583ea2638c5e64e5e2e7eb5df0178"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407498519",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-09T04:09:24Z",
+      "version": "v0.6.9",
+      "summary": "Faster races on Android (#90): on phones with one core faster than the rest, the render thread used to take that core while it mostly waited for draws, leaving the game's main thread, which sets the frame rate, on slower…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.9"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:407283474",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-08T21:36:41Z",
+      "version": "0.5-pre1",
+      "summary": "Settings inside the game's own menu",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre1"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407264858",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-08T21:08:32Z",
+      "version": "v0.6.8",
+      "summary": "Starts on Vulkan 1.1 phones, second fix (#89, Issue #88): v0.6.7 still closed at the game's first frame on phones whose GPU driver offers Vulkan 1.1, for example the Motorola Edge 30 Pro (Snapdragon 8 Gen 1, Adreno 730).…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.8"
+    },
+    {
+      "id": "release:GiZcesi/OpenTricky:407148443",
+      "repo": "GiZcesi/OpenTricky",
+      "type": "Release",
+      "date": "2026-10-08T18:36:38Z",
+      "version": "v0.1.1-unstable",
+      "summary": "SSX Tricky.exe still starts the game straight away with your settings.",
+      "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.1-unstable"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407141732",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-08T18:28:41Z",
+      "version": "v0.6.7",
+      "summary": "Starts on Vulkan 1.1 phones (#86, Issues #80, #85, #61): on phones whose GPU driver offers Vulkan 1.1, the game crashed at its first frame every time, for example a Motorola Edge 30 Pro (Snapdragon 8 Gen 1, Adreno 730). …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.7"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407059032",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-08T16:46:27Z",
+      "version": "v0.6.6",
+      "summary": "Crash records in the Android diagnostic ZIP (#83, Issues #61 and #80): a crash in native code stops game.log mid-way with no error, and a player can't run adb logcat. On Android 11 and later the diagnostic ZIP now has ex…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.6"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:406941365",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-08T14:46:20Z",
+      "version": "v0.6.5",
+      "summary": "Index buffers kept on the GPU (#81, Issue #65): an index buffer the game leaves unchanged is decoded once, straight into a GPU buffer, and later draws use it as it is. Before, every draw decoded its indices and copied th…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.5"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:f29055a2d48bd80ecd34ce668adab72d733e47b7",
       "repo": "gibletto/sfIII3-cps3-decomp",
