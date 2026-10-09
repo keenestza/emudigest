@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-09-59183db</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-09-c1926f9...KytyPS5-2026...</description>
+    <pubDate>2026-10-09T21:56:24Z</pubDate>
+  </item>
+  <item>
+    <title>fceux updated to vfceux-2.7.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>The 2.7.0 release introduces several new features and improvements focused on build system enhanceme...</description>
+    <pubDate>2026-10-09T21:56:15Z</pubDate>
+  </item>
+  <item>
     <title>sameboy updated to v1.0.4</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Welcome back to another shadPS4 release . It is over one month since our previous release and guess ...</description>
     <pubDate>2026-10-02T16:55:35Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-x updated to vdosbox-x-v2026.10.01</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- Fixed DOS FCB operations trying to read/write from deviceCON when performed</description>
-    <pubDate>2026-10-02T02:50:05Z</pubDate>
-  </item>
-  <item>
-    <title>gearcoleco updated to v1.7.2</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 📦 Added Ubuntu 26.04 builds</description>
-    <pubDate>2026-10-01T02:46:34Z</pubDate>
   </item>
 </channel>
 </rss>

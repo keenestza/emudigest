@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-09T12:11:43Z",
+  "last_updated": "2026-10-09T21:56:40Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-09-59183db",
+      "date": "2026-10-09T21:56:24Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-09-c1926f9...KytyPS5-2026..."
+    },
+    {
+      "emulator_id": "fceux",
+      "version": "fceux-2.7.0",
+      "date": "2026-10-09T21:56:15Z",
+      "message": "The 2.7.0 release introduces several new features and improvements focused on build system enhanceme..."
+    },
     {
       "emulator_id": "sameboy",
       "version": "1.0.4",
@@ -288,18 +300,6 @@
       "version": "2.7",
       "date": "2026-08-19T12:18:54Z",
       "message": "Frame rate detection and pacing"
-    },
-    {
-      "emulator_id": "shadps4",
-      "version": ".0.18.0",
-      "date": "2026-08-18T12:19:10Z",
-      "message": "shadPS4 v0.18.0 \"UltraPersona\""
-    },
-    {
-      "emulator_id": "duckstation",
-      "version": "latest",
-      "date": "2026-08-12T12:38:50Z",
-      "message": "- 381ac7d1e MediaCapture: Fix incorrect samples on buffer wrap-around"
     }
   ],
   "emulators": [
@@ -343,8 +343,8 @@
       "name": "FCEUX",
       "category": "NES",
       "description": "An open-source NES/Famicom emulator with TAS tools and Lua scripting.",
-      "latest_version": "2.6.6",
-      "release_date": "2023-08-27",
+      "latest_version": "fceux-2.7.0",
+      "release_date": "2026-10-09",
       "website": "https://fceux.com/",
       "github": "TASEmulators/fceux",
       "download_url": "https://github.com/TASEmulators/fceux/releases",
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-09-7b9997b",
+      "latest_version": "KytyPS5-2026-10-09-59183db",
       "release_date": "2026-10-09",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
