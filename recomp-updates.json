@@ -1,19 +1,19 @@
 {
-  "last_checked": "2026-10-09T14:14:21Z",
+  "last_checked": "2026-10-10T13:24:48Z",
   "checked_projects": 12,
   "total_projects": 12,
   "state": {
     "deadinside28/bloodborne_pc": {
-      "release_id": 407848251,
-      "latest_version": "0.5-pre2",
-      "latest_date": "2026-10-09T11:30:28Z",
-      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre2"
+      "release_id": 408262956,
+      "latest_version": "0.5-pre4",
+      "latest_date": "2026-10-09T19:23:01Z",
+      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre4"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "06e7d62eb8a3df0b0cb4f1bee5e44994ef8c5319",
-      "latest_version": "06e7d62",
-      "latest_date": "2026-10-09T09:36:00Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/06e7d62eb8a3df0b0cb4f1bee5e44994ef8c5319"
+      "commit_sha": "e1e26ab3c9e479cc15c6add553c99342fdafe231",
+      "latest_version": "e1e26ab",
+      "latest_date": "2026-10-10T11:14:18Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/e1e26ab3c9e479cc15c6add553c99342fdafe231"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 407148443,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 407844157,
-      "latest_version": "build-167",
-      "latest_date": "2026-10-09T11:23:04Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-167"
+      "release_id": 408854471,
+      "latest_version": "build-177",
+      "latest_date": "2026-10-10T09:53:19Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-177"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 390161323,
@@ -64,19 +64,82 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.2"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 407880745,
-      "latest_version": "v0.6.10",
-      "latest_date": "2026-10-09T12:12:39Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.10"
+      "release_id": 408830969,
+      "latest_version": "v0.7.0",
+      "latest_date": "2026-10-10T09:13:22Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.0"
     },
     "NoRain211/doaxvb-re": {
-      "release_id": 400180713,
-      "latest_version": "v0.5.3",
-      "latest_date": "2026-09-30T15:23:40Z",
-      "latest_url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.5.3"
+      "release_id": 408422451,
+      "latest_version": "v0.6.0-rc1",
+      "latest_date": "2026-10-09T23:28:43Z",
+      "latest_url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0-rc1"
     }
   },
   "updates": [
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:a33b93243da945a78849d51e42a09564408babab",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-10T11:06:45Z",
+      "version": "a33b932",
+      "summary": "9,657 of 10,066 routines to the arcade's instructions, 9,478 to its exact bytes; every replay clean",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/a33b93243da945a78849d51e42a09564408babab"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:408854471",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-10T09:53:19Z",
+      "version": "build-177",
+      "summary": "5 builds since the last check. Highlights: Retry the ART reclaim on kernels that take MAPFIXEDNOREPLACE as a hint; Never change a don't-dump ART mapping, and test the mincore fallback anywhere; The weapons' reticles drawn from the PC HUD sheet's exact matches",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-177"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:408830969",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-10T09:13:22Z",
+      "version": "v0.7.0",
+      "summary": "Online play (#56): the game's Xbox LIVE mode works again, on a server this project provides instead of Microsoft's. One player's game hosts the server; the others join over the network. Create Match, Quick Match, the lob…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.0"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:408454772",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-10T00:31:54Z",
+      "version": "v0.6.11",
+      "summary": "A race crash on 4-core PCs (#93, Issue #64): part of each race frame runs on three of the game's job threads, and the game waited only 16 ms for them before going on to the next step. On an Xbox 360 they always finish in…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.11"
+    },
+    {
+      "id": "release:NoRain211/doaxvb-re:408422451",
+      "repo": "NoRain211/doaxvb-re",
+      "type": "Release",
+      "date": "2026-10-09T23:28:43Z",
+      "version": "v0.6.0-rc1",
+      "summary": "Release candidate. 0.5.3 stays the recommended download until this build passes a full play test. Please report anything that looks or plays worse than 0.5.3.",
+      "url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0-rc1"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:408262956",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-09T19:23:01Z",
+      "version": "0.5-pre4",
+      "summary": "0.5-pre4 — pre-release for testing",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre4"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:408004383",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-09T14:37:27Z",
+      "version": "0.5-pre3",
+      "summary": "0.5-pre3 — pre-release for testing",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre3"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407880745",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
