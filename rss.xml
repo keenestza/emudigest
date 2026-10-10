@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-10-1cfb952</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>controller: use Back as the touchpad click on pads without a touchpad by @KelvinSilvaDev in https://...</description>
+    <pubDate>2026-10-10T20:47:41Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-10-307fdcf</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>add self updater by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1352</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>docs: show per-platform build status in the README badges by @YossiYad in https://github.com/KytyPS5...</description>
     <pubDate>2026-10-04T11:25:41Z</pubDate>
-  </item>
-  <item>
-    <title>casso updated to v1.30.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- GH 159: Support for WOZ 2.1 flux tracks, validated with Bandits, Minotaur,</description>
-    <pubDate>2026-10-03T15:19:19Z</pubDate>
   </item>
 </channel>
 </rss>

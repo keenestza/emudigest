@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-10T11:29:07Z",
+  "last_updated": "2026-10-10T20:47:55Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-10-1cfb952",
+      "date": "2026-10-10T20:47:41Z",
+      "message": "controller: use Back as the touchpad click on pads without a touchpad by @KelvinSilvaDev in https://..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-10-307fdcf",
@@ -294,12 +300,6 @@
       "version": "2.8.1",
       "date": "2026-08-31T01:57:17Z",
       "message": "New update available!"
-    },
-    {
-      "emulator_id": "pcsx2",
-      "version": "2.8.0",
-      "date": "2026-08-29T01:14:04Z",
-      "message": "Our first immutable release, I hope I didn't screw up."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-10-307fdcf",
+      "latest_version": "KytyPS5-2026-10-10-1cfb952",
       "release_date": "2026-10-10",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
