@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-09T21:56:40Z",
+  "last_updated": "2026-10-10T03:01:55Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-10-f3836bb",
+      "date": "2026-10-10T03:01:46Z",
+      "message": "shader: add SDWA support for VMINI32 by @popcoder565 in https://github.com/KytyPS5/KytyPS5/pull/1342"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-09-59183db",
@@ -294,12 +300,6 @@
       "version": "0.83.0",
       "date": "2026-08-27T16:57:54Z",
       "message": "0.83.0 release notes: https://www.dosbox-staging.org/releases/release-notes/0.83.0/"
-    },
-    {
-      "emulator_id": "flycast",
-      "version": "2.7",
-      "date": "2026-08-19T12:18:54Z",
-      "message": "Frame rate detection and pacing"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-09-59183db",
-      "release_date": "2026-10-09",
+      "latest_version": "KytyPS5-2026-10-10-f3836bb",
+      "release_date": "2026-10-10",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
