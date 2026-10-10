@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-10T03:01:55Z",
+  "last_updated": "2026-10-10T11:29:07Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-10-307fdcf",
+      "date": "2026-10-10T11:28:50Z",
+      "message": "add self updater by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1352"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-10-f3836bb",
@@ -294,12 +300,6 @@
       "version": "2.8.0",
       "date": "2026-08-29T01:14:04Z",
       "message": "Our first immutable release, I hope I didn't screw up."
-    },
-    {
-      "emulator_id": "dosbox-staging",
-      "version": "0.83.0",
-      "date": "2026-08-27T16:57:54Z",
-      "message": "0.83.0 release notes: https://www.dosbox-staging.org/releases/release-notes/0.83.0/"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-10-f3836bb",
+      "latest_version": "KytyPS5-2026-10-10-307fdcf",
       "release_date": "2026-10-10",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
