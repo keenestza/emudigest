@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-10T20:47:55Z",
+  "last_updated": "2026-10-11T02:32:27Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-11-730e1a3",
+      "date": "2026-10-11T02:32:13Z",
+      "message": "docs: add Fedora and Fedora Atomic (Bazzite) build instructions by @ReverendOzmund in https://github..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-10-1cfb952",
@@ -294,12 +300,6 @@
       "version": "dosbox-x-v2026.08.31",
       "date": "2026-09-01T20:14:06Z",
       "message": "- Added support for mounting TeleDisk (.td0) floppy image files. (cimarronm)"
-    },
-    {
-      "emulator_id": "pcsx2",
-      "version": "2.8.1",
-      "date": "2026-08-31T01:57:17Z",
-      "message": "New update available!"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-10-1cfb952",
-      "release_date": "2026-10-10",
+      "latest_version": "KytyPS5-2026-10-11-730e1a3",
+      "release_date": "2026-10-11",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",

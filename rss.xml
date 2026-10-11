@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-11-730e1a3</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>docs: add Fedora and Fedora Atomic (Bazzite) build instructions by @ReverendOzmund in https://github...</description>
+    <pubDate>2026-10-11T02:32:13Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-10-1cfb952</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>controller: use Back as the touchpad click on pads without a touchpad by @KelvinSilvaDev in https://...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>haptics: recognize 'Wireless Controller' audio endpoint on Linux by @arthuralvesdev in https://githu...</description>
     <pubDate>2026-10-04T16:03:47Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-03-db17585</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>docs: show per-platform build status in the README badges by @YossiYad in https://github.com/KytyPS5...</description>
-    <pubDate>2026-10-04T11:25:41Z</pubDate>
   </item>
 </channel>
 </rss>
