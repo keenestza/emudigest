@@ -1,19 +1,19 @@
 {
-  "last_checked": "2026-10-10T13:24:48Z",
+  "last_checked": "2026-10-11T13:51:45Z",
   "checked_projects": 12,
   "total_projects": 12,
   "state": {
     "deadinside28/bloodborne_pc": {
-      "release_id": 408262956,
-      "latest_version": "0.5-pre4",
-      "latest_date": "2026-10-09T19:23:01Z",
-      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre4"
+      "release_id": 409256220,
+      "latest_version": "0.51",
+      "latest_date": "2026-10-10T22:58:52Z",
+      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.51"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "e1e26ab3c9e479cc15c6add553c99342fdafe231",
-      "latest_version": "e1e26ab",
-      "latest_date": "2026-10-10T11:14:18Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/e1e26ab3c9e479cc15c6add553c99342fdafe231"
+      "commit_sha": "61956b945f1fffc0473c949ee7393d2278ac2dd2",
+      "latest_version": "61956b9",
+      "latest_date": "2026-10-10T18:12:23Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/61956b945f1fffc0473c949ee7393d2278ac2dd2"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 407148443,
@@ -28,16 +28,16 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 408854471,
-      "latest_version": "build-177",
-      "latest_date": "2026-10-10T09:53:19Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-177"
+      "release_id": 409586201,
+      "latest_version": "build-188",
+      "latest_date": "2026-10-11T10:07:18Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-188"
     },
     "florinp93/hells-gate-recomp": {
-      "release_id": 390161323,
-      "latest_version": "v0.7.2-beta-hotfix",
-      "latest_date": "2026-09-16T18:13:47Z",
-      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.7.2-beta-hotfix"
+      "release_id": 409645146,
+      "latest_version": "v0.8.1-beta",
+      "latest_date": "2026-10-11T12:10:03Z",
+      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.1-beta"
     },
     "novapowers0/DB-Final-Bout-Recomp": {
       "release_id": 397314437,
@@ -58,16 +58,16 @@
       "latest_url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/tag/v1.0.2"
     },
     "JackandBeans/Snap64Recomp": {
-      "release_id": 403276827,
-      "latest_version": "v1.1.2",
-      "latest_date": "2026-10-05T00:37:33Z",
-      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.2"
+      "release_id": 409405757,
+      "latest_version": "v1.1.3",
+      "latest_date": "2026-10-11T04:17:11Z",
+      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.3"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 408830969,
-      "latest_version": "v0.7.0",
-      "latest_date": "2026-10-10T09:13:22Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.0"
+      "release_id": 409439045,
+      "latest_version": "v0.7.1",
+      "latest_date": "2026-10-11T05:26:19Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.1"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -77,6 +77,78 @@
     }
   },
   "updates": [
+    {
+      "id": "release:florinp93/hells-gate-recomp:409645146",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-10-11T12:10:03Z",
+      "version": "v0.8.1-beta",
+      "summary": "Hell's Gate Recomp — v0.8.1-beta",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.1-beta"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:409586201",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-11T10:07:18Z",
+      "version": "build-188",
+      "summary": "5 builds since the last check. Highlights: Text drawn a string at a time, web immediate draws packed; Windows: tag block accessor builds again; Web: disclaimer footer",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-188"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:409439045",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-11T05:26:19Z",
+      "version": "v0.7.1",
+      "summary": "Online races with an AVATAR no longer close the other games (#95): when one player raced as AVATAR, a game without a custom model, such as a phone hosting the race, closed as the race loaded, and the others followed. Tha…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.1"
+    },
+    {
+      "id": "release:JackandBeans/Snap64Recomp:409405757",
+      "repo": "JackandBeans/Snap64Recomp",
+      "type": "Release",
+      "date": "2026-10-11T04:17:11Z",
+      "version": "v1.1.3",
+      "summary": "With Mouse Aim on, a course no longer starts looking straight up. The game stops the stick during its scripted moments, the run-in, a cutscene, a message, a turn to a new direction, the pause menu, and the port's mouse l…",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.3"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:409256220",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-10T22:58:52Z",
+      "version": "0.51",
+      "summary": "bbport is the counterpart of Wine + DXVK for a single game: Bloodborne (v1.09) on Linux.",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.51"
+    },
+    {
+      "id": "release:florinp93/hells-gate-recomp:409166078",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-10-10T21:28:00Z",
+      "version": "v0.8.0-beta",
+      "summary": "Hell's Gate Recomp — v0.8.0-beta",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.0-beta"
+    },
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:e5ac0d43b8abc82fee10d426f2294655f5f87477",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-10T18:04:48Z",
+      "version": "e5ac0d4",
+      "summary": "9,703 of 10,066 routines to the arcade's instructions, 9,565 to its exact bytes",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/e5ac0d43b8abc82fee10d426f2294655f5f87477"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:408967603",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-10T13:25:20Z",
+      "version": "0.5",
+      "summary": "Details and measurements of each step are in the prerelease notes:",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:a33b93243da945a78849d51e42a09564408babab",
       "repo": "gibletto/sfIII3-cps3-decomp",
