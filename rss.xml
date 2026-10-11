@@ -5,6 +5,30 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>scummvm updated to v2026.4.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>It is hard to believe, but a quarter-century and a couple of days ago, the ScummVM Project saw its f...</description>
+    <pubDate>2026-10-11T21:08:59Z</pubDate>
+  </item>
+  <item>
+    <title>gearcoleco updated to v1.7.4</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- 🔔 Improved desktop notification system</description>
+    <pubDate>2026-10-11T21:08:58Z</pubDate>
+  </item>
+  <item>
+    <title>geargrafx updated to v1.8.3</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- 🎮 Reduced input lag</description>
+    <pubDate>2026-10-11T21:08:57Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-11-e51de54</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-11-984cfce...KytyPS5-2026...</description>
+    <pubDate>2026-10-11T21:08:50Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-11-16a7fe6</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>fix windows compilation (2) by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1411</description>
@@ -159,30 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-1d55272...KytyPS5-2026...</description>
     <pubDate>2026-10-05T12:50:50Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-05-af3011c</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-04-bbb98bd...KytyPS5-2026...</description>
-    <pubDate>2026-10-05T02:41:18Z</pubDate>
-  </item>
-  <item>
-    <title>gearcoleco updated to v1.7.3</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 🎥 Added video recording</description>
-    <pubDate>2026-10-04T20:33:52Z</pubDate>
-  </item>
-  <item>
-    <title>geargrafx updated to v1.8.2</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 🎥 Added video recording</description>
-    <pubDate>2026-10-04T20:33:52Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-04-719e025</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>launcher: Raise DualSense speaker volume range for SpeakerFX by @Pyxellator in https://github.com/Ky...</description>
-    <pubDate>2026-10-04T20:33:47Z</pubDate>
   </item>
 </channel>
 </rss>
