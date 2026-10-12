@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-12-5b730d4</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-11-e51de54...KytyPS5-2026...</description>
+    <pubDate>2026-10-12T02:56:39Z</pubDate>
+  </item>
+  <item>
     <title>scummvm updated to v2026.4.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>It is hard to believe, but a quarter-century and a couple of days ago, the ScummVM Project saw its f...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-dc3cd2d...KytyPS5-2026...</description>
     <pubDate>2026-10-05T23:24:47Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-05-72e4989</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-1d55272...KytyPS5-2026...</description>
-    <pubDate>2026-10-05T12:50:50Z</pubDate>
   </item>
 </channel>
 </rss>

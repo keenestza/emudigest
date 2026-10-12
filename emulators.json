@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-11T21:09:04Z",
+  "last_updated": "2026-10-12T02:56:57Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-12-5b730d4",
+      "date": "2026-10-12T02:56:39Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-11-e51de54...KytyPS5-2026..."
+    },
     {
       "emulator_id": "scummvm",
       "version": "2026.4.0",
@@ -294,12 +300,6 @@
       "version": "2.0.0",
       "date": "2026-09-14T02:00:19Z",
       "message": "Copy of the cross-platform builds available at https://github.com/jgemu/jgbuilds/releases/tag/nestop..."
-    },
-    {
-      "emulator_id": "nestopia",
-      "version": "1.99.0",
-      "date": "2026-09-13T19:56:18Z",
-      "message": "Legacy win32 release with changes backported from version 2.0.0"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-11-e51de54",
-      "release_date": "2026-10-11",
+      "latest_version": "KytyPS5-2026-10-12-5b730d4",
+      "release_date": "2026-10-12",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
