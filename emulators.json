@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-12T02:56:57Z",
+  "last_updated": "2026-10-12T13:42:21Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-12-df5b9b9",
+      "date": "2026-10-12T13:42:03Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-12-5b0ef07...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-12-5b730d4",
@@ -294,12 +300,6 @@
       "version": "2126.1.2",
       "date": "2026-09-21T02:00:34Z",
       "message": "This an unscheduled fix release which addresses a commonly experienced issue in Azahar's libretro co..."
-    },
-    {
-      "emulator_id": "nestopia",
-      "version": "2.0.0",
-      "date": "2026-09-14T02:00:19Z",
-      "message": "Copy of the cross-platform builds available at https://github.com/jgemu/jgbuilds/releases/tag/nestop..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-12-5b730d4",
+      "latest_version": "KytyPS5-2026-10-12-df5b9b9",
       "release_date": "2026-10-12",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
