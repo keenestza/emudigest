@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-13T04:11:58Z",
+  "last_updated": "2026-10-13T22:01:21Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-13-9e41d83",
+      "date": "2026-10-13T22:01:05Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-12-df5b9b9...KytyPS5-2026..."
+    },
     {
       "emulator_id": "virtualjaguar-libretro",
       "version": "3.8.0",
@@ -294,12 +300,6 @@
       "version": "RELEASE_21_0",
       "date": "2026-09-29T11:42:20Z",
       "message": "openMSX 21.0 has many improvements on the new GUI introduced in openMSX 20.0 (especially the debugge..."
-    },
-    {
-      "emulator_id": "vice",
-      "version": "3.10.0",
-      "date": "2026-09-28T22:41:33Z",
-      "message": "New update available!"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-12-df5b9b9",
-      "release_date": "2026-10-12",
+      "latest_version": "KytyPS5-2026-10-13-9e41d83",
+      "release_date": "2026-10-13",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",

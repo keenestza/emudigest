@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-13-9e41d83</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-12-df5b9b9...KytyPS5-2026...</description>
+    <pubDate>2026-10-13T22:01:05Z</pubDate>
+  </item>
+  <item>
     <title>virtualjaguar-libretro updated to v3.8.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Virtual Jaguar libretro v3.8.0</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-07-cc44a43...KytyPS5-2026...</description>
     <pubDate>2026-10-07T02:59:12Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-06-60e53a3</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>kernel: fix the macOS build of host thread naming by @Nawid3333 in https://github.com/KytyPS5/KytyPS...</description>
-    <pubDate>2026-10-06T21:56:58Z</pubDate>
   </item>
 </channel>
 </rss>
