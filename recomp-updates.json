@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-12T16:35:46Z",
+  "last_checked": "2026-10-13T14:53:00Z",
   "checked_projects": 12,
   "total_projects": 12,
   "state": {
@@ -10,10 +10,10 @@
       "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.51"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "edb70e0a2e511638105ced1327365e062758f6aa",
-      "latest_version": "edb70e0",
-      "latest_date": "2026-10-11T23:07:04Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/edb70e0a2e511638105ced1327365e062758f6aa"
+      "commit_sha": "c2763ecfc7c3f25b33dcc66659e74439afd34a7d",
+      "latest_version": "c2763ec",
+      "latest_date": "2026-10-13T06:28:52Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/c2763ecfc7c3f25b33dcc66659e74439afd34a7d"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 409915453,
@@ -34,10 +34,10 @@
       "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-201"
     },
     "florinp93/hells-gate-recomp": {
-      "release_id": 410575419,
-      "latest_version": "v0.8.3-beta-hotfix",
-      "latest_date": "2026-10-12T12:24:05Z",
-      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.3-beta-hotfix"
+      "release_id": 410928114,
+      "latest_version": "v0.8.3-beta-hotfix2",
+      "latest_date": "2026-10-12T19:18:39Z",
+      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.3-beta-hotfix2"
     },
     "novapowers0/DB-Final-Bout-Recomp": {
       "release_id": 397314437,
@@ -77,6 +77,24 @@
     }
   },
   "updates": [
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:fc382ce8bd9b2257b416451df9906c08361453af",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-13T06:26:56Z",
+      "version": "fc382ce",
+      "summary": "9,814 instruction-exact, 9,767 byte-exact of 10,066; thirty-seven compiler rules",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/fc382ce8bd9b2257b416451df9906c08361453af"
+    },
+    {
+      "id": "release:florinp93/hells-gate-recomp:410928114",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-10-12T19:18:39Z",
+      "version": "v0.8.3-beta-hotfix2",
+      "summary": "Hell's Gate Recomp — v0.8.3-beta-hotfix2",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.3-beta-hotfix2"
+    },
     {
       "id": "release:florinp93/hells-gate-recomp:410575419",
       "repo": "florinp93/hells-gate-recomp",
