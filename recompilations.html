@@ -74,7 +74,7 @@
       <div>
         <div class="eyebrow">Game preservation watch</div>
         <h1>Recompilations &amp; Decompilations</h1>
-        <p>Daily GitHub release updates for game-specific PC ports and source reconstruction projects. Development activity is shown for projects without releases. Each entry links to the original GitHub source.</p>
+        <p>Daily GitHub release updates for game-specific ports and source reconstruction projects, plus selected launcher updates that help discover or manage them. Development activity is shown for projects without releases. Each entry links to the original GitHub source.</p>
       </div>
       <div id="checked" class="checked">Loading latest check…</div>
     </div>
@@ -180,9 +180,9 @@
       projects.forEach(project => projectsByRepo.set(project.repo, project));
       feed = data.updates || [];
       state = data.state || {};
-      document.getElementById('projectCount').textContent = projects.length;
+      document.getElementById('projectCount').textContent = projects.filter(project => project.kind !== 'Launcher').length;
       document.getElementById('updateCount').textContent = feed.length;
-      document.getElementById('platformCount').textContent = new Set(projects.map(project => project.console)).size;
+      document.getElementById('platformCount').textContent = new Set(projects.filter(project => project.kind !== 'Launcher').map(project => project.console)).size;
       document.getElementById('checked').textContent = data.last_checked ? 'Last checked: ' + dateLabel(data.last_checked) + (data.checked_projects < data.total_projects ? ` · ${data.checked_projects}/${data.total_projects} projects` : '') : 'Awaiting first check';
       show('updates');
     }).catch(error => {

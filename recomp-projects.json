@@ -11,6 +11,8 @@
     {"repo": "danielgomesvieira2000/wave-race-64-recomp", "name": "Wave Race 64 Recompiled (original)", "game": "Wave Race 64", "console": "Nintendo 64", "kind": "Recompilation"},
     {"repo": "JackandBeans/Snap64Recomp", "name": "Snap64 Recomp", "game": "Pokémon Snap", "console": "Nintendo 64", "kind": "Recompilation"},
     {"repo": "YuutaTsubasa/Free-Riders-Recompiled", "name": "Free Riders Recompiled", "game": "Sonic Free Riders", "console": "Xbox 360", "kind": "Recompilation"},
-    {"repo": "NoRain211/doaxvb-re", "name": "DOAXBV Recompiled", "game": "Dead or Alive Xtreme Beach Volleyball", "console": "Xbox", "kind": "Recompilation"}
+    {"repo": "NoRain211/doaxvb-re", "name": "DOAXBV Recompiled", "game": "Dead or Alive Xtreme Beach Volleyball", "console": "Xbox", "kind": "Recompilation"},
+    {"repo": "codepdbh/NFS-CARBON-360-ANDROID-RECOMP", "name": "NFS Carbon 360 Recomp", "game": "Need for Speed Carbon", "console": "Xbox 360", "kind": "Recompilation"},
+    {"repo": "tgeorgiadis/quiver-launcher", "name": "Quiver Launcher", "game": "Game port discovery and management", "console": "Cross-platform", "kind": "Launcher", "track": false}
   ]
 }
