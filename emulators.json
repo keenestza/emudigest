@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-13T22:01:21Z",
+  "last_updated": "2026-10-14T10:44:43Z",
   "feed": [
+    {
+      "emulator_id": "virtualjaguar-libretro",
+      "version": "3.9.0",
+      "date": "2026-10-14T10:44:38Z",
+      "message": "Virtual Jaguar libretro v3.9.0"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-13-9e41d83",
@@ -294,12 +300,6 @@
       "version": "ZEsarUX-13.0",
       "date": "2026-09-29T11:42:20Z",
       "message": "ZEsarUX 13 - The Way of the Exploding Fist edition. 09 June 2026"
-    },
-    {
-      "emulator_id": "openmsx",
-      "version": "RELEASE_21_0",
-      "date": "2026-09-29T11:42:20Z",
-      "message": "openMSX 21.0 has many improvements on the new GUI introduced in openMSX 20.0 (especially the debugge..."
     }
   ],
   "emulators": [
@@ -1299,8 +1299,8 @@
       "name": "Virtual Jaguar libretro",
       "category": "Atari Jaguar",
       "description": "Atari Jaguar and Jaguar CD emulator core for RetroArch.",
-      "latest_version": "3.8.0",
-      "release_date": "2026-10-13",
+      "latest_version": "3.9.0",
+      "release_date": "2026-10-14",
       "website": "https://github.com/libretro/virtualjaguar-libretro",
       "github": "libretro/virtualjaguar-libretro",
       "download_url": "https://github.com/libretro/virtualjaguar-libretro/releases",
