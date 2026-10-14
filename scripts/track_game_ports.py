@@ -85,6 +85,8 @@ def main():
     successful = 0
 
     for project in projects:
+        if project.get("track") is False:
+            continue
         repo = project["repo"]
         prior = state.get(repo, {})
         try:
@@ -150,10 +152,10 @@ def main():
         return 1
     output["last_checked"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
     output["checked_projects"] = successful
-    output["total_projects"] = len(projects)
+    output["total_projects"] = sum(project.get("track") is not False for project in projects)
     output["updates"] = sorted(updates, key=lambda item: item["date"] or "", reverse=True)[:MAX_UPDATES]
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Checked {successful}/{len(projects)} projects; {len(output['updates'])} feed entries.")
+    print(f"Checked {successful}/{output['total_projects']} projects; {len(output['updates'])} feed entries.")
     for failure in failures:
         print(f"Warning: {failure}", file=sys.stderr)
     return 0
