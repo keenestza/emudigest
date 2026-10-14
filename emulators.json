@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-14T10:44:43Z",
+  "last_updated": "2026-10-14T16:03:47Z",
   "feed": [
+    {
+      "emulator_id": "shadps4",
+      "version": ".0.20.0",
+      "date": "2026-10-14T16:03:36Z",
+      "message": "That was close wasn't it? I know you are not used to so close releases but we have a lot of new thin..."
+    },
     {
       "emulator_id": "virtualjaguar-libretro",
       "version": "3.9.0",
@@ -294,12 +300,6 @@
       "version": "1.29.0",
       "date": "2026-09-30T11:28:36Z",
       "message": "- GH 156: Controllers are assigned to Player 1 and Player 2 automatically, in"
-    },
-    {
-      "emulator_id": "zesarux",
-      "version": "ZEsarUX-13.0",
-      "date": "2026-09-29T11:42:20Z",
-      "message": "ZEsarUX 13 - The Way of the Exploding Fist edition. 09 June 2026"
     }
   ],
   "emulators": [
@@ -731,8 +731,8 @@
       "name": "shadPS4",
       "category": "PlayStation 4",
       "description": "An early-stage PlayStation 4 emulator making rapid progress.",
-      "latest_version": ".0.19.0",
-      "release_date": "2026-10-02",
+      "latest_version": ".0.20.0",
+      "release_date": "2026-10-14",
       "website": "https://shadps4.net/",
       "github": "shadps4-emu/shadPS4",
       "download_url": "https://github.com/shadps4-emu/shadPS4/releases",
