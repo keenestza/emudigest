@@ -1,19 +1,19 @@
 {
-  "last_checked": "2026-10-14T12:44:11Z",
+  "last_checked": "2026-10-15T12:32:08Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
     "deadinside28/bloodborne_pc": {
-      "release_id": 409256220,
-      "latest_version": "0.51",
-      "latest_date": "2026-10-10T22:58:52Z",
-      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.51"
+      "release_id": 413620223,
+      "latest_version": "0.6-pre1",
+      "latest_date": "2026-10-15T09:19:35Z",
+      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6-pre1"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "7317543688813ba2d4e7c94d3bbd1f9d85c8c560",
-      "latest_version": "7317543",
-      "latest_date": "2026-10-14T12:40:26Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/7317543688813ba2d4e7c94d3bbd1f9d85c8c560"
+      "commit_sha": "7b26682bbe46dfa70c6116056112da689b9cca83",
+      "latest_version": "7b26682",
+      "latest_date": "2026-10-14T19:13:29Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/7b26682bbe46dfa70c6116056112da689b9cca83"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 411908947,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.4"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 410097970,
-      "latest_version": "v0.7.3",
-      "latest_date": "2026-10-12T02:57:01Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.3"
+      "release_id": 413664913,
+      "latest_version": "v0.8.3",
+      "latest_date": "2026-10-15T10:11:25Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.3"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,60 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413664913",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-15T10:11:25Z",
+      "version": "v0.8.3",
+      "summary": "Kinect jump diagnostics (#97): with a real Kinect, game.log now records:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.3"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:413620223",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-15T09:19:35Z",
+      "version": "0.6-pre1",
+      "summary": "0.6-pre1 — pre-release for testing",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6-pre1"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413436245",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-15T05:05:49Z",
+      "version": "v0.8.2",
+      "summary": "Two players on ultrawide displays: on a display wider than 16:9, two-player races now widen too, where v0.8.0 and v0.8.1 kept them 16:9 with black at the sides.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.2"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413328788",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-15T01:29:46Z",
+      "version": "v0.8.1",
+      "summary": "Full screen on Android (#118): the game now always fills a phone's display.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.1"
+    },
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:ff64c85a09396dd023d3c964581d8a97f32e36bb",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-14T19:08:22Z",
+      "version": "ff64c85",
+      "summary": "9,936 instruction-exact, 9,920 byte-exact of 10,066; constant tables in CTBL, arcade link order",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/ff64c85a09396dd023d3c964581d8a97f32e36bb"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413044549",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-14T18:23:53Z",
+      "version": "v0.8.0",
+      "summary": "Ultrawide displays",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.0"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:363a6894e73eee73aca1552e15619afe79ee0e97",
       "repo": "gibletto/sfIII3-cps3-decomp",
