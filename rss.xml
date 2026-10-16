@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>xemu updated to v0.8.137</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>3089 - meson: Bump sdl3 to release-3.4.18 (@xemu-robot)</description>
+    <pubDate>2026-10-16T20:09:54Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-16-5dec523</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-16-d7974dc...KytyPS5-2026...</description>
+    <pubDate>2026-10-16T20:09:52Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-16-d58aefd</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-16-4c6be6c...KytyPS5-2026...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-5a88080...KytyPS5-2026...</description>
     <pubDate>2026-10-08T12:21:09Z</pubDate>
-  </item>
-  <item>
-    <title>casso updated to v1.32.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- Casso checks for a new release at startup, at most once a day, and shows a</description>
-    <pubDate>2026-10-08T03:16:00Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-08-5a88080</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>tests: cover the untested 16-bit integer ALU opcodes by @Nawid3333 in https://github.com/KytyPS5/Kyt...</description>
-    <pubDate>2026-10-08T03:15:54Z</pubDate>
   </item>
 </channel>
 </rss>

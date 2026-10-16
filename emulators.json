@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-16T15:40:16Z",
+  "last_updated": "2026-10-16T20:10:15Z",
   "feed": [
+    {
+      "emulator_id": "xemu",
+      "version": "0.8.137",
+      "date": "2026-10-16T20:09:54Z",
+      "message": "3089 - meson: Bump sdl3 to release-3.4.18 (@xemu-robot)"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-16-5dec523",
+      "date": "2026-10-16T20:09:52Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-16-d7974dc...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-16-d58aefd",
@@ -288,18 +300,6 @@
       "version": "0.0.5-nexus",
       "date": "2026-10-03T02:36:31Z",
       "message": "Automated SharpEmu v0.0.5-nexus build for commit [6fe8b87](https://github.com/sharpemu/sharpemu/comm..."
-    },
-    {
-      "emulator_id": "shadps4",
-      "version": ".0.19.0",
-      "date": "2026-10-02T16:55:35Z",
-      "message": "Welcome back to another shadPS4 release . It is over one month since our previous release and guess ..."
-    },
-    {
-      "emulator_id": "dosbox-x",
-      "version": "dosbox-x-v2026.10.01",
-      "date": "2026-10-02T02:50:05Z",
-      "message": "- Fixed DOS FCB operations trying to read/write from deviceCON when performed"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-16-d58aefd",
+      "latest_version": "KytyPS5-2026-10-16-5dec523",
       "release_date": "2026-10-16",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -834,8 +834,8 @@
       "name": "xemu",
       "category": "Xbox",
       "description": "An open-source original Xbox emulator.",
-      "latest_version": "0.8.136",
-      "release_date": "2026-06-08",
+      "latest_version": "0.8.137",
+      "release_date": "2026-10-16",
       "website": "https://xemu.app/",
       "github": "xemu-project/xemu",
       "download_url": "https://github.com/xemu-project/xemu/releases",
