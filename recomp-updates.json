@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-15T12:32:08Z",
+  "last_checked": "2026-10-16T12:10:51Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -10,10 +10,10 @@
       "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6-pre1"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "7b26682bbe46dfa70c6116056112da689b9cca83",
-      "latest_version": "7b26682",
-      "latest_date": "2026-10-14T19:13:29Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/7b26682bbe46dfa70c6116056112da689b9cca83"
+      "commit_sha": "34e22e7138a199f71a6f572ad1c3754a795913b0",
+      "latest_version": "34e22e7",
+      "latest_date": "2026-10-16T08:36:26Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/34e22e7138a199f71a6f572ad1c3754a795913b0"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 411908947,
@@ -28,16 +28,16 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 412591935,
-      "latest_version": "build-206",
-      "latest_date": "2026-10-14T10:29:43Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-206"
+      "release_id": 414534178,
+      "latest_version": "build-208",
+      "latest_date": "2026-10-16T04:18:48Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-208"
     },
     "florinp93/hells-gate-recomp": {
-      "release_id": 410928114,
-      "latest_version": "v0.8.3-beta-hotfix2",
-      "latest_date": "2026-10-12T19:18:39Z",
-      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.3-beta-hotfix2"
+      "release_id": 414876372,
+      "latest_version": "v0.8.4-beta",
+      "latest_date": "2026-10-16T11:14:51Z",
+      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.4-beta"
     },
     "novapowers0/DB-Final-Bout-Recomp": {
       "release_id": 397314437,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.4"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 413664913,
-      "latest_version": "v0.8.3",
-      "latest_date": "2026-10-15T10:11:25Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.3"
+      "release_id": 414554994,
+      "latest_version": "v0.9.0",
+      "latest_date": "2026-10-16T05:01:18Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.9.0"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,42 @@
     }
   },
   "updates": [
+    {
+      "id": "release:florinp93/hells-gate-recomp:414876372",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-10-16T11:14:51Z",
+      "version": "v0.8.4-beta",
+      "summary": "Hell's Gate Recomp — v0.8.4-beta",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.4-beta"
+    },
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:b60abe67b3b85bdc340b4b975269ae72423af0b9",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-16T08:16:36Z",
+      "version": "b60abe6",
+      "summary": "Replays last run on the build of 16 October",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/b60abe67b3b85bdc340b4b975269ae72423af0b9"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:414554994",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-16T05:01:18Z",
+      "version": "v0.9.0",
+      "summary": "Races keep real time on slow devices, with the console's fixed step (#123):",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.9.0"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:414534178",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-16T04:18:48Z",
+      "version": "build-208",
+      "summary": "Merge pull request #374 from chestahh/opence-multiplayer-menu-fix",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-208"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413664913",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
