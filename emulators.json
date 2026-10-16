@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-14T16:03:47Z",
+  "last_updated": "2026-10-16T01:56:13Z",
   "feed": [
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.4",
+      "date": "2026-10-16T01:56:06Z",
+      "message": "- \ud83d\ude80 Optional CPU overclock"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-16-6a0a666",
+      "date": "2026-10-16T01:55:59Z",
+      "message": "loader: keep the output and log of a game LoadExec relaunches by @Almo7aya in https://github.com/Kyt..."
+    },
     {
       "emulator_id": "shadps4",
       "version": ".0.20.0",
@@ -288,18 +300,6 @@
       "version": "1.8.1",
       "date": "2026-10-01T02:46:33Z",
       "message": "- \ud83c\udfaf Improved PSG accuracy"
-    },
-    {
-      "emulator_id": "rpcs3",
-      "version": "0.0.43",
-      "date": "2026-10-01T02:46:25Z",
-      "message": "Please note that our version increases are landmarks and not stable builds"
-    },
-    {
-      "emulator_id": "casso",
-      "version": "1.29.0",
-      "date": "2026-09-30T11:28:36Z",
-      "message": "- GH 156: Controllers are assigned to Player 1 and Player 2 automatically, in"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-13-9e41d83",
-      "release_date": "2026-10-13",
+      "latest_version": "KytyPS5-2026-10-16-6a0a666",
+      "release_date": "2026-10-16",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.3",
-      "release_date": "2026-10-11",
+      "latest_version": "1.8.4",
+      "release_date": "2026-10-15",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
