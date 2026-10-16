@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-16T01:56:13Z",
+  "last_updated": "2026-10-16T10:15:11Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-16-3ff6606",
+      "date": "2026-10-16T10:14:53Z",
+      "message": "Input mapping tabs UI, emulated touchpad, and rumble for non-PS5 controllers by @Pipe530 in https://..."
+    },
     {
       "emulator_id": "geargrafx",
       "version": "1.8.4",
@@ -294,12 +300,6 @@
       "version": "1.7.2",
       "date": "2026-10-01T02:46:34Z",
       "message": "- \ud83d\udce6 Added Ubuntu 26.04 builds"
-    },
-    {
-      "emulator_id": "geargrafx",
-      "version": "1.8.1",
-      "date": "2026-10-01T02:46:33Z",
-      "message": "- \ud83c\udfaf Improved PSG accuracy"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-16-6a0a666",
+      "latest_version": "KytyPS5-2026-10-16-3ff6606",
       "release_date": "2026-10-16",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
