@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-16T10:15:11Z",
+  "last_updated": "2026-10-16T15:40:16Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-16-d58aefd",
+      "date": "2026-10-16T15:40:00Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-16-4c6be6c...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-16-3ff6606",
@@ -294,12 +300,6 @@
       "version": "dosbox-x-v2026.10.01",
       "date": "2026-10-02T02:50:05Z",
       "message": "- Fixed DOS FCB operations trying to read/write from deviceCON when performed"
-    },
-    {
-      "emulator_id": "gearcoleco",
-      "version": "1.7.2",
-      "date": "2026-10-01T02:46:34Z",
-      "message": "- \ud83d\udce6 Added Ubuntu 26.04 builds"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-16-3ff6606",
+      "latest_version": "KytyPS5-2026-10-16-d58aefd",
       "release_date": "2026-10-16",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
