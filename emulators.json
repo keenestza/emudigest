@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-16T20:10:15Z",
+  "last_updated": "2026-10-17T01:50:57Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-16-42bb0da",
+      "date": "2026-10-17T01:50:40Z",
+      "message": "loader: keep the caller's flags in the TLS stubs by @Nawid3333 in https://github.com/KytyPS5/KytyPS5..."
+    },
     {
       "emulator_id": "xemu",
       "version": "0.8.137",
@@ -294,12 +300,6 @@
       "version": "1.30.0",
       "date": "2026-10-03T15:19:19Z",
       "message": "- GH 159: Support for WOZ 2.1 flux tracks, validated with Bandits, Minotaur,"
-    },
-    {
-      "emulator_id": "sharpemu",
-      "version": "0.0.5-nexus",
-      "date": "2026-10-03T02:36:31Z",
-      "message": "Automated SharpEmu v0.0.5-nexus build for commit [6fe8b87](https://github.com/sharpemu/sharpemu/comm..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-16-5dec523",
+      "latest_version": "KytyPS5-2026-10-16-42bb0da",
       "release_date": "2026-10-16",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
