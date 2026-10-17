@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-17T09:49:06Z",
+  "last_updated": "2026-10-17T14:32:18Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-17-6aa3846",
+      "date": "2026-10-17T14:32:04Z",
+      "message": "feat: add an in-game performance panel by @juanfariasdev in https://github.com/KytyPS5/KytyPS5/pull/..."
+    },
     {
       "emulator_id": "virtualjaguar-libretro",
       "version": "3.9.1",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-04-719e025",
       "date": "2026-10-04T20:33:47Z",
       "message": "launcher: Raise DualSense speaker volume range for SpeakerFX by @Pyxellator in https://github.com/Ky..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-04-c885da0",
-      "date": "2026-10-04T16:03:47Z",
-      "message": "haptics: recognize 'Wireless Controller' audio endpoint on Linux by @arthuralvesdev in https://githu..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-17-c217380",
+      "latest_version": "KytyPS5-2026-10-17-6aa3846",
       "release_date": "2026-10-17",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
