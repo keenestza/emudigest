@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-16T12:10:51Z",
+  "last_checked": "2026-10-17T11:29:07Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 414534178,
-      "latest_version": "build-208",
-      "latest_date": "2026-10-16T04:18:48Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-208"
+      "release_id": 415593075,
+      "latest_version": "build-217",
+      "latest_date": "2026-10-17T05:01:53Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-217"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.4"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 414554994,
-      "latest_version": "v0.9.0",
-      "latest_date": "2026-10-16T05:01:18Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.9.0"
+      "release_id": 415410586,
+      "latest_version": "v0.10.0",
+      "latest_date": "2026-10-16T21:52:15Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.0"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,42 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:415593075",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-17T05:01:53Z",
+      "version": "build-217",
+      "summary": "4 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-217"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:415410586",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-16T21:52:15Z",
+      "version": "v0.10.0",
+      "summary": "macOS (Apple Silicon), experimental: a first macOS build, as FreeRidersRecompiled.app for macOS 13.3 or later.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.0"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:415295304",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-16T19:10:29Z",
+      "version": "v0.9.2",
+      "summary": "Big jumps on slow phones: when a phone couldn't keep 60 fps, a racer launched off Dolphin Resort's big jump could fall short of the far side and keep repeating the same jump. Frames that aren't drawn leave out most of th…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.9.2"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:415124565",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-16T15:44:50Z",
+      "version": "v0.9.1",
+      "summary": "Race map at a wide screen's edge (#145): with the HUD pushed to the edges at ultrawide sizes, the minimap's racer markers went to the right edge while the map itself stayed where it is at 16:9. The map now goes with them…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.9.1"
+    },
     {
       "id": "release:florinp93/hells-gate-recomp:414876372",
       "repo": "florinp93/hells-gate-recomp",
