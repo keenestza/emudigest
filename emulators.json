@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-17T14:32:18Z",
+  "last_updated": "2026-10-17T19:46:07Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-17-763d3be",
+      "date": "2026-10-17T19:45:53Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-17-6aa3846...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-17-6aa3846",
@@ -294,12 +300,6 @@
       "version": "1.8.2",
       "date": "2026-10-04T20:33:52Z",
       "message": "- \ud83c\udfa5 Added video recording"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-04-719e025",
-      "date": "2026-10-04T20:33:47Z",
-      "message": "launcher: Raise DualSense speaker volume range for SpeakerFX by @Pyxellator in https://github.com/Ky..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-17-6aa3846",
+      "latest_version": "KytyPS5-2026-10-17-763d3be",
       "release_date": "2026-10-17",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
