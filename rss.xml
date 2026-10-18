@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-18-37df7f3</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-4059179...KytyPS5-2026...</description>
+    <pubDate>2026-10-18T10:00:36Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-18-fe3857a</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-c3e7ec8...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>The 2.7.0 release introduces several new features and improvements focused on build system enhanceme...</description>
     <pubDate>2026-10-09T21:56:15Z</pubDate>
-  </item>
-  <item>
-    <title>sameboy updated to v1.0.4</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save...</description>
-    <pubDate>2026-10-09T12:11:21Z</pubDate>
   </item>
 </channel>
 </rss>

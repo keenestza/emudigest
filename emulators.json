@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-18T01:49:21Z",
+  "last_updated": "2026-10-18T10:00:52Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-18-37df7f3",
+      "date": "2026-10-18T10:00:36Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-4059179...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-18-fe3857a",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-05-af3011c",
       "date": "2026-10-05T02:41:18Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-04-bbb98bd...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "gearcoleco",
-      "version": "1.7.3",
-      "date": "2026-10-04T20:33:52Z",
-      "message": "- \ud83c\udfa5 Added video recording"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-18-fe3857a",
+      "latest_version": "KytyPS5-2026-10-18-37df7f3",
       "release_date": "2026-10-18",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
