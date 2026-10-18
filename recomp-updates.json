@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-17T11:29:07Z",
+  "last_checked": "2026-10-18T11:58:51Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -10,10 +10,10 @@
       "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6-pre1"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "34e22e7138a199f71a6f572ad1c3754a795913b0",
-      "latest_version": "34e22e7",
-      "latest_date": "2026-10-16T08:36:26Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/34e22e7138a199f71a6f572ad1c3754a795913b0"
+      "commit_sha": "d87d3bcf5906b12e5ffdc0af90cfe353309ce997",
+      "latest_version": "d87d3bc",
+      "latest_date": "2026-10-18T11:51:32Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/d87d3bcf5906b12e5ffdc0af90cfe353309ce997"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 411908947,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 415593075,
-      "latest_version": "build-217",
-      "latest_date": "2026-10-17T05:01:53Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-217"
+      "release_id": 416347285,
+      "latest_version": "build-232",
+      "latest_date": "2026-10-18T09:17:05Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-232"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -58,16 +58,16 @@
       "latest_url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/tag/v1.0.2"
     },
     "JackandBeans/Snap64Recomp": {
-      "release_id": 409756861,
-      "latest_version": "v1.1.4",
-      "latest_date": "2026-10-11T15:40:53Z",
-      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.4"
+      "release_id": 416055280,
+      "latest_version": "v1.1.5",
+      "latest_date": "2026-10-17T21:01:57Z",
+      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 415410586,
-      "latest_version": "v0.10.0",
-      "latest_date": "2026-10-16T21:52:15Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.0"
+      "release_id": 416373112,
+      "latest_version": "v0.10.3",
+      "latest_date": "2026-10-18T10:06:30Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.3"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,60 @@
     }
   },
   "updates": [
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:829933682fc381a1477b39cfee20b27a18168fe0",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-18T11:46:27Z",
+      "version": "8299336",
+      "summary": "Module work areas instead of work_b.c, Capcom's names from the debug symbols, switched-off code for dead reads, two fewer compiler rules",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/829933682fc381a1477b39cfee20b27a18168fe0"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416373112",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-18T10:06:30Z",
+      "version": "v0.10.3",
+      "summary": "Older Mali phones (#169). Vulkan 1.1 phones with an older Mali GPU, such as the Huawei P30 Pro (Mali-G76), stopped before the game could start: \"Missing required extension\". The renderer now runs without the newer Vulkan…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.3"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:416347285",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-18T09:17:05Z",
+      "version": "build-232",
+      "summary": "3 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-232"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416168686",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-18T01:24:26Z",
+      "version": "v0.10.2",
+      "summary": "Newer Mali phones start again (#166, #169). On phones with a Mali-G715 or Mali-G720 GPU (for example the Pixel 10a and the POCO X7 Pro), the game closed while preparing its graphics, right after the launcher started it.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.2"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416110561",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-17T22:37:24Z",
+      "version": "v0.10.1",
+      "summary": "Online play: the launcher checks the server first (#161). With Host the server off, the game used to try the server once. If that failed, the in-game Xbox LIVE page simply wasn't there, and it looked as if online play di…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.1"
+    },
+    {
+      "id": "release:JackandBeans/Snap64Recomp:416055280",
+      "repo": "JackandBeans/Snap64Recomp",
+      "type": "Release",
+      "date": "2026-10-17T21:01:57Z",
+      "version": "v1.1.5",
+      "summary": "Super Sampling is held to what the card's memory carries. At 8x with MSAA 8x on a 2560-wide window the render targets would take some 40 GB; Direct3D answered out of memory, the renderer crashed on what it got back, and …",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:415593075",
       "repo": "OpenCommunityEdition/OpenCE",
