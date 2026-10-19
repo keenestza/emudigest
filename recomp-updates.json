@@ -1,19 +1,19 @@
 {
-  "last_checked": "2026-10-18T11:58:51Z",
+  "last_checked": "2026-10-19T14:27:50Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
     "deadinside28/bloodborne_pc": {
-      "release_id": 413620223,
-      "latest_version": "0.6-pre1",
-      "latest_date": "2026-10-15T09:19:35Z",
-      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6-pre1"
+      "release_id": 416977330,
+      "latest_version": "0.6",
+      "latest_date": "2026-10-19T06:34:04Z",
+      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "d87d3bcf5906b12e5ffdc0af90cfe353309ce997",
-      "latest_version": "d87d3bc",
-      "latest_date": "2026-10-18T11:51:32Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/d87d3bcf5906b12e5ffdc0af90cfe353309ce997"
+      "commit_sha": "705a02b8766bb90ee864b795b3386c6159af4119",
+      "latest_version": "705a02b",
+      "latest_date": "2026-10-18T17:04:35Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/705a02b8766bb90ee864b795b3386c6159af4119"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 411908947,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 416347285,
-      "latest_version": "build-232",
-      "latest_date": "2026-10-18T09:17:05Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-232"
+      "release_id": 417251719,
+      "latest_version": "build-242",
+      "latest_date": "2026-10-19T12:13:06Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-242"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -40,10 +40,10 @@
       "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.4-beta"
     },
     "novapowers0/DB-Final-Bout-Recomp": {
-      "release_id": 397314437,
-      "latest_version": "v0.1.1",
-      "latest_date": "2026-09-26T16:39:37Z",
-      "latest_url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/tag/v0.1.1"
+      "release_id": 417044056,
+      "latest_version": "v0.2.0",
+      "latest_date": "2026-10-19T08:07:38Z",
+      "latest_url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/tag/v0.2.0"
     },
     "elliotttate/wave-race-64-recomp": {
       "release_id": 384345647,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 416373112,
-      "latest_version": "v0.10.3",
-      "latest_date": "2026-10-18T10:06:30Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.3"
+      "release_id": 417296789,
+      "latest_version": "v0.10.10",
+      "latest_date": "2026-10-19T13:01:01Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.10"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,105 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:417296789",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-19T13:01:01Z",
+      "version": "v0.10.10",
+      "summary": "Test options page in the launcher. Switches we ask for in an issue are now choices on a page: Settings › Test options. Before, they needed a command line, which Android and iOS players can't use at all.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.10"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:417251719",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-19T12:13:06Z",
+      "version": "build-242",
+      "summary": "3 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-242"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:417166676",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-19T10:32:27Z",
+      "version": "v0.10.9",
+      "summary": "Fly board fix (#153). At Dolphin Resort's glass mall, a racer who boarded the Fly gadget (the board with red wings) could fly out through the right wall.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.9"
+    },
+    {
+      "id": "release:novapowers0/DB-Final-Bout-Recomp:417044056",
+      "repo": "novapowers0/DB-Final-Bout-Recomp",
+      "type": "Release",
+      "date": "2026-10-19T08:07:38Z",
+      "version": "v0.2.0",
+      "summary": "DB Final Bout Recompiled v0.2.0 — Combate renovado (experimental)",
+      "url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/tag/v0.2.0"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:416977330",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-19T06:34:04Z",
+      "version": "0.6",
+      "summary": "bbport is the counterpart of Wine + DXVK for a single game: Bloodborne (v1.09) on Linux.",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416881362",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-19T03:45:14Z",
+      "version": "v0.10.8",
+      "summary": "D3D12 on older drivers (#177). Some drivers, such as older NVIDIA ones, can't draw with the depth range flipped, which this game uses, and D3D12 stopped with an error on them. On those drivers the port now flips depth it…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.8"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416774282",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-18T23:37:57Z",
+      "version": "v0.10.7",
+      "summary": "Every race action on the touch controls (#177). The on-screen controls gain:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.7"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416645921",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-18T19:12:57Z",
+      "version": "v0.10.6",
+      "summary": "Macs: races at full speed.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.6"
+    },
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:9cea84b40b61c212208f00e2ac702051dc60b971",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-18T17:00:31Z",
+      "version": "9cea84b",
+      "summary": "docs/HOW_THE_GAME_WORKS.md: a tour of how 3rd Strike works, from this source",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/9cea84b40b61c212208f00e2ac702051dc60b971"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416579922",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-18T16:59:51Z",
+      "version": "v0.10.5",
+      "summary": "Launcher on touch screens (#186):",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.5"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416492605",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-18T14:20:47Z",
+      "version": "v0.10.4",
+      "summary": "Old Mali phones no longer freeze on the first frame (#169). On v0.10.3 a Mali-G72/G76 phone (such as the Huawei P30 Pro) prepared all pipelines, then the GPU hung on the first thing it drew and the whole phone froze.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.4"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:829933682fc381a1477b39cfee20b27a18168fe0",
       "repo": "gibletto/sfIII3-cps3-decomp",
