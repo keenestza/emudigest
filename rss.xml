@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-19-e5f0ee7</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-099de8d...KytyPS5-2026...</description>
+    <pubDate>2026-10-19T11:24:14Z</pubDate>
+  </item>
+  <item>
     <title>sharpemu updated to v0.0.6-mono</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Automated SharpEmu v0.0.6-mono build for commit [ea47b98](https://github.com/sharpemu/sharpemu/commi...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>add self updater by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1352</description>
     <pubDate>2026-10-10T11:28:50Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-10-f3836bb</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>shader: add SDWA support for VMINI32 by @popcoder565 in https://github.com/KytyPS5/KytyPS5/pull/1342</description>
-    <pubDate>2026-10-10T03:01:46Z</pubDate>
   </item>
 </channel>
 </rss>
