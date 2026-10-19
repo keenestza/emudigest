@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-19-0cad467</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-19-cd4eab9...KytyPS5-2026...</description>
+    <pubDate>2026-10-19T17:51:22Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-19-e5f0ee7</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-099de8d...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>controller: use Back as the touchpad click on pads without a touchpad by @KelvinSilvaDev in https://...</description>
     <pubDate>2026-10-10T20:47:41Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-10-307fdcf</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>add self updater by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1352</description>
-    <pubDate>2026-10-10T11:28:50Z</pubDate>
   </item>
 </channel>
 </rss>
