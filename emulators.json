@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-18T19:46:47Z",
+  "last_updated": "2026-10-19T02:06:18Z",
   "feed": [
+    {
+      "emulator_id": "sharpemu",
+      "version": "0.0.6-mono",
+      "date": "2026-10-19T02:05:59Z",
+      "message": "Automated SharpEmu v0.0.6-mono build for commit [ea47b98](https://github.com/sharpemu/sharpemu/commi..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-18-099de8d",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-05-cdb64bf",
       "date": "2026-10-05T23:24:47Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-dc3cd2d...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-05-72e4989",
-      "date": "2026-10-05T12:50:50Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-05-1d55272...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -763,8 +763,8 @@
       "name": "SharpEmu",
       "category": "PlayStation 5",
       "description": "Experimental open-source PlayStation 5 emulator under active development.",
-      "latest_version": "0.0.5-nexus-release.2",
-      "release_date": "2026-10-08",
+      "latest_version": "0.0.6-mono",
+      "release_date": "2026-10-18",
       "website": "https://sharpemu.app/",
       "github": "sharpemu/sharpemu",
       "download_url": "https://github.com/sharpemu/sharpemu/releases",
