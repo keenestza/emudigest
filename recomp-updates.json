@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-19T14:27:50Z",
+  "last_checked": "2026-10-20T12:36:33Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 417251719,
-      "latest_version": "build-242",
-      "latest_date": "2026-10-19T12:13:06Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-242"
+      "release_id": 417399354,
+      "latest_version": "build-244",
+      "latest_date": "2026-10-19T14:36:28Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-244"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -40,10 +40,10 @@
       "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.4-beta"
     },
     "novapowers0/DB-Final-Bout-Recomp": {
-      "release_id": 417044056,
-      "latest_version": "v0.2.0",
-      "latest_date": "2026-10-19T08:07:38Z",
-      "latest_url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/tag/v0.2.0"
+      "release_id": 417758359,
+      "latest_version": "v0.2.1",
+      "latest_date": "2026-10-19T21:09:33Z",
+      "latest_url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/tag/v0.2.1"
     },
     "elliotttate/wave-race-64-recomp": {
       "release_id": 384345647,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 417296789,
-      "latest_version": "v0.10.10",
-      "latest_date": "2026-10-19T13:01:01Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.10"
+      "release_id": 418315739,
+      "latest_version": "v0.10.13",
+      "latest_date": "2026-10-20T11:21:27Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.13"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,51 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418315739",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-20T11:21:27Z",
+      "version": "v0.10.13",
+      "summary": "Touch the menus (#217). On a touchscreen, outside races:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.13"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:417843435",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-19T23:12:43Z",
+      "version": "v0.10.12",
+      "summary": "Less work per race frame (#176). The game's main thread decides how fast a race can run, and it now does less of the port's own work each frame:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.12"
+    },
+    {
+      "id": "release:novapowers0/DB-Final-Bout-Recomp:417758359",
+      "repo": "novapowers0/DB-Final-Bout-Recomp",
+      "type": "Release",
+      "date": "2026-10-19T21:09:33Z",
+      "version": "v0.2.1",
+      "summary": "DB Final Bout Recompiled v0.2.1 — estabilidad de mantenimiento (experimental)",
+      "url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/tag/v0.2.1"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:417555301",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-19T17:25:43Z",
+      "version": "v0.10.11",
+      "summary": "An online server you can put in the cloud. Friends on different networks can now race through a server that runs on a cloud machine or any always-on computer. Nobody has to open ports at home: every player connects out t…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.11"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:417399354",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-19T14:36:28Z",
+      "version": "build-244",
+      "summary": "Merge pull request #417 from OpenCommunityEdition/testing",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-244"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:417296789",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
