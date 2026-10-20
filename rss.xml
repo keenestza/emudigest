@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-20-f186b35</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-992a830...KytyPS5-2026...</description>
+    <pubDate>2026-10-20T02:22:13Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-19-0cad467</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-19-cd4eab9...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>docs: add Fedora and Fedora Atomic (Bazzite) build instructions by @ReverendOzmund in https://github...</description>
     <pubDate>2026-10-11T02:32:13Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-10-1cfb952</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>controller: use Back as the touchpad click on pads without a touchpad by @KelvinSilvaDev in https://...</description>
-    <pubDate>2026-10-10T20:47:41Z</pubDate>
   </item>
 </channel>
 </rss>
