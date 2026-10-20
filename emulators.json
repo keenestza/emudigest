@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-20T10:31:21Z",
+  "last_updated": "2026-10-20T15:55:45Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-20-7b7f9a7",
+      "date": "2026-10-20T15:55:29Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f492027...KytyPS5-2026..."
+    },
     {
       "emulator_id": "xemu",
       "version": "0.8.138",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-07-c86c8b4",
       "date": "2026-10-07T22:21:28Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-07-9f25e3c...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "0.7.0",
-      "date": "2026-10-07T12:10:56Z",
-      "message": "core: Remove bitmap glyphs in favor of atlas glyphs by @kjarosh in https://github.com/ruffle-rs/ruff..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-20-1a053f9",
+      "latest_version": "KytyPS5-2026-10-20-7b7f9a7",
       "release_date": "2026-10-20",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
