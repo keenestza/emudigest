@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-20T02:22:29Z",
+  "last_updated": "2026-10-20T10:31:21Z",
   "feed": [
+    {
+      "emulator_id": "xemu",
+      "version": "0.8.138",
+      "date": "2026-10-20T10:31:12Z",
+      "message": "3125 - Improve compatibility with older versions of Vulkan (@mborgerson)"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-20-1a053f9",
+      "date": "2026-10-20T10:31:11Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f186b35...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-20-f186b35",
@@ -288,18 +300,6 @@
       "version": "0.7.0",
       "date": "2026-10-07T12:10:56Z",
       "message": "core: Remove bitmap glyphs in favor of atlas glyphs by @kjarosh in https://github.com/ruffle-rs/ruff..."
-    },
-    {
-      "emulator_id": "casso",
-      "version": "1.31.0",
-      "date": "2026-10-07T02:59:21Z",
-      "message": "- disk create appends the default file extension for --type if one is not"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-07-bb98f26",
-      "date": "2026-10-07T02:59:12Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-07-cc44a43...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-20-f186b35",
+      "latest_version": "KytyPS5-2026-10-20-1a053f9",
       "release_date": "2026-10-20",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -834,8 +834,8 @@
       "name": "xemu",
       "category": "Xbox",
       "description": "An open-source original Xbox emulator.",
-      "latest_version": "0.8.137",
-      "release_date": "2026-10-16",
+      "latest_version": "0.8.138",
+      "release_date": "2026-10-20",
       "website": "https://xemu.app/",
       "github": "xemu-project/xemu",
       "download_url": "https://github.com/xemu-project/xemu/releases",

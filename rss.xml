@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>xemu updated to v0.8.138</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>3125 - Improve compatibility with older versions of Vulkan (@mborgerson)</description>
+    <pubDate>2026-10-20T10:31:12Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-20-1a053f9</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f186b35...KytyPS5-2026...</description>
+    <pubDate>2026-10-20T10:31:11Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-20-f186b35</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-992a830...KytyPS5-2026...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-11-984cfce...KytyPS5-2026...</description>
     <pubDate>2026-10-11T21:08:50Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-11-16a7fe6</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>fix windows compilation (2) by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1411</description>
-    <pubDate>2026-10-11T11:42:14Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-11-730e1a3</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>docs: add Fedora and Fedora Atomic (Bazzite) build instructions by @ReverendOzmund in https://github...</description>
-    <pubDate>2026-10-11T02:32:13Z</pubDate>
   </item>
 </channel>
 </rss>
