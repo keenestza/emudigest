@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-21-2864818</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>shader: emit float min/max as host instructions on AMD GPUs by @Arda501 in https://github.com/KytyPS...</description>
+    <pubDate>2026-10-21T20:57:24Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-21-4644c52</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-7b7f9a7...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>It is hard to believe, but a quarter-century and a couple of days ago, the ScummVM Project saw its f...</description>
     <pubDate>2026-10-11T21:08:59Z</pubDate>
-  </item>
-  <item>
-    <title>gearcoleco updated to v1.7.4</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 🔔 Improved desktop notification system</description>
-    <pubDate>2026-10-11T21:08:58Z</pubDate>
   </item>
 </channel>
 </rss>
