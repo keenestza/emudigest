@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-21-4644c52</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-7b7f9a7...KytyPS5-2026...</description>
+    <pubDate>2026-10-21T10:43:32Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-20-7b7f9a7</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f492027...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🔔 Improved desktop notification system</description>
     <pubDate>2026-10-11T21:08:58Z</pubDate>
-  </item>
-  <item>
-    <title>geargrafx updated to v1.8.3</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 🎮 Reduced input lag</description>
-    <pubDate>2026-10-11T21:08:57Z</pubDate>
   </item>
 </channel>
 </rss>
