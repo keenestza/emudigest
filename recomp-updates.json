@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-20T12:36:33Z",
+  "last_checked": "2026-10-21T12:48:02Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -10,10 +10,10 @@
       "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "705a02b8766bb90ee864b795b3386c6159af4119",
-      "latest_version": "705a02b",
-      "latest_date": "2026-10-18T17:04:35Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/705a02b8766bb90ee864b795b3386c6159af4119"
+      "commit_sha": "cafd93e06e71753d10763db2cf1d775858bf981d",
+      "latest_version": "cafd93e",
+      "latest_date": "2026-10-21T07:13:32Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/cafd93e06e71753d10763db2cf1d775858bf981d"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 411908947,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 417399354,
-      "latest_version": "build-244",
-      "latest_date": "2026-10-19T14:36:28Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-244"
+      "release_id": 419385043,
+      "latest_version": "build-246",
+      "latest_date": "2026-10-21T09:43:28Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-246"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 418315739,
-      "latest_version": "v0.10.13",
-      "latest_date": "2026-10-20T11:21:27Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.13"
+      "release_id": 418833039,
+      "latest_version": "v0.10.16",
+      "latest_date": "2026-10-20T20:19:36Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.16"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,51 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:419385043",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-21T09:43:28Z",
+      "version": "build-246",
+      "summary": "Merge pull request #429 from eltanschauung/fix/coop-gravity-lift",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-246"
+    },
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:b834411076835b5f91c06553121ffc45958d81d2",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-21T07:05:22Z",
+      "version": "b834411",
+      "summary": "bin: the rebuilt compiler stages from gibletto/shc-5r26-decomp-sf3 4e913903 (adds the 2nd Impact revision's settings, all off unless set); 3rd Strike output unchanged: prog.bin SHA-1 7340968c4b2aba9496fa63be7a5c183205ff1",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/b834411076835b5f91c06553121ffc45958d81d2"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418833039",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-20T20:19:36Z",
+      "version": "v0.10.16",
+      "summary": "Samsung Exynos phones with an Xclipse GPU (#224). On a Galaxy A55 (Exynos 1480, Xclipse 530), the game stayed on \"Preparing pipelines 0 of 455\" until Android closed it.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.16"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418817850",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-20T20:03:10Z",
+      "version": "v0.10.15",
+      "summary": "Macs with a Retina or scaled display (#191). On such a Mac the game closed right after Start game.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.15"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418644164",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-20T16:52:45Z",
+      "version": "v0.10.14",
+      "summary": "Even less work per race frame (#176). Three more parts of the game's main thread got cheaper:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.14"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418315739",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -942,15 +987,6 @@
       "version": "v0.1.0-unstable",
       "summary": "First public test release of OpenTricky, a recompiled PC port of SSX Tricky (Xbox, 2001). It continues SSX Tricky PC v0.2.0.",
       "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.0-unstable"
-    },
-    {
-      "id": "release:NoRain211/doaxvb-re:400180713",
-      "repo": "NoRain211/doaxvb-re",
-      "type": "Release",
-      "date": "2026-09-30T15:23:40Z",
-      "version": "v0.5.3",
-      "summary": "Shuffle (#78). The game has no random play: its music player steps to",
-      "url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.5.3"
     }
   ]
 }
