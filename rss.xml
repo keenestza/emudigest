@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-22-79837b4</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-22-f5f4e7d...KytyPS5-2026...</description>
+    <pubDate>2026-10-22T20:55:26Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-22-f5f4e7d</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>usbd: return an empty device list from sceUsbdGetDeviceList (Gran Turismo 7) by @NevesHenry in https...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>That was close wasn't it? I know you are not used to so close releases but we have a lot of new thin...</description>
     <pubDate>2026-10-14T16:03:36Z</pubDate>
-  </item>
-  <item>
-    <title>virtualjaguar-libretro updated to v3.9.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Virtual Jaguar libretro v3.9.0</description>
-    <pubDate>2026-10-14T10:44:38Z</pubDate>
   </item>
 </channel>
 </rss>
