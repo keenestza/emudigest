@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>xemu updated to v0.8.139</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>3088 - Fix 1852 nv2a vsh cpu based register carryover (@abaire)</description>
+    <pubDate>2026-10-22T02:09:54Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-22-8502d8a</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>image: drop optional create flags the driver rejects instead of aborting by @Arda501 in https://gith...</description>
+    <pubDate>2026-10-22T02:09:54Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-21-2864818</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shader: emit float min/max as host instructions on AMD GPUs by @Arda501 in https://github.com/KytyPS...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-12-5b0ef07...KytyPS5-2026...</description>
     <pubDate>2026-10-12T13:42:03Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-12-5b730d4</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-11-e51de54...KytyPS5-2026...</description>
-    <pubDate>2026-10-12T02:56:39Z</pubDate>
-  </item>
-  <item>
-    <title>scummvm updated to v2026.4.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>It is hard to believe, but a quarter-century and a couple of days ago, the ScummVM Project saw its f...</description>
-    <pubDate>2026-10-11T21:08:59Z</pubDate>
   </item>
 </channel>
 </rss>

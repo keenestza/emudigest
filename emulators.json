@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-21T20:57:38Z",
+  "last_updated": "2026-10-22T02:10:04Z",
   "feed": [
+    {
+      "emulator_id": "xemu",
+      "version": "0.8.139",
+      "date": "2026-10-22T02:09:54Z",
+      "message": "3088 - Fix 1852 nv2a vsh cpu based register carryover (@abaire)"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-22-8502d8a",
+      "date": "2026-10-22T02:09:54Z",
+      "message": "image: drop optional create flags the driver rejects instead of aborting by @Arda501 in https://gith..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-21-2864818",
@@ -288,18 +300,6 @@
       "version": "1.32.0",
       "date": "2026-10-08T03:16:00Z",
       "message": "- Casso checks for a new release at startup, at most once a day, and shows a"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-08-5a88080",
-      "date": "2026-10-08T03:15:54Z",
-      "message": "tests: cover the untested 16-bit integer ALU opcodes by @Nawid3333 in https://github.com/KytyPS5/Kyt..."
-    },
-    {
-      "emulator_id": "ruffle",
-      "version": "0.7.1",
-      "date": "2026-10-07T22:21:42Z",
-      "message": "This release fixes some configuration issues we had that prevented extensions from being published. ..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-21-2864818",
-      "release_date": "2026-10-21",
+      "latest_version": "KytyPS5-2026-10-22-8502d8a",
+      "release_date": "2026-10-22",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -834,8 +834,8 @@
       "name": "xemu",
       "category": "Xbox",
       "description": "An open-source original Xbox emulator.",
-      "latest_version": "0.8.138",
-      "release_date": "2026-10-20",
+      "latest_version": "0.8.139",
+      "release_date": "2026-10-21",
       "website": "https://xemu.app/",
       "github": "xemu-project/xemu",
       "download_url": "https://github.com/xemu-project/xemu/releases",
