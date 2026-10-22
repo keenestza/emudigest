@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-22T02:10:04Z",
+  "last_updated": "2026-10-22T10:45:25Z",
   "feed": [
+    {
+      "emulator_id": "virtualjaguar-libretro",
+      "version": "3.10.0",
+      "date": "2026-10-22T10:45:20Z",
+      "message": "Virtual Jaguar v3.10.0"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-22-c5016d9",
+      "date": "2026-10-22T10:45:09Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-22-d7c1896...KytyPS5-2026..."
+    },
     {
       "emulator_id": "xemu",
       "version": "0.8.139",
@@ -288,18 +300,6 @@
       "version": "3.7.1",
       "date": "2026-10-08T12:21:16Z",
       "message": "Virtual Jaguar libretro v3.7.1"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-08-62643c3",
-      "date": "2026-10-08T12:21:09Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-5a88080...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "casso",
-      "version": "1.32.0",
-      "date": "2026-10-08T03:16:00Z",
-      "message": "- Casso checks for a new release at startup, at most once a day, and shows a"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-22-8502d8a",
+      "latest_version": "KytyPS5-2026-10-22-c5016d9",
       "release_date": "2026-10-22",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -1299,8 +1299,8 @@
       "name": "Virtual Jaguar libretro",
       "category": "Atari Jaguar",
       "description": "Atari Jaguar and Jaguar CD emulator core for RetroArch.",
-      "latest_version": "3.9.1",
-      "release_date": "2026-10-17",
+      "latest_version": "3.10.0",
+      "release_date": "2026-10-22",
       "website": "https://github.com/libretro/virtualjaguar-libretro",
       "github": "libretro/virtualjaguar-libretro",
       "download_url": "https://github.com/libretro/virtualjaguar-libretro/releases",
