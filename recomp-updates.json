@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-21T12:48:02Z",
+  "last_checked": "2026-10-22T12:51:18Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 419385043,
-      "latest_version": "build-246",
-      "latest_date": "2026-10-21T09:43:28Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-246"
+      "release_id": 420709401,
+      "latest_version": "build-256",
+      "latest_date": "2026-10-22T12:42:38Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-256"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 418833039,
-      "latest_version": "v0.10.16",
-      "latest_date": "2026-10-20T20:19:36Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.16"
+      "release_id": 420583885,
+      "latest_version": "v0.10.22",
+      "latest_date": "2026-10-22T10:28:34Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.22"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,69 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:420709401",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-22T12:42:38Z",
+      "version": "build-256",
+      "summary": "4 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-256"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420583885",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-22T10:28:34Z",
+      "version": "v0.10.22",
+      "summary": "Two contributions by knuckleslee, plus follow-ups.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.22"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420400367",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-22T07:04:05Z",
+      "version": "v0.10.21",
+      "summary": "Two follow-up requests from #236, both in the launcher:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.21"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420188576",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-22T00:39:16Z",
+      "version": "v0.10.20",
+      "summary": "An occasional crash at start (seen on Macs). About one start in forty, the game closed during start-up, before the title screen. The log showed GUESTACCESSVIOLATION guest=0x00000010.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.20"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420087607",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-21T21:46:32Z",
+      "version": "v0.10.19",
+      "summary": "Intel integrated GPUs: races several times faster (#239, #134).",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.19"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:419915869",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-21T18:35:22Z",
+      "version": "v0.10.18",
+      "summary": "From suggestions in #236:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.18"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:419567535",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-21T13:05:17Z",
+      "version": "v0.10.17",
+      "summary": "Linux launcher on Fedora (#232). On Fedora 45 the launcher crashed right after starting (\"error creating texture\", then a segmentation fault).",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.17"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:419385043",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -924,69 +987,6 @@
       "version": "v0.6.1",
       "summary": "Two players on controllers (#53): in two-player menus (character, gear) each player turns their own ring with the D-pad, confirms with A and goes back with B. Either controller can pause a race and work the pause menu. A…",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.1"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:404536232",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-06T09:35:10Z",
-      "version": "v0.6.0",
-      "summary": "Mod support: the game loads file-replacement mods in HedgeModManager's format, the one Unleashed and Marathon Recompiled use.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.0"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:404481875",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-06T08:29:07Z",
-      "version": "0.3",
-      "summary": "Upscalers: no more smearing on stairs",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.3"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:404441323",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-06T07:38:29Z",
-      "version": "build-136",
-      "summary": "Windows crash reports",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-136"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:eed4c9a985c6c7d33bc176387776eb10d01507dd",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-05T11:34:03Z",
-      "version": "eed4c9a",
-      "summary": "More routines match: 8,596 of 10,048; a char cast of a loop counter's multiple is strength-reduced like the multiple itself (MDL_IV); the empty lose_pl_2 module is gone",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/eed4c9a985c6c7d33bc176387776eb10d01507dd"
-    },
-    {
-      "id": "release:JackandBeans/Snap64Recomp:403276827",
-      "repo": "JackandBeans/Snap64Recomp",
-      "type": "Release",
-      "date": "2026-10-05T00:37:33Z",
-      "version": "v1.1.2",
-      "summary": "A graphics driver that is too old gets a message (#21, reported by tiago-a). On a driver from before late 2018 the port opened a black window and closed within three seconds, with nothing said. The renderer needs Shader …",
-      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.2"
-    },
-    {
-      "id": "release:goliathret/EdgeOfTimeRecomp:403200669",
-      "repo": "goliathret/EdgeOfTimeRecomp",
-      "type": "Release",
-      "date": "2026-10-04T20:43:09Z",
-      "version": "v1.0.0",
-      "summary": "New release published.",
-      "url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
-    },
-    {
-      "id": "release:GiZcesi/OpenTricky:402985451",
-      "repo": "GiZcesi/OpenTricky",
-      "type": "Release",
-      "date": "2026-10-04T11:25:10Z",
-      "version": "v0.1.0-unstable",
-      "summary": "First public test release of OpenTricky, a recompiled PC port of SSX Tricky (Xbox, 2001). It continues SSX Tricky PC v0.2.0.",
-      "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.0-unstable"
     }
   ]
 }
