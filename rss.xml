@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-23-9dcff95</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>shader: fix crash from packed ancillary used as DPP old operand by @Pipe530 in https://github.com/Ky...</description>
+    <pubDate>2026-10-23T10:36:26Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-22-79837b4</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-22-f5f4e7d...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>loader: keep the output and log of a game LoadExec relaunches by @Almo7aya in https://github.com/Kyt...</description>
     <pubDate>2026-10-16T01:55:59Z</pubDate>
-  </item>
-  <item>
-    <title>shadps4 updated to v.0.20.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>That was close wasn't it? I know you are not used to so close releases but we have a lot of new thin...</description>
-    <pubDate>2026-10-14T16:03:36Z</pubDate>
   </item>
 </channel>
 </rss>

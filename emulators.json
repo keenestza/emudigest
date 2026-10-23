@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-22T20:55:41Z",
+  "last_updated": "2026-10-23T10:36:36Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-23-9dcff95",
+      "date": "2026-10-23T10:36:26Z",
+      "message": "shader: fix crash from packed ancillary used as DPP old operand by @Pipe530 in https://github.com/Ky..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-22-79837b4",
@@ -294,12 +300,6 @@
       "version": "0.0.5-nexus-release.2",
       "date": "2026-10-09T03:21:52Z",
       "message": "Automated SharpEmu v0.0.5-nexus-release.2 build for commit [47d4c07](https://github.com/sharpemu/sha..."
-    },
-    {
-      "emulator_id": "azahar",
-      "version": "2126.2",
-      "date": "2026-10-09T03:21:50Z",
-      "message": "This a minor release for the 2126 branch which primarily addresses a reported security advisory."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-22-79837b4",
-      "release_date": "2026-10-22",
+      "latest_version": "KytyPS5-2026-10-23-9dcff95",
+      "release_date": "2026-10-23",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
