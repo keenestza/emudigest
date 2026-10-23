@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-22T12:51:18Z",
+  "last_checked": "2026-10-23T12:29:27Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 420583885,
-      "latest_version": "v0.10.22",
-      "latest_date": "2026-10-22T10:28:34Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.22"
+      "release_id": 421693704,
+      "latest_version": "v0.10.26",
+      "latest_date": "2026-10-23T10:07:44Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.26"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,42 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:421693704",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-23T10:07:44Z",
+      "version": "v0.10.26",
+      "summary": "Leaner game code (#176). The translated game code checks in with the runtime at points where a thread may be paused or handed over. Every jump target had such a check, but only loops need one; a function's entry and ever…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.26"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:421545186",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-23T07:12:41Z",
+      "version": "v0.10.25",
+      "summary": "Tilt to kick (#247). The phone switch from v0.10.24 is now Launcher › Controls › Touch › Tilt to kick (off by default). A quick tip of the phone's top edge away from you is a kick dash (X).",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.25"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420953233",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-22T16:30:56Z",
+      "version": "v0.10.24",
+      "summary": "Tilt to lean (#247). On Android and iOS, a new switch Launcher › Controls › Touch › Tilt to lean (off by default) moves the left stick up and down as you tip the phone forward and back, measured from how you held it when…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.24"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420735264",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-22T13:07:26Z",
+      "version": "v0.10.23",
+      "summary": "Sound on iPhone and iPad (#249). The game ran without sound on iOS, though the sound setting was on.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.23"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:420709401",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -951,42 +987,6 @@
       "version": "0.4",
       "summary": "FSR 4.1.1 from one DLL, with a button",
       "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.4"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:6c65f7fd985463f44ec94691b06153634412445a",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-07T11:26:15Z",
-      "version": "6c65f7f",
-      "summary": "More matches: 8,930 routines instruction-exact, 8,355 byte-exact; loops keep their jump to the test",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/6c65f7fd985463f44ec94691b06153634412445a"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:405669546",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-07T11:05:07Z",
-      "version": "build-145",
-      "summary": "5 builds since the last check. Highlights: Survive and report a broken lights array; Visibility tests read on the CPU no longer stall for the GPU; Tell a joining player which map they are missing",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-145"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:405611823",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-07T09:48:26Z",
-      "version": "v0.6.2",
-      "summary": "Fewer freezes (#60, Issue #47): freezes of a quarter of a second up to a few seconds, in races and at Relay Race handovers, are fixed. The cause was the main thread spinning on a lock that other threads held while changi…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.2"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:405379504",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-07T04:30:54Z",
-      "version": "v0.6.1",
-      "summary": "Two players on controllers (#53): in two-player menus (character, gear) each player turns their own ring with the D-pad, confirms with A and goes back with B. Either controller can pause a race and work the pause menu. A…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.1"
     }
   ]
 }
