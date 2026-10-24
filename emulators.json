@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-24T09:55:02Z",
+  "last_updated": "2026-10-24T14:58:06Z",
   "feed": [
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.5",
+      "date": "2026-10-24T14:57:58Z",
+      "message": "- \ud83d\udc1b Bug fixes and improvements"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-24-8291cfe",
@@ -294,12 +300,6 @@
       "version": "fceux-2.7.0",
       "date": "2026-10-09T21:56:15Z",
       "message": "The 2.7.0 release introduces several new features and improvements focused on build system enhanceme..."
-    },
-    {
-      "emulator_id": "sameboy",
-      "version": "1.0.4",
-      "date": "2026-10-09T12:11:21Z",
-      "message": "This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save..."
     }
   ],
   "emulators": [
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.4",
-      "release_date": "2026-10-15",
+      "latest_version": "1.8.5",
+      "release_date": "2026-10-24",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
