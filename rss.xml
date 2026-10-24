@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-24-906d255</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>launcher: option to close the terminal after a clean exit by @MrBigBritches in https://github.com/Ky...</description>
+    <pubDate>2026-10-24T19:54:22Z</pubDate>
+  </item>
+  <item>
     <title>geargrafx updated to v1.8.5</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🐛 Bug fixes and improvements</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-16-d7974dc...KytyPS5-2026...</description>
     <pubDate>2026-10-16T20:09:52Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-16-d58aefd</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-16-4c6be6c...KytyPS5-2026...</description>
-    <pubDate>2026-10-16T15:40:00Z</pubDate>
   </item>
 </channel>
 </rss>

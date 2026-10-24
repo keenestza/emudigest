@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-24T14:58:06Z",
+  "last_updated": "2026-10-24T19:54:36Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-24-906d255",
+      "date": "2026-10-24T19:54:22Z",
+      "message": "launcher: option to close the terminal after a clean exit by @MrBigBritches in https://github.com/Ky..."
+    },
     {
       "emulator_id": "geargrafx",
       "version": "1.8.5",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-09-59183db",
       "date": "2026-10-09T21:56:24Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-09-c1926f9...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "fceux",
-      "version": "fceux-2.7.0",
-      "date": "2026-10-09T21:56:15Z",
-      "message": "The 2.7.0 release introduces several new features and improvements focused on build system enhanceme..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-24-8291cfe",
+      "latest_version": "KytyPS5-2026-10-24-906d255",
       "release_date": "2026-10-24",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
