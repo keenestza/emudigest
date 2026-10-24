@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-24T02:13:53Z",
+  "last_updated": "2026-10-24T09:55:02Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-24-8291cfe",
+      "date": "2026-10-24T09:54:50Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-23-6aaa533...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-23-6aaa533",
@@ -294,12 +300,6 @@
       "version": "1.0.4",
       "date": "2026-10-09T12:11:21Z",
       "message": "This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-09-7b9997b",
-      "date": "2026-10-09T03:21:52Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-08-2f4b8a3...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-23-6aaa533",
-      "release_date": "2026-10-23",
+      "latest_version": "KytyPS5-2026-10-24-8291cfe",
+      "release_date": "2026-10-24",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
