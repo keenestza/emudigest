@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-23-6aaa533</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-23-9dcff95...KytyPS5-2026...</description>
+    <pubDate>2026-10-24T02:13:39Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-23-9dcff95</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shader: fix crash from packed ancillary used as DPP old operand by @Pipe530 in https://github.com/Ky...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🚀 Optional CPU overclock</description>
     <pubDate>2026-10-16T01:56:06Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-16-6a0a666</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>loader: keep the output and log of a game LoadExec relaunches by @Almo7aya in https://github.com/Kyt...</description>
-    <pubDate>2026-10-16T01:55:59Z</pubDate>
   </item>
 </channel>
 </rss>
