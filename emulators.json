@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-25T02:00:39Z",
+  "last_updated": "2026-10-25T20:04:56Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-25-b2c9ec7",
+      "date": "2026-10-25T20:04:42Z",
+      "message": "renderer: decode R8, R8G8 and R16UINT color register clears by @4wgycvn84p-afk in https://github.com..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-25-83f8bfd",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-10-307fdcf",
       "date": "2026-10-10T11:28:50Z",
       "message": "add self updater by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1352"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-10-f3836bb",
-      "date": "2026-10-10T03:01:46Z",
-      "message": "shader: add SDWA support for VMINI32 by @popcoder565 in https://github.com/KytyPS5/KytyPS5/pull/1342"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-25-83f8bfd",
+      "latest_version": "KytyPS5-2026-10-25-b2c9ec7",
       "release_date": "2026-10-25",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
