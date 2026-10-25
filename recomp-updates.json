@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-24T11:54:10Z",
+  "last_checked": "2026-10-25T12:24:52Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 422439534,
-      "latest_version": "build-268",
-      "latest_date": "2026-10-24T01:15:01Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-268"
+      "release_id": 423029264,
+      "latest_version": "build-273",
+      "latest_date": "2026-10-24T22:57:52Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-273"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 422385947,
-      "latest_version": "v0.10.29",
-      "latest_date": "2026-10-23T23:11:53Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.29"
+      "release_id": 423027529,
+      "latest_version": "v0.10.33",
+      "latest_date": "2026-10-24T22:53:31Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.33"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,51 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:423029264",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-24T22:57:52Z",
+      "version": "build-273",
+      "summary": "3 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-273"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:423027529",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-24T22:53:31Z",
+      "version": "v0.10.33",
+      "summary": "Ultrawide: Grand Prix mission counters move with their panel. In a World Grand Prix Ring Challenge on a wide screen, the panel at the left moved to the edge but the ring count, its target and the record stayed in the mid…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.33"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:423005897",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-24T22:01:35Z",
+      "version": "v0.10.32",
+      "summary": "Main thread back on the fast core after the game returns (#176). On some phones, once the game went to the background and came back, Android let the game's main thread run on any core for the rest of the session, includi…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.32"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:422993679",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-24T21:31:58Z",
+      "version": "v0.10.31",
+      "summary": "Sound on hot phones (#176). When a phone got hot and slowed its cores down, the sound crackled late in long races, and it could feel like slow motion, though the race itself kept real time.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.31"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:422875722",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-24T17:25:17Z",
+      "version": "v0.10.30",
+      "summary": "Right colours when the render size matches the screen. On Android, when the render size was exactly the screen's size (for example a 1920x1080 screen at render scale 150%), red and blue were swapped: Sonic turned red, th…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.30"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:422439534",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -942,51 +987,6 @@
       "version": "0.5-pre1",
       "summary": "Settings inside the game's own menu",
       "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre1"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407264858",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-08T21:08:32Z",
-      "version": "v0.6.8",
-      "summary": "Starts on Vulkan 1.1 phones, second fix (#89, Issue #88): v0.6.7 still closed at the game's first frame on phones whose GPU driver offers Vulkan 1.1, for example the Motorola Edge 30 Pro (Snapdragon 8 Gen 1, Adreno 730).…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.8"
-    },
-    {
-      "id": "release:GiZcesi/OpenTricky:407148443",
-      "repo": "GiZcesi/OpenTricky",
-      "type": "Release",
-      "date": "2026-10-08T18:36:38Z",
-      "version": "v0.1.1-unstable",
-      "summary": "SSX Tricky.exe still starts the game straight away with your settings.",
-      "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.1-unstable"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407141732",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-08T18:28:41Z",
-      "version": "v0.6.7",
-      "summary": "Starts on Vulkan 1.1 phones (#86, Issues #80, #85, #61): on phones whose GPU driver offers Vulkan 1.1, the game crashed at its first frame every time, for example a Motorola Edge 30 Pro (Snapdragon 8 Gen 1, Adreno 730). …",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.7"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407059032",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-08T16:46:27Z",
-      "version": "v0.6.6",
-      "summary": "Crash records in the Android diagnostic ZIP (#83, Issues #61 and #80): a crash in native code stops game.log mid-way with no error, and a player can't run adb logcat. On Android 11 and later the diagnostic ZIP now has ex…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.6"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:406941365",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-08T14:46:20Z",
-      "version": "v0.6.5",
-      "summary": "Index buffers kept on the GPU (#81, Issue #65): an index buffer the game leaves unchanged is decoded once, straight into a GPU buffer, and later draws use it as it is. Before, every draw decoded its indices and copied th…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.5"
     }
   ]
 }
