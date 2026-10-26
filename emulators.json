@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-26T02:02:02Z",
+  "last_updated": "2026-10-26T11:42:34Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-26-f90a8b1",
+      "date": "2026-10-26T11:42:10Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-26-3c62269...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-26-597137e",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-11-730e1a3",
       "date": "2026-10-11T02:32:13Z",
       "message": "docs: add Fedora and Fedora Atomic (Bazzite) build instructions by @ReverendOzmund in https://github..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-10-1cfb952",
-      "date": "2026-10-10T20:47:41Z",
-      "message": "controller: use Back as the touchpad click on pads without a touchpad by @KelvinSilvaDev in https://..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-26-597137e",
+      "latest_version": "KytyPS5-2026-10-26-f90a8b1",
       "release_date": "2026-10-26",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",

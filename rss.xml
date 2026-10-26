@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-26-f90a8b1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-26-3c62269...KytyPS5-2026...</description>
+    <pubDate>2026-10-26T11:42:10Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-26-597137e</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>vulkan: enable VKEXTextendeddynamicstate when available by @LloydNicholson in https://github.com/Kyt...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Virtual Jaguar libretro v3.9.1</description>
     <pubDate>2026-10-17T09:49:01Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-17-c217380</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-17-b82512b...KytyPS5-2026...</description>
-    <pubDate>2026-10-17T09:48:52Z</pubDate>
   </item>
 </channel>
 </rss>
