@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-26-986721f</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>shader: decode FLAT, GLOBAL and SCRATCH D16 high-half loads by @MrFr3di in https://github.com/KytyPS...</description>
+    <pubDate>2026-10-26T21:59:18Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-26-f90a8b1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-26-3c62269...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>feat: add an in-game performance panel by @juanfariasdev in https://github.com/KytyPS5/KytyPS5/pull/...</description>
     <pubDate>2026-10-17T14:32:04Z</pubDate>
-  </item>
-  <item>
-    <title>virtualjaguar-libretro updated to v3.9.1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Virtual Jaguar libretro v3.9.1</description>
-    <pubDate>2026-10-17T09:49:01Z</pubDate>
   </item>
 </channel>
 </rss>

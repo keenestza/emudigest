@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-26T11:42:34Z",
+  "last_updated": "2026-10-26T21:59:33Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-26-986721f",
+      "date": "2026-10-26T21:59:18Z",
+      "message": "shader: decode FLAT, GLOBAL and SCRATCH D16 high-half loads by @MrFr3di in https://github.com/KytyPS..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-26-f90a8b1",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-11-16a7fe6",
       "date": "2026-10-11T11:42:14Z",
       "message": "fix windows compilation (2) by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1411"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-11-730e1a3",
-      "date": "2026-10-11T02:32:13Z",
-      "message": "docs: add Fedora and Fedora Atomic (Bazzite) build instructions by @ReverendOzmund in https://github..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-26-f90a8b1",
+      "latest_version": "KytyPS5-2026-10-26-986721f",
       "release_date": "2026-10-26",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
