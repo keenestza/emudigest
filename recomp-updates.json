@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-25T12:24:52Z",
+  "last_checked": "2026-10-26T14:02:02Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 423029264,
-      "latest_version": "build-273",
-      "latest_date": "2026-10-24T22:57:52Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-273"
+      "release_id": 424240839,
+      "latest_version": "build-289",
+      "latest_date": "2026-10-26T12:46:10Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-289"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 423027529,
-      "latest_version": "v0.10.33",
-      "latest_date": "2026-10-24T22:53:31Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.33"
+      "release_id": 423868797,
+      "latest_version": "v0.10.35",
+      "latest_date": "2026-10-26T04:50:31Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.35"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 408422451,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:424240839",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-26T12:46:10Z",
+      "version": "build-289",
+      "summary": "5 builds since the last check. Highlights: Write the join screen's menu file again with the browser word for a refused name (tools/portsettings.py)",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-289"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:423868797",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-26T04:50:31Z",
+      "version": "v0.10.35",
+      "summary": "Achievements in the game (#288).",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.35"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:423759821",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-26T00:49:52Z",
+      "version": "v0.10.34",
+      "summary": "Faster on slow processors (#176). The game's translated code now keeps the Xbox 360 processor's registers in the host processor's own registers instead of in memory, the way Unleashed Recompiled does. Where the original …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.34"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:423029264",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -960,33 +987,6 @@
       "version": "build-167",
       "summary": "5 builds since the last check. Highlights: Animation enhancements behind game.enhancedanimations, node count kept (#144); Overshield links' comments and lines as the files', part 0 checked (#116); OpenCE icon for Android, Windows and the desktop window",
       "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-167"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:8836192eae1583ea2638c5e64e5e2e7eb5df0178",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-09T07:30:00Z",
-      "version": "8836192",
-      "summary": "9,501 of 10,066 routines to the arcade's instructions, 9,182 to its exact bytes",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/8836192eae1583ea2638c5e64e5e2e7eb5df0178"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407498519",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-09T04:09:24Z",
-      "version": "v0.6.9",
-      "summary": "Faster races on Android (#90): on phones with one core faster than the rest, the render thread used to take that core while it mostly waited for draws, leaving the game's main thread, which sets the frame rate, on slower…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.9"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:407283474",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-08T21:36:41Z",
-      "version": "0.5-pre1",
-      "summary": "Settings inside the game's own menu",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre1"
     }
   ]
 }
