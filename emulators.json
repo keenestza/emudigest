@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-25T20:04:56Z",
+  "last_updated": "2026-10-26T02:02:02Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-26-597137e",
+      "date": "2026-10-26T02:01:51Z",
+      "message": "vulkan: enable VKEXTextendeddynamicstate when available by @LloydNicholson in https://github.com/Kyt..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-25-b2c9ec7",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-10-1cfb952",
       "date": "2026-10-10T20:47:41Z",
       "message": "controller: use Back as the touchpad click on pads without a touchpad by @KelvinSilvaDev in https://..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-10-307fdcf",
-      "date": "2026-10-10T11:28:50Z",
-      "message": "add self updater by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1352"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-25-b2c9ec7",
-      "release_date": "2026-10-25",
+      "latest_version": "KytyPS5-2026-10-26-597137e",
+      "release_date": "2026-10-26",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",

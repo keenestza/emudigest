@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-26-597137e</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>vulkan: enable VKEXTextendeddynamicstate when available by @LloydNicholson in https://github.com/Kyt...</description>
+    <pubDate>2026-10-26T02:01:51Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-25-b2c9ec7</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>renderer: decode R8, R8G8 and R16UINT color register clears by @4wgycvn84p-afk in https://github.com...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-17-b82512b...KytyPS5-2026...</description>
     <pubDate>2026-10-17T09:48:52Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-16-42bb0da</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>loader: keep the caller's flags in the TLS stubs by @Nawid3333 in https://github.com/KytyPS5/KytyPS5...</description>
-    <pubDate>2026-10-17T01:50:40Z</pubDate>
   </item>
 </channel>
 </rss>
