@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-27-0685bff</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>texture cache: convert D16<->D24/D32 depth copies instead of crashing by @bigjjmoneyman in https://g...</description>
+    <pubDate>2026-10-27T11:10:00Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-26-986721f</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shader: decode FLAT, GLOBAL and SCRATCH D16 high-half loads by @MrFr3di in https://github.com/KytyPS...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-17-6aa3846...KytyPS5-2026...</description>
     <pubDate>2026-10-17T19:45:53Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-17-6aa3846</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>feat: add an in-game performance panel by @juanfariasdev in https://github.com/KytyPS5/KytyPS5/pull/...</description>
-    <pubDate>2026-10-17T14:32:04Z</pubDate>
   </item>
 </channel>
 </rss>

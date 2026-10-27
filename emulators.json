@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-26T21:59:33Z",
+  "last_updated": "2026-10-27T11:10:18Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-27-0685bff",
+      "date": "2026-10-27T11:10:00Z",
+      "message": "texture cache: convert D16<->D24/D32 depth copies instead of crashing by @bigjjmoneyman in https://g..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-26-986721f",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-11-e51de54",
       "date": "2026-10-11T21:08:50Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-11-984cfce...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-11-16a7fe6",
-      "date": "2026-10-11T11:42:14Z",
-      "message": "fix windows compilation (2) by @Nmzik in https://github.com/KytyPS5/KytyPS5/pull/1411"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-26-986721f",
-      "release_date": "2026-10-26",
+      "latest_version": "KytyPS5-2026-10-27-0685bff",
+      "release_date": "2026-10-27",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
