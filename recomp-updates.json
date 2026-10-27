@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-26T14:02:02Z",
+  "last_checked": "2026-10-27T13:03:38Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 424240839,
-      "latest_version": "build-289",
-      "latest_date": "2026-10-26T12:46:10Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-289"
+      "release_id": 425349914,
+      "latest_version": "build-301",
+      "latest_date": "2026-10-27T11:11:03Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-301"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -88,6 +88,15 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:425349914",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-27T11:11:03Z",
+      "version": "build-301",
+      "summary": "4 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-301"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:424240839",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -978,15 +987,6 @@
       "version": "0.5-pre2",
       "summary": "0.5-pre2 — pre-release for testing",
       "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre2"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:407844157",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-09T11:23:04Z",
-      "version": "build-167",
-      "summary": "5 builds since the last check. Highlights: Animation enhancements behind game.enhancedanimations, node count kept (#144); Overshield links' comments and lines as the files', part 0 checked (#116); OpenCE icon for Android, Windows and the desktop window",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-167"
     }
   ]
 }
