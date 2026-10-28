@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-27T13:03:38Z",
+  "last_checked": "2026-10-28T13:53:51Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -10,10 +10,10 @@
       "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "cafd93e06e71753d10763db2cf1d775858bf981d",
-      "latest_version": "cafd93e",
-      "latest_date": "2026-10-21T07:13:32Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/cafd93e06e71753d10763db2cf1d775858bf981d"
+      "commit_sha": "edbac62fed733df1f74d0c2b6fc747fc791bb2f1",
+      "latest_version": "edbac62",
+      "latest_date": "2026-10-28T13:11:25Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/edbac62fed733df1f74d0c2b6fc747fc791bb2f1"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 411908947,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 425349914,
-      "latest_version": "build-301",
-      "latest_date": "2026-10-27T11:11:03Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-301"
+      "release_id": 426327014,
+      "latest_version": "build-314",
+      "latest_date": "2026-10-28T06:27:16Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-314"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -64,16 +64,16 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 423868797,
-      "latest_version": "v0.10.35",
-      "latest_date": "2026-10-26T04:50:31Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.35"
+      "release_id": 426211239,
+      "latest_version": "v0.10.37",
+      "latest_date": "2026-10-28T02:51:54Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.37"
     },
     "NoRain211/doaxvb-re": {
-      "release_id": 408422451,
-      "latest_version": "v0.6.0-rc1",
-      "latest_date": "2026-10-09T23:28:43Z",
-      "latest_url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0-rc1"
+      "release_id": 426130366,
+      "latest_version": "v0.6.0",
+      "latest_date": "2026-10-28T00:20:54Z",
+      "latest_url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0"
     },
     "tgeorgiadis/quiver-launcher": {
       "latest_version": "v3.5.1-rc.3",
@@ -88,6 +88,51 @@
     }
   },
   "updates": [
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:edbac62fed733df1f74d0c2b6fc747fc791bb2f1",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-28T13:11:25Z",
+      "version": "edbac62",
+      "summary": "Sprite writers set the cell code through the pointer they assign, the script printer and the hit-box editor step with plain adds, the pitch LFO takes its depth inside the step product",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/edbac62fed733df1f74d0c2b6fc747fc791bb2f1"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:426327014",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-28T06:27:16Z",
+      "version": "build-314",
+      "summary": "2 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-314"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:426211239",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-28T02:51:54Z",
+      "version": "v0.10.37",
+      "summary": "Sharp scaling (#301). The launcher has a new switch, Graphics › Sharp scaling, right under Render Size. When the game's picture is smaller than your window or screen (for example Render Size Original — 720 lines — on a 1…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.37"
+    },
+    {
+      "id": "release:NoRain211/doaxvb-re:426130366",
+      "repo": "NoRain211/doaxvb-re",
+      "type": "Release",
+      "date": "2026-10-28T00:20:54Z",
+      "version": "v0.6.0",
+      "summary": "0.6.0 Beta builds on RC1 and replaces 0.5.3 as the recommended download.",
+      "url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:425822317",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-27T18:14:23Z",
+      "version": "v0.10.36",
+      "summary": "Faster Android races (#176). The Android game is now built with profile-guided optimisation: the compiler first watched the game run on a phone (two races and the title screen) and now arranges its code by how it actuall…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.36"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:425349914",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -942,51 +987,6 @@
       "version": "v0.6.11",
       "summary": "A race crash on 4-core PCs (#93, Issue #64): part of each race frame runs on three of the game's job threads, and the game waited only 16 ms for them before going on to the next step. On an Xbox 360 they always finish in…",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.11"
-    },
-    {
-      "id": "release:NoRain211/doaxvb-re:408422451",
-      "repo": "NoRain211/doaxvb-re",
-      "type": "Release",
-      "date": "2026-10-09T23:28:43Z",
-      "version": "v0.6.0-rc1",
-      "summary": "Release candidate. 0.5.3 stays the recommended download until this build passes a full play test. Please report anything that looks or plays worse than 0.5.3.",
-      "url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0-rc1"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:408262956",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-09T19:23:01Z",
-      "version": "0.5-pre4",
-      "summary": "0.5-pre4 — pre-release for testing",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre4"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:408004383",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-09T14:37:27Z",
-      "version": "0.5-pre3",
-      "summary": "0.5-pre3 — pre-release for testing",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre3"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:407880745",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-09T12:12:39Z",
-      "version": "v0.6.10",
-      "summary": "Less GPU work under Vulkan (#92): shaders used to read their constants through buffer addresses, which a phone GPU's shader compiler cannot load once per draw, so every vertex fetched them again from memory. They now com…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.10"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:407848251",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-09T11:30:28Z",
-      "version": "0.5-pre2",
-      "summary": "0.5-pre2 — pre-release for testing",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5-pre2"
     }
   ]
 }
