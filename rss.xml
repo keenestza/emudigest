@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>openmsx updated to vRELEASE_22_0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Release Notes for openMSX 22.0 (2026-10-28)</description>
+    <pubDate>2026-10-28T11:44:46Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-28-6c01401</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>graphics: accept video-out buffers with 128-byte independent DCC blocks (Gran Turismo 7) by @Nawid33...</description>
+    <pubDate>2026-10-28T11:44:38Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-27-1be1c6c</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-27-69fdb03...KytyPS5-2026...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Automated SharpEmu v0.0.6-mono build for commit [ea47b98](https://github.com/sharpemu/sharpemu/commi...</description>
     <pubDate>2026-10-19T02:05:59Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-18-099de8d</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-37df7f3...KytyPS5-2026...</description>
-    <pubDate>2026-10-18T19:46:32Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-18-37df7f3</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-4059179...KytyPS5-2026...</description>
-    <pubDate>2026-10-18T10:00:36Z</pubDate>
   </item>
 </channel>
 </rss>

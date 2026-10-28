@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-28T02:48:18Z",
+  "last_updated": "2026-10-28T11:44:57Z",
   "feed": [
+    {
+      "emulator_id": "openmsx",
+      "version": "RELEASE_22_0",
+      "date": "2026-10-28T11:44:46Z",
+      "message": "Release Notes for openMSX 22.0 (2026-10-28)"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-28-6c01401",
+      "date": "2026-10-28T11:44:38Z",
+      "message": "graphics: accept video-out buffers with 128-byte independent DCC blocks (Gran Turismo 7) by @Nawid33..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-27-1be1c6c",
@@ -288,18 +300,6 @@
       "version": "KytyPS5-2026-10-12-5b730d4",
       "date": "2026-10-12T02:56:39Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-11-e51de54...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "scummvm",
-      "version": "2026.4.0",
-      "date": "2026-10-11T21:08:59Z",
-      "message": "It is hard to believe, but a quarter-century and a couple of days ago, the ScummVM Project saw its f..."
-    },
-    {
-      "emulator_id": "gearcoleco",
-      "version": "1.7.4",
-      "date": "2026-10-11T21:08:58Z",
-      "message": "- \ud83d\udd14 Improved desktop notification system"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-27-1be1c6c",
-      "release_date": "2026-10-27",
+      "latest_version": "KytyPS5-2026-10-28-6c01401",
+      "release_date": "2026-10-28",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1129,8 +1129,8 @@
       "name": "openMSX",
       "category": "MSX",
       "description": "Accurate MSX computer emulator with support for many machine models and peripherals.",
-      "latest_version": "RELEASE_21_0",
-      "release_date": "2025-09-26",
+      "latest_version": "RELEASE_22_0",
+      "release_date": "2026-10-28",
       "website": "https://openmsx.org/",
       "github": "openMSX/openMSX",
       "download_url": "https://github.com/openMSX/openMSX/releases",
