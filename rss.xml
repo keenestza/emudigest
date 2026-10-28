@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-27-1be1c6c</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-27-69fdb03...KytyPS5-2026...</description>
+    <pubDate>2026-10-28T02:48:04Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-27-69fdb03</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Launcher display options by @shadowbeat070 in https://github.com/KytyPS5/KytyPS5/pull/1938</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-4059179...KytyPS5-2026...</description>
     <pubDate>2026-10-18T10:00:36Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-18-fe3857a</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-c3e7ec8...KytyPS5-2026...</description>
-    <pubDate>2026-10-18T01:49:04Z</pubDate>
   </item>
 </channel>
 </rss>
