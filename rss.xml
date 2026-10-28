@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-28-c528324</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>audio: let the AJM Opus decoder write part of a packet by @Cosmo in https://github.com/KytyPS5/KytyP...</description>
+    <pubDate>2026-10-28T21:57:04Z</pubDate>
+  </item>
+  <item>
     <title>openmsx updated to vRELEASE_22_0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Release Notes for openMSX 22.0 (2026-10-28)</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-099de8d...KytyPS5-2026...</description>
     <pubDate>2026-10-19T11:24:14Z</pubDate>
-  </item>
-  <item>
-    <title>sharpemu updated to v0.0.6-mono</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Automated SharpEmu v0.0.6-mono build for commit [ea47b98](https://github.com/sharpemu/sharpemu/commi...</description>
-    <pubDate>2026-10-19T02:05:59Z</pubDate>
   </item>
 </channel>
 </rss>
