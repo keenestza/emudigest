@@ -1,19 +1,19 @@
 {
-  "last_checked": "2026-10-28T13:53:51Z",
+  "last_checked": "2026-10-29T13:59:37Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
     "deadinside28/bloodborne_pc": {
-      "release_id": 416977330,
-      "latest_version": "0.6",
-      "latest_date": "2026-10-19T06:34:04Z",
-      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
+      "release_id": 427317456,
+      "latest_version": "0.7",
+      "latest_date": "2026-10-28T23:58:29Z",
+      "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.7"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "edbac62fed733df1f74d0c2b6fc747fc791bb2f1",
-      "latest_version": "edbac62",
-      "latest_date": "2026-10-28T13:11:25Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/edbac62fed733df1f74d0c2b6fc747fc791bb2f1"
+      "commit_sha": "6f10efe9dd3c1452ccb25585f60bc8cce390cbed",
+      "latest_version": "6f10efe",
+      "latest_date": "2026-10-29T11:09:34Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/6f10efe9dd3c1452ccb25585f60bc8cce390cbed"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 411908947,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 426327014,
-      "latest_version": "build-314",
-      "latest_date": "2026-10-28T06:27:16Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-314"
+      "release_id": 427848962,
+      "latest_version": "build-326",
+      "latest_date": "2026-10-29T12:38:59Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-326"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:427848962",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-29T12:38:59Z",
+      "version": "build-326",
+      "summary": "3 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-326"
+    },
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:6f10efe9dd3c1452ccb25585f60bc8cce390cbed",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-29T11:09:34Z",
+      "version": "6f10efe",
+      "summary": "Compiler stages with GEN_CHAIN_SCRATCH_R0 bit 2, PEP_RETURN_EXIT bit 2 and MDL_MUL_CONST bit 16; dead reads, dead stores and empty display hooks removed (PLS03 ground/air dispatch, cal_bg_speed_data, game_config, Flash_*",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/6f10efe9dd3c1452ccb25585f60bc8cce390cbed"
+    },
+    {
+      "id": "release:deadinside28/bloodborne_pc:427317456",
+      "repo": "deadinside28/bloodborne_pc",
+      "type": "Release",
+      "date": "2026-10-28T23:58:29Z",
+      "version": "0.7",
+      "summary": "bbport is the counterpart of Wine + DXVK for a single game: Bloodborne (v1.09), now on Linux",
+      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.7"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:edbac62fed733df1f74d0c2b6fc747fc791bb2f1",
       "repo": "gibletto/sfIII3-cps3-decomp",
@@ -960,33 +987,6 @@
       "version": "a33b932",
       "summary": "9,657 of 10,066 routines to the arcade's instructions, 9,478 to its exact bytes; every replay clean",
       "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/a33b93243da945a78849d51e42a09564408babab"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:408854471",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-10T09:53:19Z",
-      "version": "build-177",
-      "summary": "5 builds since the last check. Highlights: Retry the ART reclaim on kernels that take MAPFIXEDNOREPLACE as a hint; Never change a don't-dump ART mapping, and test the mincore fallback anywhere; The weapons' reticles drawn from the PC HUD sheet's exact matches",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-177"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:408830969",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-10T09:13:22Z",
-      "version": "v0.7.0",
-      "summary": "Online play (#56): the game's Xbox LIVE mode works again, on a server this project provides instead of Microsoft's. One player's game hosts the server; the others join over the network. Create Match, Quick Match, the lob…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.0"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:408454772",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-10T00:31:54Z",
-      "version": "v0.6.11",
-      "summary": "A race crash on 4-core PCs (#93, Issue #64): part of each race frame runs on three of the game's job threads, and the game waited only 16 ms for them before going on to the next step. On an Xbox 360 they always finish in…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.6.11"
     }
   ]
 }
