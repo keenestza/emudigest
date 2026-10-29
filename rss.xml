@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-29-5e837a9</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-28-c528324...KytyPS5-2026...</description>
+    <pubDate>2026-10-29T11:52:37Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-28-c528324</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>audio: let the AJM Opus decoder write part of a packet by @Cosmo in https://github.com/KytyPS5/KytyP...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-19-cd4eab9...KytyPS5-2026...</description>
     <pubDate>2026-10-19T17:51:22Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-19-e5f0ee7</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-099de8d...KytyPS5-2026...</description>
-    <pubDate>2026-10-19T11:24:14Z</pubDate>
   </item>
 </channel>
 </rss>
