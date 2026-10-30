@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>shadps4 updated to v.0.21.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Another week another release . There are ton of changes , so why not ?</description>
+    <pubDate>2026-10-30T17:20:30Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-30-4919fdb</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-30-bc4333e...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f492027...KytyPS5-2026...</description>
     <pubDate>2026-10-20T15:55:29Z</pubDate>
-  </item>
-  <item>
-    <title>xemu updated to v0.8.138</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>3125 - Improve compatibility with older versions of Vulkan (@mborgerson)</description>
-    <pubDate>2026-10-20T10:31:12Z</pubDate>
   </item>
 </channel>
 </rss>
