@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-29T22:06:49Z",
+  "last_updated": "2026-10-30T03:13:36Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-30-b65dd18",
+      "date": "2026-10-30T03:13:22Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-29-3ad21e3...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-10-29-5eab0ec",
@@ -294,12 +300,6 @@
       "version": "3.9.0",
       "date": "2026-10-14T10:44:38Z",
       "message": "Virtual Jaguar libretro v3.9.0"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-13-9e41d83",
-      "date": "2026-10-13T22:01:05Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-12-df5b9b9...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-29-5eab0ec",
-      "release_date": "2026-10-29",
+      "latest_version": "KytyPS5-2026-10-30-b65dd18",
+      "release_date": "2026-10-30",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
