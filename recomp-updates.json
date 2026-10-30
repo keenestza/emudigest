@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-29T13:59:37Z",
+  "last_checked": "2026-10-30T13:55:01Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -10,16 +10,16 @@
       "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.7"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "6f10efe9dd3c1452ccb25585f60bc8cce390cbed",
-      "latest_version": "6f10efe",
-      "latest_date": "2026-10-29T11:09:34Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/6f10efe9dd3c1452ccb25585f60bc8cce390cbed"
+      "commit_sha": "efee6066884db7aec355104e8bcb1ed4984f3df0",
+      "latest_version": "efee606",
+      "latest_date": "2026-10-30T09:51:02Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/efee6066884db7aec355104e8bcb1ed4984f3df0"
     },
     "GiZcesi/OpenTricky": {
-      "release_id": 411908947,
-      "latest_version": "v0.1.3-unstable",
-      "latest_date": "2026-10-13T16:56:24Z",
-      "latest_url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.3-unstable"
+      "release_id": 428375641,
+      "latest_version": "v0.1.4",
+      "latest_date": "2026-10-29T20:44:49Z",
+      "latest_url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.4"
     },
     "goliathret/EdgeOfTimeRecomp": {
       "release_id": 403200669,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 427848962,
-      "latest_version": "build-326",
-      "latest_date": "2026-10-29T12:38:59Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-326"
+      "release_id": 428617966,
+      "latest_version": "build-335",
+      "latest_date": "2026-10-30T03:16:20Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-335"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 414876372,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 426211239,
-      "latest_version": "v0.10.37",
-      "latest_date": "2026-10-28T02:51:54Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.37"
+      "release_id": 427988800,
+      "latest_version": "v0.10.38",
+      "latest_date": "2026-10-29T14:42:38Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.38"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 426130366,
@@ -88,6 +88,42 @@
     }
   },
   "updates": [
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:efee6066884db7aec355104e8bcb1ed4984f3df0",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-30T09:51:02Z",
+      "version": "efee606",
+      "summary": "Name struct fields, hardware registers and table types; retire fake-match forms; build with compiler 6c10d2b",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/efee6066884db7aec355104e8bcb1ed4984f3df0"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:428617966",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-10-30T03:16:20Z",
+      "version": "build-335",
+      "summary": "3 builds since the last check. Highlights: Check out haloportlimits.h in the release job; Revert #440, which hid the touch controls on phones with nothing plugged in",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-335"
+    },
+    {
+      "id": "release:GiZcesi/OpenTricky:428375641",
+      "repo": "GiZcesi/OpenTricky",
+      "type": "Release",
+      "date": "2026-10-29T20:44:49Z",
+      "version": "v0.1.4",
+      "summary": "Fifth public release of OpenTricky, and the first stable one. Everything since 0.1.3 in one release: evenly paced frames, a race display in HD, new graphics options (most with a preview of each value), a cleaner launcher…",
+      "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.4"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:427988800",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-29T14:42:38Z",
+      "version": "v0.10.38",
+      "summary": "Camera motion on Android and Linux (#305). Until now only the Windows package could play with your body through a webcam (Camera › Motion in the launcher). The Android APK and the Linux archive now include the same body-…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.38"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:427848962",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -951,42 +987,6 @@
       "version": "0.51",
       "summary": "bbport is the counterpart of Wine + DXVK for a single game: Bloodborne (v1.09) on Linux.",
       "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.51"
-    },
-    {
-      "id": "release:florinp93/hells-gate-recomp:409166078",
-      "repo": "florinp93/hells-gate-recomp",
-      "type": "Release",
-      "date": "2026-10-10T21:28:00Z",
-      "version": "v0.8.0-beta",
-      "summary": "Hell's Gate Recomp — v0.8.0-beta",
-      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.0-beta"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:e5ac0d43b8abc82fee10d426f2294655f5f87477",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-10T18:04:48Z",
-      "version": "e5ac0d4",
-      "summary": "9,703 of 10,066 routines to the arcade's instructions, 9,565 to its exact bytes",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/e5ac0d43b8abc82fee10d426f2294655f5f87477"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:408967603",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-10T13:25:20Z",
-      "version": "0.5",
-      "summary": "Details and measurements of each step are in the prerelease notes:",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.5"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:a33b93243da945a78849d51e42a09564408babab",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-10T11:06:45Z",
-      "version": "a33b932",
-      "summary": "9,657 of 10,066 routines to the arcade's instructions, 9,478 to its exact bytes; every replay clean",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/a33b93243da945a78849d51e42a09564408babab"
     }
   ]
 }
