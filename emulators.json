@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-10-30T17:20:49Z",
+  "last_updated": "2026-10-30T21:44:26Z",
   "feed": [
+    {
+      "emulator_id": "gearcoleco",
+      "version": "1.7.6",
+      "date": "2026-10-30T21:44:19Z",
+      "message": "- \ud83d\ude80 Improved OpenGL rendering performance"
+    },
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.6",
+      "date": "2026-10-30T21:44:18Z",
+      "message": "- \ud83d\udda5\ufe0f Improved vsync pacing on high refresh rate displays"
+    },
     {
       "emulator_id": "shadps4",
       "version": ".0.21.0",
@@ -288,18 +300,6 @@
       "version": "KytyPS5-2026-10-16-3ff6606",
       "date": "2026-10-16T10:14:53Z",
       "message": "Input mapping tabs UI, emulated touchpad, and rumble for non-PS5 controllers by @Pipe530 in https://..."
-    },
-    {
-      "emulator_id": "geargrafx",
-      "version": "1.8.4",
-      "date": "2026-10-16T01:56:06Z",
-      "message": "- \ud83d\ude80 Optional CPU overclock"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-16-6a0a666",
-      "date": "2026-10-16T01:55:59Z",
-      "message": "loader: keep the output and log of a game LoadExec relaunches by @Almo7aya in https://github.com/Kyt..."
     }
   ],
   "emulators": [
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.5",
-      "release_date": "2026-10-24",
+      "latest_version": "1.8.6",
+      "release_date": "2026-10-30",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
@@ -1198,8 +1198,8 @@
       "name": "Gearcoleco",
       "category": "ColecoVision",
       "description": "ColecoVision emulator with debugger and cross-platform builds.",
-      "latest_version": "1.7.4",
-      "release_date": "2026-10-11",
+      "latest_version": "1.7.6",
+      "release_date": "2026-10-30",
       "website": "https://github.com/drhelius/Gearcoleco",
       "github": "drhelius/Gearcoleco",
       "download_url": "https://github.com/drhelius/Gearcoleco/releases",

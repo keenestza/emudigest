@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>gearcoleco updated to v1.7.6</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- 🚀 Improved OpenGL rendering performance</description>
+    <pubDate>2026-10-30T21:44:19Z</pubDate>
+  </item>
+  <item>
+    <title>geargrafx updated to v1.8.6</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- 🖥️ Improved vsync pacing on high refresh rate displays</description>
+    <pubDate>2026-10-30T21:44:18Z</pubDate>
+  </item>
+  <item>
     <title>shadps4 updated to v.0.21.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Another week another release . There are ton of changes , so why not ?</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shader: emit float min/max as host instructions on AMD GPUs by @Arda501 in https://github.com/KytyPS...</description>
     <pubDate>2026-10-21T20:57:24Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-21-4644c52</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-7b7f9a7...KytyPS5-2026...</description>
-    <pubDate>2026-10-21T10:43:32Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-20-7b7f9a7</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f492027...KytyPS5-2026...</description>
-    <pubDate>2026-10-20T15:55:29Z</pubDate>
   </item>
 </channel>
 </rss>
