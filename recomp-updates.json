@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-30T13:55:01Z",
+  "last_checked": "2026-10-31T13:27:28Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -10,10 +10,10 @@
       "latest_url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.7"
     },
     "gibletto/sfIII3-cps3-decomp": {
-      "commit_sha": "efee6066884db7aec355104e8bcb1ed4984f3df0",
-      "latest_version": "efee606",
-      "latest_date": "2026-10-30T09:51:02Z",
-      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/efee6066884db7aec355104e8bcb1ed4984f3df0"
+      "commit_sha": "1d0819d8f73067d8f8661d1dc7edc480db1ef4e4",
+      "latest_version": "1d0819d",
+      "latest_date": "2026-10-31T12:53:23Z",
+      "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/1d0819d8f73067d8f8661d1dc7edc480db1ef4e4"
     },
     "GiZcesi/OpenTricky": {
       "release_id": 428375641,
@@ -22,10 +22,10 @@
       "latest_url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.4"
     },
     "goliathret/EdgeOfTimeRecomp": {
-      "release_id": 403200669,
-      "latest_version": "v1.0.0",
-      "latest_date": "2026-10-04T20:43:09Z",
-      "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.0.0"
+      "release_id": 429400128,
+      "latest_version": "v1.1",
+      "latest_date": "2026-10-30T19:18:20Z",
+      "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
       "release_id": 428617966,
@@ -34,10 +34,10 @@
       "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-335"
     },
     "florinp93/hells-gate-recomp": {
-      "release_id": 414876372,
-      "latest_version": "v0.8.4-beta",
-      "latest_date": "2026-10-16T11:14:51Z",
-      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.4-beta"
+      "release_id": 429217466,
+      "latest_version": "v0.8.5-beta",
+      "latest_date": "2026-10-30T15:54:13Z",
+      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.5-beta"
     },
     "novapowers0/DB-Final-Bout-Recomp": {
       "release_id": 417758359,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 427988800,
-      "latest_version": "v0.10.38",
-      "latest_date": "2026-10-29T14:42:38Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.38"
+      "release_id": 429818253,
+      "latest_version": "v0.10.40",
+      "latest_date": "2026-10-31T08:44:31Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.40"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 426130366,
@@ -88,6 +88,60 @@
     }
   },
   "updates": [
+    {
+      "id": "commit:gibletto/sfIII3-cps3-decomp:1d0819d8f73067d8f8661d1dc7edc480db1ef4e4",
+      "repo": "gibletto/sfIII3-cps3-decomp",
+      "type": "Development update",
+      "date": "2026-10-31T12:53:23Z",
+      "version": "1d0819d",
+      "summary": "poly_que.c renamed dma_que.c",
+      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/1d0819d8f73067d8f8661d1dc7edc480db1ef4e4"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:429818253",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-31T08:44:31Z",
+      "version": "v0.10.40",
+      "summary": "Kinect v2 on a Mac (#305, first version). The Mac app can now read a Kinect for Xbox One (Kinect v2) as well as a Kinect for Xbox 360: choose Camera › Kinect v2 in the launcher. It needs the Kinect v2's USB adapter and a…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.40"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:429518572",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-10-30T21:46:39Z",
+      "version": "v0.10.39",
+      "summary": "No more crash after winning certain races (#317). On the Xbox 360, some wins also earned an Avatar award: a clothing item for your Xbox avatar. In 0.10.38 the game stopped as soon as it tried to hand one out, for example…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.39"
+    },
+    {
+      "id": "release:florinp93/hells-gate-recomp:429478511",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-10-30T20:51:18Z",
+      "version": "texture-studio-v1.0.0",
+      "summary": "First release of Texture Studio, the texture modding tool for Hell's Gate.",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/texture-studio-v1.0.0"
+    },
+    {
+      "id": "release:goliathret/EdgeOfTimeRecomp:429400128",
+      "repo": "goliathret/EdgeOfTimeRecomp",
+      "type": "Release",
+      "date": "2026-10-30T19:18:20Z",
+      "version": "v1.1",
+      "summary": "refactor: v1.1.0 prep work by @Graine25 in https://github.com/goliathret/EdgeOfTimeRecomp/pull/8",
+      "url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
+    },
+    {
+      "id": "release:florinp93/hells-gate-recomp:429217466",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-10-30T15:54:13Z",
+      "version": "v0.8.5-beta",
+      "summary": "Hell's Gate Recomp — v0.8.5-beta",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.5-beta"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:efee6066884db7aec355104e8bcb1ed4984f3df0",
       "repo": "gibletto/sfIII3-cps3-decomp",
@@ -933,60 +987,6 @@
       "version": "v0.8.2-beta",
       "summary": "Hell's Gate Recomp — v0.8.2-beta",
       "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.2-beta"
-    },
-    {
-      "id": "release:JackandBeans/Snap64Recomp:409756861",
-      "repo": "JackandBeans/Snap64Recomp",
-      "type": "Release",
-      "date": "2026-10-11T15:40:53Z",
-      "version": "v1.1.4",
-      "summary": "The Save File row says what each file holds. \"File 1, playing\" is the file the game is playing, \"File 2, empty\" one that has never been saved to, and the others carry the day they were last saved, \"File 4, Oct 9\". It had…",
-      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.4"
-    },
-    {
-      "id": "release:florinp93/hells-gate-recomp:409645146",
-      "repo": "florinp93/hells-gate-recomp",
-      "type": "Release",
-      "date": "2026-10-11T12:10:03Z",
-      "version": "v0.8.1-beta",
-      "summary": "Hell's Gate Recomp — v0.8.1-beta",
-      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.1-beta"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:409586201",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-11T10:07:18Z",
-      "version": "build-188",
-      "summary": "5 builds since the last check. Highlights: Text drawn a string at a time, web immediate draws packed; Windows: tag block accessor builds again; Web: disclaimer footer",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-188"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:409439045",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-11T05:26:19Z",
-      "version": "v0.7.1",
-      "summary": "Online races with an AVATAR no longer close the other games (#95): when one player raced as AVATAR, a game without a custom model, such as a phone hosting the race, closed as the race loaded, and the others followed. Tha…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.1"
-    },
-    {
-      "id": "release:JackandBeans/Snap64Recomp:409405757",
-      "repo": "JackandBeans/Snap64Recomp",
-      "type": "Release",
-      "date": "2026-10-11T04:17:11Z",
-      "version": "v1.1.3",
-      "summary": "With Mouse Aim on, a course no longer starts looking straight up. The game stops the stick during its scripted moments, the run-in, a cutscene, a message, a turn to a new direction, the pause menu, and the port's mouse l…",
-      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.3"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:409256220",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-10T22:58:52Z",
-      "version": "0.51",
-      "summary": "bbport is the counterpart of Wine + DXVK for a single game: Bloodborne (v1.09) on Linux.",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.51"
     }
   ]
 }
