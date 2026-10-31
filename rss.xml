@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>virtualc64 updated to v6.2</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Changes since the latest beta release:</description>
+    <pubDate>2026-10-31T16:25:02Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-31-0261891</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>graphics: convert HDR10 video-out output to SDR by @Xx-LiDAF-xX in https://github.com/KytyPS5/KytyPS...</description>
@@ -176,12 +182,6 @@
     <title>xemu updated to v0.8.139</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>3088 - Fix 1852 nv2a vsh cpu based register carryover (@abaire)</description>
-    <pubDate>2026-10-22T02:09:54Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-22-8502d8a</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>image: drop optional create flags the driver rejects instead of aborting by @Arda501 in https://gith...</description>
     <pubDate>2026-10-22T02:09:54Z</pubDate>
   </item>
 </channel>
