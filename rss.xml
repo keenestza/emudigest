@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-31-bbf96a5</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>9kPCz7Or+1Y SystemService::sceSystemServiceReenableMusicPlayer by @Ekt0re in https://github.com/Kyty...</description>
+    <pubDate>2026-10-31T20:43:54Z</pubDate>
+  </item>
+  <item>
     <title>virtualc64 updated to v6.2</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Changes since the latest beta release:</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-22-d7c1896...KytyPS5-2026...</description>
     <pubDate>2026-10-22T10:45:09Z</pubDate>
-  </item>
-  <item>
-    <title>xemu updated to v0.8.139</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>3088 - Fix 1852 nv2a vsh cpu based register carryover (@abaire)</description>
-    <pubDate>2026-10-22T02:09:54Z</pubDate>
   </item>
 </channel>
 </rss>
