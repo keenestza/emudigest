@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-10-30T21:44:26Z",
+  "last_updated": "2026-10-31T11:19:31Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-10-31-0261891",
+      "date": "2026-10-31T11:19:18Z",
+      "message": "graphics: convert HDR10 video-out output to SDR by @Xx-LiDAF-xX in https://github.com/KytyPS5/KytyPS..."
+    },
     {
       "emulator_id": "gearcoleco",
       "version": "1.7.6",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-16-d58aefd",
       "date": "2026-10-16T15:40:00Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-16-4c6be6c...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-16-3ff6606",
-      "date": "2026-10-16T10:14:53Z",
-      "message": "Input mapping tabs UI, emulated touchpad, and rumble for non-PS5 controllers by @Pipe530 in https://..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-10-30-4919fdb",
-      "release_date": "2026-10-30",
+      "latest_version": "KytyPS5-2026-10-31-0261891",
+      "release_date": "2026-10-31",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",

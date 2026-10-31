@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-10-31-0261891</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>graphics: convert HDR10 video-out output to SDR by @Xx-LiDAF-xX in https://github.com/KytyPS5/KytyPS...</description>
+    <pubDate>2026-10-31T11:19:18Z</pubDate>
+  </item>
+  <item>
     <title>gearcoleco updated to v1.7.6</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🚀 Improved OpenGL rendering performance</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>image: drop optional create flags the driver rejects instead of aborting by @Arda501 in https://gith...</description>
     <pubDate>2026-10-22T02:09:54Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-21-2864818</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>shader: emit float min/max as host instructions on AMD GPUs by @Arda501 in https://github.com/KytyPS...</description>
-    <pubDate>2026-10-21T20:57:24Z</pubDate>
   </item>
 </channel>
 </rss>
