@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-10-31T13:27:28Z",
+  "last_checked": "2026-11-01T14:08:44Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 428617966,
-      "latest_version": "build-335",
-      "latest_date": "2026-10-30T03:16:20Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-335"
+      "release_id": 430319415,
+      "latest_version": "build-337",
+      "latest_date": "2026-11-01T02:34:12Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-337"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 429217466,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 429818253,
-      "latest_version": "v0.10.40",
-      "latest_date": "2026-10-31T08:44:31Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.40"
+      "release_id": 430430692,
+      "latest_version": "v0.10.41",
+      "latest_date": "2026-11-01T07:41:26Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.41"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 426130366,
@@ -88,6 +88,24 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:430430692",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-01T07:41:26Z",
+      "version": "v0.10.41",
+      "summary": "A Male / Female choice for each Avatar model (#324). The game picks the male or female Avatar, with its own gear and board, from the Avatar's body, and a VRM or GLB model has nothing the game can read for that, so until …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.41"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:430319415",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-11-01T02:34:12Z",
+      "version": "build-337",
+      "summary": "Open the master's page on OK when Discord Account's LINK shows the master a server asked for",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-337"
+    },
     {
       "id": "commit:gibletto/sfIII3-cps3-decomp:1d0819d8f73067d8f8661d1dc7edc480db1ef4e4",
       "repo": "gibletto/sfIII3-cps3-decomp",
@@ -969,24 +987,6 @@
       "version": "v0.1.2-unstable",
       "summary": "Third public test release of OpenTricky: a round of fixes that bring the game closer to the original (the \"melting\" snow, the Showoff snowflakes, the crowd and the voices at the end of a race), steadier long sessions, a …",
       "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.2-unstable"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:409898938",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-11T20:18:25Z",
-      "version": "v0.7.2",
-      "summary": "4K rendering (#96, Issue #94): Rendering resolution now offers 3840 x 2160 (300%) beside 360p to 1440p. 1440p was only the largest choice listed and tested, not a limit of the renderer. 4K needs a strong GPU: if races dr…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.7.2"
-    },
-    {
-      "id": "release:florinp93/hells-gate-recomp:409826322",
-      "repo": "florinp93/hells-gate-recomp",
-      "type": "Release",
-      "date": "2026-10-11T17:52:48Z",
-      "version": "v0.8.2-beta",
-      "summary": "Hell's Gate Recomp — v0.8.2-beta",
-      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.2-beta"
     }
   ]
 }
