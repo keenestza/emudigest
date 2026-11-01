@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>vamiga updated to v5.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This release finalizes the 5.0 series.</description>
+    <pubDate>2026-11-01T12:10:03Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-01-893b035</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-01-2f885e2...KytyPS5-2026...</description>
+    <pubDate>2026-11-01T12:10:00Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-10-31-a06e356</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-31-f12fc20...KytyPS5-2026...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>shader: fix crash from packed ancillary used as DPP old operand by @Pipe530 in https://github.com/Ky...</description>
     <pubDate>2026-10-23T10:36:26Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-22-79837b4</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-22-f5f4e7d...KytyPS5-2026...</description>
-    <pubDate>2026-10-22T20:55:26Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-22-f5f4e7d</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>usbd: return an empty device list from sceUsbdGetDeviceList (Gran Turismo 7) by @NevesHenry in https...</description>
-    <pubDate>2026-10-22T16:10:35Z</pubDate>
   </item>
 </channel>
 </rss>
