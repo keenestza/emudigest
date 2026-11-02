@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-01T12:10:10Z",
+  "last_updated": "2026-11-02T13:59:12Z",
   "feed": [
+    {
+      "emulator_id": "virtualjaguar-libretro",
+      "version": "3.11.0",
+      "date": "2026-11-02T13:59:08Z",
+      "message": "Virtual Jaguar v3.11.0"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-02-4a305a9",
+      "date": "2026-11-02T13:59:01Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-02-02b17af...KytyPS5-2026..."
+    },
     {
       "emulator_id": "vamiga",
       "version": "5.0",
@@ -288,18 +300,6 @@
       "version": "KytyPS5-2026-10-18-fe3857a",
       "date": "2026-10-18T01:49:04Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-c3e7ec8...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-17-763d3be",
-      "date": "2026-10-17T19:45:53Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-17-6aa3846...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-17-6aa3846",
-      "date": "2026-10-17T14:32:04Z",
-      "message": "feat: add an in-game performance panel by @juanfariasdev in https://github.com/KytyPS5/KytyPS5/pull/..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-01-893b035",
-      "release_date": "2026-11-01",
+      "latest_version": "KytyPS5-2026-11-02-4a305a9",
+      "release_date": "2026-11-02",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1299,8 +1299,8 @@
       "name": "Virtual Jaguar libretro",
       "category": "Atari Jaguar",
       "description": "Atari Jaguar and Jaguar CD emulator core for RetroArch.",
-      "latest_version": "3.10.0",
-      "release_date": "2026-10-22",
+      "latest_version": "3.11.0",
+      "release_date": "2026-11-02",
       "website": "https://github.com/libretro/virtualjaguar-libretro",
       "github": "libretro/virtualjaguar-libretro",
       "download_url": "https://github.com/libretro/virtualjaguar-libretro/releases",

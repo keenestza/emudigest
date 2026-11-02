@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>virtualjaguar-libretro updated to v3.11.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Virtual Jaguar v3.11.0</description>
+    <pubDate>2026-11-02T13:59:08Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-02-4a305a9</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-02-02b17af...KytyPS5-2026...</description>
+    <pubDate>2026-11-02T13:59:01Z</pubDate>
+  </item>
+  <item>
     <title>vamiga updated to v5.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This release finalizes the 5.0 series.</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-23-6aaa533...KytyPS5-2026...</description>
     <pubDate>2026-10-24T09:54:50Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-23-6aaa533</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-23-9dcff95...KytyPS5-2026...</description>
-    <pubDate>2026-10-24T02:13:39Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-23-9dcff95</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>shader: fix crash from packed ancillary used as DPP old operand by @Pipe530 in https://github.com/Ky...</description>
-    <pubDate>2026-10-23T10:36:26Z</pubDate>
   </item>
 </channel>
 </rss>
