@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-02T13:59:12Z",
+  "last_updated": "2026-11-03T00:07:06Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-02-dfec14a",
+      "date": "2026-11-03T00:06:49Z",
+      "message": "Fix save mount result on failed mounts by @Phr3d13 in https://github.com/KytyPS5/KytyPS5/pull/2079"
+    },
+    {
+      "emulator_id": "sameboy",
+      "version": "1.0.5",
+      "date": "2026-11-03T00:06:43Z",
+      "message": "This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save..."
+    },
     {
       "emulator_id": "virtualjaguar-libretro",
       "version": "3.11.0",
@@ -288,18 +300,6 @@
       "version": "KytyPS5-2026-10-18-099de8d",
       "date": "2026-10-18T19:46:32Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-37df7f3...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-18-37df7f3",
-      "date": "2026-10-18T10:00:36Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-4059179...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-18-fe3857a",
-      "date": "2026-10-18T01:49:04Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-c3e7ec8...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -526,8 +526,8 @@
       "name": "SameBoy",
       "category": "GB / GBC",
       "description": "Highly accurate Game Boy and Game Boy Color emulator.",
-      "latest_version": "1.0.4",
-      "release_date": "2026-10-09",
+      "latest_version": "1.0.5",
+      "release_date": "2026-11-02",
       "website": "https://sameboy.github.io/",
       "github": "LIJI32/SameBoy",
       "download_url": "https://github.com/LIJI32/SameBoy/releases",
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-02-4a305a9",
+      "latest_version": "KytyPS5-2026-11-02-dfec14a",
       "release_date": "2026-11-02",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",

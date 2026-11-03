@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-02-dfec14a</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Fix save mount result on failed mounts by @Phr3d13 in https://github.com/KytyPS5/KytyPS5/pull/2079</description>
+    <pubDate>2026-11-03T00:06:49Z</pubDate>
+  </item>
+  <item>
+    <title>sameboy updated to v1.0.5</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save...</description>
+    <pubDate>2026-11-03T00:06:43Z</pubDate>
+  </item>
+  <item>
     <title>virtualjaguar-libretro updated to v3.11.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Virtual Jaguar v3.11.0</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>launcher: option to close the terminal after a clean exit by @MrBigBritches in https://github.com/Ky...</description>
     <pubDate>2026-10-24T19:54:22Z</pubDate>
-  </item>
-  <item>
-    <title>geargrafx updated to v1.8.5</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 🐛 Bug fixes and improvements</description>
-    <pubDate>2026-10-24T14:57:58Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-24-8291cfe</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-23-6aaa533...KytyPS5-2026...</description>
-    <pubDate>2026-10-24T09:54:50Z</pubDate>
   </item>
 </channel>
 </rss>
