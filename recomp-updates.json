@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-03T14:55:06Z",
+  "last_checked": "2026-11-04T15:14:51Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 432654153,
-      "latest_version": "v0.10.43",
-      "latest_date": "2026-11-03T12:17:48Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.43"
+      "release_id": 433585695,
+      "latest_version": "v0.10.45",
+      "latest_date": "2026-11-04T06:33:49Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.45"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,24 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:433585695",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-04T06:33:49Z",
+      "version": "v0.10.45",
+      "summary": "Kinect on a Mac: the skeleton and player outline tuned against a real recording (#342). On a Mac, Free Riders builds the Kinect skeleton and the player's outline itself, from the Kinect's colour and depth pictures, becau…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.45"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:433508981",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-04T04:20:48Z",
+      "version": "v0.10.44",
+      "summary": "Controller: move along Metropolis Speedway's train pole (#339, in part). While hanging from the train's pole, the left stick now moves you to the next hold on its left or right, so you can line up for the shortcut after …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.44"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:432654153",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -969,24 +987,6 @@
       "version": "fc382ce",
       "summary": "9,814 instruction-exact, 9,767 byte-exact of 10,066; thirty-seven compiler rules",
       "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/fc382ce8bd9b2257b416451df9906c08361453af"
-    },
-    {
-      "id": "release:florinp93/hells-gate-recomp:410928114",
-      "repo": "florinp93/hells-gate-recomp",
-      "type": "Release",
-      "date": "2026-10-12T19:18:39Z",
-      "version": "v0.8.3-beta-hotfix2",
-      "summary": "Hell's Gate Recomp — v0.8.3-beta-hotfix2",
-      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.3-beta-hotfix2"
-    },
-    {
-      "id": "release:codepdbh/NFS-CARBON-360-ANDROID-RECOMP:410663440",
-      "repo": "codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
-      "type": "Release",
-      "date": "2026-10-12T13:58:20Z",
-      "version": "v0.3.3",
-      "summary": "Fixes a crash after the first races and lets the compatibility renderer start on Mali G52/G57 GPUs.",
-      "url": "https://github.com/codepdbh/NFS-CARBON-360-ANDROID-RECOMP/releases/tag/v0.3.3"
     }
   ]
 }
