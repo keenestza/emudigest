@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-04T13:23:02Z",
+  "last_updated": "2026-11-04T22:57:25Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-04-fe847be",
+      "date": "2026-11-04T22:57:11Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-04-a7e14aa...KytyPS5-2026..."
+    },
     {
       "emulator_id": "geargrafx",
       "version": "1.8.7",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-20-1a053f9",
       "date": "2026-10-20T10:31:11Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f186b35...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-20-f186b35",
-      "date": "2026-10-20T02:22:13Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-992a830...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-04-b2f40c6",
+      "latest_version": "KytyPS5-2026-11-04-fe847be",
       "release_date": "2026-11-04",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
