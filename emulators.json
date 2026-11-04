@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-11-03T22:38:23Z",
+  "last_updated": "2026-11-04T13:23:02Z",
   "feed": [
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.7",
+      "date": "2026-11-04T13:22:55Z",
+      "message": "- \ud83c\udfa8 New CRT shader presets"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-04-b2f40c6",
+      "date": "2026-11-04T13:22:49Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-04-0735fd3...KytyPS5-2026..."
+    },
+    {
+      "emulator_id": "rmg",
+      "version": "0.9.1",
+      "date": "2026-11-04T13:22:43Z",
+      "message": "Fix controller presence detection in RMG-Input-GCA (thank you @EIREXE)"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-03-eecd982",
@@ -282,24 +300,6 @@
       "version": "KytyPS5-2026-10-20-f186b35",
       "date": "2026-10-20T02:22:13Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-992a830...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-19-0cad467",
-      "date": "2026-10-19T17:51:22Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-19-cd4eab9...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-19-e5f0ee7",
-      "date": "2026-10-19T11:24:14Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-18-099de8d...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "sharpemu",
-      "version": "0.0.6-mono",
-      "date": "2026-10-19T02:05:59Z",
-      "message": "Automated SharpEmu v0.0.6-mono build for commit [ea47b98](https://github.com/sharpemu/sharpemu/commi..."
     }
   ],
   "emulators": [
@@ -458,8 +458,8 @@
       "name": "Rosalie's Mupen GUI",
       "category": "Nintendo 64",
       "description": "A modern and accurate N64 emulator based on mupen64plus.",
-      "latest_version": "0.9.0",
-      "release_date": "2026-06-14",
+      "latest_version": "0.9.1",
+      "release_date": "2026-11-04",
       "website": "https://github.com/Rosalie241/RMG",
       "github": "Rosalie241/RMG",
       "download_url": "https://github.com/Rosalie241/RMG/releases",
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-03-eecd982",
-      "release_date": "2026-11-03",
+      "latest_version": "KytyPS5-2026-11-04-b2f40c6",
+      "release_date": "2026-11-04",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.6",
-      "release_date": "2026-10-30",
+      "latest_version": "1.8.7",
+      "release_date": "2026-11-04",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
