@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-04T15:14:51Z",
+  "last_checked": "2026-11-05T15:15:35Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 433585695,
-      "latest_version": "v0.10.45",
-      "latest_date": "2026-11-04T06:33:49Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.45"
+      "release_id": 435258084,
+      "latest_version": "v0.10.47",
+      "latest_date": "2026-11-05T13:46:07Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.47"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,24 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:435258084",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-05T13:46:07Z",
+      "version": "v0.10.47",
+      "summary": "Races draw their scenery on older Snapdragon phones (#344). On a Galaxy S20 FE (Adreno 650), races showed only the ground, fences and shadows: the canyon walls, buildings and racers were drawn, but the sky drawn after th…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.47"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:434809320",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-05T05:17:24Z",
+      "version": "v0.10.46",
+      "summary": "A Test option to capture a race frame draw by draw (#344). For reports of scenery or characters that are missing or broken on one phone or GPU but not on ours. In the launcher, Test options › Logs for a bug report › Capt…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.46"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:433585695",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -969,24 +987,6 @@
       "version": "v0.1.3-unstable",
       "summary": "Fourth public test release of OpenTricky: a short one. The game now runs smoothly on Linux and the Steam Deck, the music fades as it does in the original game, and updates are signed. More on opentricky.com.",
       "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.3-unstable"
-    },
-    {
-      "id": "curated:tgeorgiadis/quiver-launcher:v3.5.1-rc.3",
-      "repo": "tgeorgiadis/quiver-launcher",
-      "type": "Launcher update",
-      "date": "2026-10-13T12:38:00Z",
-      "version": "v3.5.1-rc.3",
-      "summary": "Testing release: selects the correct x64 or ARM64 download and improves App Catalog controls on Steam Deck screens.",
-      "url": "https://github.com/tgeorgiadis/quiver-launcher/releases/tag/v3.5.1-rc.3"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:fc382ce8bd9b2257b416451df9906c08361453af",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-13T06:26:56Z",
-      "version": "fc382ce",
-      "summary": "9,814 instruction-exact, 9,767 byte-exact of 10,066; thirty-seven compiler rules",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/fc382ce8bd9b2257b416451df9906c08361453af"
     }
   ]
 }
