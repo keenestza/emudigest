@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-05T03:57:03Z",
+  "last_updated": "2026-11-05T13:37:36Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-05-23ed47e",
+      "date": "2026-11-05T13:37:22Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-05-1b7ea36...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-05-07e87b9",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-20-7b7f9a7",
       "date": "2026-10-20T15:55:29Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-f492027...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "xemu",
-      "version": "0.8.138",
-      "date": "2026-10-20T10:31:12Z",
-      "message": "3125 - Improve compatibility with older versions of Vulkan (@mborgerson)"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-05-07e87b9",
+      "latest_version": "KytyPS5-2026-11-05-23ed47e",
       "release_date": "2026-11-05",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
