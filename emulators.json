@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-05T22:58:09Z",
+  "last_updated": "2026-11-06T03:54:55Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-06-9a29dc6",
+      "date": "2026-11-06T03:54:47Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-05-a0268f1...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-05-a0268f1",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-21-2864818",
       "date": "2026-10-21T20:57:24Z",
       "message": "shader: emit float min/max as host instructions on AMD GPUs by @Arda501 in https://github.com/KytyPS..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-21-4644c52",
-      "date": "2026-10-21T10:43:32Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-20-7b7f9a7...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-05-a0268f1",
-      "release_date": "2026-11-05",
+      "latest_version": "KytyPS5-2026-11-06-9a29dc6",
+      "release_date": "2026-11-06",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
