@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-05T15:15:35Z",
+  "last_checked": "2026-11-06T14:51:29Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 430319415,
-      "latest_version": "build-337",
-      "latest_date": "2026-11-01T02:34:12Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-337"
+      "release_id": 436384003,
+      "latest_version": "build-343",
+      "latest_date": "2026-11-06T10:47:44Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-343"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 429217466,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 435258084,
-      "latest_version": "v0.10.47",
-      "latest_date": "2026-11-05T13:46:07Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.47"
+      "release_id": 435948181,
+      "latest_version": "v0.10.49",
+      "latest_date": "2026-11-06T00:55:24Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.49"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:436384003",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-11-06T10:47:44Z",
+      "version": "build-343",
+      "summary": "Merge pull request #562 from OpenCommunityEdition/testing",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-343"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:435948181",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-06T00:55:24Z",
+      "version": "v0.10.49",
+      "summary": "The on-screen keyboard opens for the launcher's text boxes (#356). On Android, tapping a text box in the launcher (online name, server address, password) put the cursor in the box, but no keyboard appeared, so nothing co…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.49"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:435394794",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-05T15:41:17Z",
+      "version": "v0.10.48",
+      "summary": "Frame skipping starts working again on slow tablets (#1). On a Galaxy Tab A9 (Mali-G57), one race ran at about 0.4 speed: the tablet could not draw every frame, but frame skipping (Launcher › Graphics › Frame skipping, A…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.48"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:435258084",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -960,33 +987,6 @@
       "version": "363a689",
       "summary": "9,908 instruction-exact, 9,889 byte-exact of 10,066; xor constants counted for registers",
       "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/363a6894e73eee73aca1552e15619afe79ee0e97"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:412591935",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-14T10:29:43Z",
-      "version": "build-206",
-      "summary": "Merge pull request #353 from OpenCommunityEdition/testing",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-206"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:564a282b802e3b8a69c6118e78875ad93fd3214b",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-13T21:42:13Z",
-      "version": "564a282",
-      "summary": "9,871 instruction-exact, 9,834 byte-exact of 10,066; three compiler rules refined",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/564a282b802e3b8a69c6118e78875ad93fd3214b"
-    },
-    {
-      "id": "release:GiZcesi/OpenTricky:411908947",
-      "repo": "GiZcesi/OpenTricky",
-      "type": "Release",
-      "date": "2026-10-13T16:56:24Z",
-      "version": "v0.1.3-unstable",
-      "summary": "Fourth public test release of OpenTricky: a short one. The game now runs smoothly on Linux and the Steam Deck, the music fades as it does in the original game, and updates are signed. More on opentricky.com.",
-      "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.3-unstable"
     }
   ]
 }
