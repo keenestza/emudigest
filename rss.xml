@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-06-182161e</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-06-b6cc1ff...KytyPS5-2026...</description>
+    <pubDate>2026-11-06T13:20:41Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-06-9a29dc6</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-05-a0268f1...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Release Notes for openMSX 22.0 (2026-10-28)</description>
     <pubDate>2026-10-28T11:44:46Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-28-6c01401</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>graphics: accept video-out buffers with 128-byte independent DCC blocks (Gran Turismo 7) by @Nawid33...</description>
-    <pubDate>2026-10-28T11:44:38Z</pubDate>
   </item>
 </channel>
 </rss>
