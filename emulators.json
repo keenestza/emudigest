@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-07T17:27:40Z",
+  "last_updated": "2026-11-07T21:09:20Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-07-27f290e",
+      "date": "2026-11-07T21:09:07Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-07-96b2517...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-07-9678c59",
@@ -294,12 +300,6 @@
       "version": "3.10.0",
       "date": "2026-10-22T10:45:20Z",
       "message": "Virtual Jaguar v3.10.0"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-22-c5016d9",
-      "date": "2026-10-22T10:45:09Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-22-d7c1896...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-07-9678c59",
+      "latest_version": "KytyPS5-2026-11-07-27f290e",
       "release_date": "2026-11-07",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
