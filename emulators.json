@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-07T11:59:32Z",
+  "last_updated": "2026-11-07T17:27:40Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-07-9678c59",
+      "date": "2026-11-07T17:27:25Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-07-589bd14...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-07-589bd14",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-22-c5016d9",
       "date": "2026-10-22T10:45:09Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-22-d7c1896...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "xemu",
-      "version": "0.8.139",
-      "date": "2026-10-22T02:09:54Z",
-      "message": "3088 - Fix 1852 nv2a vsh cpu based register carryover (@abaire)"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-07-589bd14",
+      "latest_version": "KytyPS5-2026-11-07-9678c59",
       "release_date": "2026-11-07",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
