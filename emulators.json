@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-06T13:20:51Z",
+  "last_updated": "2026-11-07T11:59:32Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-07-589bd14",
+      "date": "2026-11-07T11:59:19Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-07-2d84e36...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-06-182161e",
@@ -294,12 +300,6 @@
       "version": "0.8.139",
       "date": "2026-10-22T02:09:54Z",
       "message": "3088 - Fix 1852 nv2a vsh cpu based register carryover (@abaire)"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-22-8502d8a",
-      "date": "2026-10-22T02:09:54Z",
-      "message": "image: drop optional create flags the driver rejects instead of aborting by @Arda501 in https://gith..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-06-182161e",
-      "release_date": "2026-11-06",
+      "latest_version": "KytyPS5-2026-11-07-589bd14",
+      "release_date": "2026-11-07",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
