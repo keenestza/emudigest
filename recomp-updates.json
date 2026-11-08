@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-07T13:48:25Z",
+  "last_checked": "2026-11-08T14:09:22Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -34,10 +34,10 @@
       "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-343"
     },
     "florinp93/hells-gate-recomp": {
-      "release_id": 429217466,
-      "latest_version": "v0.8.5-beta",
-      "latest_date": "2026-10-30T15:54:13Z",
-      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.5-beta"
+      "release_id": 437925153,
+      "latest_version": "v0.8.6-beta-hotfix",
+      "latest_date": "2026-11-08T00:00:17Z",
+      "latest_url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.6-beta-hotfix"
     },
     "novapowers0/DB-Final-Bout-Recomp": {
       "release_id": 417758359,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 435948181,
-      "latest_version": "v0.10.49",
-      "latest_date": "2026-11-06T00:55:24Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.49"
+      "release_id": 438030863,
+      "latest_version": "v0.10.50",
+      "latest_date": "2026-11-08T04:27:45Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.50"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:438030863",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-08T04:27:45Z",
+      "version": "v0.10.50",
+      "summary": "Textures use their smaller copies for distant surfaces (#176). The game stores smaller copies (mip levels) beside each texture, as the console uses them, but the port loaded only the full-size picture. It now loads them …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.50"
+    },
+    {
+      "id": "release:florinp93/hells-gate-recomp:437925153",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-11-08T00:00:17Z",
+      "version": "v0.8.6-beta-hotfix",
+      "summary": "A small update to help track down crashes. Gameplay, graphics and settings are unchanged from 0.8.6-beta.",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.6-beta-hotfix"
+    },
+    {
+      "id": "release:florinp93/hells-gate-recomp:437827799",
+      "repo": "florinp93/hells-gate-recomp",
+      "type": "Release",
+      "date": "2026-11-07T20:35:31Z",
+      "version": "v0.8.6-beta",
+      "summary": "Hell's Gate Recomp — v0.8.6-beta",
+      "url": "https://github.com/florinp93/hells-gate-recomp/releases/tag/v0.8.6-beta"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:436384003",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -960,33 +987,6 @@
       "version": "v0.8.1",
       "summary": "Full screen on Android (#118): the game now always fills a phone's display.",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.1"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:ff64c85a09396dd023d3c964581d8a97f32e36bb",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-14T19:08:22Z",
-      "version": "ff64c85",
-      "summary": "9,936 instruction-exact, 9,920 byte-exact of 10,066; constant tables in CTBL, arcade link order",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/ff64c85a09396dd023d3c964581d8a97f32e36bb"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413044549",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-14T18:23:53Z",
-      "version": "v0.8.0",
-      "summary": "Ultrawide displays",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.0"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:363a6894e73eee73aca1552e15619afe79ee0e97",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-14T12:35:40Z",
-      "version": "363a689",
-      "summary": "9,908 instruction-exact, 9,889 byte-exact of 10,066; xor constants counted for registers",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/363a6894e73eee73aca1552e15619afe79ee0e97"
     }
   ]
 }
