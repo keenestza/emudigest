@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-08T14:09:22Z",
+  "last_checked": "2026-11-09T17:17:03Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 438030863,
-      "latest_version": "v0.10.50",
-      "latest_date": "2026-11-08T04:27:45Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.50"
+      "release_id": 438858349,
+      "latest_version": "v0.10.51",
+      "latest_date": "2026-11-09T07:53:20Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.51"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,15 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:438858349",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-09T07:53:20Z",
+      "version": "v0.10.51",
+      "summary": "Shorter wait after skipping the intro (#365, item 7). After skipping the intro movie and logos, a blank loading screen stayed up for several seconds before the title. While the game waited for the next frame, it kept the…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.51"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:438030863",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -978,15 +987,6 @@
       "version": "v0.8.2",
       "summary": "Two players on ultrawide displays: on a display wider than 16:9, two-player races now widen too, where v0.8.0 and v0.8.1 kept them 16:9 with black at the sides.",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.2"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413328788",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-15T01:29:46Z",
-      "version": "v0.8.1",
-      "summary": "Full screen on Android (#118): the game now always fills a phone's display.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.1"
     }
   ]
 }
