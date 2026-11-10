@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-10-782a85c</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-09-f399d48...KytyPS5-2026...</description>
+    <pubDate>2026-11-10T00:55:24Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-09-f399d48</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-09-b30f2d6...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🖥️ Improved vsync pacing on high refresh rate displays</description>
     <pubDate>2026-10-30T21:44:18Z</pubDate>
-  </item>
-  <item>
-    <title>shadps4 updated to v.0.21.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Another week another release . There are ton of changes , so why not ?</description>
-    <pubDate>2026-10-30T17:20:30Z</pubDate>
   </item>
 </channel>
 </rss>
