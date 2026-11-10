@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lichii updated to vbuild-150</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>> New here or getting bad performance? Stop the game, then use Help → Apply Recommended Settings... ...</description>
+    <pubDate>2026-11-10T22:37:07Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-10-7d4e0d9</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-10-782a85c...KytyPS5-2026...</description>
+    <pubDate>2026-11-10T22:36:49Z</pubDate>
+  </item>
+  <item>
     <title>nexo2 updated to vwindows</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-31-f12fc20...KytyPS5-2026...</description>
     <pubDate>2026-11-01T02:52:52Z</pubDate>
-  </item>
-  <item>
-    <title>sharpemu updated to v0.0.7-pulse</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Automated SharpEmu v0.0.7-pulse build for commit [791a053](https://github.com/sharpemu/sharpemu/comm...</description>
-    <pubDate>2026-11-01T02:52:52Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-31-bbf96a5</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>9kPCz7Or+1Y SystemService::sceSystemServiceReenableMusicPlayer by @Ekt0re in https://github.com/Kyty...</description>
-    <pubDate>2026-10-31T20:43:54Z</pubDate>
   </item>
 </channel>
 </rss>
