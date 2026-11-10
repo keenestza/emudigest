@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-09T17:17:03Z",
+  "last_checked": "2026-11-10T15:28:16Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 438858349,
-      "latest_version": "v0.10.51",
-      "latest_date": "2026-11-09T07:53:20Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.51"
+      "release_id": 439983715,
+      "latest_version": "v0.10.52",
+      "latest_date": "2026-11-10T05:33:10Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.52"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,15 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:439983715",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-10T05:33:10Z",
+      "version": "v0.10.52",
+      "summary": "Loading screens no longer slow down on phones (#365, item 6). On a loading screen the game keeps writing data that sits next to some textures in memory. The port took each such write as a change to the texture and loaded…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.52"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:438858349",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -978,15 +987,6 @@
       "version": "0.6-pre1",
       "summary": "0.6-pre1 — pre-release for testing",
       "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6-pre1"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413436245",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-15T05:05:49Z",
-      "version": "v0.8.2",
-      "summary": "Two players on ultrawide displays: on a display wider than 16:9, two-player races now widen too, where v0.8.0 and v0.8.1 kept them 16:9 with black at the sides.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.2"
     }
   ]
 }
