@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-10T22:37:08Z",
+  "last_updated": "2026-11-11T13:03:57Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-11-bc934ef",
+      "date": "2026-11-11T13:03:37Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-10-7d4e0d9...KytyPS5-2026..."
+    },
     {
       "emulator_id": "lichii",
       "version": "build-150",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-26-f90a8b1",
       "date": "2026-10-26T11:42:10Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-26-3c62269...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-26-597137e",
-      "date": "2026-10-26T02:01:51Z",
-      "message": "vulkan: enable VKEXTextendeddynamicstate when available by @LloydNicholson in https://github.com/Kyt..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-10-7d4e0d9",
-      "release_date": "2026-11-10",
+      "latest_version": "KytyPS5-2026-11-11-bc934ef",
+      "release_date": "2026-11-11",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",

@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-11-bc934ef</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-10-7d4e0d9...KytyPS5-2026...</description>
+    <pubDate>2026-11-11T13:03:37Z</pubDate>
+  </item>
+  <item>
     <title>lichii updated to vbuild-150</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>> New here or getting bad performance? Stop the game, then use Help → Apply Recommended Settings... ...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-01-2f885e2...KytyPS5-2026...</description>
     <pubDate>2026-11-01T12:10:00Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-10-31-a06e356</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-31-f12fc20...KytyPS5-2026...</description>
-    <pubDate>2026-11-01T02:52:52Z</pubDate>
   </item>
 </channel>
 </rss>
