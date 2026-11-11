@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-10T15:28:16Z",
+  "last_checked": "2026-11-11T14:58:35Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 439983715,
-      "latest_version": "v0.10.52",
-      "latest_date": "2026-11-10T05:33:10Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.52"
+      "release_id": 441678660,
+      "latest_version": "v0.10.55",
+      "latest_date": "2026-11-11T12:42:40Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.55"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:441678660",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-11T12:42:40Z",
+      "version": "v0.10.55",
+      "summary": "Native Wayland windows on Linux (#365). On a Wayland desktop (for example GNOME or KDE Plasma in a Wayland session), the Linux launcher and the game used to open their windows through XWayland, the X11 compatibility laye…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.55"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:441312454",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-11T06:32:19Z",
+      "version": "v0.10.54",
+      "summary": "Less GPU work per race frame on phones (#176). Each race frame used to start by clearing the whole picture as a step of its own. A phone graphics chip (such as Mali) does that by writing the whole cleared picture out to …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.54"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:440927060",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-10T21:22:34Z",
+      "version": "v0.10.53",
+      "summary": "Direct3D 11 for older graphics chips (experimental, #359). PCs whose graphics chip has neither a Vulkan nor a Direct3D 12 driver, such as laptops with Intel HD Graphics 4000 or 4600, could not start the game. There is no…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.53"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:439983715",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -960,33 +987,6 @@
       "version": "v0.9.0",
       "summary": "Races keep real time on slow devices, with the console's fixed step (#123):",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.9.0"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:414534178",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-16T04:18:48Z",
-      "version": "build-208",
-      "summary": "Merge pull request #374 from chestahh/opence-multiplayer-menu-fix",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-208"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:413664913",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-15T10:11:25Z",
-      "version": "v0.8.3",
-      "summary": "Kinect jump diagnostics (#97): with a real Kinect, game.log now records:",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.8.3"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:413620223",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-15T09:19:35Z",
-      "version": "0.6-pre1",
-      "summary": "0.6-pre1 — pre-release for testing",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6-pre1"
     }
   ]
 }
