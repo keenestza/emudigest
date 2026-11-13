@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-12T15:51:21Z",
+  "last_checked": "2026-11-13T15:11:45Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -16,10 +16,10 @@
       "latest_url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/d440837003292a6521f85f0c57752c7b5f30255b"
     },
     "GiZcesi/OpenTricky": {
-      "release_id": 431717865,
-      "latest_version": "v0.1.5",
-      "latest_date": "2026-11-02T16:51:07Z",
-      "latest_url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.5"
+      "release_id": 444193445,
+      "latest_version": "v0.1.6",
+      "latest_date": "2026-11-13T12:17:52Z",
+      "latest_url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.6"
     },
     "goliathret/EdgeOfTimeRecomp": {
       "release_id": 429400128,
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 442397251,
-      "latest_version": "build-347",
-      "latest_date": "2026-11-12T01:50:21Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-347"
+      "release_id": 444332848,
+      "latest_version": "build-359",
+      "latest_date": "2026-11-13T14:32:29Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-359"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 437925153,
@@ -88,6 +88,24 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:444332848",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-11-13T14:32:29Z",
+      "version": "build-359",
+      "summary": "3 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-359"
+    },
+    {
+      "id": "release:GiZcesi/OpenTricky:444193445",
+      "repo": "GiZcesi/OpenTricky",
+      "type": "Release",
+      "date": "2026-11-13T12:17:52Z",
+      "version": "v0.1.6",
+      "summary": "Seventh public release of OpenTricky: a faster graphics pipeline, and steadier over long sessions. Above 60 FPS, the game no longer waits for the graphics card to learn how much of each light halo is in view, and every d…",
+      "url": "https://github.com/GiZcesi/OpenTricky/releases/tag/v0.1.6"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:443157837",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -969,24 +987,6 @@
       "version": "build-217",
       "summary": "4 builds since the last check. See the latest build notes.",
       "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-217"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:415410586",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-16T21:52:15Z",
-      "version": "v0.10.0",
-      "summary": "macOS (Apple Silicon), experimental: a first macOS build, as FreeRidersRecompiled.app for macOS 13.3 or later.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.0"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:415295304",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-16T19:10:29Z",
-      "version": "v0.9.2",
-      "summary": "Big jumps on slow phones: when a phone couldn't keep 60 fps, a racer launched off Dolphin Resort's big jump could fall short of the far side and keep repeating the same jump. Frames that aren't drawn leave out most of th…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.9.2"
     }
   ]
 }
