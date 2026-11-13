@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lichii updated to vbuild-177</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Changes since build 160</description>
+    <pubDate>2026-11-13T22:57:49Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-12-58ca8d1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-12-83df9c2...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save...</description>
     <pubDate>2026-11-03T00:06:43Z</pubDate>
-  </item>
-  <item>
-    <title>virtualjaguar-libretro updated to v3.11.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Virtual Jaguar v3.11.0</description>
-    <pubDate>2026-11-02T13:59:08Z</pubDate>
   </item>
 </channel>
 </rss>

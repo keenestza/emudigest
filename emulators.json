@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-12T22:55:50Z",
+  "last_updated": "2026-11-13T22:57:50Z",
   "feed": [
+    {
+      "emulator_id": "lichii",
+      "version": "build-177",
+      "date": "2026-11-13T22:57:49Z",
+      "message": "Changes since build 160"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-12-58ca8d1",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-27-1be1c6c",
       "date": "2026-10-28T02:48:04Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-27-69fdb03...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-27-69fdb03",
-      "date": "2026-10-27T21:31:23Z",
-      "message": "Launcher display options by @shadowbeat070 in https://github.com/KytyPS5/KytyPS5/pull/1938"
     }
   ],
   "emulators": [
@@ -1511,8 +1511,8 @@
       "name": "Lichii",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch and Switch 2 emulator. Switch 2 compatibility is early and limited.",
-      "latest_version": "build-160",
-      "release_date": "2026-11-11",
+      "latest_version": "build-177",
+      "release_date": "2026-11-13",
       "website": "https://github.com/zortos293/lichii",
       "github": "zortos293/lichii",
       "download_url": "https://github.com/zortos293/lichii/releases",
