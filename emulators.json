@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-13T22:57:50Z",
+  "last_updated": "2026-11-14T12:37:09Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-14-3e226bf",
+      "date": "2026-11-14T12:36:53Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-14-11d834d...KytyPS5-2026..."
+    },
     {
       "emulator_id": "lichii",
       "version": "build-177",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-28-6c01401",
       "date": "2026-10-28T11:44:38Z",
       "message": "graphics: accept video-out buffers with 128-byte independent DCC blocks (Gran Turismo 7) by @Nawid33..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-27-1be1c6c",
-      "date": "2026-10-28T02:48:04Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-27-69fdb03...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-12-58ca8d1",
-      "release_date": "2026-11-12",
+      "latest_version": "KytyPS5-2026-11-14-3e226bf",
+      "release_date": "2026-11-14",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",

@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-14-3e226bf</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-14-11d834d...KytyPS5-2026...</description>
+    <pubDate>2026-11-14T12:36:53Z</pubDate>
+  </item>
+  <item>
     <title>lichii updated to vbuild-177</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Changes since build 160</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Fix save mount result on failed mounts by @Phr3d13 in https://github.com/KytyPS5/KytyPS5/pull/2079</description>
     <pubDate>2026-11-03T00:06:49Z</pubDate>
-  </item>
-  <item>
-    <title>sameboy updated to v1.0.5</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save...</description>
-    <pubDate>2026-11-03T00:06:43Z</pubDate>
   </item>
 </channel>
 </rss>
