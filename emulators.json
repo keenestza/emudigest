@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-14T12:37:09Z",
+  "last_updated": "2026-11-14T21:45:13Z",
   "feed": [
+    {
+      "emulator_id": "dosbox-staging",
+      "version": "0.83.1",
+      "date": "2026-11-14T21:45:03Z",
+      "message": "\ud83d\uded1 STOP: Read the docs BEFORE asking questions or opening issues"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-14-3e226bf",
@@ -294,12 +300,6 @@
       "version": "RELEASE_22_0",
       "date": "2026-10-28T11:44:46Z",
       "message": "Release Notes for openMSX 22.0 (2026-10-28)"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-28-6c01401",
-      "date": "2026-10-28T11:44:38Z",
-      "message": "graphics: accept video-out buffers with 128-byte independent DCC blocks (Gran Turismo 7) by @Nawid33..."
     }
   ],
   "emulators": [
@@ -1215,8 +1215,8 @@
       "name": "DOSBox-Staging",
       "category": "PC / DOS",
       "description": "A modern continuation of DOSBox focused on ease of use and modern features.",
-      "latest_version": "0.83.0",
-      "release_date": "2026-08-27",
+      "latest_version": "0.83.1",
+      "release_date": "2026-11-14",
       "website": "https://dosbox-staging.github.io/",
       "github": "dosbox-staging/dosbox-staging",
       "download_url": "https://github.com/dosbox-staging/dosbox-staging/releases",

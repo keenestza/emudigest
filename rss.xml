@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>dosbox-staging updated to v0.83.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>🛑 STOP: Read the docs BEFORE asking questions or opening issues</description>
+    <pubDate>2026-11-14T21:45:03Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-14-3e226bf</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-14-11d834d...KytyPS5-2026...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>libFont: fix writing-line advances and character iteration by @gallexme in https://github.com/KytyPS...</description>
     <pubDate>2026-11-03T22:38:09Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-02-dfec14a</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Fix save mount result on failed mounts by @Phr3d13 in https://github.com/KytyPS5/KytyPS5/pull/2079</description>
-    <pubDate>2026-11-03T00:06:49Z</pubDate>
   </item>
 </channel>
 </rss>
