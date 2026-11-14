@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-13T15:11:45Z",
+  "last_checked": "2026-11-14T13:59:29Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -58,10 +58,10 @@
       "latest_url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/tag/v1.0.2"
     },
     "JackandBeans/Snap64Recomp": {
-      "release_id": 422237501,
-      "latest_version": "v1.1.6",
-      "latest_date": "2026-10-23T19:35:15Z",
-      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.6"
+      "release_id": 444417156,
+      "latest_version": "v1.1.7",
+      "latest_date": "2026-11-13T15:54:08Z",
+      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.7"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
       "release_id": 443157837,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:JackandBeans/Snap64Recomp:445070067",
+      "repo": "JackandBeans/Snap64Recomp",
+      "type": "Release",
+      "date": "2026-11-14T06:23:54Z",
+      "version": "v1.1.7-test3",
+      "summary": "This is a test build, not a release. It is for the crash in issue 36: on an AYN Thor, the Android app closes as the game starts. Everyone else should use 1.1.7.",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.7-test3"
+    },
+    {
+      "id": "release:JackandBeans/Snap64Recomp:444877222",
+      "repo": "JackandBeans/Snap64Recomp",
+      "type": "Release",
+      "date": "2026-11-14T00:27:29Z",
+      "version": "v1.1.7-test2",
+      "summary": "This is a test build, not a release. It is for the crash in issue 36: on an AYN Thor, the Android app closes as the game starts. Everyone else should use 1.1.7.",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.7-test2"
+    },
+    {
+      "id": "release:JackandBeans/Snap64Recomp:444417156",
+      "repo": "JackandBeans/Snap64Recomp",
+      "type": "Release",
+      "date": "2026-11-13T15:54:08Z",
+      "version": "v1.1.7",
+      "summary": "Autosave, a new row on Options > Game, Off as shipped. The cartridge saves only when asked, and closing the window ends the session at once, so a session could end with nothing saved. On, each time the lab opens with any…",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.7"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:444332848",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -960,33 +987,6 @@
       "version": "v0.10.2",
       "summary": "Newer Mali phones start again (#166, #169). On phones with a Mali-G715 or Mali-G720 GPU (for example the Pixel 10a and the POCO X7 Pro), the game closed while preparing its graphics, right after the launcher started it.",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.2"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416110561",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-17T22:37:24Z",
-      "version": "v0.10.1",
-      "summary": "Online play: the launcher checks the server first (#161). With Host the server off, the game used to try the server once. If that failed, the in-game Xbox LIVE page simply wasn't there, and it looked as if online play di…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.1"
-    },
-    {
-      "id": "release:JackandBeans/Snap64Recomp:416055280",
-      "repo": "JackandBeans/Snap64Recomp",
-      "type": "Release",
-      "date": "2026-10-17T21:01:57Z",
-      "version": "v1.1.5",
-      "summary": "Super Sampling is held to what the card's memory carries. At 8x with MSAA 8x on a 2560-wide window the render targets would take some 40 GB; Direct3D answered out of memory, the renderer crashed on what it got back, and …",
-      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.5"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:415593075",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-17T05:01:53Z",
-      "version": "build-217",
-      "summary": "4 builds since the last check. See the latest build notes.",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-217"
     }
   ]
 }
