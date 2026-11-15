@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>eglantine updated to v0.1.0-rc4</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>> Release candidate of 0.1.0. Please test it and report problems before the final release.</description>
+    <pubDate>2026-11-15T03:29:14Z</pubDate>
+  </item>
+  <item>
     <title>dosbox-staging updated to v0.83.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>🛑 STOP: Read the docs BEFORE asking questions or opening issues</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Fix controller presence detection in RMG-Input-GCA (thank you @EIREXE)</description>
     <pubDate>2026-11-04T13:22:43Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-03-eecd982</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>libFont: fix writing-line advances and character iteration by @gallexme in https://github.com/KytyPS...</description>
-    <pubDate>2026-11-03T22:38:09Z</pubDate>
   </item>
 </channel>
 </rss>

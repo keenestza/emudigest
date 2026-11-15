@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-14T21:45:13Z",
+  "last_updated": "2026-11-15T03:29:15Z",
   "feed": [
+    {
+      "emulator_id": "eglantine",
+      "version": "0.1.0-rc4",
+      "date": "2026-11-15T03:29:14Z",
+      "message": "> Release candidate of 0.1.0. Please test it and report problems before the final release."
+    },
     {
       "emulator_id": "dosbox-staging",
       "version": "0.83.1",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-28-c528324",
       "date": "2026-10-28T21:57:04Z",
       "message": "audio: let the AJM Opus decoder write part of a packet by @Cosmo in https://github.com/KytyPS5/KytyP..."
-    },
-    {
-      "emulator_id": "openmsx",
-      "version": "RELEASE_22_0",
-      "date": "2026-10-28T11:44:46Z",
-      "message": "Release Notes for openMSX 22.0 (2026-10-28)"
     }
   ],
   "emulators": [
@@ -1494,8 +1494,8 @@
       "name": "Eglantine",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch 2 emulator. Compatibility and stability are highly limited.",
-      "latest_version": "0.1.0-rc3",
-      "release_date": "2026-11-08",
+      "latest_version": "0.1.0-rc4",
+      "release_date": "2026-11-15",
       "website": "https://github.com/Eglantine-Community/Eglantine",
       "github": "Eglantine-Community/Eglantine",
       "download_url": "https://github.com/Eglantine-Community/Eglantine/releases",
