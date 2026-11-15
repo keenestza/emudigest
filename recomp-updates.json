@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-14T13:59:29Z",
+  "last_checked": "2026-11-15T14:36:15Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 444332848,
-      "latest_version": "build-359",
-      "latest_date": "2026-11-13T14:32:29Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-359"
+      "release_id": 445574960,
+      "latest_version": "build-365",
+      "latest_date": "2026-11-14T20:38:00Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-365"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 437925153,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.7"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 443157837,
-      "latest_version": "v0.10.58",
-      "latest_date": "2026-11-12T15:45:17Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.58"
+      "release_id": 445889177,
+      "latest_version": "v0.10.61",
+      "latest_date": "2026-11-15T07:41:53Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.61"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,42 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:445889177",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-15T07:41:53Z",
+      "version": "v0.10.61",
+      "summary": "Board Super Sonic grinds rails (#393). With General › Gameplay › Super Sonic: stay on the board and Super Sonic: all types on the board both on, Super Sonic had the speed type but still rode past rails: the game's rail c…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.61"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:445726331",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-15T01:14:35Z",
+      "version": "v0.10.60",
+      "summary": "Super Sonic can have all types on his board (#393). With General › Gameplay › Super Sonic: stay on the board on, Super Sonic keeps his board, but the Chaos Emeralds gear has no type, so he couldn't grind rails, fly throu…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.60"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:445632387",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-14T22:26:48Z",
+      "version": "v0.10.59",
+      "summary": "On Android, a Race step rate above 60 now asks for a faster screen (#392). With Test options › Gameplay › Race step rate set above 60 (for example 120 or 144), races step faster than 60 times a second, but Android keeps …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.59"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:445574960",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-11-14T20:38:00Z",
+      "version": "build-365",
+      "summary": "Merge pull request #668 from OpenCommunityEdition/coop-cutscenes-map-sharing",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-365"
+    },
     {
       "id": "release:JackandBeans/Snap64Recomp:445070067",
       "repo": "JackandBeans/Snap64Recomp",
@@ -951,42 +987,6 @@
       "version": "v0.10.4",
       "summary": "Old Mali phones no longer freeze on the first frame (#169). On v0.10.3 a Mali-G72/G76 phone (such as the Huawei P30 Pro) prepared all pipelines, then the GPU hung on the first thing it drew and the whole phone froze.",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.4"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:829933682fc381a1477b39cfee20b27a18168fe0",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-18T11:46:27Z",
-      "version": "8299336",
-      "summary": "Module work areas instead of work_b.c, Capcom's names from the debug symbols, switched-off code for dead reads, two fewer compiler rules",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/829933682fc381a1477b39cfee20b27a18168fe0"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416373112",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-18T10:06:30Z",
-      "version": "v0.10.3",
-      "summary": "Older Mali phones (#169). Vulkan 1.1 phones with an older Mali GPU, such as the Huawei P30 Pro (Mali-G76), stopped before the game could start: \"Missing required extension\". The renderer now runs without the newer Vulkan…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.3"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:416347285",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-18T09:17:05Z",
-      "version": "build-232",
-      "summary": "3 builds since the last check. See the latest build notes.",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-232"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416168686",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-18T01:24:26Z",
-      "version": "v0.10.2",
-      "summary": "Newer Mali phones start again (#166, #169). On phones with a Mali-G715 or Mali-G720 GPU (for example the Pixel 10a and the POCO X7 Pro), the game closed while preparing its graphics, right after the launcher started it.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.2"
     }
   ]
 }
