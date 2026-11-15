@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-11-15T03:29:15Z",
+  "last_updated": "2026-11-15T13:03:01Z",
   "feed": [
+    {
+      "emulator_id": "lichii",
+      "version": "build-228",
+      "date": "2026-11-15T13:02:59Z",
+      "message": "Changes since build 177"
+    },
+    {
+      "emulator_id": "gearcoleco",
+      "version": "1.8.0",
+      "date": "2026-11-15T13:02:54Z",
+      "message": "- \u2328\ufe0f Added ADAM built-in keyboard mapper"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-15-f9dd415",
+      "date": "2026-11-15T13:02:50Z",
+      "message": "Changes the compatability link in README.md to point to the correct page by @GitJitBit in https://gi..."
+    },
     {
       "emulator_id": "eglantine",
       "version": "0.1.0-rc4",
@@ -282,24 +300,6 @@
       "version": "KytyPS5-2026-10-30-b65dd18",
       "date": "2026-10-30T03:13:22Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-29-3ad21e3...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-29-5eab0ec",
-      "date": "2026-10-29T22:06:39Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-29-5e837a9...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-29-5e837a9",
-      "date": "2026-10-29T11:52:37Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-28-c528324...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-28-c528324",
-      "date": "2026-10-28T21:57:04Z",
-      "message": "audio: let the AJM Opus decoder write part of a packet by @Cosmo in https://github.com/KytyPS5/KytyP..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-14-3e226bf",
-      "release_date": "2026-11-14",
+      "latest_version": "KytyPS5-2026-11-15-f9dd415",
+      "release_date": "2026-11-15",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1198,8 +1198,8 @@
       "name": "Gearcoleco",
       "category": "ColecoVision",
       "description": "ColecoVision emulator with debugger and cross-platform builds.",
-      "latest_version": "1.7.6",
-      "release_date": "2026-10-30",
+      "latest_version": "1.8.0",
+      "release_date": "2026-11-15",
       "website": "https://github.com/drhelius/Gearcoleco",
       "github": "drhelius/Gearcoleco",
       "download_url": "https://github.com/drhelius/Gearcoleco/releases",
@@ -1511,8 +1511,8 @@
       "name": "Lichii",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch and Switch 2 emulator. Switch 2 compatibility is early and limited.",
-      "latest_version": "build-177",
-      "release_date": "2026-11-13",
+      "latest_version": "build-228",
+      "release_date": "2026-11-15",
       "website": "https://github.com/zortos293/lichii",
       "github": "zortos293/lichii",
       "download_url": "https://github.com/zortos293/lichii/releases",
