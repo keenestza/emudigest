@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-15T13:03:01Z",
+  "last_updated": "2026-11-16T03:29:19Z",
   "feed": [
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.8",
+      "date": "2026-11-16T03:29:10Z",
+      "message": "- \ud83c\udfa8 Improved CRT shaders and new video timing uniforms"
+    },
     {
       "emulator_id": "lichii",
       "version": "build-228",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-10-30-4919fdb",
       "date": "2026-10-30T11:46:01Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-30-bc4333e...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-30-b65dd18",
-      "date": "2026-10-30T03:13:22Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-29-3ad21e3...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.7",
-      "release_date": "2026-11-04",
+      "latest_version": "1.8.8",
+      "release_date": "2026-11-15",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
