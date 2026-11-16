@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-15T14:36:15Z",
+  "last_checked": "2026-11-16T16:51:00Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 445574960,
-      "latest_version": "build-365",
-      "latest_date": "2026-11-14T20:38:00Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-365"
+      "release_id": 446278749,
+      "latest_version": "build-374",
+      "latest_date": "2026-11-15T18:42:05Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-374"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 437925153,
@@ -58,16 +58,16 @@
       "latest_url": "https://github.com/danielgomesvieira2000/wave-race-64-recomp/releases/tag/v1.0.2"
     },
     "JackandBeans/Snap64Recomp": {
-      "release_id": 444417156,
-      "latest_version": "v1.1.7",
-      "latest_date": "2026-11-13T15:54:08Z",
-      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.7"
+      "release_id": 446613159,
+      "latest_version": "v1.1.8",
+      "latest_date": "2026-11-16T04:42:16Z",
+      "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 445889177,
-      "latest_version": "v0.10.61",
-      "latest_date": "2026-11-15T07:41:53Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.61"
+      "release_id": 446530948,
+      "latest_version": "v0.10.64",
+      "latest_date": "2026-11-16T02:09:15Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.64"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,60 @@
     }
   },
   "updates": [
+    {
+      "id": "release:JackandBeans/Snap64Recomp:446613159",
+      "repo": "JackandBeans/Snap64Recomp",
+      "type": "Release",
+      "date": "2026-11-16T04:42:16Z",
+      "version": "v1.1.8",
+      "summary": "The app no longer closes on an AYN Thor (#36). Shiniphil reported it, and the log of each test build named the next step. Two faults lay one behind the other. The Thor's Adreno 740 driver refused the renderer's texture t…",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:446530948",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-16T02:09:15Z",
+      "version": "v0.10.64",
+      "summary": "Expert courses above 60 Hz (#410). With Test options › Gameplay › Race step rate above 60 (for example 120 or 144):",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.64"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:446464663",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-16T00:04:03Z",
+      "version": "v0.10.63",
+      "summary": "Older Mali phones (#406). On phones with an older ARM Mali graphics chip, such as the Galaxy A05 and A06 (Mali-G52), the game no longer stops at start with \"native graphics pipeline creation failed\".",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.63"
+    },
+    {
+      "id": "release:JackandBeans/Snap64Recomp:446455554",
+      "repo": "JackandBeans/Snap64Recomp",
+      "type": "Release",
+      "date": "2026-11-15T23:45:37Z",
+      "version": "v1.1.8-test1",
+      "summary": "This is a test build, not a release. It is for issue 39: on a phone with an Exynos 2400, the Android app shows the same graphics message at every start once Anti-Aliasing is set to 8x. Everyone else should use 1.1.7.",
+      "url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8-test1"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:446278749",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-11-15T18:42:05Z",
+      "version": "build-374",
+      "summary": "Merge pull request #678 from OpenCommunityEdition/testing",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-374"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:446243250",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-15T17:44:48Z",
+      "version": "v0.10.62",
+      "summary": "Races above 60 Hz: the Forgotten Tomb launcher and the Final Factory pole (#401). With Test options › Gameplay › Race step rate above 60 (for example 120 or 144):",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.62"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:445889177",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -933,60 +987,6 @@
       "version": "0.6",
       "summary": "bbport is the counterpart of Wine + DXVK for a single game: Bloodborne (v1.09) on Linux.",
       "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416881362",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-19T03:45:14Z",
-      "version": "v0.10.8",
-      "summary": "D3D12 on older drivers (#177). Some drivers, such as older NVIDIA ones, can't draw with the depth range flipped, which this game uses, and D3D12 stopped with an error on them. On those drivers the port now flips depth it…",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.8"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416774282",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-18T23:37:57Z",
-      "version": "v0.10.7",
-      "summary": "Every race action on the touch controls (#177). The on-screen controls gain:",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.7"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416645921",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-18T19:12:57Z",
-      "version": "v0.10.6",
-      "summary": "Macs: races at full speed.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.6"
-    },
-    {
-      "id": "commit:gibletto/sfIII3-cps3-decomp:9cea84b40b61c212208f00e2ac702051dc60b971",
-      "repo": "gibletto/sfIII3-cps3-decomp",
-      "type": "Development update",
-      "date": "2026-10-18T17:00:31Z",
-      "version": "9cea84b",
-      "summary": "docs/HOW_THE_GAME_WORKS.md: a tour of how 3rd Strike works, from this source",
-      "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/9cea84b40b61c212208f00e2ac702051dc60b971"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416579922",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-18T16:59:51Z",
-      "version": "v0.10.5",
-      "summary": "Launcher on touch screens (#186):",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.5"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:416492605",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-18T14:20:47Z",
-      "version": "v0.10.4",
-      "summary": "Old Mali phones no longer freeze on the first frame (#169). On v0.10.3 a Mali-G72/G76 phone (such as the Huawei P30 Pro) prepared all pipelines, then the GPU hung on the first thing it drew and the whole phone froze.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.4"
     }
   ]
 }
