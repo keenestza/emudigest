@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-17T01:12:21Z",
+  "last_updated": "2026-11-17T15:01:17Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-17-faec1f4",
+      "date": "2026-11-17T15:00:59Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-17-174ec91...KytyPS5-2026..."
+    },
     {
       "emulator_id": "lichii",
       "version": "build-316",
@@ -294,12 +300,6 @@
       "version": "1.7.6",
       "date": "2026-10-30T21:44:19Z",
       "message": "- \ud83d\ude80 Improved OpenGL rendering performance"
-    },
-    {
-      "emulator_id": "geargrafx",
-      "version": "1.8.6",
-      "date": "2026-10-30T21:44:18Z",
-      "message": "- \ud83d\udda5\ufe0f Improved vsync pacing on high refresh rate displays"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-16-1e87171",
-      "release_date": "2026-11-16",
+      "latest_version": "KytyPS5-2026-11-17-faec1f4",
+      "release_date": "2026-11-17",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
