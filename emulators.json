@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-16T03:29:19Z",
+  "last_updated": "2026-11-17T01:12:21Z",
   "feed": [
+    {
+      "emulator_id": "lichii",
+      "version": "build-316",
+      "date": "2026-11-17T01:12:20Z",
+      "message": "Changes since build 228"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-16-1e87171",
+      "date": "2026-11-17T01:11:56Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-16-d45b086...KytyPS5-2026..."
+    },
     {
       "emulator_id": "geargrafx",
       "version": "1.8.8",
@@ -288,18 +300,6 @@
       "version": "1.8.6",
       "date": "2026-10-30T21:44:18Z",
       "message": "- \ud83d\udda5\ufe0f Improved vsync pacing on high refresh rate displays"
-    },
-    {
-      "emulator_id": "shadps4",
-      "version": ".0.21.0",
-      "date": "2026-10-30T17:20:30Z",
-      "message": "Another week another release . There are ton of changes , so why not ?"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-30-4919fdb",
-      "date": "2026-10-30T11:46:01Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-10-30-bc4333e...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-15-f9dd415",
-      "release_date": "2026-11-15",
+      "latest_version": "KytyPS5-2026-11-16-1e87171",
+      "release_date": "2026-11-16",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1511,8 +1511,8 @@
       "name": "Lichii",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch and Switch 2 emulator. Switch 2 compatibility is early and limited.",
-      "latest_version": "build-228",
-      "release_date": "2026-11-15",
+      "latest_version": "build-316",
+      "release_date": "2026-11-16",
       "website": "https://github.com/zortos293/lichii",
       "github": "zortos293/lichii",
       "download_url": "https://github.com/zortos293/lichii/releases",
