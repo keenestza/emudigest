@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-16T16:51:00Z",
+  "last_checked": "2026-11-17T16:46:29Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 446278749,
-      "latest_version": "build-374",
-      "latest_date": "2026-11-15T18:42:05Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-374"
+      "release_id": 447654420,
+      "latest_version": "build-387",
+      "latest_date": "2026-11-16T21:44:23Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-387"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 437925153,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 446530948,
-      "latest_version": "v0.10.64",
-      "latest_date": "2026-11-16T02:09:15Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.64"
+      "release_id": 447527140,
+      "latest_version": "v0.10.65",
+      "latest_date": "2026-11-16T19:55:04Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,24 @@
     }
   },
   "updates": [
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:447654420",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-11-16T21:44:23Z",
+      "version": "build-387",
+      "summary": "Merge pull request #702 from OpenCommunityEdition/testing",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-387"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:447527140",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-16T19:55:04Z",
+      "version": "v0.10.65",
+      "summary": "Rocky Ridge minecart above 60 Hz (#410, #401). With Test options › Gameplay › Race step rate above 60 (for example 120 or 144):",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65"
+    },
     {
       "id": "release:JackandBeans/Snap64Recomp:446613159",
       "repo": "JackandBeans/Snap64Recomp",
@@ -969,24 +987,6 @@
       "version": "v0.10.9",
       "summary": "Fly board fix (#153). At Dolphin Resort's glass mall, a racer who boarded the Fly gadget (the board with red wings) could fly out through the right wall.",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.9"
-    },
-    {
-      "id": "release:novapowers0/DB-Final-Bout-Recomp:417044056",
-      "repo": "novapowers0/DB-Final-Bout-Recomp",
-      "type": "Release",
-      "date": "2026-10-19T08:07:38Z",
-      "version": "v0.2.0",
-      "summary": "DB Final Bout Recompiled v0.2.0 — Combate renovado (experimental)",
-      "url": "https://github.com/novapowers0/DB-Final-Bout-Recomp/releases/tag/v0.2.0"
-    },
-    {
-      "id": "release:deadinside28/bloodborne_pc:416977330",
-      "repo": "deadinside28/bloodborne_pc",
-      "type": "Release",
-      "date": "2026-10-19T06:34:04Z",
-      "version": "0.6",
-      "summary": "bbport is the counterpart of Wine + DXVK for a single game: Bloodborne (v1.09) on Linux.",
-      "url": "https://github.com/deadinside28/bloodborne_pc/releases/tag/0.6"
     }
   ]
 }
