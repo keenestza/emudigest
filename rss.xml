@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lichii updated to vbuild-341</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Changes since build 316</description>
+    <pubDate>2026-11-18T00:06:14Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-17-2638b1b</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-17-4da95bd...KytyPS5-2026...</description>
+    <pubDate>2026-11-18T00:05:59Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-17-faec1f4</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-17-174ec91...KytyPS5-2026...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-07-2d84e36...KytyPS5-2026...</description>
     <pubDate>2026-11-07T11:59:19Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-06-182161e</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-06-b6cc1ff...KytyPS5-2026...</description>
-    <pubDate>2026-11-06T13:20:41Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-06-9a29dc6</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-05-a0268f1...KytyPS5-2026...</description>
-    <pubDate>2026-11-06T03:54:47Z</pubDate>
   </item>
 </channel>
 </rss>

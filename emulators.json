@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-17T15:01:17Z",
+  "last_updated": "2026-11-18T00:06:16Z",
   "feed": [
+    {
+      "emulator_id": "lichii",
+      "version": "build-341",
+      "date": "2026-11-18T00:06:14Z",
+      "message": "Changes since build 316"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-17-2638b1b",
+      "date": "2026-11-18T00:05:59Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-17-4da95bd...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-17-faec1f4",
@@ -288,18 +300,6 @@
       "version": "6.2",
       "date": "2026-10-31T16:25:02Z",
       "message": "Changes since the latest beta release:"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-10-31-0261891",
-      "date": "2026-10-31T11:19:18Z",
-      "message": "graphics: convert HDR10 video-out output to SDR by @Xx-LiDAF-xX in https://github.com/KytyPS5/KytyPS..."
-    },
-    {
-      "emulator_id": "gearcoleco",
-      "version": "1.7.6",
-      "date": "2026-10-30T21:44:19Z",
-      "message": "- \ud83d\ude80 Improved OpenGL rendering performance"
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-17-faec1f4",
+      "latest_version": "KytyPS5-2026-11-17-2638b1b",
       "release_date": "2026-11-17",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -1511,8 +1511,8 @@
       "name": "Lichii",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch and Switch 2 emulator. Switch 2 compatibility is early and limited.",
-      "latest_version": "build-316",
-      "release_date": "2026-11-16",
+      "latest_version": "build-341",
+      "release_date": "2026-11-17",
       "website": "https://github.com/zortos293/lichii",
       "github": "zortos293/lichii",
       "download_url": "https://github.com/zortos293/lichii/releases",
