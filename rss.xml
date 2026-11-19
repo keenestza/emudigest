@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-19-5ad27cd</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-18-a90be8d...KytyPS5-2026...</description>
+    <pubDate>2026-11-19T14:48:24Z</pubDate>
+  </item>
+  <item>
     <title>virtualjaguar-libretro updated to v3.13.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Virtual Jaguar v3.13.0</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-08-7816ac7...KytyPS5-2026...</description>
     <pubDate>2026-11-08T21:25:25Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-07-751fbd0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-07-27f290e...KytyPS5-2026...</description>
-    <pubDate>2026-11-08T02:58:04Z</pubDate>
   </item>
 </channel>
 </rss>
