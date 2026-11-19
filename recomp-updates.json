@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-18T16:17:20Z",
+  "last_checked": "2026-11-19T16:26:04Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 447527140,
-      "latest_version": "v0.10.65",
-      "latest_date": "2026-11-16T19:55:04Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.65"
+      "release_id": 450995332,
+      "latest_version": "v0.10.67",
+      "latest_date": "2026-11-19T07:16:42Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.67"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 432043340,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:450995332",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-19T07:16:42Z",
+      "version": "v0.10.67",
+      "summary": "Skipping story scenes and movies now needs a hold (#426). A tap or an accidental touch no longer skips anything:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.67"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:450698090",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-18T23:49:48Z",
+      "version": "v0.10.66",
+      "summary": "New: CPU difficulty (#420). The launcher has a new option, General › Gameplay › CPU difficulty, with four levels:",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.66"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:450538770",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-18T20:48:11Z",
+      "version": "deps-onnxruntime-1.30.0",
+      "summary": "Byte-for-byte copies of ONNX Runtime 1.30.0's official GitHub release archives (MIT licence), kept because github.com/microsoft/onnxruntime returns 404 since 2026-11-18. Not a game release. scripts/fetchposemodel.py only…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/deps-onnxruntime-1.30.0"
+    },
     {
       "id": "release:OpenCommunityEdition/OpenCE:447654420",
       "repo": "OpenCommunityEdition/OpenCE",
@@ -960,33 +987,6 @@
       "version": "build-244",
       "summary": "Merge pull request #417 from OpenCommunityEdition/testing",
       "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-244"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:417296789",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-19T13:01:01Z",
-      "version": "v0.10.10",
-      "summary": "Test options page in the launcher. Switches we ask for in an issue are now choices on a page: Settings › Test options. Before, they needed a command line, which Android and iOS players can't use at all.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.10"
-    },
-    {
-      "id": "release:OpenCommunityEdition/OpenCE:417251719",
-      "repo": "OpenCommunityEdition/OpenCE",
-      "type": "Release",
-      "date": "2026-10-19T12:13:06Z",
-      "version": "build-242",
-      "summary": "3 builds since the last check. See the latest build notes.",
-      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-242"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:417166676",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-19T10:32:27Z",
-      "version": "v0.10.9",
-      "summary": "Fly board fix (#153). At Dolphin Resort's glass mall, a racer who boarded the Fly gadget (the board with red wings) could fly out through the right wall.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.9"
     }
   ]
 }
