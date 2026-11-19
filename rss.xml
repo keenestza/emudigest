@@ -5,6 +5,24 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>ruffle updated to v0.8.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>web/extension: Don't check last version status when submitting to AMO by @torokati44 in https://gith...</description>
+    <pubDate>2026-11-19T23:58:05Z</pubDate>
+  </item>
+  <item>
+    <title>virtualjaguar-libretro updated to v3.13.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Virtual Jaguar v3.13.1</description>
+    <pubDate>2026-11-19T23:58:04Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-19-861b07b</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-19-7f145b0...KytyPS5-2026...</description>
+    <pubDate>2026-11-19T23:57:55Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-19-5ad27cd</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-18-a90be8d...KytyPS5-2026...</description>
@@ -165,24 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Virtual Jaguar v3.12.0</description>
     <pubDate>2026-11-10T13:52:07Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-10-782a85c</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-09-f399d48...KytyPS5-2026...</description>
-    <pubDate>2026-11-10T00:55:24Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-09-f399d48</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-09-b30f2d6...KytyPS5-2026...</description>
-    <pubDate>2026-11-09T14:31:08Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-08-16a7bbe</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-08-7816ac7...KytyPS5-2026...</description>
-    <pubDate>2026-11-08T21:25:25Z</pubDate>
   </item>
 </channel>
 </rss>

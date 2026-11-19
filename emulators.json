@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-11-19T14:48:45Z",
+  "last_updated": "2026-11-19T23:58:11Z",
   "feed": [
+    {
+      "emulator_id": "ruffle",
+      "version": "0.8.0",
+      "date": "2026-11-19T23:58:05Z",
+      "message": "web/extension: Don't check last version status when submitting to AMO by @torokati44 in https://gith..."
+    },
+    {
+      "emulator_id": "virtualjaguar-libretro",
+      "version": "3.13.1",
+      "date": "2026-11-19T23:58:04Z",
+      "message": "Virtual Jaguar v3.13.1"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-19-861b07b",
+      "date": "2026-11-19T23:57:55Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-19-7f145b0...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-19-5ad27cd",
@@ -282,24 +300,6 @@
       "version": "3.11.0",
       "date": "2026-11-02T13:59:08Z",
       "message": "Virtual Jaguar v3.11.0"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-02-4a305a9",
-      "date": "2026-11-02T13:59:01Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-02-02b17af...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "vamiga",
-      "version": "5.0",
-      "date": "2026-11-01T12:10:03Z",
-      "message": "This release finalizes the 5.0 series."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-01-893b035",
-      "date": "2026-11-01T12:10:00Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-01-2f885e2...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-19-5ad27cd",
+      "latest_version": "KytyPS5-2026-11-19-861b07b",
       "release_date": "2026-11-19",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -1299,7 +1299,7 @@
       "name": "Virtual Jaguar libretro",
       "category": "Atari Jaguar",
       "description": "Atari Jaguar and Jaguar CD emulator core for RetroArch.",
-      "latest_version": "3.13.0",
+      "latest_version": "3.13.1",
       "release_date": "2026-11-19",
       "website": "https://github.com/libretro/virtualjaguar-libretro",
       "github": "libretro/virtualjaguar-libretro",
@@ -1352,8 +1352,8 @@
       "name": "Ruffle",
       "category": "Web / Engines",
       "description": "A Flash Player emulator written in Rust.",
-      "latest_version": "0.7.1",
-      "release_date": "2026-10-07",
+      "latest_version": "0.8.0",
+      "release_date": "2026-11-19",
       "website": "https://ruffle.rs/",
       "github": "ruffle-rs/ruffle",
       "download_url": "https://ruffle.rs/downloads",
