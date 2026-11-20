@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-19T23:58:11Z",
+  "last_updated": "2026-11-20T05:27:15Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-20-a1fc5ae",
+      "date": "2026-11-20T05:27:04Z",
+      "message": "network: accept SOONESBCAST on Windows (BO2 local lobby, 1752) by @HarrySpruce in https://github.com..."
+    },
     {
       "emulator_id": "ruffle",
       "version": "0.8.0",
@@ -294,12 +300,6 @@
       "version": "1.0.5",
       "date": "2026-11-03T00:06:43Z",
       "message": "This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save..."
-    },
-    {
-      "emulator_id": "virtualjaguar-libretro",
-      "version": "3.11.0",
-      "date": "2026-11-02T13:59:08Z",
-      "message": "Virtual Jaguar v3.11.0"
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-19-861b07b",
-      "release_date": "2026-11-19",
+      "latest_version": "KytyPS5-2026-11-20-a1fc5ae",
+      "release_date": "2026-11-20",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",

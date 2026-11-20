@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-20-a1fc5ae</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>network: accept SOONESBCAST on Windows (BO2 local lobby, 1752) by @HarrySpruce in https://github.com...</description>
+    <pubDate>2026-11-20T05:27:04Z</pubDate>
+  </item>
+  <item>
     <title>ruffle updated to v0.8.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>web/extension: Don't check last version status when submitting to AMO by @torokati44 in https://gith...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>> Release candidate of 0.1.0. Please test it and report problems before the final release.</description>
     <pubDate>2026-11-10T13:52:11Z</pubDate>
-  </item>
-  <item>
-    <title>virtualjaguar-libretro updated to v3.12.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Virtual Jaguar v3.12.0</description>
-    <pubDate>2026-11-10T13:52:07Z</pubDate>
   </item>
 </channel>
 </rss>
