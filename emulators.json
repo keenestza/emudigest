@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-20T05:27:15Z",
+  "last_updated": "2026-11-20T23:26:56Z",
   "feed": [
+    {
+      "emulator_id": "lichii",
+      "version": "build-366",
+      "date": "2026-11-20T23:26:55Z",
+      "message": "Changes since build 341"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-20-a21fd80",
+      "date": "2026-11-20T23:26:45Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-20-a1fc5ae...KytyPS5-2026..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-20-a1fc5ae",
@@ -288,18 +300,6 @@
       "version": "KytyPS5-2026-11-03-eecd982",
       "date": "2026-11-03T22:38:09Z",
       "message": "libFont: fix writing-line advances and character iteration by @gallexme in https://github.com/KytyPS..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-02-dfec14a",
-      "date": "2026-11-03T00:06:49Z",
-      "message": "Fix save mount result on failed mounts by @Phr3d13 in https://github.com/KytyPS5/KytyPS5/pull/2079"
-    },
-    {
-      "emulator_id": "sameboy",
-      "version": "1.0.5",
-      "date": "2026-11-03T00:06:43Z",
-      "message": "This version is backwards compatible with save states from SameBoy 0.14.3 and newer, as well as save..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-20-a1fc5ae",
+      "latest_version": "KytyPS5-2026-11-20-a21fd80",
       "release_date": "2026-11-20",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -1511,8 +1511,8 @@
       "name": "Lichii",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch and Switch 2 emulator. Switch 2 compatibility is early and limited.",
-      "latest_version": "build-341",
-      "release_date": "2026-11-17",
+      "latest_version": "build-366",
+      "release_date": "2026-11-20",
       "website": "https://github.com/zortos293/lichii",
       "github": "zortos293/lichii",
       "download_url": "https://github.com/zortos293/lichii/releases",

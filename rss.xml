@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lichii updated to vbuild-366</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Changes since build 341</description>
+    <pubDate>2026-11-20T23:26:55Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-20-a21fd80</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-20-a1fc5ae...KytyPS5-2026...</description>
+    <pubDate>2026-11-20T23:26:45Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-20-a1fc5ae</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>network: accept SOONESBCAST on Windows (BO2 local lobby, 1752) by @HarrySpruce in https://github.com...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>New tag release created.</description>
     <pubDate>2026-11-10T13:52:12Z</pubDate>
-  </item>
-  <item>
-    <title>lichii updated to vbuild-130</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>⚠️ Delete your old pipeline cache before playing</description>
-    <pubDate>2026-11-10T13:52:11Z</pubDate>
-  </item>
-  <item>
-    <title>eglantine updated to v0.1.0-rc3</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>> Release candidate of 0.1.0. Please test it and report problems before the final release.</description>
-    <pubDate>2026-11-10T13:52:11Z</pubDate>
   </item>
 </channel>
 </rss>
