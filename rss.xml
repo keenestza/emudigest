@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>gearcoleco updated to v1.8.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- 🐛 Bug fixes and improvements</description>
+    <pubDate>2026-11-21T04:31:46Z</pubDate>
+  </item>
+  <item>
+    <title>geargrafx updated to v1.8.9</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- 🎨 VCE black and white mode support</description>
+    <pubDate>2026-11-21T04:31:45Z</pubDate>
+  </item>
+  <item>
     <title>lichii updated to vbuild-366</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Changes since build 341</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>> New here or getting bad performance? Stop the game, then use Help → Apply Recommended Settings... ...</description>
     <pubDate>2026-11-10T22:37:07Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-10-7d4e0d9</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-10-782a85c...KytyPS5-2026...</description>
-    <pubDate>2026-11-10T22:36:49Z</pubDate>
-  </item>
-  <item>
-    <title>nexo2 updated to vwindows</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>New tag release created.</description>
-    <pubDate>2026-11-10T13:52:12Z</pubDate>
   </item>
 </channel>
 </rss>

@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-20T23:26:56Z",
+  "last_updated": "2026-11-21T04:31:54Z",
   "feed": [
+    {
+      "emulator_id": "gearcoleco",
+      "version": "1.8.1",
+      "date": "2026-11-21T04:31:46Z",
+      "message": "- \ud83d\udc1b Bug fixes and improvements"
+    },
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.9",
+      "date": "2026-11-21T04:31:45Z",
+      "message": "- \ud83c\udfa8 VCE black and white mode support"
+    },
     {
       "emulator_id": "lichii",
       "version": "build-366",
@@ -288,18 +300,6 @@
       "version": "KytyPS5-2026-11-04-b2f40c6",
       "date": "2026-11-04T13:22:49Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-04-0735fd3...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "rmg",
-      "version": "0.9.1",
-      "date": "2026-11-04T13:22:43Z",
-      "message": "Fix controller presence detection in RMG-Input-GCA (thank you @EIREXE)"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-03-eecd982",
-      "date": "2026-11-03T22:38:09Z",
-      "message": "libFont: fix writing-line advances and character iteration by @gallexme in https://github.com/KytyPS..."
     }
   ],
   "emulators": [
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.8",
-      "release_date": "2026-11-15",
+      "latest_version": "1.8.9",
+      "release_date": "2026-11-20",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
@@ -1198,8 +1198,8 @@
       "name": "Gearcoleco",
       "category": "ColecoVision",
       "description": "ColecoVision emulator with debugger and cross-platform builds.",
-      "latest_version": "1.8.0",
-      "release_date": "2026-11-15",
+      "latest_version": "1.8.1",
+      "release_date": "2026-11-20",
       "website": "https://github.com/drhelius/Gearcoleco",
       "github": "drhelius/Gearcoleco",
       "download_url": "https://github.com/drhelius/Gearcoleco/releases",
