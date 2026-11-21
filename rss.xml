@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-21-39936ff</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-21-727ccd1...KytyPS5-2026...</description>
+    <pubDate>2026-11-21T13:48:32Z</pubDate>
+  </item>
+  <item>
     <title>gearcoleco updated to v1.8.1</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🐛 Bug fixes and improvements</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-10-7d4e0d9...KytyPS5-2026...</description>
     <pubDate>2026-11-11T13:03:37Z</pubDate>
-  </item>
-  <item>
-    <title>lichii updated to vbuild-150</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>> New here or getting bad performance? Stop the game, then use Help → Apply Recommended Settings... ...</description>
-    <pubDate>2026-11-10T22:37:07Z</pubDate>
   </item>
 </channel>
 </rss>
