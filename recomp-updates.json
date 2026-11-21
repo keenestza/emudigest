@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-20T15:57:56Z",
+  "last_checked": "2026-11-21T15:10:34Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 452867669,
-      "latest_version": "v0.10.70",
-      "latest_date": "2026-11-20T15:35:56Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.70"
+      "release_id": 453580405,
+      "latest_version": "v0.10.72",
+      "latest_date": "2026-11-21T09:33:18Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.72"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 452479062,
@@ -88,6 +88,24 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:453580405",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-21T09:33:18Z",
+      "version": "v0.10.72",
+      "summary": "Touch buttons stay round on wide phones. With Graphics › Aspect Ratio › Auto on a wide phone (19.5:9 or 20:9, for example a Galaxy A55), and on iPhones, which use Auto by default, the touch buttons were stretched into ov…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.72"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:453401953",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-21T03:06:55Z",
+      "version": "v0.10.71",
+      "summary": "New option: Plain race loading screen. It is under General › Gameplay › Plain race loading screen, and it is off by default, so the game stays as the original.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.71"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:452867669",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -969,24 +987,6 @@
       "version": "v0.10.15",
       "summary": "Macs with a Retina or scaled display (#191). On such a Mac the game closed right after Start game.",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.15"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418644164",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-20T16:52:45Z",
-      "version": "v0.10.14",
-      "summary": "Even less work per race frame (#176). Three more parts of the game's main thread got cheaper:",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.14"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418315739",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-20T11:21:27Z",
-      "version": "v0.10.13",
-      "summary": "Touch the menus (#217). On a touchscreen, outside races:",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.13"
     }
   ]
 }
