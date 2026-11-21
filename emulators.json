@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-21T13:48:46Z",
+  "last_updated": "2026-11-21T22:30:49Z",
   "feed": [
+    {
+      "emulator_id": "fceux",
+      "version": "2.8.0",
+      "date": "2026-11-21T22:30:15Z",
+      "message": "The 2.8.0 release adds RetroAchievements support, a Lua source debugger, a built-in performance prof..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-21-39936ff",
@@ -294,12 +300,6 @@
       "version": "KytyPS5-2026-11-04-fe847be",
       "date": "2026-11-04T22:57:11Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-04-a7e14aa...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "geargrafx",
-      "version": "1.8.7",
-      "date": "2026-11-04T13:22:55Z",
-      "message": "- \ud83c\udfa8 New CRT shader presets"
     }
   ],
   "emulators": [
@@ -343,8 +343,8 @@
       "name": "FCEUX",
       "category": "NES",
       "description": "An open-source NES/Famicom emulator with TAS tools and Lua scripting.",
-      "latest_version": "fceux-2.7.0",
-      "release_date": "2026-10-09",
+      "latest_version": "2.8.0",
+      "release_date": "2026-11-21",
       "website": "https://fceux.com/",
       "github": "TASEmulators/fceux",
       "download_url": "https://github.com/TASEmulators/fceux/releases",
