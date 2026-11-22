@@ -1,6 +1,18 @@
 {
-  "last_updated": "2026-11-22T03:46:42Z",
+  "last_updated": "2026-11-22T13:41:45Z",
   "feed": [
+    {
+      "emulator_id": "lichii",
+      "version": "build-386",
+      "date": "2026-11-22T13:41:44Z",
+      "message": "Changes since build 366"
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-22-a0b083c",
+      "date": "2026-11-22T13:41:26Z",
+      "message": "userservice: bind sceUserServiceTerminate to its own NID and implement sceUserServiceGetForegroundUs..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-21-6133172",
@@ -288,18 +300,6 @@
       "version": "KytyPS5-2026-11-05-a0268f1",
       "date": "2026-11-05T22:57:56Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-05-b4c0731...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-05-23ed47e",
-      "date": "2026-11-05T13:37:22Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-05-1b7ea36...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-05-07e87b9",
-      "date": "2026-11-05T03:56:49Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-04-4c890e9...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,8 +780,8 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-21-6133172",
-      "release_date": "2026-11-21",
+      "latest_version": "KytyPS5-2026-11-22-a0b083c",
+      "release_date": "2026-11-22",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
       "download_url": "https://github.com/KytyPS5/KytyPS5/releases",
@@ -1511,8 +1511,8 @@
       "name": "Lichii",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch and Switch 2 emulator. Switch 2 compatibility is early and limited.",
-      "latest_version": "build-366",
-      "release_date": "2026-11-20",
+      "latest_version": "build-386",
+      "release_date": "2026-11-22",
       "website": "https://github.com/zortos293/lichii",
       "github": "zortos293/lichii",
       "download_url": "https://github.com/zortos293/lichii/releases",

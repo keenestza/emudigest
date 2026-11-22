@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lichii updated to vbuild-386</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Changes since build 366</description>
+    <pubDate>2026-11-22T13:41:44Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-22-a0b083c</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>userservice: bind sceUserServiceTerminate to its own NID and implement sceUserServiceGetForegroundUs...</description>
+    <pubDate>2026-11-22T13:41:26Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-21-6133172</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-21-39936ff...KytyPS5-2026...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Changes since build 160</description>
     <pubDate>2026-11-13T22:57:49Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-12-58ca8d1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-12-83df9c2...KytyPS5-2026...</description>
-    <pubDate>2026-11-12T22:55:36Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-12-e35360f</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-12-eb3e86d...KytyPS5-2026...</description>
-    <pubDate>2026-11-12T14:06:13Z</pubDate>
   </item>
 </channel>
 </rss>
