@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-21T15:10:34Z",
+  "last_checked": "2026-11-22T15:07:50Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 453580405,
-      "latest_version": "v0.10.72",
-      "latest_date": "2026-11-21T09:33:18Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.72"
+      "release_id": 454042651,
+      "latest_version": "v0.10.74",
+      "latest_date": "2026-11-21T22:56:06Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.74"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 452479062,
@@ -88,6 +88,24 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:454042651",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-21T22:56:06Z",
+      "version": "v0.10.74",
+      "summary": "Move and resize the touch buttons (Android and iOS). A new section, Controls › Touch and tilt › Move and resize touch buttons, shows the game's screen with the touch buttons on it. Drag a button to move it. Tap a button …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.74"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:453781397",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-21T15:23:00Z",
+      "version": "v0.10.73",
+      "summary": "These fixes are for the General › Gameplay › Plain race loading screen option (added in 0.10.71, off by default):",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.73"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:453580405",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -969,24 +987,6 @@
       "version": "b834411",
       "summary": "bin: the rebuilt compiler stages from gibletto/shc-5r26-decomp-sf3 4e913903 (adds the 2nd Impact revision's settings, all off unless set); 3rd Strike output unchanged: prog.bin SHA-1 7340968c4b2aba9496fa63be7a5c183205ff1",
       "url": "https://github.com/gibletto/sfIII3-cps3-decomp/commit/b834411076835b5f91c06553121ffc45958d81d2"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418833039",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-20T20:19:36Z",
-      "version": "v0.10.16",
-      "summary": "Samsung Exynos phones with an Xclipse GPU (#224). On a Galaxy A55 (Exynos 1480, Xclipse 530), the game stayed on \"Preparing pipelines 0 of 455\" until Android closed it.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.16"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:418817850",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-20T20:03:10Z",
-      "version": "v0.10.15",
-      "summary": "Macs with a Retina or scaled display (#191). On such a Mac the game closed right after Start game.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.15"
     }
   ]
 }
