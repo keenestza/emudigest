@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-21-6133172</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-21-39936ff...KytyPS5-2026...</description>
+    <pubDate>2026-11-22T03:46:19Z</pubDate>
+  </item>
+  <item>
     <title>fceux updated to v2.8.0</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>The 2.8.0 release adds RetroAchievements support, a Lua source debugger, a built-in performance prof...</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-12-eb3e86d...KytyPS5-2026...</description>
     <pubDate>2026-11-12T14:06:13Z</pubDate>
-  </item>
-  <item>
-    <title>lichii updated to vbuild-160</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Changes since build 150</description>
-    <pubDate>2026-11-11T23:46:26Z</pubDate>
   </item>
 </channel>
 </rss>
