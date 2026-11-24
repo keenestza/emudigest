@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-23T19:04:07Z",
+  "last_checked": "2026-11-24T18:43:57Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 454741117,
-      "latest_version": "v0.10.75",
-      "latest_date": "2026-11-22T20:49:31Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.75"
+      "release_id": 456235839,
+      "latest_version": "v0.10.76",
+      "latest_date": "2026-11-24T02:31:46Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.76"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 454881772,
@@ -88,6 +88,15 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:456235839",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-24T02:31:46Z",
+      "version": "v0.10.76",
+      "summary": "Less CPU time spent drawing each race frame. The game's main thread now finds textures and sets them up for drawing with much less work, so busy frames with many objects on screen are less likely to run late, especially …",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.76"
+    },
     {
       "id": "release:NoRain211/doaxvb-re:454881772",
       "repo": "NoRain211/doaxvb-re",
@@ -978,15 +987,6 @@
       "version": "v0.10.18",
       "summary": "From suggestions in #236:",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.18"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:419567535",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-21T13:05:17Z",
-      "version": "v0.10.17",
-      "summary": "Linux launcher on Fedora (#232). On Fedora 45 the launcher crashed right after starting (\"error creating texture\", then a segmentation fault).",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.17"
     }
   ]
 }
