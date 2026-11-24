@@ -5,6 +5,24 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-23-4e90654</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-23-7d0c350...KytyPS5-2026...</description>
+    <pubDate>2026-11-24T03:32:01Z</pubDate>
+  </item>
+  <item>
+    <title>sharpemu updated to v0.0.8-ember</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Automated SharpEmu v0.0.8-ember build for commit [86aec81](https://github.com/sharpemu/sharpemu/comm...</description>
+    <pubDate>2026-11-24T03:32:00Z</pubDate>
+  </item>
+  <item>
+    <title>azahar updated to v2127.0</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Azahar 2127.0 is arguably the single largest update we have ever published, and is a truly monumenta...</description>
+    <pubDate>2026-11-24T03:31:58Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-23-578f2d4</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-23-bd4a9e7...KytyPS5-2026...</description>
@@ -165,24 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Changes the compatability link in README.md to point to the correct page by @GitJitBit in https://gi...</description>
     <pubDate>2026-11-15T13:02:50Z</pubDate>
-  </item>
-  <item>
-    <title>eglantine updated to v0.1.0-rc4</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>> Release candidate of 0.1.0. Please test it and report problems before the final release.</description>
-    <pubDate>2026-11-15T03:29:14Z</pubDate>
-  </item>
-  <item>
-    <title>dosbox-staging updated to v0.83.1</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>🛑 STOP: Read the docs BEFORE asking questions or opening issues</description>
-    <pubDate>2026-11-14T21:45:03Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-14-3e226bf</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-14-11d834d...KytyPS5-2026...</description>
-    <pubDate>2026-11-14T12:36:53Z</pubDate>
   </item>
 </channel>
 </rss>

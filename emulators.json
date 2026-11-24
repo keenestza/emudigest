@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-11-23T16:41:22Z",
+  "last_updated": "2026-11-24T03:32:28Z",
   "feed": [
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-23-4e90654",
+      "date": "2026-11-24T03:32:01Z",
+      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-23-7d0c350...KytyPS5-2026..."
+    },
+    {
+      "emulator_id": "sharpemu",
+      "version": "0.0.8-ember",
+      "date": "2026-11-24T03:32:00Z",
+      "message": "Automated SharpEmu v0.0.8-ember build for commit [86aec81](https://github.com/sharpemu/sharpemu/comm..."
+    },
+    {
+      "emulator_id": "azahar",
+      "version": "2127.0",
+      "date": "2026-11-24T03:31:58Z",
+      "message": "Azahar 2127.0 is arguably the single largest update we have ever published, and is a truly monumenta..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-23-578f2d4",
@@ -282,24 +300,6 @@
       "version": "KytyPS5-2026-11-07-9678c59",
       "date": "2026-11-07T17:27:25Z",
       "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-07-589bd14...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-07-589bd14",
-      "date": "2026-11-07T11:59:19Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-07-2d84e36...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-06-182161e",
-      "date": "2026-11-06T13:20:41Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-06-b6cc1ff...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-06-9a29dc6",
-      "date": "2026-11-06T03:54:47Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-05-a0268f1...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -627,8 +627,8 @@
       "name": "Azahar",
       "category": "Nintendo 3DS",
       "description": "Actively maintained Nintendo 3DS emulator combining the Lime3DS and PabloMK7 Citra projects.",
-      "latest_version": "2126.2",
-      "release_date": "2026-10-08",
+      "latest_version": "2127.0",
+      "release_date": "2026-11-23",
       "website": "https://www.azahar-emu.org/",
       "github": "azahar-emu/azahar",
       "download_url": "https://github.com/azahar-emu/azahar/releases",
@@ -763,8 +763,8 @@
       "name": "SharpEmu",
       "category": "PlayStation 5",
       "description": "Experimental open-source PlayStation 5 emulator under active development.",
-      "latest_version": "0.0.7-pulse",
-      "release_date": "2026-11-01",
+      "latest_version": "0.0.8-ember",
+      "release_date": "2026-11-23",
       "website": "https://sharpemu.app/",
       "github": "sharpemu/sharpemu",
       "download_url": "https://github.com/sharpemu/sharpemu/releases",
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-23-578f2d4",
+      "latest_version": "KytyPS5-2026-11-23-4e90654",
       "release_date": "2026-11-23",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
