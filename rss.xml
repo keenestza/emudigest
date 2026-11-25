@@ -5,6 +5,18 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-25-8b82ca2</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-24-eedc0f7...KytyPS5-2026...</description>
+    <pubDate>2026-11-25T01:41:10Z</pubDate>
+  </item>
+  <item>
+    <title>azahar updated to v2127.0.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>This update is an amendment to Azahar 2127.0 that fixes two prominent issues which were discovered p...</description>
+    <pubDate>2026-11-25T01:41:07Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-24-b446af9</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-24-96842fe...KytyPS5-2026...</description>
@@ -171,18 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>- 🎨 Improved CRT shaders and new video timing uniforms</description>
     <pubDate>2026-11-16T03:29:10Z</pubDate>
-  </item>
-  <item>
-    <title>lichii updated to vbuild-228</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Changes since build 177</description>
-    <pubDate>2026-11-15T13:02:59Z</pubDate>
-  </item>
-  <item>
-    <title>gearcoleco updated to v1.8.0</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- ⌨️ Added ADAM built-in keyboard mapper</description>
-    <pubDate>2026-11-15T13:02:54Z</pubDate>
   </item>
 </channel>
 </rss>
