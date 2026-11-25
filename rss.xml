@@ -5,6 +5,24 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>lichii updated to vbuild-410</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>Changes since build 386</description>
+    <pubDate>2026-11-25T16:19:20Z</pubDate>
+  </item>
+  <item>
+    <title>vamiga updated to v5.1</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>- Fixed an AGA bug affecting invalid dual-playfield modes (1039).</description>
+    <pubDate>2026-11-25T16:19:00Z</pubDate>
+  </item>
+  <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-25-3057d08</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>memory: stop logging clamped buffer ranges by @Nawid3333 in https://github.com/KytyPS5/KytyPS5/pull/...</description>
+    <pubDate>2026-11-25T16:18:52Z</pubDate>
+  </item>
+  <item>
     <title>kytyps5 updated to vKytyPS5-2026-11-25-8b82ca2</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-24-eedc0f7...KytyPS5-2026...</description>
@@ -165,24 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-17-174ec91...KytyPS5-2026...</description>
     <pubDate>2026-11-17T15:00:59Z</pubDate>
-  </item>
-  <item>
-    <title>lichii updated to vbuild-316</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Changes since build 228</description>
-    <pubDate>2026-11-17T01:12:20Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-16-1e87171</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-16-d45b086...KytyPS5-2026...</description>
-    <pubDate>2026-11-17T01:11:56Z</pubDate>
-  </item>
-  <item>
-    <title>geargrafx updated to v1.8.8</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>- 🎨 Improved CRT shaders and new video timing uniforms</description>
-    <pubDate>2026-11-16T03:29:10Z</pubDate>
   </item>
 </channel>
 </rss>

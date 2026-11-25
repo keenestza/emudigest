@@ -1,6 +1,24 @@
 {
-  "last_updated": "2026-11-25T01:41:34Z",
+  "last_updated": "2026-11-25T16:19:22Z",
   "feed": [
+    {
+      "emulator_id": "lichii",
+      "version": "build-410",
+      "date": "2026-11-25T16:19:20Z",
+      "message": "Changes since build 386"
+    },
+    {
+      "emulator_id": "vamiga",
+      "version": "5.1",
+      "date": "2026-11-25T16:19:00Z",
+      "message": "- Fixed an AGA bug affecting invalid dual-playfield modes (1039)."
+    },
+    {
+      "emulator_id": "kytyps5",
+      "version": "KytyPS5-2026-11-25-3057d08",
+      "date": "2026-11-25T16:18:52Z",
+      "message": "memory: stop logging clamped buffer ranges by @Nawid3333 in https://github.com/KytyPS5/KytyPS5/pull/..."
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-25-8b82ca2",
@@ -282,24 +300,6 @@
       "version": "3.12.0",
       "date": "2026-11-10T13:52:07Z",
       "message": "Virtual Jaguar v3.12.0"
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-10-782a85c",
-      "date": "2026-11-10T00:55:24Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-09-f399d48...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-09-f399d48",
-      "date": "2026-11-09T14:31:08Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-09-b30f2d6...KytyPS5-2026..."
-    },
-    {
-      "emulator_id": "kytyps5",
-      "version": "KytyPS5-2026-11-08-16a7bbe",
-      "date": "2026-11-08T21:25:25Z",
-      "message": "Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-08-7816ac7...KytyPS5-2026..."
     }
   ],
   "emulators": [
@@ -780,7 +780,7 @@
       "name": "KytyPS5",
       "category": "PlayStation 5",
       "description": "Early-stage PS5 emulator based on Kyty; boots some games, with limited compatibility.",
-      "latest_version": "KytyPS5-2026-11-25-8b82ca2",
+      "latest_version": "KytyPS5-2026-11-25-3057d08",
       "release_date": "2026-11-25",
       "website": "https://kytyps5.github.io/",
       "github": "KytyPS5/KytyPS5",
@@ -1114,8 +1114,8 @@
       "name": "vAmiga",
       "category": "Amiga",
       "description": "Amiga 500, 1000 and 2000 emulator for macOS.",
-      "latest_version": "5.0",
-      "release_date": "2026-11-01",
+      "latest_version": "5.1",
+      "release_date": "2026-11-25",
       "website": "https://dirkwhoffmann.github.io/vAmiga/",
       "github": "dirkwhoffmann/vAmiga",
       "download_url": "https://github.com/dirkwhoffmann/vAmiga/releases",
@@ -1511,8 +1511,8 @@
       "name": "Lichii",
       "category": "Nintendo Switch 2",
       "description": "Very experimental Nintendo Switch and Switch 2 emulator. Switch 2 compatibility is early and limited.",
-      "latest_version": "build-386",
-      "release_date": "2026-11-22",
+      "latest_version": "build-410",
+      "release_date": "2026-11-25",
       "website": "https://github.com/zortos293/lichii",
       "github": "zortos293/lichii",
       "download_url": "https://github.com/zortos293/lichii/releases",
