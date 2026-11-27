@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-26T17:36:53Z",
+  "last_checked": "2026-11-27T17:19:09Z",
   "checked_projects": 13,
   "total_projects": 13,
   "state": {
@@ -28,10 +28,10 @@
       "latest_url": "https://github.com/goliathret/EdgeOfTimeRecomp/releases/tag/v1.1"
     },
     "OpenCommunityEdition/OpenCE": {
-      "release_id": 447654420,
-      "latest_version": "build-387",
-      "latest_date": "2026-11-16T21:44:23Z",
-      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-387"
+      "release_id": 460295358,
+      "latest_version": "build-405",
+      "latest_date": "2026-11-27T07:46:39Z",
+      "latest_url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-405"
     },
     "florinp93/hells-gate-recomp": {
       "release_id": 437925153,
@@ -64,10 +64,10 @@
       "latest_url": "https://github.com/JackandBeans/Snap64Recomp/releases/tag/v1.1.8"
     },
     "YuutaTsubasa/Free-Riders-Recompiled": {
-      "release_id": 456235839,
-      "latest_version": "v0.10.76",
-      "latest_date": "2026-11-24T02:31:46Z",
-      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.76"
+      "release_id": 460793232,
+      "latest_version": "v0.10.78",
+      "latest_date": "2026-11-27T15:44:57Z",
+      "latest_url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.78"
     },
     "NoRain211/doaxvb-re": {
       "release_id": 454881772,
@@ -88,6 +88,33 @@
     }
   },
   "updates": [
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:460793232",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-27T15:44:57Z",
+      "version": "v0.10.78",
+      "summary": "Ultrawide (21:9 and wider): World Grand Prix mission races are no longer stretched. With Aspect Ratio set to Auto on a screen wider than 16:9, a World Grand Prix mission race that came right after a story scene used to s…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.78"
+    },
+    {
+      "id": "release:OpenCommunityEdition/OpenCE:460295358",
+      "repo": "OpenCommunityEdition/OpenCE",
+      "type": "Release",
+      "date": "2026-11-27T07:46:39Z",
+      "version": "build-405",
+      "summary": "3 builds since the last check. See the latest build notes.",
+      "url": "https://github.com/OpenCommunityEdition/OpenCE/releases/tag/build-405"
+    },
+    {
+      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:459978083",
+      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+      "type": "Release",
+      "date": "2026-11-26T22:57:33Z",
+      "version": "v0.10.77",
+      "summary": "Lower CPU use during races on Android. A check the game makes very often (whenever two game threads coordinate) now skips work it had already done, so races need less of the phone's CPU. This is aimed at slower phones su…",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.77"
+    },
     {
       "id": "release:YuutaTsubasa/Free-Riders-Recompiled:456235839",
       "repo": "YuutaTsubasa/Free-Riders-Recompiled",
@@ -960,33 +987,6 @@
       "version": "v0.10.21",
       "summary": "Two follow-up requests from #236, both in the launcher:",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.21"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420188576",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-22T00:39:16Z",
-      "version": "v0.10.20",
-      "summary": "An occasional crash at start (seen on Macs). About one start in forty, the game closed during start-up, before the title screen. The log showed GUESTACCESSVIOLATION guest=0x00000010.",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.20"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:420087607",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-21T21:46:32Z",
-      "version": "v0.10.19",
-      "summary": "Intel integrated GPUs: races several times faster (#239, #134).",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.19"
-    },
-    {
-      "id": "release:YuutaTsubasa/Free-Riders-Recompiled:419915869",
-      "repo": "YuutaTsubasa/Free-Riders-Recompiled",
-      "type": "Release",
-      "date": "2026-10-21T18:35:22Z",
-      "version": "v0.10.18",
-      "summary": "From suggestions in #236:",
-      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled/releases/tag/v0.10.18"
     }
   ]
 }
