@@ -5,6 +5,12 @@
   <link>https://keenestza.github.io/emudigest/</link>
   <description>The latest emulator releases</description>
   <item>
+    <title>kytyps5 updated to vKytyPS5-2026-11-26-61db2f8</title>
+    <link>https://keenestza.github.io/emudigest/</link>
+    <description>kernel: remove event queue wait logging by @Nawid3333 in https://github.com/KytyPS5/KytyPS5/pull/256...</description>
+    <pubDate>2026-11-27T01:13:00Z</pubDate>
+  </item>
+  <item>
     <title>lichii updated to vbuild-410</title>
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Changes since build 386</description>
@@ -177,12 +183,6 @@
     <link>https://keenestza.github.io/emudigest/</link>
     <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-17-4da95bd...KytyPS5-2026...</description>
     <pubDate>2026-11-18T00:05:59Z</pubDate>
-  </item>
-  <item>
-    <title>kytyps5 updated to vKytyPS5-2026-11-17-faec1f4</title>
-    <link>https://keenestza.github.io/emudigest/</link>
-    <description>Full Changelog: https://github.com/KytyPS5/KytyPS5/compare/KytyPS5-2026-11-17-174ec91...KytyPS5-2026...</description>
-    <pubDate>2026-11-17T15:00:59Z</pubDate>
   </item>
 </channel>
 </rss>
