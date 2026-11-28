@@ -1,6 +1,12 @@
 {
-  "last_updated": "2026-11-27T01:13:20Z",
+  "last_updated": "2026-11-28T14:39:32Z",
   "feed": [
+    {
+      "emulator_id": "geargrafx",
+      "version": "1.8.10",
+      "date": "2026-11-28T14:39:26Z",
+      "message": "- \ud83d\udd79\ufe0f Nintendo Switch 2 libretro core"
+    },
     {
       "emulator_id": "kytyps5",
       "version": "KytyPS5-2026-11-26-61db2f8",
@@ -294,12 +300,6 @@
       "version": "build-130",
       "date": "2026-11-10T13:52:11Z",
       "message": "\u26a0\ufe0f Delete your old pipeline cache before playing"
-    },
-    {
-      "emulator_id": "eglantine",
-      "version": "0.1.0-rc3",
-      "date": "2026-11-10T13:52:11Z",
-      "message": "> Release candidate of 0.1.0. Please test it and report problems before the final release."
     }
   ],
   "emulators": [
@@ -1163,8 +1163,8 @@
       "name": "Geargrafx",
       "category": "PC Engine / TurboGrafx-16",
       "description": "PC Engine and TurboGrafx-16 emulator with debugging features.",
-      "latest_version": "1.8.9",
-      "release_date": "2026-11-20",
+      "latest_version": "1.8.10",
+      "release_date": "2026-11-28",
       "website": "https://github.com/drhelius/Geargrafx",
       "github": "drhelius/Geargrafx",
       "download_url": "https://github.com/drhelius/Geargrafx/releases",
